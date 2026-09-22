@@ -1,0 +1,26 @@
+{
+  "name": "market-watch",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Config-driven multi-site product watcher",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "check": "tsc --noEmit",
+    "watch": "tsx src/index.ts",
+    "watch:cashconverters": "tsx src/index.ts --site cashconverters",
+    "test": "npm run check"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "playwright": "^1.55.0",
+    "yaml": "^2.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.30",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}

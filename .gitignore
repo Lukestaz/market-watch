@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+data/*.json
+data/*.sqlite
+debug/*
+!data/.gitkeep
+!debug/.gitkeep
+playwright-report/
+test-results/

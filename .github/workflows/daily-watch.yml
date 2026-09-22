@@ -1,0 +1,65 @@
+name: Daily market watch
+
+on:
+  schedule:
+    # 20:17 UTC is 08:17 NZST; adjust this manually when NZ daylight saving changes.
+    - cron: "17 20 * * *"
+  workflow_dispatch:
+    inputs:
+      search_id:
+        description: "Optional search ID to run"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: market-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Install packages
+        run: npm ci
+
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Run watcher
+        run: |
+          if [ -n "${{ inputs.search_id }}" ]; then
+            npm run watch -- --search "${{ inputs.search_id }}"
+          else
+            npm run watch
+          fi
+
+      - name: Commit successful state update
+        run: |
+          git config user.name "market-watch[bot]"
+          git config user.email "market-watch[bot]@users.noreply.github.com"
+          git add data/state.json
+          git diff --cached --quiet || git commit -m "Update market watch state"
+          git push
+
+      - name: Upload diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: watcher-diagnostics
+          path: debug/
+          if-no-files-found: ignore
+          retention-days: 14

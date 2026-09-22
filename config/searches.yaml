@@ -1,0 +1,51 @@
+defaults:
+  timezone: Pacific/Auckland
+  maxResultsPerSearch: 100
+  staleAfterDays: 14
+  minimumDelayBetweenSearchesMs: 5000
+
+sites:
+  cashconverters:
+    enabled: true
+    adapter: cashconverters
+    minimumDelayMs: 5000
+
+searches:
+  - id: cc-lg-65-all
+    enabled: true
+    site: cashconverters
+    type: listingSearch
+    label: Cash Converters LG 65 broad search
+    url: https://shop.cashconverters.co.nz/Browse?FullTextQuery=lg%2065
+    alert:
+      onNew: true
+      onPriceDrop: true
+      minimumPriceDropNzd: 1
+    priorityRules:
+      - label: LG 2016 OLED 3D candidate
+        priority: critical
+        regex: '(?i)\b(c6|e6|g6)\b|oled65(c6|e6|g6)|\b3d\b'
+      - label: LG OLED candidate
+        priority: high
+        regex: '(?i)\boled\b'
+      - label: LG 65 candidate
+        priority: normal
+        regex: '(?i)\blg\b.*\b65\b|\b65\b.*\blg\b'
+
+  - id: cc-lg-oled-3d
+    enabled: true
+    site: cashconverters
+    type: listingSearch
+    label: Cash Converters LG OLED and 3D search
+    url: https://shop.cashconverters.co.nz/Browse?FullTextQuery=lg%20oled
+    alert:
+      onNew: true
+      onPriceDrop: true
+      minimumPriceDropNzd: 1
+    priorityRules:
+      - label: LG 2016 OLED 3D candidate
+        priority: critical
+        regex: '(?i)\b(c6|e6|g6)\b|oled65(c6|e6|g6)|\b3d\b'
+      - label: LG OLED candidate
+        priority: high
+        regex: '(?i)\boled\b'
