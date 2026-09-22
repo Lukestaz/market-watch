@@ -25,13 +25,25 @@ export function makeListingKey(source: string, sourceListingId: string | undefin
   return `${source}:${createHash("sha256").update(url).digest("hex")}`;
 }
 
+function compileRule(regex: string): RegExp {
+  const caseInsensitive = regex.startsWith("(?i)");
+  const pattern = caseInsensitive ? regex.slice(4) : regex;
+
+  try {
+    return new RegExp(pattern, caseInsensitive ? "i" : "");
+  } catch (error) {
+    const detail = error instanceof Error ? error.message : String(error);
+    throw new Error(`Invalid priority rule regex '${regex}': ${detail}`);
+  }
+}
+
 export function classify(text: string, rules: PriorityRule[] = []): { priority: Priority; matchedRules: string[] } {
   const rank: Record<Priority, number> = { ignore: 0, normal: 1, high: 2, critical: 3 };
   let priority: Priority = "normal";
   const matchedRules: string[] = [];
 
   for (const rule of rules) {
-    if (new RegExp(rule.regex).test(text)) {
+    if (compileRule(rule.regex).test(text)) {
       matchedRules.push(rule.label);
       if (rank[rule.priority] > rank[priority]) priority = rule.priority;
     }
