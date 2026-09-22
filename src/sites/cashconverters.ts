@@ -5,7 +5,7 @@ import type { RawListing, ScrapeResult, SearchConfig } from "../models.js";
 import type { ScrapeContext, SiteAdapter } from "./base.js";
 
 const BASE_URL = "https://shop.cashconverters.co.nz";
-const CARD_SELECTOR = "article, [data-product-id], .product-card, .product-item";
+const LISTING_SELECTOR = "section[id^='LID'][data-listingid]";
 
 function absoluteUrl(value: string | null): string {
   return new URL(value ?? "", BASE_URL).toString();
@@ -36,33 +36,35 @@ export class CashConvertersAdapter implements SiteAdapter {
 
     try {
       await page.goto(search.url, { waitUntil: "domcontentloaded", timeout: 60000 });
-      const cards = page.locator(CARD_SELECTOR);
-      await cards.first().waitFor({ state: "visible", timeout: 30000 });
+      const listings = page.locator(LISTING_SELECTOR);
+      await listings.first().waitFor({ state: "visible", timeout: 30000 });
 
-      const listings: RawListing[] = await cards.evaluateAll((elements) => {
-        return elements.map((card) => {
-          const text = (card.textContent ?? "").replace(/\s+/g, " ").trim();
-          const link = card.querySelector("a[href]")?.getAttribute("href") ?? "";
-          const image = card.querySelector("img")?.getAttribute("src") ?? "";
-          const titleNode = card.querySelector("h1,h2,h3,h4,.title,.product-title,[data-testid='product-title']");
-          const title = (titleNode?.textContent ?? text.split("$")[0] ?? "").replace(/\s+/g, " ").trim();
-          const priceMatch = text.match(/(?:NZ\$|\$)\s*[\d,]+(?:\.\d{1,2})?/i);
-          const id = card.getAttribute("data-product-id") ?? undefined;
+      const extracted: RawListing[] = await listings.evaluateAll((elements) => {
+        return elements.map((listing) => {
+          const text = (listing.textContent ?? "").replace(/\s+/g, " ").trim();
+          const detailLink = listing.querySelector("h2.title a[href], a.btn[href*='ListingDetails']")?.getAttribute("href") ?? "";
+          const image = listing.querySelector(".img-container img")?.getAttribute("src") ?? "";
+          const title = (listing.querySelector("h2.title")?.textContent ?? "").replace(/\s+/g, " ").trim();
+          const seller = (listing.querySelector(".seller a")?.textContent ?? "").replace(/\s+/g, " ").trim();
+          const currentPrice = (listing.querySelector(".awe-rt-CurrentPrice .NumberPart")?.textContent ?? "").replace(/\s+/g, " ").trim();
+          const quickBidPrice = (listing.querySelector(".awe-rt-MinimumBid .NumberPart")?.textContent ?? "").replace(/\s+/g, " ").trim();
+          const listingId = listing.getAttribute("data-listingid") ?? undefined;
 
           return {
-            sourceListingId: id,
-            url: link,
+            sourceListingId: listingId,
+            url: detailLink,
             title,
-            priceText: priceMatch?.[0],
+            priceText: currentPrice || quickBidPrice,
             imageUrl: image,
+            seller,
             rawText: text,
             availability: "available" as const
           };
         });
       });
 
-      const validListings = listings
-        .filter((listing) => listing.url && listing.title)
+      const validListings = extracted
+        .filter((listing) => listing.sourceListingId && listing.url && listing.title)
         .map((listing) => ({
           ...listing,
           url: absoluteUrl(listing.url),
@@ -79,7 +81,7 @@ export class CashConvertersAdapter implements SiteAdapter {
           diagnostics: {
             resultCount: 0,
             blocked: true,
-            error: "No product cards matched the current selector.",
+            error: "Cash Converters listing sections were present but no valid listing records were extracted.",
             ...debug
           }
         };

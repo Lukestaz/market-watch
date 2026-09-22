@@ -2,6 +2,7 @@ node_modules/
 dist/
 .env
 data/*.json
+!data/state.json
 data/*.sqlite
 debug/*
 !data/.gitkeep

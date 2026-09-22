@@ -46,6 +46,7 @@ async function main(): Promise<void> {
   const state = await loadState();
   const browser = await chromium.launch({ headless: true });
   const events: ListingEvent[] = [];
+  const failedSearches: string[] = [];
   let lastSite = "";
 
   try {
@@ -54,7 +55,7 @@ async function main(): Promise<void> {
       const adapter = adapters[site?.adapter ?? ""];
 
       if (!site || !adapter) {
-        console.error(`Skipping ${search.id}: no adapter configured for site ${search.site}`);
+        failedSearches.push(`${search.id}: no adapter configured for site ${search.site}`);
         continue;
       }
 
@@ -66,8 +67,10 @@ async function main(): Promise<void> {
       const result = await adapter.scrape(search, { browser, debugDirectory: "debug" });
       console.log(`  ${result.diagnostics.resultCount} listings; blocked=${result.diagnostics.blocked}`);
 
-      if (result.diagnostics.error) {
-        console.error(`  ${result.diagnostics.error}`);
+      if (result.diagnostics.blocked || result.diagnostics.error) {
+        failedSearches.push(`${search.id}: ${result.diagnostics.error ?? "site returned no usable listings"}`);
+        lastSite = search.site;
+        continue;
       }
 
       const timestamp = result.fetchedAt;
@@ -78,6 +81,13 @@ async function main(): Promise<void> {
     }
   } finally {
     await browser.close();
+  }
+
+  if (failedSearches.length) {
+    console.error(`Failed searches (${failedSearches.length}):`);
+    failedSearches.forEach((failure) => console.error(`  ${failure}`));
+    process.exitCode = 1;
+    return;
   }
 
   await saveState(state);
