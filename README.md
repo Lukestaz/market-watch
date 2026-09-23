@@ -28,7 +28,10 @@ A config-driven product watcher running on GitHub Actions. It monitors New Zeala
 
 ## How It Works
 
-1. **Scheduled Runs:** Runs twice daily via GitHub Actions (`11:15 AM NZST` and `6:15 PM NZST`), capturing morning additions and end-of-day store inventory.
+1. **Trigger Modes:**
+   - **Automated CI Push:** Triggered on code/configuration pushes to run type checks, validation, and browser sweeps autonomously.
+   - **Scheduled Runs:** Runs twice daily via cron (`11:15 AM NZST` and `6:15 PM NZST`), capturing morning additions and end-of-day store inventory.
+   - **Manual Dispatch:** Run any individual search query on demand via GitHub Actions UI.
 2. **Fast Search Grid Sweep:** Crawls configured queries across Cash Converters and Dollar Dealers.
 3. **Selective Deep Scraping:** For candidate items matching target criteria, the scraper visits individual listing pages to extract:
    - **Model Number:** (e.g. `OLED65G6P`, `LM2135E-SP`)
