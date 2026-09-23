@@ -1,0 +1,100 @@
+{
+  "listings": {
+    "cashconverters:177596871": {
+      "key": "cashconverters:177596871",
+      "source": "cashconverters",
+      "searchIds": [
+        "cc-lg-65-all"
+      ],
+      "sourceListingId": "177596871",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/177596871/Lg-Smart-Tv-65InchLoose-Base-OLED65C56LA",
+      "title": "Lg Smart Tv **65Inch/Loose Base** OLED65C56LA",
+      "priceText": "1,249.50",
+      "currency": "NZD",
+      "availability": "available",
+      "location": "",
+      "imageUrl": "https://auctionworxstoragelive1.blob.core.windows.net/assets/media/f51bcded-e1dd-4456-b8e5-e85690ec5086_thumbcrop.jpg",
+      "condition": "",
+      "seller": "CCHenderson",
+      "rawText": "Ended Auction Lg Smart Tv **65Inch/Loose Base** OLED65C56LA Seller: CCHenderson Lg Smart Tv **65Inch/Loose Base** OLED65C56LA (177596871) $1,249.50 Quick Bid $1,249.50 remaining Sold $1,249.50 $1,249.50 0 Bid(s) View Details",
+      "priority": "normal",
+      "matchedRules": [],
+      "firstSeenAt": "2026-09-23T00:28:52.076Z",
+      "lastSeenAt": "2026-09-23T00:28:52.076Z"
+    },
+    "cashconverters:177692227": {
+      "key": "cashconverters:177692227",
+      "source": "cashconverters",
+      "searchIds": [
+        "cc-lg-65-all"
+      ],
+      "sourceListingId": "177692227",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/177692227/Lg-65-Inch-Smart-Oled-Tv-OLED65C36LA",
+      "title": "Lg 65 Inch Smart Oled Tv OLED65C36LA",
+      "priceText": "799.50",
+      "currency": "NZD",
+      "availability": "available",
+      "location": "",
+      "imageUrl": "https://auctionworxstoragelive1.blob.core.windows.net/assets/media/f80fbe5e-35a1-4af0-8c53-05f01ddd1cb6_thumbcrop.jpg",
+      "condition": "",
+      "seller": "CCGlenInnes",
+      "rawText": "Ended Auction Lg 65 Inch Smart Oled Tv OLED65C36LA Seller: CCGlenInnes Lg 65 Inch Smart Oled Tv OLED65C36LA (177692227) $804.50 Quick Bid $804.50 remaining Sold $799.50 $799.50 1 Bid(s) View Details",
+      "priority": "high",
+      "matchedRules": [
+        "LG OLED candidate",
+        "LG 65 candidate"
+      ],
+      "firstSeenAt": "2026-09-23T00:28:52.076Z",
+      "lastSeenAt": "2026-09-23T00:28:52.076Z"
+    },
+    "cashconverters:183411979": {
+      "key": "cashconverters:183411979",
+      "source": "cashconverters",
+      "searchIds": [
+        "cc-lg-65-all"
+      ],
+      "sourceListingId": "183411979",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/183411979/Lg-Smart-Tv-65-Inch-4K-Ultra-Hd-Led-65NANO86VNA",
+      "title": "Lg Smart Tv 65 Inch 4K Ultra Hd Led 65NANO86VNA",
+      "priceText": "375.00",
+      "currency": "NZD",
+      "availability": "available",
+      "location": "",
+      "imageUrl": "https://auctionworxstoragelive1.blob.core.windows.net/assets/media/cf51a6ab-4429-4948-ab40-a1f423bc300f_thumbcrop.jpg",
+      "condition": "",
+      "seller": "CCPapakura",
+      "rawText": "Ended Auction Lg Smart Tv 65 Inch 4K Ultra Hd Led 65NANO86VNA Seller: CCPapakura Lg Smart Tv 65 Inch 4K Ultra Hd Led 65NANO86VNA (183411979) $375.00 Quick Bid $375.00 remaining Sold $375.00 $375.00 0 Bid(s) View Details",
+      "priority": "normal",
+      "matchedRules": [
+        "LG 65 candidate"
+      ],
+      "firstSeenAt": "2026-09-23T00:28:52.076Z",
+      "lastSeenAt": "2026-09-23T00:28:52.076Z"
+    },
+    "cashconverters:181586644": {
+      "key": "cashconverters:181586644",
+      "source": "cashconverters",
+      "searchIds": [
+        "cc-lg-65-all"
+      ],
+      "sourceListingId": "181586644",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/181586644/Lg-Tv-65-Inch-4K-Uhd-Smart-Led-65UP7550PVG",
+      "title": "Lg Tv - 65 Inch 4K Uhd Smart Led 65UP7550PVG",
+      "priceText": "449.50",
+      "currency": "NZD",
+      "availability": "available",
+      "location": "",
+      "imageUrl": "https://auctionworxstoragelive1.blob.core.windows.net/assets/media/05bacbc9-a1a5-4c65-8725-6286e5c7fa18_thumbcrop.jpg",
+      "condition": "",
+      "seller": "CCMountRoskill",
+      "rawText": "Ended Auction Lg Tv - 65 Inch 4K Uhd Smart Led 65UP7550PVG Seller: CCMountRoskill Lg Tv - 65 Inch 4K Uhd Smart Led 65UP7550PVG (181586644) $449.50 Quick Bid $449.50 remaining Sold $449.50 $449.50 0 Bid(s) View Details",
+      "priority": "normal",
+      "matchedRules": [
+        "LG 65 candidate"
+      ],
+      "firstSeenAt": "2026-09-23T00:28:52.076Z",
+      "lastSeenAt": "2026-09-23T00:28:52.076Z"
+    }
+  },
+  "updatedAt": "2026-09-23T00:28:52.076Z"
+}
