@@ -20,15 +20,49 @@ function escapeRegex(text: string): string {
   return text.replace(/[-/\\^$*+?.()|[\]{}]/g, "\\$&");
 }
 
+// Universal negative terms across pawnbroker categories
+const GLOBAL_EXCLUDED_KEYWORDS = [
+  "ring",
+  "gold",
+  "diamond",
+  "carat",
+  "ct",
+  "9ct",
+  "10ct",
+  "14ct",
+  "18ct",
+  "22ct",
+  "pendant",
+  "earring",
+  "earrings",
+  "necklace",
+  "chain",
+  "bracelet",
+  "bangle",
+  "jewellery",
+  "jewelry",
+  "silver tw",
+  "white gold",
+  "yellow gold",
+  "solitaire",
+  "claw",
+  "gemstone",
+  "sapphire",
+  "emerald",
+  "ruby",
+  "cufflink",
+  "cufflinks",
+  "brooch"
+];
+
 /**
  * Checks if a keyword matches as a standalone word/phrase.
- * Avoids substring bugs like 'ego' matching 'lego' or 'category', or '65' matching '76284'.
  */
 export function wordBoundaryMatch(corpus: string, keyword: string): boolean {
   const clean = keyword.trim().toLowerCase();
   if (!clean) return false;
 
-  // Handle screen size notations (e.g. 65" or 65in)
+  // Handle specific screen size notations
   if (clean === "65") {
     const rx = /(?:^|[^a-zA-Z0-9])(?:65["”']?|65\s*(?:inch|in|-inch)|oled65|65oled)(?:[^a-zA-Z0-9]|$)/i;
     return rx.test(corpus);
@@ -48,6 +82,12 @@ export function matchRules(raw: RawListing, rules: SearchRule[]): MatchResult {
   let priority: Priority = "normal";
 
   const searchSubject = `${raw.title} ${raw.modelNumber || ""} ${raw.rawText || ""}`.toLowerCase();
+
+  // 1. Check global exclusions (purge jewelry from tech/tool watchers)
+  const isJewelry = GLOBAL_EXCLUDED_KEYWORDS.some((kw) => wordBoundaryMatch(searchSubject, kw));
+  if (isJewelry) {
+    return { priority: "ignore", matchedRules: [] };
+  }
 
   for (const rule of rules) {
     const included = rule.includeKeywords.every((kw) => wordBoundaryMatch(searchSubject, kw));
