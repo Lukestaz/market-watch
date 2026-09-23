@@ -1,105 +1,92 @@
-export type ListingAvailability = "available" | "out_of_stock" | "unknown";
-export type Priority = "critical" | "high" | "normal" | "ignore";
+export type Priority = "critical" | "high" | "normal";
 
-export interface PriorityRule {
+export interface SearchRule {
+  id: string;
   label: string;
   priority: Priority;
-  regex: string;
-}
-
-export interface AlertConfig {
-  onNew: boolean;
-  onPriceDrop: boolean;
-  minimumPriceDropNzd?: number;
+  includeKeywords: string[];
+  excludeKeywords?: string[];
+  minimumPrice?: number;
+  maximumPrice?: number;
 }
 
 export interface SearchConfig {
   id: string;
-  enabled: boolean;
   site: string;
-  type: "listingSearch" | "productPage" | "categoryPage" | "customFeed";
   label: string;
-  url: string;
-  alert: AlertConfig;
-  priorityRules?: PriorityRule[];
+  path: string;
+  enabled: boolean;
+  rules: SearchRule[];
 }
 
 export interface SiteConfig {
-  enabled: boolean;
   adapter: string;
+  baseUrl: string;
+  enabled: boolean;
   minimumDelayMs?: number;
+  deepScrapeCandidateLimit?: number;
 }
 
-export interface WatchConfig {
-  defaults: {
-    timezone: string;
-    maxResultsPerSearch: number;
-    staleAfterDays: number;
-    minimumDelayBetweenSearchesMs: number;
-  };
+export interface DefaultsConfig {
+  minimumDelayBetweenSearchesMs: number;
+}
+
+export interface AppConfig {
+  defaults: DefaultsConfig;
   sites: Record<string, SiteConfig>;
   searches: SearchConfig[];
 }
 
+export interface RawListing {
+  id: string;
+  title: string;
+  url: string;
+  priceText?: string;
+  price?: number;
+  seller?: string;
+  imageUrl?: string;
+  modelNumber?: string;
+  condition?: string;
+  accessories?: string;
+  rawText?: string;
+}
+
 export interface Listing {
   key: string;
-  source: string;
-  searchIds: string[];
-  sourceListingId?: string;
-  canonicalUrl: string;
+  siteId: string;
+  sourceListingId: string;
   title: string;
+  canonicalUrl: string;
   price?: number;
-  priceText?: string;
-  currency: "NZD";
-  availability: ListingAvailability;
-  location?: string;
-  imageUrl?: string;
-  condition?: string;
   seller?: string;
-  rawText?: string;
+  imageUrl?: string;
+  modelNumber?: string;
+  condition?: string;
+  accessories?: string;
   priority: Priority;
   matchedRules: string[];
+  searchIds: string[];
   firstSeenAt: string;
   lastSeenAt: string;
 }
 
-export interface RawListing {
-  sourceListingId?: string;
-  url: string;
-  title: string;
-  priceText?: string;
-  location?: string;
-  imageUrl?: string;
-  condition?: string;
-  seller?: string;
-  rawText?: string;
-  availability?: ListingAvailability;
+export type ListingEventType = "new" | "price_drop" | "seen";
+
+export interface ListingEvent {
+  type: ListingEventType;
+  listing: Listing;
+  previousPrice?: number;
 }
 
 export interface ScrapeDiagnostics {
   resultCount: number;
   blocked: boolean;
   error?: string;
-  screenshotPath?: string;
-  htmlPath?: string;
 }
 
 export interface ScrapeResult {
-  searchId: string;
   siteId: string;
   fetchedAt: string;
-  listings: RawListing[];
   diagnostics: ScrapeDiagnostics;
-}
-
-export interface ListingEvent {
-  type: "new" | "price_drop" | "price_change" | "seen";
-  listing: Listing;
-  previousPrice?: number;
-  timestamp: string;
-}
-
-export interface WatchState {
-  listings: Record<string, Listing>;
-  updatedAt: string;
+  listings: RawListing[];
 }

@@ -7,10 +7,12 @@ import { toListing } from "./normalise.js";
 import { applyListings, loadState, saveState } from "./state.js";
 import type { SiteAdapter } from "./sites/base.js";
 import { CashConvertersAdapter } from "./sites/cashconverters.js";
+import { DollarDealersAdapter } from "./sites/dollardealers.js";
 import { sendEmailAlerts } from "./alerts.js";
 
 const adapters: Record<string, SiteAdapter> = {
-  cashconverters: new CashConvertersAdapter()
+  cashconverters: new CashConvertersAdapter(),
+  dollardealers: new DollarDealersAdapter()
 };
 
 function argumentValue(flag: string): string | undefined {
@@ -22,7 +24,9 @@ function formatEvent(event: ListingEvent): string {
   const { listing } = event;
   const price = listing.price !== undefined ? `NZ$${listing.price.toFixed(2)}` : "price unavailable";
   const prior = event.previousPrice !== undefined ? ` (was NZ$${event.previousPrice.toFixed(2)})` : "";
-  return `[${event.type}] [${listing.priority}] ${listing.title} | ${price}${prior} | ${listing.canonicalUrl}`;
+  const model = listing.modelNumber ? ` [Model: ${listing.modelNumber}]` : "";
+  const cond = listing.condition ? ` [Cond: ${listing.condition}]` : "";
+  return `[${event.type}] [${listing.priority}] ${listing.title}${model}${cond} | ${price}${prior} | ${listing.canonicalUrl}`;
 }
 
 function mergeListings(existing: Listing, incoming: Listing): Listing {

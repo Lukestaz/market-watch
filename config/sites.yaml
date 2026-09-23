@@ -1,0 +1,15 @@
+defaults:
+  minimumDelayBetweenSearchesMs: 5000
+
+sites:
+  cashconverters:
+    adapter: cashconverters
+    baseUrl: https://www.cashconverters.co.nz
+    enabled: true
+    minimumDelayMs: 4000
+
+  dollardealers:
+    adapter: dollardealers
+    baseUrl: https://dollardealers.co.nz
+    enabled: true
+    minimumDelayMs: 3000
