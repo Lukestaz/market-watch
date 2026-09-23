@@ -12,6 +12,12 @@ function escapeHtml(str: string | undefined): string {
     .replace(/'/g, "&#039;");
 }
 
+function getStoreLabel(siteId: string): string {
+  if (siteId === "dollardealers") return "Store B";
+  if (siteId === "cashconverters") return "Store A";
+  return "Marketplace";
+}
+
 export async function generateHtmlDashboard(statePath = "data/state.json", outputDir = "public"): Promise<void> {
   await mkdir(outputDir, { recursive: true });
 
@@ -44,7 +50,7 @@ export async function generateHtmlDashboard(statePath = "data/state.json", outpu
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NZ Market Watch Dashboard</title>
+  <title>Market Watch Dashboard</title>
   <style>
     :root {
       --bg: #0f172a;
@@ -271,10 +277,10 @@ export async function generateHtmlDashboard(statePath = "data/state.json", outpu
   <header>
     <div class="title-group">
       <h1>Market Watch Dashboard</h1>
-      <p>Tracking LG 3D OLEDs & EGO 56V Tools across NZ Marketplaces &bull; Last updated: ${new Date(updatedAt).toLocaleString("en-NZ", { timeZone: "Pacific/Auckland" })} NZST</p>
+      <p>Tracking Refurbished Hardware & Tools &bull; Last updated: ${new Date(updatedAt).toLocaleString("en-NZ", { timeZone: "Pacific/Auckland" })}</p>
     </div>
     <div class="stats-bar">
-      <div class="stat-badge crit">${criticalCount} Critical (3D OLED)</div>
+      <div class="stat-badge crit">${criticalCount} Critical</div>
       <div class="stat-badge high">${highCount} Priority</div>
       <div class="stat-badge total">${listings.length} Total Tracked</div>
     </div>
@@ -285,15 +291,15 @@ export async function generateHtmlDashboard(statePath = "data/state.json", outpu
     <button class="filter-btn active" onclick="setFilter('all', this)">All (${listings.length})</button>
     <button class="filter-btn" onclick="setFilter('critical', this)">🚨 Critical (${criticalCount})</button>
     <button class="filter-btn" onclick="setFilter('high', this)">⭐ Priority (${highCount})</button>
-    <button class="filter-btn" onclick="setFilter('dollardealers', this)">Dollar Dealers</button>
-    <button class="filter-btn" onclick="setFilter('cashconverters', this)">Cash Converters</button>
+    <button class="filter-btn" onclick="setFilter('dollardealers', this)">Store B</button>
+    <button class="filter-btn" onclick="setFilter('cashconverters', this)">Store A</button>
   </div>
 
   <div class="grid" id="productGrid">
     ${listings
       .map((item) => {
-        const price = item.price !== undefined ? "NZ$" + item.price.toFixed(2) : "Price on request";
-        const sourceName = item.siteId === "dollardealers" ? "Dollar Dealers" : "Cash Converters";
+        const price = item.price !== undefined ? "$" + item.price.toFixed(2) : "Price on request";
+        const sourceLabel = getStoreLabel(item.siteId);
         return `
           <div class="card" 
                data-priority="${item.priority}" 
@@ -301,8 +307,8 @@ export async function generateHtmlDashboard(statePath = "data/state.json", outpu
                data-search="${escapeHtml(item.title + " " + (item.modelNumber || "") + " " + (item.seller || "") + " " + item.siteId).toLowerCase()}">
             <div class="card-img">
               <span class="badge ${item.priority}">${item.priority}</span>
-              <span class="source-badge">${sourceName}</span>
-              ${item.imageUrl ? `<img src="${escapeHtml(item.imageUrl)}" alt="${escapeHtml(item.title)}" loading="lazy" onerror="this.style.display='none'">` : `<div class="placeholder-icon">📺</div>`}
+              <span class="source-badge">${sourceLabel}</span>
+              ${item.imageUrl ? `<img src="${escapeHtml(item.imageUrl)}" alt="${escapeHtml(item.title)}" loading="lazy" onerror="this.style.display='none'">` : `<div class="placeholder-icon">📦</div>`}
             </div>
             <div class="card-body">
               <div class="price-row">
@@ -313,11 +319,11 @@ export async function generateHtmlDashboard(statePath = "data/state.json", outpu
                 ${item.modelNumber ? `<li><strong>Model:</strong> ${escapeHtml(item.modelNumber)}</li>` : ""}
                 ${item.condition ? `<li><strong>Condition:</strong> ${escapeHtml(item.condition)}</li>` : ""}
                 ${item.accessories ? `<li><strong>Includes:</strong> ${escapeHtml(item.accessories)}</li>` : ""}
-                ${item.seller ? `<li><strong>Store:</strong> ${escapeHtml(item.seller)}</li>` : ""}
+                ${item.seller ? `<li><strong>Branch:</strong> ${escapeHtml(item.seller.replace(/DollarDealers|CashConverters/gi, "Store"))}</li>` : ""}
                 <li><strong>First Seen:</strong> ${new Date(item.firstSeenAt).toLocaleDateString("en-NZ")}</li>
               </ul>
               <a href="${escapeHtml(item.canonicalUrl)}" target="_blank" rel="noopener noreferrer" class="btn-view">
-                View on ${sourceName} &rarr;
+                View Listing &rarr;
               </a>
             </div>
           </div>
@@ -327,7 +333,7 @@ export async function generateHtmlDashboard(statePath = "data/state.json", outpu
   </div>
 
   <footer>
-    Automatically generated by your private GitHub Actions Market Watcher. Refreshed twice daily.
+    Automatically generated by private Market Watcher. Refreshed periodically.
   </footer>
 
   <script>

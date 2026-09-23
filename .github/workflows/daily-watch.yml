@@ -31,10 +31,10 @@ on:
         default: "all"
         options:
           - "all"
-          - "cc-lg-65"
-          - "cc-ego"
-          - "dd-lg-65"
-          - "dd-ego"
+          - "src-a-display-65"
+          - "src-a-power-tools"
+          - "src-b-display-65"
+          - "src-b-power-tools"
 
 permissions:
   contents: write
