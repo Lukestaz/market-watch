@@ -11,6 +11,7 @@ sites:
     minimumDelayMs: 5000
 
 searches:
+  # --- LG TV / 3D OLED Searches ---
   - id: cc-lg-65-broad
     enabled: true
     site: cashconverters
@@ -145,3 +146,70 @@ searches:
       - label: LG EF950 3D OLED fallback
         priority: high
         regex: '(?i)\bef950(?:t)?\b|\bef\s*950\b'
+
+  # --- EGO 56V Power+ Tool Ecosystem ---
+  - id: cc-ego-56v
+    enabled: true
+    site: cashconverters
+    type: listingSearch
+    label: Cash Converters EGO 56V
+    url: https://shop.cashconverters.co.nz/Browse?FullTextQuery=ego%2056v
+    alert:
+      onNew: true
+      onPriceDrop: true
+      minimumPriceDropNzd: 10
+    priorityRules:
+      - label: EGO Multi-Tool / Power Head
+        priority: high
+        regex: '(?i)\b(multi[- ]?tool|power[- ]?head|ph1400|pole[- ]?saw|edger|cultivator)\b'
+      - label: EGO Blower
+        priority: high
+        regex: '(?i)\b(blower|lb5300|lb5800|lb6500|lb7650)\b'
+      - label: EGO Line Trimmer / Weed Eater
+        priority: high
+        regex: '(?i)\b(line[- ]?trimmer|weed[- ]?eater|trimmer|st1500|st1510|st1300)\b'
+      - label: EGO Chainsaw
+        priority: high
+        regex: '(?i)\b(chainsaw|chain[- ]?saw|cs1400|cs1600|cs1800)\b'
+      - label: EGO Hedge Trimmer
+        priority: high
+        regex: '(?i)\b(hedge[- ]?trimmer|ht2400|ht2410|ht2600)\b'
+      - label: EGO Extra Battery / Fast Charger
+        priority: high
+        regex: '(?i)\b(battery|charger|ba2800|ba4200|ba5600|ch5500|2\.5ah|4ah|5ah|7\.5ah|10ah|12ah)\b'
+      - label: EGO 56V Tool Candidate
+        priority: normal
+        regex: '(?i)\b(ego|56v)\b'
+
+  - id: cc-ego-power
+    enabled: true
+    site: cashconverters
+    type: listingSearch
+    label: Cash Converters EGO Power+
+    url: https://shop.cashconverters.co.nz/Browse?FullTextQuery=ego%20power
+    alert:
+      onNew: true
+      onPriceDrop: true
+      minimumPriceDropNzd: 10
+    priorityRules:
+      - label: EGO Multi-Tool / Power Head
+        priority: high
+        regex: '(?i)\b(multi[- ]?tool|power[- ]?head|ph1400|pole[- ]?saw|edger|cultivator)\b'
+      - label: EGO Blower
+        priority: high
+        regex: '(?i)\b(blower|lb5300|lb5800|lb6500|lb7650)\b'
+      - label: EGO Line Trimmer / Weed Eater
+        priority: high
+        regex: '(?i)\b(line[- ]?trimmer|weed[- ]?eater|trimmer|st1500|st1510|st1300)\b'
+      - label: EGO Chainsaw
+        priority: high
+        regex: '(?i)\b(chainsaw|chain[- ]?saw|cs1400|cs1600|cs1800)\b'
+      - label: EGO Hedge Trimmer
+        priority: high
+        regex: '(?i)\b(hedge[- ]?trimmer|ht2400|ht2410|ht2600)\b'
+      - label: EGO Extra Battery / Fast Charger
+        priority: high
+        regex: '(?i)\b(battery|charger|ba2800|ba4200|ba5600|ch5500|2\.5ah|4ah|5ah|7\.5ah|10ah|12ah)\b'
+      - label: EGO 56V Tool Candidate
+        priority: normal
+        regex: '(?i)\b(ego|56v)\b'
