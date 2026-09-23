@@ -7,6 +7,7 @@ import { toListing } from "./normalise.js";
 import { applyListings, loadState, saveState } from "./state.js";
 import type { SiteAdapter } from "./sites/base.js";
 import { CashConvertersAdapter } from "./sites/cashconverters.js";
+import { sendEmailAlerts } from "./alerts.js";
 
 const adapters: Record<string, SiteAdapter> = {
   cashconverters: new CashConvertersAdapter()
@@ -110,6 +111,14 @@ async function main(): Promise<void> {
   const meaningful = events.filter((event) => event.type !== "seen");
   console.log(`Completed ${searches.length} searches. ${collected.size} unique listings. ${meaningful.length} meaningful events.`);
   meaningful.forEach((event) => console.log(formatEvent(event)));
+
+  if (meaningful.length) {
+    try {
+      await sendEmailAlerts(meaningful);
+    } catch (error) {
+      console.error("Failed to send email alert:", error);
+    }
+  }
 }
 
 main().catch((error) => {
