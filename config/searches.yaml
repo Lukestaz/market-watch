@@ -11,31 +11,36 @@ searches:
       - id: rule-cc-critical-g6
         label: "LG 65G6 3D OLED"
         priority: critical
-        includeKeywords: ["g6"]
+        includeKeywords: ["lg", "g6"]
+        excludeKeywords: ["phone", "smartphone", "thinq"]
       - id: rule-cc-critical-e6
         label: "LG 65E6 3D OLED"
         priority: critical
-        includeKeywords: ["e6"]
+        includeKeywords: ["lg", "e6"]
+        excludeKeywords: ["phone", "smartphone"]
       - id: rule-cc-critical-c6
         label: "LG 65C6 3D OLED"
         priority: critical
-        includeKeywords: ["c6"]
+        includeKeywords: ["lg", "c6"]
+        excludeKeywords: ["phone", "smartphone"]
       - id: rule-cc-critical-3d
         label: "LG 3D TV / OLED"
         priority: critical
-        includeKeywords: ["3d"]
+        includeKeywords: ["lg", "3d"]
+        excludeKeywords: ["glasses only", "phone", "monitor"]
       - id: rule-cc-high-ef950
         label: "LG 65EF950 3D OLED"
         priority: high
-        includeKeywords: ["ef950"]
+        includeKeywords: ["lg", "ef950"]
       - id: rule-cc-high-oled
-        label: "LG OLED Panel"
+        label: "LG 65\" OLED Panel"
         priority: high
-        includeKeywords: ["oled"]
+        includeKeywords: ["lg", "oled", "65"]
       - id: rule-cc-normal-65
         label: "LG 65\" TV Generic"
         priority: normal
-        includeKeywords: ["65"]
+        includeKeywords: ["lg", "65"]
+        excludeKeywords: ["remote only", "stand only", "bracket"]
 
   - id: cc-ego
     site: cashconverters
@@ -46,27 +51,33 @@ searches:
       - id: rule-cc-high-ego-multitool
         label: "EGO Multi-Tool"
         priority: high
-        includeKeywords: ["multi"]
+        includeKeywords: ["ego", "multi"]
+        excludeKeywords: ["lego"]
       - id: rule-cc-high-ego-blower
         label: "EGO Blower"
         priority: high
-        includeKeywords: ["blower"]
+        includeKeywords: ["ego", "blower"]
+        excludeKeywords: ["lego"]
       - id: rule-cc-high-ego-chainsaw
         label: "EGO Chainsaw"
         priority: high
-        includeKeywords: ["chainsaw"]
+        includeKeywords: ["ego", "chainsaw"]
+        excludeKeywords: ["lego"]
       - id: rule-cc-high-ego-battery
         label: "EGO Battery / Power"
         priority: high
-        includeKeywords: ["battery"]
+        includeKeywords: ["ego", "battery"]
+        excludeKeywords: ["lego", "makita", "dewalt", "ryobi", "milwaukee", "bosch"]
       - id: rule-cc-high-ego-bare
-        label: "EGO Power+ Bare Tool"
+        label: "EGO Power+ Tool"
         priority: high
-        includeKeywords: ["power"]
+        includeKeywords: ["ego", "power"]
+        excludeKeywords: ["lego"]
       - id: rule-cc-normal-ego-mower
         label: "EGO Mower"
         priority: normal
-        includeKeywords: ["mower"]
+        includeKeywords: ["ego", "mower"]
+        excludeKeywords: ["lego"]
 
   # =============================================================
   # DOLLAR DEALERS NZ (dollardealers.co.nz)
@@ -80,59 +91,70 @@ searches:
       - id: rule-dd-critical-g6
         label: "LG 65G6 3D OLED"
         priority: critical
-        includeKeywords: ["g6"]
+        includeKeywords: ["lg", "g6"]
+        excludeKeywords: ["phone", "smartphone", "thinq"]
       - id: rule-dd-critical-e6
         label: "LG 65E6 3D OLED"
         priority: critical
-        includeKeywords: ["e6"]
+        includeKeywords: ["lg", "e6"]
+        excludeKeywords: ["phone", "smartphone"]
       - id: rule-dd-critical-c6
         label: "LG 65C6 3D OLED"
         priority: critical
-        includeKeywords: ["c6"]
+        includeKeywords: ["lg", "c6"]
+        excludeKeywords: ["phone", "smartphone"]
       - id: rule-dd-critical-3d
         label: "LG 3D TV / OLED"
         priority: critical
-        includeKeywords: ["3d"]
+        includeKeywords: ["lg", "3d"]
+        excludeKeywords: ["glasses only", "phone", "monitor"]
       - id: rule-dd-high-ef950
         label: "LG 65EF950 3D OLED"
         priority: high
-        includeKeywords: ["ef950"]
+        includeKeywords: ["lg", "ef950"]
       - id: rule-dd-high-oled
-        label: "LG OLED Panel"
+        label: "LG 65\" OLED Panel"
         priority: high
-        includeKeywords: ["oled"]
+        includeKeywords: ["lg", "oled", "65"]
       - id: rule-dd-normal-65
         label: "LG 65\" TV Generic"
         priority: normal
-        includeKeywords: ["65"]
+        includeKeywords: ["lg", "65"]
+        excludeKeywords: ["remote only", "stand only", "bracket"]
 
   - id: dd-ego
     site: dollardealers
     label: "Dollar Dealers - EGO 56V Tools"
-    path: "/?s=ego&post_type=product"
+    path: "/?s=ego+56v&post_type=product"
     enabled: true
     rules:
       - id: rule-dd-high-ego-multitool
         label: "EGO Multi-Tool"
         priority: high
-        includeKeywords: ["multi"]
+        includeKeywords: ["ego", "multi"]
+        excludeKeywords: ["lego"]
       - id: rule-dd-high-ego-blower
         label: "EGO Blower"
         priority: high
-        includeKeywords: ["blower"]
+        includeKeywords: ["ego", "blower"]
+        excludeKeywords: ["lego"]
       - id: rule-dd-high-ego-chainsaw
         label: "EGO Chainsaw"
         priority: high
-        includeKeywords: ["chainsaw"]
+        includeKeywords: ["ego", "chainsaw"]
+        excludeKeywords: ["lego"]
       - id: rule-dd-high-ego-battery
         label: "EGO Battery / Power"
         priority: high
-        includeKeywords: ["battery"]
+        includeKeywords: ["ego", "battery"]
+        excludeKeywords: ["lego", "makita", "dewalt", "ryobi", "milwaukee", "bosch"]
       - id: rule-dd-high-ego-bare
-        label: "EGO Power+ Bare Tool"
+        label: "EGO Power+ Tool"
         priority: high
-        includeKeywords: ["power"]
+        includeKeywords: ["ego", "power"]
+        excludeKeywords: ["lego"]
       - id: rule-dd-normal-ego-mower
         label: "EGO Mower"
         priority: normal
-        includeKeywords: ["mower"]
+        includeKeywords: ["ego", "mower"]
+        excludeKeywords: ["lego"]
