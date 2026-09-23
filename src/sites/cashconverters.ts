@@ -141,7 +141,10 @@ export class CashConvertersAdapter implements SiteAdapter {
           text.includes("56v") ||
           text.includes("g6") ||
           text.includes("e6") ||
-          text.includes("c6")
+          text.includes("c6") ||
+          text.includes("tg-6") ||
+          text.includes("tg-7") ||
+          text.includes("tough")
         );
       });
 

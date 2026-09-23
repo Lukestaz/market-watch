@@ -79,6 +79,33 @@ searches:
         includeKeywords: ["ego", "mower"]
         excludeKeywords: ["lego"]
 
+  - id: src-a-tough-cameras
+    site: cashconverters
+    label: "Source A - Tough Cameras (TG-6 / TG-7)"
+    path: "/Search?SearchQuery=TG-"
+    enabled: true
+    rules:
+      - id: rule-a-critical-tg7
+        label: "OM System Tough TG-7"
+        priority: critical
+        includeKeywords: ["tg-7"]
+        excludeKeywords: ["case only", "housing only", "battery only"]
+      - id: rule-a-critical-tg6
+        label: "Olympus Tough TG-6"
+        priority: critical
+        includeKeywords: ["tg-6"]
+        excludeKeywords: ["case only", "housing only", "battery only"]
+      - id: rule-a-high-tough-om
+        label: "OM System Tough Camera"
+        priority: high
+        includeKeywords: ["om system", "tough"]
+        excludeKeywords: ["case only", "housing only"]
+      - id: rule-a-high-tough-olympus
+        label: "Olympus Tough Camera"
+        priority: high
+        includeKeywords: ["olympus", "tough"]
+        excludeKeywords: ["case only", "housing only", "tg-1", "tg-2", "tg-3", "tg-4", "tg-5"]
+
   # =============================================================
   # SOURCE CONNECTOR B
   # =============================================================
@@ -158,3 +185,30 @@ searches:
         priority: normal
         includeKeywords: ["ego", "mower"]
         excludeKeywords: ["lego"]
+
+  - id: src-b-tough-cameras
+    site: dollardealers
+    label: "Source B - Tough Cameras (TG-6 / TG-7)"
+    path: "/?s=tough&post_type=product"
+    enabled: true
+    rules:
+      - id: rule-b-critical-tg7
+        label: "OM System Tough TG-7"
+        priority: critical
+        includeKeywords: ["tg-7"]
+        excludeKeywords: ["case only", "housing only", "battery only"]
+      - id: rule-b-critical-tg6
+        label: "Olympus Tough TG-6"
+        priority: critical
+        includeKeywords: ["tg-6"]
+        excludeKeywords: ["case only", "housing only", "battery only"]
+      - id: rule-b-high-tough-om
+        label: "OM System Tough Camera"
+        priority: high
+        includeKeywords: ["om system", "tough"]
+        excludeKeywords: ["case only", "housing only"]
+      - id: rule-b-high-tough-olympus
+        label: "Olympus Tough Camera"
+        priority: high
+        includeKeywords: ["olympus", "tough"]
+        excludeKeywords: ["case only", "housing only", "tg-1", "tg-2", "tg-3", "tg-4", "tg-5"]

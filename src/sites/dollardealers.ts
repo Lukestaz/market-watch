@@ -86,7 +86,16 @@ export class DollarDealersAdapter implements SiteAdapter {
       // Selective deep-scrape: inspect product pages for potential target matches to extract Model, Condition, Accessories
       const candidateListings = initialListings.filter((l) => {
         const text = l.title.toLowerCase();
-        return text.includes("oled") || text.includes("65") || text.includes("77") || text.includes("ego") || text.includes("56v");
+        return (
+          text.includes("oled") ||
+          text.includes("65") ||
+          text.includes("77") ||
+          text.includes("ego") ||
+          text.includes("56v") ||
+          text.includes("tg-6") ||
+          text.includes("tg-7") ||
+          text.includes("tough")
+        );
       });
 
       for (const item of candidateListings.slice(0, 5)) {

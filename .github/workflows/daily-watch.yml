@@ -33,8 +33,10 @@ on:
           - "all"
           - "src-a-display-65"
           - "src-a-power-tools"
+          - "src-a-tough-cameras"
           - "src-b-display-65"
           - "src-b-power-tools"
+          - "src-b-tough-cameras"
 
 permissions:
   contents: write

@@ -31,6 +31,11 @@ View the interactive web dashboard with filters, search, and specification break
 - **High targets:** Multi-tool power heads and modular attachments, commercial blowers, chainsaws, high-capacity lithium batteries (5.0Ah+), and bare tools.
 - **Normal baseline:** Self-propelled and standard cordless lawn care equipment.
 
+### 3. Rugged All-Weather Compact Cameras
+- **Critical targets:** Olympus Tough TG-6, OM System Tough TG-7.
+- **High targets:** OM System and Olympus Tough camera bodies (filters older TG-1 through TG-5 models).
+- **Exclusions:** Pure accessories (cases, underwater housings, batteries only).
+
 ---
 
 ## How It Works
@@ -38,12 +43,12 @@ View the interactive web dashboard with filters, search, and specification break
 1. **Trigger Modes:**
    - **Automated CI Push:** Triggered on code/configuration pushes to validate type checks and test catalog parsers autonomously.
    - **Scheduled Runs:** Runs twice daily via cron (`11:15 AM` and `6:15 PM`), capturing inventory updates throughout the day.
-   - **Manual Dispatch:** Run any individual query on demand via GitHub Actions UI (`all`, `profile-a-display`, `profile-a-tools`, `profile-b-display`, `profile-b-tools`).
+   - **Manual Dispatch:** Run any individual query on demand via GitHub Actions UI (`all`, `src-a-display-65`, `src-a-power-tools`, `src-a-tough-cameras`, `src-b-display-65`, `src-b-power-tools`, `src-b-tough-cameras`).
 2. **Streamlined Sweep:** Executes consolidated queries covering target categories in under 45 seconds.
 3. **Selective Deep Scraping:** For candidate items matching target criteria, the engine visits individual listing pages to extract:
-   - **Model Number:** (e.g. `OLED65G6P`, `LM2135E-SP`)
+   - **Model Number:** (e.g. `OLED65G6P`, `TG-6`, `TG-7`, `LM2135E-SP`)
    - **Condition:** (e.g. `Like New`, `Very Good`, `Good`)
-   - **Accessories / Includes:** (e.g. `Remote + 3D glasses`, `Battery + Charger`)
+   - **Accessories / Includes:** (e.g. `Remote + 3D glasses`, `Wrist strap + battery + charger`)
    - **Location:** Branch / pickup depot.
 4. **State Persistence:** Normalises and deduplicates items into `data/state.json`, committed back into the repository to track first-seen dates, price drops, and rule matches.
 5. **Automated Alerts:** Dispatches HTML emails via Gmail SMTP for new listings and price drops with priority badges and direct links.
