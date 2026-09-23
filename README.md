@@ -4,6 +4,13 @@ A config-driven product watcher running on GitHub Actions. It monitors New Zeala
 
 ---
 
+## Live Dashboard
+
+View the interactive web dashboard with filters, search, and specification breakdown:
+👉 **[lukestaz.github.io/market-watch](https://lukestaz.github.io/market-watch)**
+
+---
+
 ## Supported Marketplaces
 
 | Site | Adapter | Features |
@@ -17,11 +24,11 @@ A config-driven product watcher running on GitHub Actions. It monitors New Zeala
 
 ### 1. LG 65" / 77" & 3D OLED TVs
 - **Critical targets:** LG 65G6, 77G6, 65E6, 65C6 (passive 4K 3D OLED line).
-- **High targets:** LG 65EF950 (early 4K 3D OLED fallback).
-- **Normal baseline:** Broad monitoring for generic 65" & 77" LG OLED and LCD panels.
+- **High targets:** LG 65EF950 (early 4K 3D OLED fallback), all other LG OLED panels.
+- **Normal baseline:** Broad monitoring for generic 65" LG LCD and UHD panels.
 
 ### 2. EGO 56V Cordless Garden Tools
-- **High targets:** Multi-tool power heads and attachments, high-CFM leaf blowers, chainsaws, high-capacity Arc-Lithium batteries (5.0Ah, 7.5Ah, 10.0Ah), and bare tools.
+- **High targets:** Multi-tool power heads and attachments, leaf blowers, chainsaws, Arc-Lithium batteries (5.0Ah, 7.5Ah, 10.0Ah), and bare tools.
 - **Normal baseline:** Self-propelled and standard EGO 56V lawnmowers.
 
 ---
@@ -31,8 +38,8 @@ A config-driven product watcher running on GitHub Actions. It monitors New Zeala
 1. **Trigger Modes:**
    - **Automated CI Push:** Triggered on code/configuration pushes to run type checks, validation, and browser sweeps autonomously.
    - **Scheduled Runs:** Runs twice daily via cron (`11:15 AM NZST` and `6:15 PM NZST`), capturing morning additions and end-of-day store inventory.
-   - **Manual Dispatch:** Run any individual search query on demand via GitHub Actions UI.
-2. **Fast Search Grid Sweep:** Crawls configured queries across Cash Converters and Dollar Dealers.
+   - **Manual Dispatch:** Run any individual search query on demand via GitHub Actions UI (`all`, `cc-lg-65`, `cc-ego`, `dd-lg-65`, `dd-ego`).
+2. **Streamlined Sweep:** Crawls 4 consolidated high-volume queries covering 100% of candidate items across Cash Converters and Dollar Dealers in ~35 seconds.
 3. **Selective Deep Scraping:** For candidate items matching target criteria, the scraper visits individual listing pages to extract:
    - **Model Number:** (e.g. `OLED65G6P`, `LM2135E-SP`)
    - **Condition:** (e.g. `Like New`, `Very Good`, `Good`)
@@ -104,6 +111,7 @@ GMAIL_USER="you@gmail.com" GMAIL_APP_PASSWORD="app-password" ALERT_TO_EMAIL="you
 │   ├── models.ts             # TypeScript definitions
 │   ├── normalise.ts          # Price & title normalisation
 │   ├── state.ts              # State diffing & JSON persistence
+│   ├── ui.ts                 # GitHub Pages static dashboard compiler
 │   └── index.ts              # CLI entry point & crawler orchestrator
 ├── package.json
 └── tsconfig.json

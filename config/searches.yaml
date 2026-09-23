@@ -1,228 +1,115 @@
 searches:
-  # -------------------------------------------------------------
-  # CASH CONVERTERS: LG 65" / 77" & 3D OLED Searches
-  # -------------------------------------------------------------
-  - id: cc-lg-65-broad
+  # =============================================================
+  # CASH CONVERTERS NZ (shop.cashconverters.co.nz)
+  # =============================================================
+  - id: cc-lg-65
     site: cashconverters
-    label: "Cash Converters - LG 65\" Broad"
+    label: "Cash Converters - LG 65\" / OLEDs"
     path: "/Search?SearchQuery=LG+65"
     enabled: true
     rules:
-      - id: rule-critical-65g6
+      - id: rule-cc-critical-g6
         label: "LG 65G6 3D OLED"
         priority: critical
         includeKeywords: ["g6"]
-      - id: rule-critical-65e6
+      - id: rule-cc-critical-e6
         label: "LG 65E6 3D OLED"
         priority: critical
         includeKeywords: ["e6"]
-      - id: rule-critical-65c6
+      - id: rule-cc-critical-c6
         label: "LG 65C6 3D OLED"
         priority: critical
         includeKeywords: ["c6"]
-      - id: rule-high-65ef950
+      - id: rule-cc-critical-3d
+        label: "LG 3D TV / OLED"
+        priority: critical
+        includeKeywords: ["3d"]
+      - id: rule-cc-high-ef950
         label: "LG 65EF950 3D OLED"
         priority: high
         includeKeywords: ["ef950"]
-      - id: rule-normal-lg65
+      - id: rule-cc-high-oled
+        label: "LG OLED Panel"
+        priority: high
+        includeKeywords: ["oled"]
+      - id: rule-cc-normal-65
         label: "LG 65\" TV Generic"
         priority: normal
         includeKeywords: ["65"]
 
-  - id: cc-lg-77-broad
+  - id: cc-ego
     site: cashconverters
-    label: "Cash Converters - LG 77\" Broad"
-    path: "/Search?SearchQuery=LG+77"
+    label: "Cash Converters - EGO 56V Tools"
+    path: "/Search?SearchQuery=EGO"
     enabled: true
     rules:
-      - id: rule-critical-77g6
-        label: "LG 77G6 3D OLED"
-        priority: critical
-        includeKeywords: ["g6"]
-      - id: rule-normal-lg77
-        label: "LG 77\" TV Generic"
-        priority: normal
-        includeKeywords: ["77"]
-
-  - id: cc-lg-oled-broad
-    site: cashconverters
-    label: "Cash Converters - LG OLED Broad"
-    path: "/Search?SearchQuery=LG+OLED"
-    enabled: true
-    rules:
-      - id: rule-critical-oled-g6
-        label: "LG G6 OLED"
-        priority: critical
-        includeKeywords: ["g6"]
-      - id: rule-critical-oled-e6
-        label: "LG E6 OLED"
-        priority: critical
-        includeKeywords: ["e6"]
-      - id: rule-critical-oled-c6
-        label: "LG C6 OLED"
-        priority: critical
-        includeKeywords: ["c6"]
-      - id: rule-normal-oled
-        label: "LG OLED Generic"
-        priority: normal
-        includeKeywords: ["oled"]
-
-  - id: cc-lg-g6
-    site: cashconverters
-    label: "Cash Converters - LG G6 Direct"
-    path: "/Search?SearchQuery=LG+G6"
-    enabled: true
-    rules:
-      - id: rule-critical-direct-g6
-        label: "LG G6"
-        priority: critical
-        includeKeywords: ["g6"]
-
-  - id: cc-lg-e6
-    site: cashconverters
-    label: "Cash Converters - LG E6 Direct"
-    path: "/Search?SearchQuery=LG+E6"
-    enabled: true
-    rules:
-      - id: rule-critical-direct-e6
-        label: "LG E6"
-        priority: critical
-        includeKeywords: ["e6"]
-
-  - id: cc-lg-c6
-    site: cashconverters
-    label: "Cash Converters - LG C6 Direct"
-    path: "/Search?SearchQuery=LG+C6"
-    enabled: true
-    rules:
-      - id: rule-critical-direct-c6
-        label: "LG C6"
-        priority: critical
-        includeKeywords: ["c6"]
-
-  - id: cc-lg-3d
-    site: cashconverters
-    label: "Cash Converters - LG 3D Direct"
-    path: "/Search?SearchQuery=LG+3D"
-    enabled: true
-    rules:
-      - id: rule-critical-direct-3d
-        label: "LG 3D TV"
-        priority: critical
-        includeKeywords: ["3d"]
-
-  - id: cc-lg-ef950
-    site: cashconverters
-    label: "Cash Converters - LG EF950 Direct"
-    path: "/Search?SearchQuery=EF950"
-    enabled: true
-    rules:
-      - id: rule-high-direct-ef950
-        label: "LG EF950 3D OLED"
-        priority: high
-        includeKeywords: ["ef950"]
-
-  # -------------------------------------------------------------
-  # CASH CONVERTERS: EGO 56V Searches
-  # -------------------------------------------------------------
-  - id: cc-ego-56v
-    site: cashconverters
-    label: "Cash Converters - EGO 56V Broad"
-    path: "/Search?SearchQuery=EGO+56V"
-    enabled: true
-    rules:
-      - id: rule-high-ego-multitool
+      - id: rule-cc-high-ego-multitool
         label: "EGO Multi-Tool"
         priority: high
         includeKeywords: ["multi"]
-      - id: rule-high-ego-blower
+      - id: rule-cc-high-ego-blower
         label: "EGO Blower"
         priority: high
         includeKeywords: ["blower"]
-      - id: rule-high-ego-chainsaw
+      - id: rule-cc-high-ego-chainsaw
         label: "EGO Chainsaw"
         priority: high
         includeKeywords: ["chainsaw"]
-      - id: rule-high-ego-battery
-        label: "EGO Battery"
+      - id: rule-cc-high-ego-battery
+        label: "EGO Battery / Power"
         priority: high
         includeKeywords: ["battery"]
-      - id: rule-normal-ego-mower
+      - id: rule-cc-high-ego-bare
+        label: "EGO Power+ Bare Tool"
+        priority: high
+        includeKeywords: ["power"]
+      - id: rule-cc-normal-ego-mower
         label: "EGO Mower"
         priority: normal
         includeKeywords: ["mower"]
 
-  - id: cc-ego-power
-    site: cashconverters
-    label: "Cash Converters - EGO Power+ Broad"
-    path: "/Search?SearchQuery=EGO+Power"
-    enabled: true
-    rules:
-      - id: rule-high-ego-power-tool
-        label: "EGO Power Bare Tool / Attachment"
-        priority: high
-        includeKeywords: ["power"]
-
-  # -------------------------------------------------------------
-  # DOLLAR DEALERS: LG 65" / 77" & 3D OLED Searches
-  # -------------------------------------------------------------
+  # =============================================================
+  # DOLLAR DEALERS NZ (dollardealers.co.nz)
+  # =============================================================
   - id: dd-lg-65
     site: dollardealers
-    label: "Dollar Dealers - LG 65\" Broad"
+    label: "Dollar Dealers - LG 65\" / OLEDs"
     path: "/?s=lg+65&post_type=product"
     enabled: true
     rules:
-      - id: rule-dd-critical-65g6
+      - id: rule-dd-critical-g6
         label: "LG 65G6 3D OLED"
         priority: critical
         includeKeywords: ["g6"]
-      - id: rule-dd-critical-65e6
+      - id: rule-dd-critical-e6
         label: "LG 65E6 3D OLED"
         priority: critical
         includeKeywords: ["e6"]
-      - id: rule-dd-critical-65c6
+      - id: rule-dd-critical-c6
         label: "LG 65C6 3D OLED"
         priority: critical
         includeKeywords: ["c6"]
-      - id: rule-dd-high-65ef950
+      - id: rule-dd-critical-3d
+        label: "LG 3D TV / OLED"
+        priority: critical
+        includeKeywords: ["3d"]
+      - id: rule-dd-high-ef950
         label: "LG 65EF950 3D OLED"
         priority: high
         includeKeywords: ["ef950"]
-      - id: rule-dd-normal-lg65
+      - id: rule-dd-high-oled
+        label: "LG OLED Panel"
+        priority: high
+        includeKeywords: ["oled"]
+      - id: rule-dd-normal-65
         label: "LG 65\" TV Generic"
         priority: normal
         includeKeywords: ["65"]
 
-  - id: dd-lg-oled
+  - id: dd-ego
     site: dollardealers
-    label: "Dollar Dealers - LG OLED Broad"
-    path: "/?s=lg+oled&post_type=product"
-    enabled: true
-    rules:
-      - id: rule-dd-critical-oled-g6
-        label: "LG G6 OLED"
-        priority: critical
-        includeKeywords: ["g6"]
-      - id: rule-dd-critical-oled-e6
-        label: "LG E6 OLED"
-        priority: critical
-        includeKeywords: ["e6"]
-      - id: rule-dd-critical-oled-c6
-        label: "LG C6 OLED"
-        priority: critical
-        includeKeywords: ["c6"]
-      - id: rule-dd-normal-oled
-        label: "LG OLED Generic"
-        priority: normal
-        includeKeywords: ["oled"]
-
-  # -------------------------------------------------------------
-  # DOLLAR DEALERS: EGO 56V Searches
-  # -------------------------------------------------------------
-  - id: dd-ego-56v
-    site: dollardealers
-    label: "Dollar Dealers - EGO 56V Broad"
-    path: "/?s=ego+56v&post_type=product"
+    label: "Dollar Dealers - EGO 56V Tools"
+    path: "/?s=ego&post_type=product"
     enabled: true
     rules:
       - id: rule-dd-high-ego-multitool
@@ -238,21 +125,14 @@ searches:
         priority: high
         includeKeywords: ["chainsaw"]
       - id: rule-dd-high-ego-battery
-        label: "EGO Battery"
+        label: "EGO Battery / Power"
         priority: high
         includeKeywords: ["battery"]
+      - id: rule-dd-high-ego-bare
+        label: "EGO Power+ Bare Tool"
+        priority: high
+        includeKeywords: ["power"]
       - id: rule-dd-normal-ego-mower
         label: "EGO Mower"
         priority: normal
         includeKeywords: ["mower"]
-
-  - id: dd-ego-power
-    site: dollardealers
-    label: "Dollar Dealers - EGO Power+ Broad"
-    path: "/?s=ego+power&post_type=product"
-    enabled: true
-    rules:
-      - id: rule-dd-high-ego-power-tool
-        label: "EGO Power Bare Tool / Attachment"
-        priority: high
-        includeKeywords: ["power"]
