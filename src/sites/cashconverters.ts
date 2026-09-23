@@ -40,21 +40,24 @@ export class CashConvertersAdapter implements SiteAdapter {
       await listings.first().waitFor({ state: "visible", timeout: 30000 });
 
       const extracted: RawListing[] = await listings.evaluateAll((elements) => {
+        const textOf = (element: Element | null): string => (element?.textContent ?? "").replace(/\s+/g, " ").trim();
+
         return elements.map((listing) => {
-          const text = (listing.textContent ?? "").replace(/\s+/g, " ").trim();
+          const text = textOf(listing);
           const detailLink = listing.querySelector("h2.title a[href], a.btn[href*='ListingDetails']")?.getAttribute("href") ?? "";
           const image = listing.querySelector(".img-container img")?.getAttribute("src") ?? "";
-          const title = (listing.querySelector("h2.title")?.textContent ?? "").replace(/\s+/g, " ").trim();
-          const seller = (listing.querySelector(".seller a")?.textContent ?? "").replace(/\s+/g, " ").trim();
-          const currentPrice = (listing.querySelector(".awe-rt-CurrentPrice .NumberPart")?.textContent ?? "").replace(/\s+/g, " ").trim();
-          const quickBidPrice = (listing.querySelector(".awe-rt-MinimumBid .NumberPart")?.textContent ?? "").replace(/\s+/g, " ").trim();
+          const title = textOf(listing.querySelector("h2.title"));
+          const seller = textOf(listing.querySelector(".seller a"));
+          const quickBidPrice = textOf(listing.querySelector(".awe-rt-MinimumBid .NumberPart"));
+          const currentPrice = textOf(listing.querySelector(".awe-rt-CurrentPrice .NumberPart"));
+          const fallbackPrice = text.match(/(?:Quick Bid|Sold)?\s*\$?\s*([\d,]+(?:\.\d{1,2})?)/i)?.[1] ?? "";
           const listingId = listing.getAttribute("data-listingid") ?? undefined;
 
           return {
             sourceListingId: listingId,
             url: detailLink,
             title,
-            priceText: currentPrice || quickBidPrice,
+            priceText: quickBidPrice || currentPrice || fallbackPrice,
             imageUrl: image,
             seller,
             rawText: text,

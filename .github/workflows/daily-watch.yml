@@ -2,14 +2,25 @@ name: Daily market watch
 
 on:
   schedule:
-    # 20:17 UTC is 08:17 NZST; adjust this manually when NZ daylight saving changes.
+    # 20:17 UTC is 08:17 NZST (adjust manually during NZDT)
     - cron: "17 20 * * *"
   workflow_dispatch:
     inputs:
-      search_id:
-        description: "Optional search ID to run"
-        required: false
-        type: string
+      search_scope:
+        description: "Search scope to run"
+        required: true
+        type: choice
+        default: "all"
+        options:
+          - "all"
+          - "cc-lg-65-broad"
+          - "cc-lg-77-broad"
+          - "cc-lg-oled-broad"
+          - "cc-lg-g6"
+          - "cc-lg-e6"
+          - "cc-lg-c6"
+          - "cc-lg-3d"
+          - "cc-lg-ef950"
 
 permissions:
   contents: write
@@ -21,7 +32,7 @@ concurrency:
 jobs:
   watch:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
 
     steps:
       - name: Check out repository
@@ -40,8 +51,8 @@ jobs:
 
       - name: Run watcher
         run: |
-          if [ -n "${{ inputs.search_id }}" ]; then
-            npm run watch -- --search "${{ inputs.search_id }}"
+          if [ "${{ inputs.search_scope }}" != "all" ] && [ -n "${{ inputs.search_scope }}" ]; then
+            npm run watch -- --search "${{ inputs.search_scope }}"
           else
             npm run watch
           fi

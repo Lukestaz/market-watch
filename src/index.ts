@@ -1,7 +1,8 @@
 import { mkdir } from "node:fs/promises";
 import { chromium } from "playwright";
 import { loadConfig } from "./config.js";
-import type { ListingEvent, SiteConfig } from "./models.js";
+import type { Listing, ListingEvent, SiteConfig } from "./models.js";
+import { highestPriority, mergeUnique } from "./matching.js";
 import { toListing } from "./normalise.js";
 import { applyListings, loadState, saveState } from "./state.js";
 import type { SiteAdapter } from "./sites/base.js";
@@ -21,6 +22,17 @@ function formatEvent(event: ListingEvent): string {
   const price = listing.price !== undefined ? `NZ$${listing.price.toFixed(2)}` : "price unavailable";
   const prior = event.previousPrice !== undefined ? ` (was NZ$${event.previousPrice.toFixed(2)})` : "";
   return `[${event.type}] [${listing.priority}] ${listing.title} | ${price}${prior} | ${listing.canonicalUrl}`;
+}
+
+function mergeListings(existing: Listing, incoming: Listing): Listing {
+  return {
+    ...existing,
+    ...incoming,
+    firstSeenAt: existing.firstSeenAt,
+    searchIds: mergeUnique(existing.searchIds, incoming.searchIds),
+    matchedRules: mergeUnique(existing.matchedRules, incoming.matchedRules),
+    priority: highestPriority(existing.priority, incoming.priority)
+  };
 }
 
 async function sleep(milliseconds: number): Promise<void> {
@@ -45,7 +57,7 @@ async function main(): Promise<void> {
   await mkdir("debug", { recursive: true });
   const state = await loadState();
   const browser = await chromium.launch({ headless: true });
-  const events: ListingEvent[] = [];
+  const collected = new Map<string, Listing>();
   const failedSearches: string[] = [];
   let lastSite = "";
 
@@ -74,9 +86,11 @@ async function main(): Promise<void> {
       }
 
       const timestamp = result.fetchedAt;
-      const listings = result.listings.map((raw) => toListing(result.siteId, search, raw, timestamp));
-      const minimumDrop = search.alert.minimumPriceDropNzd ?? 1;
-      events.push(...applyListings(state, listings, timestamp, minimumDrop));
+      for (const raw of result.listings) {
+        const listing = toListing(result.siteId, search, raw, timestamp);
+        const existing = collected.get(listing.key);
+        collected.set(listing.key, existing ? mergeListings(existing, listing) : listing);
+      }
       lastSite = search.site;
     }
   } finally {
@@ -90,10 +104,11 @@ async function main(): Promise<void> {
     return;
   }
 
+  const events = applyListings(state, [...collected.values()], new Date().toISOString());
   await saveState(state);
 
   const meaningful = events.filter((event) => event.type !== "seen");
-  console.log(`Completed ${searches.length} searches. ${meaningful.length} meaningful events.`);
+  console.log(`Completed ${searches.length} searches. ${collected.size} unique listings. ${meaningful.length} meaningful events.`);
   meaningful.forEach((event) => console.log(formatEvent(event)));
 }
 

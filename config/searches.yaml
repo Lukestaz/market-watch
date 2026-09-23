@@ -11,41 +11,137 @@ sites:
     minimumDelayMs: 5000
 
 searches:
-  - id: cc-lg-65-all
+  - id: cc-lg-65-broad
     enabled: true
     site: cashconverters
     type: listingSearch
-    label: Cash Converters LG 65 broad search
+    label: Cash Converters LG 65 broad
     url: https://shop.cashconverters.co.nz/Browse?FullTextQuery=lg%2065
     alert:
       onNew: true
       onPriceDrop: true
-      minimumPriceDropNzd: 1
+      minimumPriceDropNzd: 25
     priorityRules:
-      - label: LG 2016 OLED 3D candidate
+      - label: 2016 LG 3D OLED target
         priority: critical
-        regex: '(?i)\b(c6|e6|g6)\b|oled65(c6|e6|g6)|\b3d\b'
-      - label: LG OLED candidate
+        regex: '(?i)\b(g6|e6|c6)\b|\boled65(g6|e6|c6)[a-z0-9-]*\b|\b3d\b'
+      - label: 65 inch OLED candidate
         priority: high
-        regex: '(?i)\boled\b'
-      - label: LG 65 candidate
+        regex: '(?i)\boled\b.*\b65\b|\b65\b.*\boled\b'
+      - label: LG 65 broad candidate
         priority: normal
         regex: '(?i)\blg\b.*\b65\b|\b65\b.*\blg\b'
 
-  - id: cc-lg-oled-3d
+  - id: cc-lg-77-broad
     enabled: true
     site: cashconverters
     type: listingSearch
-    label: Cash Converters LG OLED and 3D search
+    label: Cash Converters LG 77 broad
+    url: https://shop.cashconverters.co.nz/Browse?FullTextQuery=lg%2077
+    alert:
+      onNew: true
+      onPriceDrop: true
+      minimumPriceDropNzd: 25
+    priorityRules:
+      - label: OLED77G6 holy grail
+        priority: critical
+        regex: '(?i)\boled77g6[a-z0-9-]*\b|\b77\b.*\b(g6|oled|3d)\b|\b(g6|oled|3d)\b.*\b77\b'
+      - label: 77 inch OLED candidate
+        priority: high
+        regex: '(?i)\boled\b.*\b77\b|\b77\b.*\boled\b'
+      - label: LG 77 broad candidate
+        priority: normal
+        regex: '(?i)\blg\b.*\b77\b|\b77\b.*\blg\b'
+
+  - id: cc-lg-oled-broad
+    enabled: true
+    site: cashconverters
+    type: listingSearch
+    label: Cash Converters LG OLED broad
     url: https://shop.cashconverters.co.nz/Browse?FullTextQuery=lg%20oled
+    alert:
+      onNew: true
+      onPriceDrop: true
+      minimumPriceDropNzd: 25
+    priorityRules:
+      - label: 2016 LG 3D OLED target
+        priority: critical
+        regex: '(?i)\b(g6|e6|c6)\b|\boled(?:65|77)(g6|e6|c6)[a-z0-9-]*\b|\b3d\b'
+      - label: OLED candidate
+        priority: high
+        regex: '(?i)\boled\b'
+
+  - id: cc-lg-g6
+    enabled: true
+    site: cashconverters
+    type: listingSearch
+    label: Cash Converters LG G6
+    url: https://shop.cashconverters.co.nz/Browse?FullTextQuery=lg%20g6
     alert:
       onNew: true
       onPriceDrop: true
       minimumPriceDropNzd: 1
     priorityRules:
-      - label: LG 2016 OLED 3D candidate
+      - label: LG G6 target
         priority: critical
-        regex: '(?i)\b(c6|e6|g6)\b|oled65(c6|e6|g6)|\b3d\b'
-      - label: LG OLED candidate
+        regex: '(?i)\b(g6|oled77g6|oled65g6)\b'
+
+  - id: cc-lg-e6
+    enabled: true
+    site: cashconverters
+    type: listingSearch
+    label: Cash Converters LG E6
+    url: https://shop.cashconverters.co.nz/Browse?FullTextQuery=lg%20e6
+    alert:
+      onNew: true
+      onPriceDrop: true
+      minimumPriceDropNzd: 1
+    priorityRules:
+      - label: LG E6 target
+        priority: critical
+        regex: '(?i)\b(e6|oled65e6)\b'
+
+  - id: cc-lg-c6
+    enabled: true
+    site: cashconverters
+    type: listingSearch
+    label: Cash Converters LG C6
+    url: https://shop.cashconverters.co.nz/Browse?FullTextQuery=lg%20c6
+    alert:
+      onNew: true
+      onPriceDrop: true
+      minimumPriceDropNzd: 1
+    priorityRules:
+      - label: LG C6 target
+        priority: critical
+        regex: '(?i)\b(c6|oled65c6)\b'
+
+  - id: cc-lg-3d
+    enabled: true
+    site: cashconverters
+    type: listingSearch
+    label: Cash Converters LG 3D
+    url: https://shop.cashconverters.co.nz/Browse?FullTextQuery=lg%203d
+    alert:
+      onNew: true
+      onPriceDrop: true
+      minimumPriceDropNzd: 1
+    priorityRules:
+      - label: LG 3D candidate
+        priority: critical
+        regex: '(?i)\b3d\b|\b(g6|e6|c6)\b'
+
+  - id: cc-lg-ef950
+    enabled: true
+    site: cashconverters
+    type: listingSearch
+    label: Cash Converters LG EF950
+    url: https://shop.cashconverters.co.nz/Browse?FullTextQuery=lg%20ef950
+    alert:
+      onNew: true
+      onPriceDrop: true
+      minimumPriceDropNzd: 1
+    priorityRules:
+      - label: LG EF950 3D OLED fallback
         priority: high
-        regex: '(?i)\boled\b'
+        regex: '(?i)\bef950(?:t)?\b|\bef\s*950\b'
