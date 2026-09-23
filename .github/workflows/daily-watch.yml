@@ -2,8 +2,9 @@ name: Daily market watch
 
 on:
   schedule:
-    # 20:17 UTC is 08:17 NZST (adjust manually during NZDT)
-    - cron: "17 20 * * *"
+    # 23:15 UTC is 11:15 AM NZST (mid-morning additions)
+    # 06:15 UTC is 06:15 PM NZST (afternoon/close-of-day additions)
+    - cron: "15 23,6 * * *"
   workflow_dispatch:
     inputs:
       search_scope:
