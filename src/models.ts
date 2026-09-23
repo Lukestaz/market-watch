@@ -73,7 +73,7 @@ export interface Listing {
 }
 
 export interface WatchState {
-  version: number;
+  version?: number;
   updatedAt: string;
   listings: Record<string, Listing>;
 }

@@ -52,7 +52,8 @@ async function main(): Promise<void> {
     if (!search.enabled) return false;
     if (onlySite && search.site !== onlySite) return false;
     if (onlySearch && search.id !== onlySearch) return false;
-    return config.sites[search.site]?.enabled;
+    const siteConfig = config.sites?.[search.site];
+    return siteConfig ? siteConfig.enabled : false;
   });
 
   if (!searches.length) {
@@ -68,7 +69,7 @@ async function main(): Promise<void> {
 
   try {
     for (const search of searches) {
-      const site: SiteConfig | undefined = config.sites[search.site];
+      const site: SiteConfig | undefined = config.sites?.[search.site];
       const adapter = adapters[site?.adapter ?? ""];
 
       if (!site || !adapter) {
