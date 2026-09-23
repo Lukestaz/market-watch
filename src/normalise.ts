@@ -1,5 +1,5 @@
 import type { Listing, RawListing, SearchConfig } from "./models.js";
-import { evaluateRules } from "./matching.js";
+import { matchRules } from "./matching.js";
 
 export function parsePrice(raw: string | undefined): number | undefined {
   if (!raw) return undefined;
@@ -31,11 +31,7 @@ export function toListing(
   timestamp: string
 ): Listing {
   const canonicalUrl = canonicaliseUrl(raw.url);
-  const evaluation = evaluateRules(search, {
-    title: raw.title,
-    rawText: raw.rawText,
-    price: raw.price
-  });
+  const evaluation = matchRules(raw, search.rules);
 
   return {
     key: `${siteId}:${raw.id}`,

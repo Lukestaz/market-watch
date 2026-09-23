@@ -24,6 +24,10 @@ on:
           - "cc-lg-ef950"
           - "cc-ego-56v"
           - "cc-ego-power"
+          - "dd-lg-65"
+          - "dd-lg-oled"
+          - "dd-ego-56v"
+          - "dd-ego-power"
 
 permissions:
   contents: write
@@ -48,6 +52,9 @@ jobs:
 
       - name: Install packages
         run: npm install
+
+      - name: Typecheck
+        run: npm test
 
       - name: Install Chromium
         run: npx playwright install --with-deps chromium
