@@ -1,4 +1,4 @@
-export type Priority = "critical" | "high" | "normal";
+export type Priority = "critical" | "high" | "normal" | "ignore";
 
 export interface SearchRule {
   id: string;
@@ -31,11 +31,13 @@ export interface DefaultsConfig {
   minimumDelayBetweenSearchesMs: number;
 }
 
-export interface AppConfig {
+export interface WatchConfig {
   defaults: DefaultsConfig;
   sites: Record<string, SiteConfig>;
   searches: SearchConfig[];
 }
+
+export type AppConfig = WatchConfig;
 
 export interface RawListing {
   id: string;
@@ -70,12 +72,19 @@ export interface Listing {
   lastSeenAt: string;
 }
 
-export type ListingEventType = "new" | "price_drop" | "seen";
+export interface WatchState {
+  version: number;
+  updatedAt: string;
+  listings: Record<string, Listing>;
+}
+
+export type ListingEventType = "new" | "price_drop" | "seen" | "price_change";
 
 export interface ListingEvent {
   type: ListingEventType;
   listing: Listing;
   previousPrice?: number;
+  timestamp?: string;
 }
 
 export interface ScrapeDiagnostics {

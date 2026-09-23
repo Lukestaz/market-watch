@@ -1,12 +1,12 @@
 import type { Browser } from "playwright";
 import type { ScrapeResult, SearchConfig } from "../models.js";
 
-export interface ScrapeContext {
+export interface SiteAdapterContext {
   browser: Browser;
-  debugDirectory: string;
+  debugDirectory?: string;
 }
 
 export interface SiteAdapter {
   readonly siteId: string;
-  scrape(search: SearchConfig, context: ScrapeContext): Promise<ScrapeResult>;
+  scrape(search: SearchConfig, context: SiteAdapterContext): Promise<ScrapeResult>;
 }

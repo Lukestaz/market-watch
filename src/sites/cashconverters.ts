@@ -1,6 +1,5 @@
 import { writeFile } from "node:fs/promises";
 import path from "node:path";
-import type { Page } from "playwright";
 import type { RawListing, ScrapeResult, SearchConfig } from "../models.js";
 import { parsePrice } from "../normalise.js";
 import type { SiteAdapter, SiteAdapterContext } from "./base.js";
@@ -12,6 +11,8 @@ function sleep(ms: number): Promise<void> {
 }
 
 export class CashConvertersAdapter implements SiteAdapter {
+  readonly siteId = "cashconverters";
+
   async scrape(search: SearchConfig, context: SiteAdapterContext): Promise<ScrapeResult> {
     const fetchedAt = new Date().toISOString();
     const page = await context.browser.newPage({
@@ -25,7 +26,7 @@ export class CashConvertersAdapter implements SiteAdapter {
 
       if (!response || response.status() >= 400) {
         return {
-          siteId: "cashconverters",
+          siteId: this.siteId,
           fetchedAt,
           diagnostics: {
             resultCount: 0,
@@ -50,7 +51,7 @@ export class CashConvertersAdapter implements SiteAdapter {
         // Proceed with snapshot parsing if timeout triggers
       }
 
-      const rawListings = await page.evaluate((baseUrl) => {
+      const rawListings = await page.evaluate((baseUrl: string) => {
         const anchors = Array.from(document.querySelectorAll("a[href]")) as HTMLAnchorElement[];
         const candidateAnchors = anchors.filter((anchor) => {
           const href = anchor.getAttribute("href") || "";
@@ -123,7 +124,7 @@ export class CashConvertersAdapter implements SiteAdapter {
         return Array.from(deduped.values());
       }, BASE_URL);
 
-      const parsedListings: RawListing[] = rawListings.map((raw) => ({
+      const parsedListings: RawListing[] = rawListings.map((raw: (typeof rawListings)[0]) => ({
         ...raw,
         price: parsePrice(raw.priceText)
       }));
@@ -206,7 +207,7 @@ export class CashConvertersAdapter implements SiteAdapter {
       }
 
       return {
-        siteId: "cashconverters",
+        siteId: this.siteId,
         fetchedAt,
         diagnostics: {
           resultCount: parsedListings.length,
@@ -216,7 +217,7 @@ export class CashConvertersAdapter implements SiteAdapter {
       };
     } catch (error: any) {
       return {
-        siteId: "cashconverters",
+        siteId: this.siteId,
         fetchedAt,
         diagnostics: {
           resultCount: 0,

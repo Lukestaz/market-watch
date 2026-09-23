@@ -1,7 +1,7 @@
 import { mkdir } from "node:fs/promises";
 import { chromium } from "playwright";
 import { loadConfig } from "./config.js";
-import type { Listing, ListingEvent, SiteConfig } from "./models.js";
+import type { Listing, ListingEvent, SearchConfig, SiteConfig } from "./models.js";
 import { highestPriority, mergeUnique } from "./matching.js";
 import { toListing } from "./normalise.js";
 import { applyListings, loadState, saveState } from "./state.js";
@@ -48,7 +48,7 @@ async function main(): Promise<void> {
   const config = await loadConfig();
   const onlySite = argumentValue("--site");
   const onlySearch = argumentValue("--search");
-  const searches = config.searches.filter((search) => {
+  const searches = config.searches.filter((search: SearchConfig) => {
     if (!search.enabled) return false;
     if (onlySite && search.site !== onlySite) return false;
     if (onlySearch && search.id !== onlySearch) return false;

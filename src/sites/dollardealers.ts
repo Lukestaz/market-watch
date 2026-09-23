@@ -6,7 +6,18 @@ function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+interface RawProductCard {
+  id: string;
+  title: string;
+  url: string;
+  priceText: string;
+  seller: string;
+  imageUrl: string;
+}
+
 export class DollarDealersAdapter implements SiteAdapter {
+  readonly siteId = "dollardealers";
+
   async scrape(search: SearchConfig, context: SiteAdapterContext): Promise<ScrapeResult> {
     const fetchedAt = new Date().toISOString();
     const page = await context.browser.newPage({
@@ -20,7 +31,7 @@ export class DollarDealersAdapter implements SiteAdapter {
 
       if (!response || response.status() >= 400) {
         return {
-          siteId: "dollardealers",
+          siteId: this.siteId,
           fetchedAt,
           diagnostics: { resultCount: 0, blocked: response?.status() === 403, error: `HTTP ${response?.status()}` },
           listings: []
@@ -30,15 +41,15 @@ export class DollarDealersAdapter implements SiteAdapter {
       await page.waitForTimeout(2000);
 
       // Extract products from WooCommerce listing grid
-      const rawCards = await page.$$eval("li.product, div.product-small, .products .product", (elements) => {
-        return elements.map((el) => {
+      const rawCards = await page.$$eval("li.product, div.product-small, .products .product", (elements: Element[]) => {
+        return elements.map((el: Element): RawProductCard => {
           const link = el.querySelector("a.woocommerce-LoopProduct-link") as HTMLAnchorElement | null;
           const title = el.querySelector(".woocommerce-loop-product__title, h2, h3")?.textContent?.trim() || "";
           const href = link?.href || "";
           const priceText = el.querySelector(".price")?.textContent?.trim() || "";
           const img = el.querySelector("img") as HTMLImageElement | null;
           const imageSrc = img?.getAttribute("src") || img?.getAttribute("data-src") || "";
-          const storeElem = el.querySelector(".store-name, .sold-by, .vendor-name") || Array.from(el.querySelectorAll("span, p")).find(p => p.textContent?.includes("DollarDealers"));
+          const storeElem = el.querySelector(".store-name, .sold-by, .vendor-name") || Array.from(el.querySelectorAll("span, p")).find((p: Element) => p.textContent?.includes("DollarDealers"));
           const seller = storeElem?.textContent?.trim() || "";
 
           let id = "";
@@ -56,8 +67,8 @@ export class DollarDealersAdapter implements SiteAdapter {
       });
 
       const initialListings: RawListing[] = rawCards
-        .filter((c) => c.title && c.url)
-        .map((c) => ({
+        .filter((c: RawProductCard) => c.title && c.url)
+        .map((c: RawProductCard) => ({
           id: c.id || c.url,
           title: c.title,
           url: c.url,
@@ -110,14 +121,14 @@ export class DollarDealersAdapter implements SiteAdapter {
       }
 
       return {
-        siteId: "dollardealers",
+        siteId: this.siteId,
         fetchedAt,
         diagnostics: { resultCount: initialListings.length, blocked: false },
         listings: initialListings
       };
     } catch (err: any) {
       return {
-        siteId: "dollardealers",
+        siteId: this.siteId,
         fetchedAt,
         diagnostics: { resultCount: 0, blocked: false, error: err.message },
         listings: []
