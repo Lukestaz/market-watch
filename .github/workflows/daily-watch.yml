@@ -49,6 +49,8 @@ on:
 permissions:
   contents: write
   issues: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: market-watch
@@ -73,7 +75,7 @@ jobs:
 
       - name: Typecheck
         run: |
-          mkdir -p data debug
+          mkdir -p data debug public
           npm test 2>&1 | tee data/latest-run.log
 
       - name: Install Chromium
@@ -99,6 +101,13 @@ jobs:
           git add data/state.json data/latest-run.log
           git diff --cached --quiet || git commit -m "Update state and run log [skip ci]"
           git push || echo "Git push skipped"
+
+      - name: Deploy Dashboard to GitHub Pages
+        if: success()
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
 
       - name: Report failure to GitHub Issues
         if: failure()

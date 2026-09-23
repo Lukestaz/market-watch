@@ -9,6 +9,7 @@ import type { SiteAdapter } from "./sites/base.js";
 import { CashConvertersAdapter } from "./sites/cashconverters.js";
 import { DollarDealersAdapter } from "./sites/dollardealers.js";
 import { sendEmailAlerts } from "./alerts.js";
+import { generateHtmlDashboard } from "./ui.js";
 
 const adapters: Record<string, SiteAdapter> = {
   cashconverters: new CashConvertersAdapter(),
@@ -112,6 +113,13 @@ async function main(): Promise<void> {
 
   const events = applyListings(state, [...collected.values()], new Date().toISOString());
   await saveState(state);
+
+  // Generate responsive HTML web dashboard for GitHub Pages
+  try {
+    await generateHtmlDashboard("data/state.json", "public");
+  } catch (err) {
+    console.error("Failed to generate HTML dashboard:", err);
+  }
 
   const meaningful = events.filter((event) => event.type !== "seen");
   console.log(`Completed ${searches.length} searches. ${collected.size} unique listings. ${meaningful.length} meaningful events.`);
