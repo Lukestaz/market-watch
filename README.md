@@ -37,6 +37,7 @@ A config-driven product watcher running on GitHub Actions. It monitors New Zeala
    - **Store Location:** Specific branch / pickup location.
 4. **State Persistence:** Normalises and deduplicates items into `data/state.json`, committed back into the repository to track first-seen dates, price drops, and rule matches.
 5. **Automated Alerts:** Dispatches HTML emails via Gmail SMTP for new listings and price drops with priority badges and direct links.
+6. **Continuous Run Logging & Self-Healing CI:** Every workflow execution streams output into `data/latest-run.log` and commits it to the repository. If a run fails, GitHub Actions creates a diagnostic issue with the last 80 lines of error logs for automated debugging without manual log retrieval.
 
 ---
 
@@ -82,11 +83,12 @@ GMAIL_USER="you@gmail.com" GMAIL_APP_PASSWORD="app-password" ALERT_TO_EMAIL="you
 
 ```
 ├── .github/workflows/
-│   └── daily-watch.yml       # Scheduled GitHub Actions runner & secrets injector
+│   └── daily-watch.yml       # Scheduled runner, secrets injector, log commit & issue reporting
 ├── config/
 │   ├── sites.yaml            # Marketplace configurations and rate limits
 │   └── searches.yaml         # Keyword rules, priorities, and paths
 ├── data/
+│   ├── latest-run.log        # Automated execution log committed by CI runner
 │   └── state.json            # Tracked listings, price history, and timestamps
 ├── src/
 │   ├── sites/
