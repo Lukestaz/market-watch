@@ -1,4 +1,12 @@
 name: Daily market watch
+run-name: >-
+  ${{
+    github.event_name == 'workflow_dispatch'
+      && format('Market Watch [Manual: {0}] by @{1}', inputs.search_scope, github.actor)
+      || github.event_name == 'schedule'
+      && 'Market Watch [Scheduled NZST]'
+      || format('Market Watch [Push]: {0}', github.event.head_commit.message)
+  }}
 
 on:
   schedule:
