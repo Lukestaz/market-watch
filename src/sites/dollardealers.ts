@@ -26,6 +26,11 @@ export class DollarDealersAdapter implements SiteAdapter {
     });
 
     try {
+      // Ensure __name helper is polyfilled in browser context
+      await page.addInitScript(() => {
+        (window as any).__name = (func: any) => func;
+      });
+
       const url = `https://dollardealers.co.nz${search.path}`;
       const response = await page.goto(url, { waitUntil: "domcontentloaded", timeout: 45000 });
 
@@ -49,7 +54,7 @@ export class DollarDealersAdapter implements SiteAdapter {
           const priceText = el.querySelector(".price")?.textContent?.trim() || "";
           const img = el.querySelector("img") as HTMLImageElement | null;
           const imageSrc = img?.getAttribute("src") || img?.getAttribute("data-src") || "";
-          const storeElem = el.querySelector(".store-name, .sold-by, .vendor-name") || Array.from(el.querySelectorAll("span, p")).find((p: Element) => p.textContent?.includes("DollarDealers"));
+          const storeElem = el.querySelector(".store-name, .sold-by, .vendor-name") || Array.from(el.querySelectorAll("span, p")).find((p: Element) => (p.textContent || "").includes("DollarDealers"));
           const seller = storeElem?.textContent?.trim() || "";
 
           let id = "";

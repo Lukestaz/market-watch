@@ -21,6 +21,11 @@ export class CashConvertersAdapter implements SiteAdapter {
     });
 
     try {
+      // Ensure __name helper is polyfilled in browser context if tsx/esbuild injects named function wrappers
+      await page.addInitScript(() => {
+        (window as any).__name = (func: any) => func;
+      });
+
       const targetUrl = new URL(search.path, DEFAULT_BASE_URL).toString();
       const response = await page.goto(targetUrl, { waitUntil: "domcontentloaded", timeout: 45000 });
 
@@ -63,10 +68,6 @@ export class CashConvertersAdapter implements SiteAdapter {
           );
         });
 
-        function cleanText(text: string | null | undefined): string {
-          return (text || "").replace(/\s+/g, " ").trim();
-        }
-
         const listings: Array<{
           id: string;
           title: string;
@@ -82,9 +83,9 @@ export class CashConvertersAdapter implements SiteAdapter {
           if (!href) continue;
 
           const card = anchor.closest("article, li, [class*='card'], [class*='item'], div") || anchor;
-          const cardText = cleanText(card.textContent);
+          const cardText = (card.textContent || "").replace(/\s+/g, " ").trim();
           const titleElement = card.querySelector("h1, h2, h3, h4, [class*='title'], [class*='name']");
-          const title = cleanText(titleElement?.textContent) || cleanText(anchor.textContent);
+          const title = (titleElement?.textContent || anchor.textContent || "").replace(/\s+/g, " ").trim();
 
           if (!title || title.length < 5) continue;
           if (title.toLowerCase().includes("view all") || title.toLowerCase().includes("browse")) continue;
@@ -98,7 +99,7 @@ export class CashConvertersAdapter implements SiteAdapter {
           const locationElement = card.querySelector(
             "[class*='store'], [class*='location'], [class*='seller'], [class*='branch']"
           );
-          const seller = cleanText(locationElement?.textContent);
+          const seller = (locationElement?.textContent || "").replace(/\s+/g, " ").trim();
 
           const absoluteUrl = new URL(href, baseUrl).toString();
           const idCandidate = href.split("?")[0].replace(/\/+$/, "").split("/").pop() || absoluteUrl;
