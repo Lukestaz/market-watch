@@ -4,7 +4,7 @@ import type { RawListing, ScrapeResult, SearchConfig } from "../models.js";
 import { parsePrice } from "../normalise.js";
 import type { SiteAdapter, SiteAdapterContext } from "./base.js";
 
-const BASE_URL = "https://www.cashconverters.co.nz";
+const DEFAULT_BASE_URL = "https://shop.cashconverters.co.nz";
 
 function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
@@ -21,7 +21,7 @@ export class CashConvertersAdapter implements SiteAdapter {
     });
 
     try {
-      const targetUrl = new URL(search.path, BASE_URL).toString();
+      const targetUrl = new URL(search.path, DEFAULT_BASE_URL).toString();
       const response = await page.goto(targetUrl, { waitUntil: "domcontentloaded", timeout: 45000 });
 
       if (!response || response.status() >= 400) {
@@ -38,9 +38,9 @@ export class CashConvertersAdapter implements SiteAdapter {
       }
 
       const listingGridSelector = [
-        "a[href*='/shop/']",
+        "a[href*='/Listing/Details/']",
         "a[href*='/product/']",
-        "[data-testid*='product']",
+        "a[href*='/shop/']",
         ".product-item",
         ".product-card"
       ].join(", ");
@@ -56,10 +56,10 @@ export class CashConvertersAdapter implements SiteAdapter {
         const candidateAnchors = anchors.filter((anchor) => {
           const href = anchor.getAttribute("href") || "";
           return (
+            href.includes("/Listing/Details/") ||
             href.includes("/shop/") ||
             href.includes("/product/") ||
-            href.includes("/item/") ||
-            href.includes("/buy/")
+            href.includes("/item/")
           );
         });
 
@@ -122,7 +122,7 @@ export class CashConvertersAdapter implements SiteAdapter {
         }
 
         return Array.from(deduped.values());
-      }, BASE_URL);
+      }, DEFAULT_BASE_URL);
 
       const parsedListings: RawListing[] = rawListings.map((raw: (typeof rawListings)[0]) => ({
         ...raw,

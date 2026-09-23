@@ -5,7 +5,7 @@ searches:
   - id: cc-lg-65-broad
     site: cashconverters
     label: "Cash Converters - LG 65\" Broad"
-    path: "/shop?query=LG+65"
+    path: "/Search?SearchQuery=LG+65"
     enabled: true
     rules:
       - id: rule-critical-65g6
@@ -32,7 +32,7 @@ searches:
   - id: cc-lg-77-broad
     site: cashconverters
     label: "Cash Converters - LG 77\" Broad"
-    path: "/shop?query=LG+77"
+    path: "/Search?SearchQuery=LG+77"
     enabled: true
     rules:
       - id: rule-critical-77g6
@@ -47,7 +47,7 @@ searches:
   - id: cc-lg-oled-broad
     site: cashconverters
     label: "Cash Converters - LG OLED Broad"
-    path: "/shop?query=LG+OLED"
+    path: "/Search?SearchQuery=LG+OLED"
     enabled: true
     rules:
       - id: rule-critical-oled-g6
@@ -70,7 +70,7 @@ searches:
   - id: cc-lg-g6
     site: cashconverters
     label: "Cash Converters - LG G6 Direct"
-    path: "/shop?query=LG+G6"
+    path: "/Search?SearchQuery=LG+G6"
     enabled: true
     rules:
       - id: rule-critical-direct-g6
@@ -81,7 +81,7 @@ searches:
   - id: cc-lg-e6
     site: cashconverters
     label: "Cash Converters - LG E6 Direct"
-    path: "/shop?query=LG+E6"
+    path: "/Search?SearchQuery=LG+E6"
     enabled: true
     rules:
       - id: rule-critical-direct-e6
@@ -92,7 +92,7 @@ searches:
   - id: cc-lg-c6
     site: cashconverters
     label: "Cash Converters - LG C6 Direct"
-    path: "/shop?query=LG+C6"
+    path: "/Search?SearchQuery=LG+C6"
     enabled: true
     rules:
       - id: rule-critical-direct-c6
@@ -103,7 +103,7 @@ searches:
   - id: cc-lg-3d
     site: cashconverters
     label: "Cash Converters - LG 3D Direct"
-    path: "/shop?query=LG+3D"
+    path: "/Search?SearchQuery=LG+3D"
     enabled: true
     rules:
       - id: rule-critical-direct-3d
@@ -114,7 +114,7 @@ searches:
   - id: cc-lg-ef950
     site: cashconverters
     label: "Cash Converters - LG EF950 Direct"
-    path: "/shop?query=EF950"
+    path: "/Search?SearchQuery=EF950"
     enabled: true
     rules:
       - id: rule-high-direct-ef950
@@ -128,7 +128,7 @@ searches:
   - id: cc-ego-56v
     site: cashconverters
     label: "Cash Converters - EGO 56V Broad"
-    path: "/shop?query=EGO+56V"
+    path: "/Search?SearchQuery=EGO+56V"
     enabled: true
     rules:
       - id: rule-high-ego-multitool
@@ -155,7 +155,7 @@ searches:
   - id: cc-ego-power
     site: cashconverters
     label: "Cash Converters - EGO Power+ Broad"
-    path: "/shop?query=EGO+Power"
+    path: "/Search?SearchQuery=EGO+Power"
     enabled: true
     rules:
       - id: rule-high-ego-power-tool
