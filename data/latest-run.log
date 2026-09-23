@@ -1,0 +1,17 @@
+
+> market-watch@0.1.0 test
+> npm run check
+
+
+> market-watch@0.1.0 check
+> tsc --noEmit
+
+src/state.ts(6,7): error TS2741: Property 'version' is missing in type '{ listings: {}; updatedAt: string; }' but required in type 'WatchState'.
+
+> market-watch@0.1.0 watch
+> tsx src/index.ts
+
+TypeError: Cannot read properties of undefined (reading 'cashconverters')
+    at <anonymous> (/home/runner/work/market-watch/market-watch/src/index.ts:55:19)
+    at Array.filter (<anonymous>)
+    at main (/home/runner/work/market-watch/market-watch/src/index.ts:51:36)
