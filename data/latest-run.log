@@ -11,17 +11,53 @@
 > tsx src/index.ts
 
 Running src-a-display-65: Source A - Displays 65" / OLED
-  100 listings; blocked=false
+  50 listings; blocked=false
 Running src-a-power-tools: Source A - Cordless Power Equipment
-  100 listings; blocked=false
+  50 listings; blocked=false
 Running src-a-tough-cameras: Source A - Tough Cameras (TG-6 / TG-7)
-  100 listings; blocked=false
+  50 listings; blocked=false
 Running src-b-display-65: Source B - Displays 65" / OLED
   64 listings; blocked=false
 Running src-b-power-tools: Source B - Cordless Power Equipment
   4 listings; blocked=false
 Running src-b-tough-cameras: Source B - Tough Cameras (TG-6 / TG-7)
   64 listings; blocked=false
-Successfully generated web dashboard at public/index.html with 233 listings.
-Completed 6 searches. 232 unique listings. 1 meaningful events.
-[new] [ignore] 14CT ROSE GOLD 2 PIECE DIAMOND RING SET | price unavailable | https://shop.cashconverters.co.nz/Listing/Details/163686673/14CT-ROSE-GOLD-2-PIECE-DIAMOND-RING-SET
+Successfully generated web dashboard at public/index.html with 266 listings.
+Completed 6 searches. 182 unique listings. 35 meaningful events.
+[new] [normal] Lorus Watch Childrens Analogue Watch RRX47GX9 | price unavailable | https://shop.cashconverters.co.nz/Listing/Details/163691979/Lorus-Watch-Childrens-Analogue-Watch-RRX47GX9
+[new] [normal] Olympic Watch E107 | price unavailable | https://shop.cashconverters.co.nz/Listing/Details/163692042/Olympic-Watch-E107
+[new] [normal] Makita Multi Tool (Corded) 320W TM3000C | price unavailable | https://shop.cashconverters.co.nz/Listing/Details/164256289/Makita-Multi-Tool-Corded-320W-TM3000C
+[new] [normal] Rapala Pro Series Ps4 Game | price unavailable | https://shop.cashconverters.co.nz/Listing/Details/166319682/Rapala-Pro-Series-Ps4-Game
+[new] [normal] Singstar Ps2 Game Abba | price unavailable | https://shop.cashconverters.co.nz/Listing/Details/166406815/Singstar-Ps2-Game-Abba
+[new] [normal] Casio Watch Gshock GA900SKL | price unavailable | https://shop.cashconverters.co.nz/Listing/Details/167321266/Casio-Watch-Gshock-GA900SKL
+[new] [normal] Operation Wolf Sega Game | price unavailable | https://shop.cashconverters.co.nz/Listing/Details/167367733/Operation-Wolf-Sega-Game
+[new] [normal] Tennis Ace Sega Game | price unavailable | https://shop.cashconverters.co.nz/Listing/Details/167370042/Tennis-Ace-Sega-Game
+[new] [normal] Ayrton Sennas Sega Game (No Case) SUPER MONACO GP2 | price unavailable | https://shop.cashconverters.co.nz/Listing/Details/167373774/Ayrton-Sennas-Sega-Game-No-Case-SUPER-MONACO-GP2
+[new] [normal] California Games Sega Game (No Case) | price unavailable | https://shop.cashconverters.co.nz/Listing/Details/167373818/California-Games-Sega-Game-No-Case
+[new] [normal] Hints N Tips Sega Game (No Case) Mortal Kombat | price unavailable | https://shop.cashconverters.co.nz/Listing/Details/167375149/Hints-N-Tips-Sega-Game-No-Case-Mortal-Kombat
+[new] [normal] Renegade Sega Game | price unavailable | https://shop.cashconverters.co.nz/Listing/Details/167375420/Renegade-Sega-Game
+[new] [normal] Bio Shock Infinite Xbox 360 Game | price unavailable | https://shop.cashconverters.co.nz/Listing/Details/167376094/Bio-Shock-Infinite-Xbox-360-Game
+[new] [normal] Ps3 Game BATTLEFIELD 3 | price unavailable | https://shop.cashconverters.co.nz/Listing/Details/167857553/Ps3-Game-BATTLEFIELD-3
+[new] [normal] Dead Island Goty Edition Ps3 Game | price unavailable | https://shop.cashconverters.co.nz/Listing/Details/167857597/Dead-Island-Goty-Edition-Ps3-Game
+[new] [normal] Ps3 Game Grand Theft Auto V | price unavailable | https://shop.cashconverters.co.nz/Listing/Details/167857716/Ps3-Game-Grand-Theft-Auto-V
+[new] [normal] Battlefield Bad Company 2 Ps3 Game | price unavailable | https://shop.cashconverters.co.nz/Listing/Details/167858253/Battlefield-Bad-Company-2-Ps3-Game
+[new] [normal] Psp Game Tom Clancys Ghost Recon Predator | price unavailable | https://shop.cashconverters.co.nz/Listing/Details/167905281/Psp-Game-Tom-Clancys-Ghost-Recon-Predator
+[new] [normal] Microsoft Xbox One Game FIFA 18 | price unavailable | https://shop.cashconverters.co.nz/Listing/Details/167905905/Microsoft-Xbox-One-Game-FIFA-18
+[new] [normal] Samsung Mobile Phone GALAXY A51 SMA515F | price unavailable | https://shop.cashconverters.co.nz/Listing/Details/168188709/Samsung-Mobile-Phone-GALAXY-A51-SMA515F
+[new] [normal] Lorus Watch Ladies Daywear Watch RG285UX9 | price unavailable | https://shop.cashconverters.co.nz/Listing/Details/168351281/Lorus-Watch-Ladies-Daywear-Watch-RG285UX9
+[new] [normal] Lorus Watch Ladies Silver Tone Watch RRX19JX9 | price unavailable | https://shop.cashconverters.co.nz/Listing/Details/168351301/Lorus-Watch-Ladies-Silver-Tone-Watch-RRX19JX9
+[new] [normal] Ice Watch | price unavailable | https://shop.cashconverters.co.nz/Listing/Details/168351402/Ice-Watch
+[new] [normal] Sekonda Watch 2367 | price unavailable | https://shop.cashconverters.co.nz/Listing/Details/168351442/Sekonda-Watch-2367
+[new] [normal] Olympic Watch Small Dial Leather Strap | price unavailable | https://shop.cashconverters.co.nz/Listing/Details/168351503/Olympic-Watch-Small-Dial-Leather-Strap
+[new] [ignore] 10CT YELLOW GOLD DIAMOND RING | price unavailable | https://shop.cashconverters.co.nz/Listing/Details/168870631/10CT-YELLOW-GOLD-DIAMOND-RING
+[new] [ignore] 9CT YELLOW GOLD DIAMOND RING | price unavailable | https://shop.cashconverters.co.nz/Listing/Details/168870653/9CT-YELLOW-GOLD-DIAMOND-RING
+[new] [ignore] 18CT YELLOW GOLD PLAT DIAMOND RING | price unavailable | https://shop.cashconverters.co.nz/Listing/Details/168870674/18CT-YELLOW-GOLD-PLAT-DIAMOND-RING
+[new] [ignore] 9CT YELLOW GOLD DRESSD RING | price unavailable | https://shop.cashconverters.co.nz/Listing/Details/168870737/9CT-YELLOW-GOLD-DRESSD-RING
+[new] [normal] Waterpik Water Flosser | NZ$50.00 | https://dollardealers.co.nz/product/waterpik-water-flosser/
+[new] [normal] Waterpik Water Flosser | NZ$50.00 | https://dollardealers.co.nz/product/waterpik-water-flosser/
+[new] [normal] CASIO WATCH | NZ$60.00 | https://dollardealers.co.nz/product/casio-watch/
+[new] [normal] CASIO WATCH | NZ$60.00 | https://dollardealers.co.nz/product/casio-watch/
+[price_drop] [normal] GSHOCK WATCH 5553 GM-110G | NZ$179.00 (was NZ$199.00) | https://dollardealers.co.nz/product/gshock-watch-5553-gm-110g/
+[price_drop] [normal] GSHOCK WATCH 5553 GM-110G | NZ$179.00 (was NZ$199.00) | https://dollardealers.co.nz/product/gshock-watch-5553-gm-110g/
+Sending email alert for 31 event(s) to lucas.stone+marketwatch@gmail.com...
+Email alert sent successfully.
