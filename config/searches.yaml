@@ -12,22 +12,22 @@ searches:
         label: "Ref G6 3D OLED"
         priority: critical
         includeKeywords: ["lg", "g6"]
-        excludeKeywords: ["phone", "smartphone", "thinq"]
+        excludeKeywords: ["phone", "smartphone", "thinq", "washing machine", "washer", "dryer", "refrigerator", "fridge"]
       - id: rule-a-critical-e6
         label: "Ref E6 3D OLED"
         priority: critical
         includeKeywords: ["lg", "e6"]
-        excludeKeywords: ["phone", "smartphone"]
+        excludeKeywords: ["phone", "smartphone", "washing machine", "washer", "dryer"]
       - id: rule-a-critical-c6
         label: "Ref C6 3D OLED"
         priority: critical
         includeKeywords: ["lg", "c6"]
-        excludeKeywords: ["phone", "smartphone"]
+        excludeKeywords: ["phone", "smartphone", "washing machine", "washer", "dryer"]
       - id: rule-a-critical-3d
         label: "Ref 3D Display Panel"
         priority: critical
         includeKeywords: ["lg", "3d"]
-        excludeKeywords: ["glasses only", "phone", "monitor"]
+        excludeKeywords: ["glasses only", "phone", "monitor", "washing machine", "washer", "dryer", "samsung"]
       - id: rule-a-high-ef950
         label: "Ref EF950 3D OLED"
         priority: high
@@ -36,11 +36,12 @@ searches:
         label: "Ref 65\" OLED Panel"
         priority: high
         includeKeywords: ["lg", "oled", "65"]
+        excludeKeywords: ["phone", "smartphone", "samsung"]
       - id: rule-a-normal-65
         label: "Ref 65\" Display Generic"
         priority: normal
         includeKeywords: ["lg", "65"]
-        excludeKeywords: ["remote only", "stand only", "bracket"]
+        excludeKeywords: ["remote only", "stand only", "bracket", "washing machine", "washer", "dryer", "fridge", "phone", "samsung"]
 
   - id: src-a-power-tools
     site: cashconverters
@@ -52,7 +53,7 @@ searches:
         label: "Multi-Tool Modular Head"
         priority: high
         includeKeywords: ["ego", "multi"]
-        excludeKeywords: ["lego", "makita", "corded", "dewalt", "ryobi", "bosch", "fein"]
+        excludeKeywords: ["lego", "makita", "corded", "dewalt", "ryobi", "bosch", "fein", "fishing"]
       - id: rule-a-high-blower
         label: "High-CFM Blower"
         priority: high
@@ -72,7 +73,7 @@ searches:
         label: "Power Equipment Bare Tool"
         priority: high
         includeKeywords: ["ego", "power"]
-        excludeKeywords: ["lego", "makita", "dewalt", "ryobi", "bosch"]
+        excludeKeywords: ["lego", "makita", "dewalt", "ryobi", "bosch", "fishing"]
       - id: rule-a-normal-mower
         label: "Cordless Mower"
         priority: normal
@@ -99,12 +100,12 @@ searches:
         label: "OM System Tough Camera"
         priority: high
         includeKeywords: ["om system", "tough"]
-        excludeKeywords: ["case only", "housing only", "watch"]
+        excludeKeywords: ["case only", "housing only", "watch", "mirrorless", "e-m1", "e-m5", "e-m10", "om-1", "om-5"]
       - id: rule-a-high-tough-olympus
         label: "Olympus Tough Camera"
         priority: high
         includeKeywords: ["olympus", "tough"]
-        excludeKeywords: ["case only", "housing only", "tg-1", "tg-2", "tg-3", "tg-4", "tg-5", "watch"]
+        excludeKeywords: ["case only", "housing only", "tg-1", "tg-2", "tg-3", "tg-4", "tg-5", "watch", "mirrorless", "om-d", "e-m1", "e-m5", "e-m10", "pen"]
 
   # =============================================================
   # SOURCE CONNECTOR B
@@ -119,22 +120,22 @@ searches:
         label: "Ref G6 3D OLED"
         priority: critical
         includeKeywords: ["lg", "g6"]
-        excludeKeywords: ["phone", "smartphone", "thinq"]
+        excludeKeywords: ["phone", "smartphone", "thinq", "washing machine", "washer", "dryer", "refrigerator", "fridge"]
       - id: rule-b-critical-e6
         label: "Ref E6 3D OLED"
         priority: critical
         includeKeywords: ["lg", "e6"]
-        excludeKeywords: ["phone", "smartphone"]
+        excludeKeywords: ["phone", "smartphone", "washing machine", "washer", "dryer"]
       - id: rule-b-critical-c6
         label: "Ref C6 3D OLED"
         priority: critical
         includeKeywords: ["lg", "c6"]
-        excludeKeywords: ["phone", "smartphone"]
+        excludeKeywords: ["phone", "smartphone", "washing machine", "washer", "dryer"]
       - id: rule-b-critical-3d
         label: "Ref 3D Display Panel"
         priority: critical
         includeKeywords: ["lg", "3d"]
-        excludeKeywords: ["glasses only", "phone", "monitor"]
+        excludeKeywords: ["glasses only", "phone", "monitor", "washing machine", "washer", "dryer", "samsung"]
       - id: rule-b-high-ef950
         label: "Ref EF950 3D OLED"
         priority: high
@@ -143,11 +144,12 @@ searches:
         label: "Ref 65\" OLED Panel"
         priority: high
         includeKeywords: ["lg", "oled", "65"]
+        excludeKeywords: ["phone", "smartphone", "samsung"]
       - id: rule-b-normal-65
         label: "Ref 65\" Display Generic"
         priority: normal
         includeKeywords: ["lg", "65"]
-        excludeKeywords: ["remote only", "stand only", "bracket"]
+        excludeKeywords: ["remote only", "stand only", "bracket", "washing machine", "washer", "dryer", "fridge", "phone", "samsung"]
 
   - id: src-b-power-tools
     site: dollardealers
@@ -159,7 +161,7 @@ searches:
         label: "Multi-Tool Modular Head"
         priority: high
         includeKeywords: ["ego", "multi"]
-        excludeKeywords: ["lego", "makita", "corded", "dewalt", "ryobi", "bosch", "fein"]
+        excludeKeywords: ["lego", "makita", "corded", "dewalt", "ryobi", "bosch", "fein", "fishing"]
       - id: rule-b-high-blower
         label: "High-CFM Blower"
         priority: high
@@ -179,7 +181,7 @@ searches:
         label: "Power Equipment Bare Tool"
         priority: high
         includeKeywords: ["ego", "power"]
-        excludeKeywords: ["lego", "makita", "dewalt", "ryobi", "bosch"]
+        excludeKeywords: ["lego", "makita", "dewalt", "ryobi", "bosch", "fishing"]
       - id: rule-b-normal-mower
         label: "Cordless Mower"
         priority: normal
@@ -206,9 +208,9 @@ searches:
         label: "OM System Tough Camera"
         priority: high
         includeKeywords: ["om system", "tough"]
-        excludeKeywords: ["case only", "housing only", "watch"]
+        excludeKeywords: ["case only", "housing conclusive", "housing only", "watch", "mirrorless", "e-m1", "e-m5", "e-m10", "om-1", "om-5"]
       - id: rule-b-high-tough-olympus
         label: "Olympus Tough Camera"
         priority: high
         includeKeywords: ["olympus", "tough"]
-        excludeKeywords: ["case only", "housing only", "tg-1", "tg-2", "tg-3", "tg-4", "tg-5", "watch"]
+        excludeKeywords: ["case only", "housing only", "tg-1", "tg-2", "tg-3", "tg-4", "tg-5", "watch", "mirrorless", "om-d", "e-m1", "e-m5", "e-m10", "pen"]

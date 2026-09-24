@@ -22,6 +22,7 @@ function escapeRegex(text: string): string {
 
 // Universal negative terms across pawnbroker categories
 const GLOBAL_EXCLUDED_KEYWORDS = [
+  // Jewelry & precious metals
   "ring",
   "gold",
   "diamond",
@@ -53,13 +54,25 @@ const GLOBAL_EXCLUDED_KEYWORDS = [
   "cufflink",
   "cufflinks",
   "brooch",
-  // Watches & horology (prevent 'watch' or 'lorus' collisions)
+  // Watches & horology
   "watch",
   "watches",
   "wrist watch",
   "wrist-watch",
   "analogue watch",
-  "chronograph"
+  "chronograph",
+  // Large white goods / appliances (Issue #7)
+  "washing machine",
+  "washer",
+  "dryer",
+  "refrigerator",
+  "fridge",
+  "freezer",
+  "dishwasher",
+  "microwave",
+  // Generic hobbies / non-target categories (Issue #4)
+  "magnet fishing",
+  "fishing magnet"
 ];
 
 /**
@@ -69,7 +82,7 @@ export function wordBoundaryMatch(corpus: string, keyword: string): boolean {
   const clean = keyword.trim().toLowerCase();
   if (!clean) return false;
 
-  // Handle specific screen size notations
+  // Handle specific screen size notations (prevent matching '650w', '65w', etc.)
   if (clean === "65") {
     const rx = /(?:^|[^a-zA-Z0-9])(?:65["”']?|65\s*(?:inch|in|-inch)|oled65|65oled)(?:[^a-zA-Z0-9]|$)/i;
     return rx.test(corpus);
@@ -89,6 +102,12 @@ export function wordBoundaryMatch(corpus: string, keyword: string): boolean {
     return rx.test(corpus);
   }
 
+  // Exact 3D display feature notation (prevent matching 320w, 3d puzzle, etc.)
+  if (clean === "3d") {
+    const rx = /(?:^|[^a-zA-Z0-9])(?:3d|3-d)(?:[^a-zA-Z0-9]|$)/i;
+    return rx.test(corpus);
+  }
+
   const escaped = escapeRegex(clean);
   const regex = new RegExp(`(?:^|[^a-zA-Z0-9])${escaped}(?:[^a-zA-Z0-9]|$)`, "i");
   return regex.test(corpus);
@@ -100,7 +119,7 @@ export function matchRules(raw: RawListing, rules: SearchRule[]): MatchResult {
 
   const searchSubject = `${raw.title} ${raw.modelNumber || ""} ${raw.rawText || ""}`.toLowerCase();
 
-  // 1. Check global exclusions (purge jewelry & watches)
+  // 1. Check global exclusions (purge jewelry, watches, white goods, magnet fishing)
   const isExcluded = GLOBAL_EXCLUDED_KEYWORDS.some((kw) => wordBoundaryMatch(searchSubject, kw));
   if (isExcluded) {
     return { priority: "ignore", matchedRules: [] };
