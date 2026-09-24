@@ -1,4 +1,3003 @@
 {
-  "updatedAt": "2026-09-24T00:00:00.000Z",
-  "listings": {}
+  "updatedAt": "2026-09-24T01:32:05.277Z",
+  "listings": {
+    "cashconverters:VALUED-4500-18CT-WHITE-GOLD-DIAMOND-DRESS-RING": {
+      "key": "cashconverters:VALUED-4500-18CT-WHITE-GOLD-DIAMOND-DRESS-RING",
+      "siteId": "cashconverters",
+      "sourceListingId": "VALUED-4500-18CT-WHITE-GOLD-DIAMOND-DRESS-RING",
+      "title": "VALUED $4,500 - 18CT WHITE GOLD & DIAMOND DRESS RING",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/173162892/VALUED-4500-18CT-WHITE-GOLD-DIAMOND-DRESS-RING",
+      "price": 4500,
+      "seller": "Seller: CCTakanini",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:3900-Size-P-18Ct-Yg-Ring-Solitaire-Diamond-1X25pt-Round-Diamond-8X2pt-Round-D": {
+      "key": "cashconverters:3900-Size-P-18Ct-Yg-Ring-Solitaire-Diamond-1X25pt-Round-Diamond-8X2pt-Round-D",
+      "siteId": "cashconverters",
+      "sourceListingId": "3900-Size-P-18Ct-Yg-Ring-Solitaire-Diamond-1X25pt-Round-Diamond-8X2pt-Round-D",
+      "title": "$3,900 Size P 18Ct Yg Ring Solitaire Diamond 1X25pt Round Diamond 8X2pt Round D",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/154943846/3900-Size-P-18Ct-Yg-Ring-Solitaire-Diamond-1X25pt-Round-Diamond-8X2pt-Round-D",
+      "price": 3900,
+      "seller": "Seller: CCPalmerstonNorth",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:Logitech-Bluetooth-Speaker-MEGABOOM-3-PORTABLE-BLUETOOTH-SPEAKER-S00171": {
+      "key": "cashconverters:Logitech-Bluetooth-Speaker-MEGABOOM-3-PORTABLE-BLUETOOTH-SPEAKER-S00171",
+      "siteId": "cashconverters",
+      "sourceListingId": "Logitech-Bluetooth-Speaker-MEGABOOM-3-PORTABLE-BLUETOOTH-SPEAKER-S00171",
+      "title": "Logitech Bluetooth Speaker MEGABOOM 3 PORTABLE BLUETOOTH SPEAKER S00171",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/155256249/Logitech-Bluetooth-Speaker-MEGABOOM-3-PORTABLE-BLUETOOTH-SPEAKER-S00171",
+      "seller": "Seller: CCPalmerstonNorth",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:Samsung-Smart-Watch-GALXY-WATCH-6-SMR935F": {
+      "key": "cashconverters:Samsung-Smart-Watch-GALXY-WATCH-6-SMR935F",
+      "siteId": "cashconverters",
+      "sourceListingId": "Samsung-Smart-Watch-GALXY-WATCH-6-SMR935F",
+      "title": "Samsung Smart Watch GALXY WATCH 6 SMR935F",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/155257024/Samsung-Smart-Watch-GALXY-WATCH-6-SMR935F",
+      "seller": "Seller: CCPalmerstonNorth",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:Apple-Ipad-2021-9TH-GEN-64GB-WIFI-102-INCH-MK2K3XA": {
+      "key": "cashconverters:Apple-Ipad-2021-9TH-GEN-64GB-WIFI-102-INCH-MK2K3XA",
+      "siteId": "cashconverters",
+      "sourceListingId": "Apple-Ipad-2021-9TH-GEN-64GB-WIFI-102-INCH-MK2K3XA",
+      "title": "Apple Ipad (2021) 9TH GEN 64GB WIFI 10.2 INCH MK2K3XA",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/155598502/Apple-Ipad-2021-9TH-GEN-64GB-WIFI-102-INCH-MK2K3XA",
+      "seller": "Seller: CCPalmerstonNorth",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:Nintendo-Nintendo-Switch-Oled-Nintendo-Switch-HEG001": {
+      "key": "cashconverters:Nintendo-Nintendo-Switch-Oled-Nintendo-Switch-HEG001",
+      "siteId": "cashconverters",
+      "sourceListingId": "Nintendo-Nintendo-Switch-Oled-Nintendo-Switch-HEG001",
+      "title": "Nintendo Nintendo Switch Oled Nintendo Switch HEG001",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/156014581/Nintendo-Nintendo-Switch-Oled-Nintendo-Switch-HEG001",
+      "seller": "Seller: CCPalmerstonNorth",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:Nixon-Mens-Dress-Watch-Sentry-Leather-A105513": {
+      "key": "cashconverters:Nixon-Mens-Dress-Watch-Sentry-Leather-A105513",
+      "siteId": "cashconverters",
+      "sourceListingId": "Nixon-Mens-Dress-Watch-Sentry-Leather-A105513",
+      "title": "Nixon Mens Dress Watch Sentry Leather A105513",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/156982180/Nixon-Mens-Dress-Watch-Sentry-Leather-A105513",
+      "seller": "Seller: CCPalmerstonNorth",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:Battlefield-4-Xbox-360-Game": {
+      "key": "cashconverters:Battlefield-4-Xbox-360-Game",
+      "siteId": "cashconverters",
+      "sourceListingId": "Battlefield-4-Xbox-360-Game",
+      "title": "Battlefield 4 Xbox 360 Game",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/157127098/Battlefield-4-Xbox-360-Game",
+      "seller": "Seller: CCPalmerstonNorth",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:9CT-YELLOW-GOLD-DRESS-RING": {
+      "key": "cashconverters:9CT-YELLOW-GOLD-DRESS-RING",
+      "siteId": "cashconverters",
+      "sourceListingId": "9CT-YELLOW-GOLD-DRESS-RING",
+      "title": "9CT YELLOW GOLD DRESS RING",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/160295109/9CT-YELLOW-GOLD-DRESS-RING",
+      "seller": "Seller: CCWanganui",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:4500-Size-O-12-18Ct-Yg-Ring-Solitaire-Diamond-1X32pt-Square-Diamond-12X2pt-R": {
+      "key": "cashconverters:4500-Size-O-12-18Ct-Yg-Ring-Solitaire-Diamond-1X32pt-Square-Diamond-12X2pt-R",
+      "siteId": "cashconverters",
+      "sourceListingId": "4500-Size-O-12-18Ct-Yg-Ring-Solitaire-Diamond-1X32pt-Square-Diamond-12X2pt-R",
+      "title": "$4,500 Size O 1/2 18Ct Yg Ring Solitaire Diamond 1X32pt Square Diamond 12X2pt R",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/161012806/4500-Size-O-12-18Ct-Yg-Ring-Solitaire-Diamond-1X32pt-Square-Diamond-12X2pt-R",
+      "price": 4500,
+      "seller": "Seller: CCPalmerstonNorth",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:NEW-RETAIL-3225-18CT-YELLOW-GOLD-RUBY-AND-DIAMOND-RING": {
+      "key": "cashconverters:NEW-RETAIL-3225-18CT-YELLOW-GOLD-RUBY-AND-DIAMOND-RING",
+      "siteId": "cashconverters",
+      "sourceListingId": "NEW-RETAIL-3225-18CT-YELLOW-GOLD-RUBY-AND-DIAMOND-RING",
+      "title": "NEW RETAIL $3225 18CT YELLOW GOLD RUBY AND DIAMOND RING",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/161589953/NEW-RETAIL-3225-18CT-YELLOW-GOLD-RUBY-AND-DIAMOND-RING",
+      "price": 322,
+      "seller": "Seller: CCWanganui",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:Seiko-Mens-Dress-Watch-ALARM-CHRONOGRAPH-100M-7T620AP0": {
+      "key": "cashconverters:Seiko-Mens-Dress-Watch-ALARM-CHRONOGRAPH-100M-7T620AP0",
+      "siteId": "cashconverters",
+      "sourceListingId": "Seiko-Mens-Dress-Watch-ALARM-CHRONOGRAPH-100M-7T620AP0",
+      "title": "Seiko Mens Dress Watch ALARM CHRONOGRAPH 100M 7T620AP0",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/162325762/Seiko-Mens-Dress-Watch-ALARM-CHRONOGRAPH-100M-7T620AP0",
+      "seller": "Seller: CCPalmerstonNorth",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:9CT-YELLOW-GOLD-WEEDER-WITH-DIAMONDS": {
+      "key": "cashconverters:9CT-YELLOW-GOLD-WEEDER-WITH-DIAMONDS",
+      "siteId": "cashconverters",
+      "sourceListingId": "9CT-YELLOW-GOLD-WEEDER-WITH-DIAMONDS",
+      "title": "9CT YELLOW GOLD WEEDER WITH DIAMONDS",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/162440895/9CT-YELLOW-GOLD-WEEDER-WITH-DIAMONDS",
+      "seller": "Seller: CCWanganui",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:10CT-WHITE-GOLD-DIAMOND-RING": {
+      "key": "cashconverters:10CT-WHITE-GOLD-DIAMOND-RING",
+      "siteId": "cashconverters",
+      "sourceListingId": "10CT-WHITE-GOLD-DIAMOND-RING",
+      "title": "10CT WHITE GOLD DIAMOND RING",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/162440939/10CT-WHITE-GOLD-DIAMOND-RING",
+      "seller": "Seller: CCWanganui",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:Sekonda-Watch-Ladies-Rose-Gold-Watch-2366": {
+      "key": "cashconverters:Sekonda-Watch-Ladies-Rose-Gold-Watch-2366",
+      "siteId": "cashconverters",
+      "sourceListingId": "Sekonda-Watch-Ladies-Rose-Gold-Watch-2366",
+      "title": "Sekonda Watch Ladies Rose Gold Watch 2366",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/163685027/Sekonda-Watch-Ladies-Rose-Gold-Watch-2366",
+      "seller": "Seller: CCNewPlymouth",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:14CT-ROSE-GOLD-2-PIECE-DIAMOND-RING-SET": {
+      "key": "cashconverters:14CT-ROSE-GOLD-2-PIECE-DIAMOND-RING-SET",
+      "siteId": "cashconverters",
+      "sourceListingId": "14CT-ROSE-GOLD-2-PIECE-DIAMOND-RING-SET",
+      "title": "14CT ROSE GOLD 2 PIECE DIAMOND RING SET",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/163686673/14CT-ROSE-GOLD-2-PIECE-DIAMOND-RING-SET",
+      "seller": "Seller: CCWanganui",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:Lorus-Watch-Childrens-Analogue-Watch-RRX47GX9": {
+      "key": "cashconverters:Lorus-Watch-Childrens-Analogue-Watch-RRX47GX9",
+      "siteId": "cashconverters",
+      "sourceListingId": "Lorus-Watch-Childrens-Analogue-Watch-RRX47GX9",
+      "title": "Lorus Watch Childrens Analogue Watch RRX47GX9",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/163691979/Lorus-Watch-Childrens-Analogue-Watch-RRX47GX9",
+      "seller": "Seller: CCWanganui",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:Olympic-Watch-E107": {
+      "key": "cashconverters:Olympic-Watch-E107",
+      "siteId": "cashconverters",
+      "sourceListingId": "Olympic-Watch-E107",
+      "title": "Olympic Watch E107",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/163692042/Olympic-Watch-E107",
+      "seller": "Seller: CCWanganui",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:Makita-Multi-Tool-Corded-320W-TM3000C": {
+      "key": "cashconverters:Makita-Multi-Tool-Corded-320W-TM3000C",
+      "siteId": "cashconverters",
+      "sourceListingId": "Makita-Multi-Tool-Corded-320W-TM3000C",
+      "title": "Makita Multi Tool (Corded) 320W TM3000C",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/164256289/Makita-Multi-Tool-Corded-320W-TM3000C",
+      "seller": "Seller: CCWanganui",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:Rapala-Pro-Series-Ps4-Game": {
+      "key": "cashconverters:Rapala-Pro-Series-Ps4-Game",
+      "siteId": "cashconverters",
+      "sourceListingId": "Rapala-Pro-Series-Ps4-Game",
+      "title": "Rapala Pro Series Ps4 Game",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/166319682/Rapala-Pro-Series-Ps4-Game",
+      "seller": "Seller: CCWanganui",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:Singstar-Ps2-Game-Abba": {
+      "key": "cashconverters:Singstar-Ps2-Game-Abba",
+      "siteId": "cashconverters",
+      "sourceListingId": "Singstar-Ps2-Game-Abba",
+      "title": "Singstar Ps2 Game Abba",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/166406815/Singstar-Ps2-Game-Abba",
+      "seller": "Seller: CCWanganui",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:Casio-Watch-Gshock-GA900SKL": {
+      "key": "cashconverters:Casio-Watch-Gshock-GA900SKL",
+      "siteId": "cashconverters",
+      "sourceListingId": "Casio-Watch-Gshock-GA900SKL",
+      "title": "Casio Watch Gshock GA900SKL",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/167321266/Casio-Watch-Gshock-GA900SKL",
+      "seller": "Seller: CCWanganui",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:Operation-Wolf-Sega-Game": {
+      "key": "cashconverters:Operation-Wolf-Sega-Game",
+      "siteId": "cashconverters",
+      "sourceListingId": "Operation-Wolf-Sega-Game",
+      "title": "Operation Wolf Sega Game",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/167367733/Operation-Wolf-Sega-Game",
+      "seller": "Seller: CCWanganui",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:Tennis-Ace-Sega-Game": {
+      "key": "cashconverters:Tennis-Ace-Sega-Game",
+      "siteId": "cashconverters",
+      "sourceListingId": "Tennis-Ace-Sega-Game",
+      "title": "Tennis Ace Sega Game",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/167370042/Tennis-Ace-Sega-Game",
+      "seller": "Seller: CCWanganui",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:Ayrton-Sennas-Sega-Game-No-Case-SUPER-MONACO-GP2": {
+      "key": "cashconverters:Ayrton-Sennas-Sega-Game-No-Case-SUPER-MONACO-GP2",
+      "siteId": "cashconverters",
+      "sourceListingId": "Ayrton-Sennas-Sega-Game-No-Case-SUPER-MONACO-GP2",
+      "title": "Ayrton Sennas Sega Game (No Case) SUPER MONACO GP2",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/167373774/Ayrton-Sennas-Sega-Game-No-Case-SUPER-MONACO-GP2",
+      "seller": "Seller: CCWanganui",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:California-Games-Sega-Game-No-Case": {
+      "key": "cashconverters:California-Games-Sega-Game-No-Case",
+      "siteId": "cashconverters",
+      "sourceListingId": "California-Games-Sega-Game-No-Case",
+      "title": "California Games Sega Game (No Case)",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/167373818/California-Games-Sega-Game-No-Case",
+      "seller": "Seller: CCWanganui",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:Hints-N-Tips-Sega-Game-No-Case-Mortal-Kombat": {
+      "key": "cashconverters:Hints-N-Tips-Sega-Game-No-Case-Mortal-Kombat",
+      "siteId": "cashconverters",
+      "sourceListingId": "Hints-N-Tips-Sega-Game-No-Case-Mortal-Kombat",
+      "title": "Hints N Tips Sega Game (No Case) Mortal Kombat",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/167375149/Hints-N-Tips-Sega-Game-No-Case-Mortal-Kombat",
+      "seller": "Seller: CCWanganui",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:Renegade-Sega-Game": {
+      "key": "cashconverters:Renegade-Sega-Game",
+      "siteId": "cashconverters",
+      "sourceListingId": "Renegade-Sega-Game",
+      "title": "Renegade Sega Game",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/167375420/Renegade-Sega-Game",
+      "seller": "Seller: CCWanganui",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:Bio-Shock-Infinite-Xbox-360-Game": {
+      "key": "cashconverters:Bio-Shock-Infinite-Xbox-360-Game",
+      "siteId": "cashconverters",
+      "sourceListingId": "Bio-Shock-Infinite-Xbox-360-Game",
+      "title": "Bio Shock Infinite Xbox 360 Game",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/167376094/Bio-Shock-Infinite-Xbox-360-Game",
+      "seller": "Seller: CCWanganui",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:Ps3-Game-BATTLEFIELD-3": {
+      "key": "cashconverters:Ps3-Game-BATTLEFIELD-3",
+      "siteId": "cashconverters",
+      "sourceListingId": "Ps3-Game-BATTLEFIELD-3",
+      "title": "Ps3 Game BATTLEFIELD 3",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/167857553/Ps3-Game-BATTLEFIELD-3",
+      "seller": "Seller: CCWanganui",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:Dead-Island-Goty-Edition-Ps3-Game": {
+      "key": "cashconverters:Dead-Island-Goty-Edition-Ps3-Game",
+      "siteId": "cashconverters",
+      "sourceListingId": "Dead-Island-Goty-Edition-Ps3-Game",
+      "title": "Dead Island Goty Edition Ps3 Game",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/167857597/Dead-Island-Goty-Edition-Ps3-Game",
+      "seller": "Seller: CCWanganui",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:Ps3-Game-Grand-Theft-Auto-V": {
+      "key": "cashconverters:Ps3-Game-Grand-Theft-Auto-V",
+      "siteId": "cashconverters",
+      "sourceListingId": "Ps3-Game-Grand-Theft-Auto-V",
+      "title": "Ps3 Game Grand Theft Auto V",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/167857716/Ps3-Game-Grand-Theft-Auto-V",
+      "seller": "Seller: CCWanganui",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:Battlefield-Bad-Company-2-Ps3-Game": {
+      "key": "cashconverters:Battlefield-Bad-Company-2-Ps3-Game",
+      "siteId": "cashconverters",
+      "sourceListingId": "Battlefield-Bad-Company-2-Ps3-Game",
+      "title": "Battlefield Bad Company 2 Ps3 Game",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/167858253/Battlefield-Bad-Company-2-Ps3-Game",
+      "seller": "Seller: CCWanganui",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:Psp-Game-Tom-Clancys-Ghost-Recon-Predator": {
+      "key": "cashconverters:Psp-Game-Tom-Clancys-Ghost-Recon-Predator",
+      "siteId": "cashconverters",
+      "sourceListingId": "Psp-Game-Tom-Clancys-Ghost-Recon-Predator",
+      "title": "Psp Game Tom Clancys Ghost Recon Predator",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/167905281/Psp-Game-Tom-Clancys-Ghost-Recon-Predator",
+      "seller": "Seller: CCWanganui",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:Microsoft-Xbox-One-Game-FIFA-18": {
+      "key": "cashconverters:Microsoft-Xbox-One-Game-FIFA-18",
+      "siteId": "cashconverters",
+      "sourceListingId": "Microsoft-Xbox-One-Game-FIFA-18",
+      "title": "Microsoft Xbox One Game FIFA 18",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/167905905/Microsoft-Xbox-One-Game-FIFA-18",
+      "seller": "Seller: CCWanganui",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:Samsung-Mobile-Phone-GALAXY-A51-SMA515F": {
+      "key": "cashconverters:Samsung-Mobile-Phone-GALAXY-A51-SMA515F",
+      "siteId": "cashconverters",
+      "sourceListingId": "Samsung-Mobile-Phone-GALAXY-A51-SMA515F",
+      "title": "Samsung Mobile Phone GALAXY A51 SMA515F",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/168188709/Samsung-Mobile-Phone-GALAXY-A51-SMA515F",
+      "seller": "Seller: CCPalmerstonNorth",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:Lorus-Watch-Ladies-Daywear-Watch-RG285UX9": {
+      "key": "cashconverters:Lorus-Watch-Ladies-Daywear-Watch-RG285UX9",
+      "siteId": "cashconverters",
+      "sourceListingId": "Lorus-Watch-Ladies-Daywear-Watch-RG285UX9",
+      "title": "Lorus Watch Ladies Daywear Watch RG285UX9",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/168351281/Lorus-Watch-Ladies-Daywear-Watch-RG285UX9",
+      "seller": "Seller: CCWanganui",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:Lorus-Watch-Ladies-Silver-Tone-Watch-RRX19JX9": {
+      "key": "cashconverters:Lorus-Watch-Ladies-Silver-Tone-Watch-RRX19JX9",
+      "siteId": "cashconverters",
+      "sourceListingId": "Lorus-Watch-Ladies-Silver-Tone-Watch-RRX19JX9",
+      "title": "Lorus Watch Ladies Silver Tone Watch RRX19JX9",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/168351301/Lorus-Watch-Ladies-Silver-Tone-Watch-RRX19JX9",
+      "seller": "Seller: CCWanganui",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:Ice-Watch": {
+      "key": "cashconverters:Ice-Watch",
+      "siteId": "cashconverters",
+      "sourceListingId": "Ice-Watch",
+      "title": "Ice Watch",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/168351402/Ice-Watch",
+      "seller": "Seller: CCWanganui",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:Sekonda-Watch-2367": {
+      "key": "cashconverters:Sekonda-Watch-2367",
+      "siteId": "cashconverters",
+      "sourceListingId": "Sekonda-Watch-2367",
+      "title": "Sekonda Watch 2367",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/168351442/Sekonda-Watch-2367",
+      "seller": "Seller: CCWanganui",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:Olympic-Watch-Small-Dial-Leather-Strap": {
+      "key": "cashconverters:Olympic-Watch-Small-Dial-Leather-Strap",
+      "siteId": "cashconverters",
+      "sourceListingId": "Olympic-Watch-Small-Dial-Leather-Strap",
+      "title": "Olympic Watch Small Dial Leather Strap",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/168351503/Olympic-Watch-Small-Dial-Leather-Strap",
+      "seller": "Seller: CCWanganui",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:10CT-YELLOW-GOLD-DIAMOND-RING": {
+      "key": "cashconverters:10CT-YELLOW-GOLD-DIAMOND-RING",
+      "siteId": "cashconverters",
+      "sourceListingId": "10CT-YELLOW-GOLD-DIAMOND-RING",
+      "title": "10CT YELLOW GOLD DIAMOND RING",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/168870757/10CT-YELLOW-GOLD-DIAMOND-RING",
+      "seller": "Seller: CCWanganui",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:9CT-YELLOW-GOLD-DIAMOND-RING": {
+      "key": "cashconverters:9CT-YELLOW-GOLD-DIAMOND-RING",
+      "siteId": "cashconverters",
+      "sourceListingId": "9CT-YELLOW-GOLD-DIAMOND-RING",
+      "title": "9CT YELLOW GOLD DIAMOND RING",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/168870653/9CT-YELLOW-GOLD-DIAMOND-RING",
+      "seller": "Seller: CCWanganui",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:18CT-YELLOW-GOLD-PLAT-DIAMOND-RING": {
+      "key": "cashconverters:18CT-YELLOW-GOLD-PLAT-DIAMOND-RING",
+      "siteId": "cashconverters",
+      "sourceListingId": "18CT-YELLOW-GOLD-PLAT-DIAMOND-RING",
+      "title": "18CT YELLOW GOLD PLAT DIAMOND RING",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/168870674/18CT-YELLOW-GOLD-PLAT-DIAMOND-RING",
+      "seller": "Seller: CCWanganui",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:9CT-YELLOW-GOLD-DRESSD-RING": {
+      "key": "cashconverters:9CT-YELLOW-GOLD-DRESSD-RING",
+      "siteId": "cashconverters",
+      "sourceListingId": "9CT-YELLOW-GOLD-DRESSD-RING",
+      "title": "9CT YELLOW GOLD DRESSD RING",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/168870737/9CT-YELLOW-GOLD-DRESSD-RING",
+      "seller": "Seller: CCWanganui",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:9ct-Yellow-Gold2-tonned-Earrings": {
+      "key": "cashconverters:9ct-Yellow-Gold2-tonned-Earrings",
+      "siteId": "cashconverters",
+      "sourceListingId": "9ct-Yellow-Gold2-tonned-Earrings",
+      "title": "9ct Yellow Gold2 tonned Earrings",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/168870821/9ct-Yellow-Gold2-tonned-Earrings",
+      "seller": "Seller: CCWanganui",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:9CT-WHITE-GOLD-DIAMOND-RING": {
+      "key": "cashconverters:9CT-WHITE-GOLD-DIAMOND-RING",
+      "siteId": "cashconverters",
+      "sourceListingId": "9CT-WHITE-GOLD-DIAMOND-RING",
+      "title": "9CT WHITE GOLD DIAMOND RING",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/168876672/9CT-WHITE-GOLD-DIAMOND-RING",
+      "seller": "Seller: CCWanganui",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:9CT-YELLOW-GOLD-PINK-STONE-RING": {
+      "key": "cashconverters:9CT-YELLOW-GOLD-PINK-STONE-RING",
+      "siteId": "cashconverters",
+      "sourceListingId": "9CT-YELLOW-GOLD-PINK-STONE-RING",
+      "title": "9CT YELLOW GOLD PINK STONE RING",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/168876951/9CT-YELLOW-GOLD-PINK-STONE-RING",
+      "seller": "Seller: CCWanganui",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "cashconverters:9CT-YELLOW-GOLD-BLUE-STONE-RING": {
+      "key": "cashconverters:9CT-YELLOW-GOLD-BLUE-STONE-RING",
+      "siteId": "cashconverters",
+      "sourceListingId": "9CT-YELLOW-GOLD-BLUE-STONE-RING",
+      "title": "9CT YELLOW GOLD BLUE STONE RING",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/168876971/9CT-YELLOW-GOLD-BLUE-STONE-RING",
+      "seller": "Seller: CCWanganui",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65",
+        "src-a-power-tools",
+        "src-a-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:30:54.581Z",
+      "lastSeenAt": "2026-09-24T01:31:13.213Z"
+    },
+    "dollardealers:3458094": {
+      "key": "dollardealers:3458094",
+      "siteId": "dollardealers",
+      "sourceListingId": "3458094",
+      "title": "LG 65″ Smart TV",
+      "canonicalUrl": "https://dollardealers.co.nz/product/lg-65-smart-tv/",
+      "price": 749,
+      "seller": "by DollarDealers Papakura View Store Details",
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/bf5edda4-3e37-4512-b9a8-5291485cacbd.jpeg?resize=247&w=247",
+      "modelNumber": "65QNED756RA",
+      "condition": "Very Good",
+      "accessories": "+ Remote",
+      "priority": "normal",
+      "matchedRules": [
+        "rule-b-normal-65"
+      ],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:lg-65-smart-tv": {
+      "key": "dollardealers:lg-65-smart-tv",
+      "siteId": "dollardealers",
+      "sourceListingId": "lg-65-smart-tv",
+      "title": "LG 65″ Smart TV",
+      "canonicalUrl": "https://dollardealers.co.nz/product/lg-65-smart-tv/",
+      "price": 749,
+      "seller": "by DollarDealers Papakura View Store Details",
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/bf5edda4-3e37-4512-b9a8-5291485cacbd.jpeg?resize=247&w=247",
+      "modelNumber": "65QNED756RA",
+      "condition": "Very Good",
+      "accessories": "+ Remote",
+      "priority": "normal",
+      "matchedRules": [
+        "rule-b-normal-65"
+      ],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:3472974": {
+      "key": "dollardealers:3472974",
+      "siteId": "dollardealers",
+      "sourceListingId": "3472974",
+      "title": "LG 50″ SMART TELEVISION",
+      "canonicalUrl": "https://dollardealers.co.nz/product/lg-50-smart-television/",
+      "price": 699,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/18b34128-93ed-4637-b95c-e6bb35ef540a.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:lg-50-smart-television": {
+      "key": "dollardealers:lg-50-smart-television",
+      "siteId": "dollardealers",
+      "sourceListingId": "lg-50-smart-television",
+      "title": "LG 50″ SMART TELEVISION",
+      "canonicalUrl": "https://dollardealers.co.nz/product/lg-50-smart-television/",
+      "price": 699,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/18b34128-93ed-4637-b95c-e6bb35ef540a.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:3431391": {
+      "key": "dollardealers:3431391",
+      "siteId": "dollardealers",
+      "sourceListingId": "3431391",
+      "title": "PANASONIC 65″ 4K SMART TV TH-65LX800Z",
+      "canonicalUrl": "https://dollardealers.co.nz/product/panasonic-65-4k-smart-tv-th-65lx800z/",
+      "price": 999,
+      "seller": "by DollarDealers Henderson, Auckland View Store Details",
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/88a3e2a7-2622-4e83-b76e-dba190701698.jpeg?resize=247&w=247",
+      "modelNumber": "TH-65LX800Z",
+      "condition": "GOOD",
+      "accessories": "REMOTE",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:panasonic-65-4k-smart-tv-th-65lx800z": {
+      "key": "dollardealers:panasonic-65-4k-smart-tv-th-65lx800z",
+      "siteId": "dollardealers",
+      "sourceListingId": "panasonic-65-4k-smart-tv-th-65lx800z",
+      "title": "PANASONIC 65″ 4K SMART TV TH-65LX800Z",
+      "canonicalUrl": "https://dollardealers.co.nz/product/panasonic-65-4k-smart-tv-th-65lx800z/",
+      "price": 999,
+      "seller": "by DollarDealers Henderson, Auckland View Store Details",
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/88a3e2a7-2622-4e83-b76e-dba190701698.jpeg?resize=247&w=247",
+      "modelNumber": "TH-65LX800Z",
+      "condition": "GOOD",
+      "accessories": "REMOTE",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:3274636": {
+      "key": "dollardealers:3274636",
+      "siteId": "dollardealers",
+      "sourceListingId": "3274636",
+      "title": "LG SOUNDBAR S70TY",
+      "canonicalUrl": "https://dollardealers.co.nz/product/lg-soundbar-s70ty/",
+      "price": 63,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/9a554d89-7e5d-41d2-b2cf-ab5b758e51db.png?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:lg-soundbar-s70ty": {
+      "key": "dollardealers:lg-soundbar-s70ty",
+      "siteId": "dollardealers",
+      "sourceListingId": "lg-soundbar-s70ty",
+      "title": "LG SOUNDBAR S70TY",
+      "canonicalUrl": "https://dollardealers.co.nz/product/lg-soundbar-s70ty/",
+      "price": 63,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/9a554d89-7e5d-41d2-b2cf-ab5b758e51db.png?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:3216774": {
+      "key": "dollardealers:3216774",
+      "siteId": "dollardealers",
+      "sourceListingId": "3216774",
+      "title": "BVLGARI GLASSES",
+      "canonicalUrl": "https://dollardealers.co.nz/product/bvlgari-glasses/",
+      "price": 120,
+      "imageUrl": "https://i2.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/d39b4b56-6acb-434a-ab1b-c8b48312f797.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:bvlgari-glasses": {
+      "key": "dollardealers:bvlgari-glasses",
+      "siteId": "dollardealers",
+      "sourceListingId": "bvlgari-glasses",
+      "title": "BVLGARI GLASSES",
+      "canonicalUrl": "https://dollardealers.co.nz/product/bvlgari-glasses/",
+      "price": 120,
+      "imageUrl": "https://i2.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/d39b4b56-6acb-434a-ab1b-c8b48312f797.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:3131399": {
+      "key": "dollardealers:3131399",
+      "siteId": "dollardealers",
+      "sourceListingId": "3131399",
+      "title": "LG DVD WRITER",
+      "canonicalUrl": "https://dollardealers.co.nz/product/lg-dvd-writer/",
+      "price": 20,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/2467e40d-e2d7-4a69-a2a3-9b86ccf0642e.png?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:lg-dvd-writer": {
+      "key": "dollardealers:lg-dvd-writer",
+      "siteId": "dollardealers",
+      "sourceListingId": "lg-dvd-writer",
+      "title": "LG DVD WRITER",
+      "canonicalUrl": "https://dollardealers.co.nz/product/lg-dvd-writer/",
+      "price": 20,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/2467e40d-e2d7-4a69-a2a3-9b86ccf0642e.png?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:3493805": {
+      "key": "dollardealers:3493805",
+      "siteId": "dollardealers",
+      "sourceListingId": "3493805",
+      "title": "MILWAUKEE CHARGER",
+      "canonicalUrl": "https://dollardealers.co.nz/product/milwaukee-charger-2/",
+      "price": 99,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/66cdf0d2-30ef-4232-8351-fefc1f9b52b5.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:milwaukee-charger-2": {
+      "key": "dollardealers:milwaukee-charger-2",
+      "siteId": "dollardealers",
+      "sourceListingId": "milwaukee-charger-2",
+      "title": "MILWAUKEE CHARGER",
+      "canonicalUrl": "https://dollardealers.co.nz/product/milwaukee-charger-2/",
+      "price": 99,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/66cdf0d2-30ef-4232-8351-fefc1f9b52b5.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:3493638": {
+      "key": "dollardealers:3493638",
+      "siteId": "dollardealers",
+      "sourceListingId": "3493638",
+      "title": "NINTENDO SWITCH",
+      "canonicalUrl": "https://dollardealers.co.nz/product/nintendo-switch-2/",
+      "price": 199,
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/4b85db47-180d-489f-baee-0710bc7a3d60.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:nintendo-switch-2": {
+      "key": "dollardealers:nintendo-switch-2",
+      "siteId": "dollardealers",
+      "sourceListingId": "nintendo-switch-2",
+      "title": "NINTENDO SWITCH",
+      "canonicalUrl": "https://dollardealers.co.nz/product/nintendo-switch-2/",
+      "price": 199,
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/4b85db47-180d-489f-baee-0710bc7a3d60.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:3493491": {
+      "key": "dollardealers:3493491",
+      "siteId": "dollardealers",
+      "sourceListingId": "3493491",
+      "title": "PANASONIC SPEAKER SC-BMAX10",
+      "canonicalUrl": "https://dollardealers.co.nz/product/panasonic-speaker-sc-bmax10/",
+      "price": 349,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/d64778e5-4c72-44b4-a19a-934cc9eb081f.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:panasonic-speaker-sc-bmax10": {
+      "key": "dollardealers:panasonic-speaker-sc-bmax10",
+      "siteId": "dollardealers",
+      "sourceListingId": "panasonic-speaker-sc-bmax10",
+      "title": "PANASONIC SPEAKER SC-BMAX10",
+      "canonicalUrl": "https://dollardealers.co.nz/product/panasonic-speaker-sc-bmax10/",
+      "price": 349,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/d64778e5-4c72-44b4-a19a-934cc9eb081f.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:3491619": {
+      "key": "dollardealers:3491619",
+      "siteId": "dollardealers",
+      "sourceListingId": "3491619",
+      "title": "Tcl 603 Mobile Phone",
+      "canonicalUrl": "https://dollardealers.co.nz/product/tcl-603-mobile-phone/",
+      "price": 79,
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/8a935bf4-0b4d-4760-876d-58531d3d8524.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:tcl-603-mobile-phone": {
+      "key": "dollardealers:tcl-603-mobile-phone",
+      "siteId": "dollardealers",
+      "sourceListingId": "tcl-603-mobile-phone",
+      "title": "Tcl 603 Mobile Phone",
+      "canonicalUrl": "https://dollardealers.co.nz/product/tcl-603-mobile-phone/",
+      "price": 79,
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/8a935bf4-0b4d-4760-876d-58531d3d8524.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:3487307": {
+      "key": "dollardealers:3487307",
+      "siteId": "dollardealers",
+      "sourceListingId": "3487307",
+      "title": "Vodafone TCL Mobile Phone",
+      "canonicalUrl": "https://dollardealers.co.nz/product/vodafone-tcl-mobile-phone/",
+      "price": 79,
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/00c7dc78-ab34-423f-9ce0-fd23e4bd8a15.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:vodafone-tcl-mobile-phone": {
+      "key": "dollardealers:vodafone-tcl-mobile-phone",
+      "siteId": "dollardealers",
+      "sourceListingId": "vodafone-tcl-mobile-phone",
+      "title": "Vodafone TCL Mobile Phone",
+      "canonicalUrl": "https://dollardealers.co.nz/product/vodafone-tcl-mobile-phone/",
+      "price": 79,
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/00c7dc78-ab34-423f-9ce0-fd23e4bd8a15.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:3487198": {
+      "key": "dollardealers:3487198",
+      "siteId": "dollardealers",
+      "sourceListingId": "3487198",
+      "title": "Ultimate Ears Boom 3 Bluetooth Speaker",
+      "canonicalUrl": "https://dollardealers.co.nz/product/ultimate-ears-boom-3-bluetooth-speaker/",
+      "price": 79,
+      "imageUrl": "https://i2.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/040e3f2d-2c1a-4159-a3c4-9e93a10678c4.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:ultimate-ears-boom-3-bluetooth-speaker": {
+      "key": "dollardealers:ultimate-ears-boom-3-bluetooth-speaker",
+      "siteId": "dollardealers",
+      "sourceListingId": "ultimate-ears-boom-3-bluetooth-speaker",
+      "title": "Ultimate Ears Boom 3 Bluetooth Speaker",
+      "canonicalUrl": "https://dollardealers.co.nz/product/ultimate-ears-boom-3-bluetooth-speaker/",
+      "price": 79,
+      "imageUrl": "https://i2.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/040e3f2d-2c1a-4159-a3c4-9e93a10678c4.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:3487134": {
+      "key": "dollardealers:3487134",
+      "siteId": "dollardealers",
+      "sourceListingId": "3487134",
+      "title": "VS SASSOON HAIR STRAIGHTNER",
+      "canonicalUrl": "https://dollardealers.co.nz/product/vs-sassoon-hair-straightner/",
+      "price": 59,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/945e53b5-a3ed-45d3-aa5b-3ef9a1252e31.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:vs-sassoon-hair-straightner": {
+      "key": "dollardealers:vs-sassoon-hair-straightner",
+      "siteId": "dollardealers",
+      "sourceListingId": "vs-sassoon-hair-straightner",
+      "title": "VS SASSOON HAIR STRAIGHTNER",
+      "canonicalUrl": "https://dollardealers.co.nz/product/vs-sassoon-hair-straightner/",
+      "price": 59,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/945e53b5-a3ed-45d3-aa5b-3ef9a1252e31.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:3485288": {
+      "key": "dollardealers:3485288",
+      "siteId": "dollardealers",
+      "sourceListingId": "3485288",
+      "title": "Samsung Galaxy A06 5G",
+      "canonicalUrl": "https://dollardealers.co.nz/product/samsung-galaxy-a06-5g-2/",
+      "price": 159,
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/170da174-c590-4f81-9122-0e8c2028a7c2.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:samsung-galaxy-a06-5g-2": {
+      "key": "dollardealers:samsung-galaxy-a06-5g-2",
+      "siteId": "dollardealers",
+      "sourceListingId": "samsung-galaxy-a06-5g-2",
+      "title": "Samsung Galaxy A06 5G",
+      "canonicalUrl": "https://dollardealers.co.nz/product/samsung-galaxy-a06-5g-2/",
+      "price": 159,
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/170da174-c590-4f81-9122-0e8c2028a7c2.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:3485248": {
+      "key": "dollardealers:3485248",
+      "siteId": "dollardealers",
+      "sourceListingId": "3485248",
+      "title": "Nintendo Switch OLED Console",
+      "canonicalUrl": "https://dollardealers.co.nz/product/nintendo-switch-oled-console/",
+      "price": 599,
+      "seller": "by DollarDealers Rotorua View Store Details",
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/2a49dd90-5f15-4d32-8a50-0ed16a34a04f.jpeg?resize=247&w=247",
+      "modelNumber": "HEG-001",
+      "condition": "PRE-OWNED",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:nintendo-switch-oled-console": {
+      "key": "dollardealers:nintendo-switch-oled-console",
+      "siteId": "dollardealers",
+      "sourceListingId": "nintendo-switch-oled-console",
+      "title": "Nintendo Switch OLED Console",
+      "canonicalUrl": "https://dollardealers.co.nz/product/nintendo-switch-oled-console/",
+      "price": 599,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/2a49dd90-5f15-4d32-8a50-0ed16a34a04f.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:3485185": {
+      "key": "dollardealers:3485185",
+      "siteId": "dollardealers",
+      "sourceListingId": "3485185",
+      "title": "MAKITA DC18SD BATTERY CHARGER",
+      "canonicalUrl": "https://dollardealers.co.nz/product/makita-dc18sd-battery-charger-2/",
+      "price": 49,
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/89b58ca7-f44d-4309-92e3-ee14bd52bd26.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:makita-dc18sd-battery-charger-2": {
+      "key": "dollardealers:makita-dc18sd-battery-charger-2",
+      "siteId": "dollardealers",
+      "sourceListingId": "makita-dc18sd-battery-charger-2",
+      "title": "MAKITA DC18SD BATTERY CHARGER",
+      "canonicalUrl": "https://dollardealers.co.nz/product/makita-dc18sd-battery-charger-2/",
+      "price": 49,
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/89b58ca7-f44d-4309-92e3-ee14bd52bd26.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:3484543": {
+      "key": "dollardealers:3484543",
+      "siteId": "dollardealers",
+      "sourceListingId": "3484543",
+      "title": "Samsung Galaxy A25 5G",
+      "canonicalUrl": "https://dollardealers.co.nz/product/samsung-galaxy-a25-5g/",
+      "price": 279,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/094c1b1f-c8e9-4fe4-8166-d35480a22147.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:samsung-galaxy-a25-5g": {
+      "key": "dollardealers:samsung-galaxy-a25-5g",
+      "siteId": "dollardealers",
+      "sourceListingId": "samsung-galaxy-a25-5g",
+      "title": "Samsung Galaxy A25 5G",
+      "canonicalUrl": "https://dollardealers.co.nz/product/samsung-galaxy-a25-5g/",
+      "price": 279,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/094c1b1f-c8e9-4fe4-8166-d35480a22147.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:3483419": {
+      "key": "dollardealers:3483419",
+      "siteId": "dollardealers",
+      "sourceListingId": "3483419",
+      "title": "arlec EXTENSION CORD",
+      "canonicalUrl": "https://dollardealers.co.nz/product/arlec-extension-cord/",
+      "price": 20,
+      "imageUrl": "https://i2.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/e23608fa-cfac-4fc7-a374-d70cbd06f995.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:arlec-extension-cord": {
+      "key": "dollardealers:arlec-extension-cord",
+      "siteId": "dollardealers",
+      "sourceListingId": "arlec-extension-cord",
+      "title": "arlec EXTENSION CORD",
+      "canonicalUrl": "https://dollardealers.co.nz/product/arlec-extension-cord/",
+      "price": 20,
+      "imageUrl": "https://i2.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/e23608fa-cfac-4fc7-a374-d70cbd06f995.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:3482582": {
+      "key": "dollardealers:3482582",
+      "siteId": "dollardealers",
+      "sourceListingId": "3482582",
+      "title": "RYOBI LOPPERS EZ REACH 18V POLE LO",
+      "canonicalUrl": "https://dollardealers.co.nz/product/ryobi-loppers-ez-reach-18v-pole-lo/",
+      "price": 119,
+      "imageUrl": "https://i2.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/3d1604fd-3c06-4af1-adb6-73ae26db9c9b.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:ryobi-loppers-ez-reach-18v-pole-lo": {
+      "key": "dollardealers:ryobi-loppers-ez-reach-18v-pole-lo",
+      "siteId": "dollardealers",
+      "sourceListingId": "ryobi-loppers-ez-reach-18v-pole-lo",
+      "title": "RYOBI LOPPERS EZ REACH 18V POLE LO",
+      "canonicalUrl": "https://dollardealers.co.nz/product/ryobi-loppers-ez-reach-18v-pole-lo/",
+      "price": 119,
+      "imageUrl": "https://i2.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/3d1604fd-3c06-4af1-adb6-73ae26db9c9b.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:3481442": {
+      "key": "dollardealers:3481442",
+      "siteId": "dollardealers",
+      "sourceListingId": "3481442",
+      "title": "GOLDEN BLOCKS X NIKE ZOOM FLY 3 BLACK METALLIC COPPER CT9139",
+      "canonicalUrl": "https://dollardealers.co.nz/product/golden-blocks-x-nike-zoom-fly-3-black-metallic-copper-ct9139/",
+      "price": 72,
+      "imageUrl": "https://i2.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/fbab0abc-0248-4990-97c5-bee611fabc91.JPG?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:golden-blocks-x-nike-zoom-fly-3-black-metallic-copper-ct9139": {
+      "key": "dollardealers:golden-blocks-x-nike-zoom-fly-3-black-metallic-copper-ct9139",
+      "siteId": "dollardealers",
+      "sourceListingId": "golden-blocks-x-nike-zoom-fly-3-black-metallic-copper-ct9139",
+      "title": "GOLDEN BLOCKS X NIKE ZOOM FLY 3 BLACK METALLIC COPPER CT9139",
+      "canonicalUrl": "https://dollardealers.co.nz/product/golden-blocks-x-nike-zoom-fly-3-black-metallic-copper-ct9139/",
+      "price": 72,
+      "imageUrl": "https://i2.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/fbab0abc-0248-4990-97c5-bee611fabc91.JPG?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:3478163": {
+      "key": "dollardealers:3478163",
+      "siteId": "dollardealers",
+      "sourceListingId": "3478163",
+      "title": "SONY PS5 CONSOLE",
+      "canonicalUrl": "https://dollardealers.co.nz/product/sony-ps5-console-4/",
+      "price": 849,
+      "imageUrl": "https://i2.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/61656475-5994-441b-a991-e934064da182.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:sony-ps5-console-4": {
+      "key": "dollardealers:sony-ps5-console-4",
+      "siteId": "dollardealers",
+      "sourceListingId": "sony-ps5-console-4",
+      "title": "SONY PS5 CONSOLE",
+      "canonicalUrl": "https://dollardealers.co.nz/product/sony-ps5-console-4/",
+      "price": 849,
+      "imageUrl": "https://i2.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/61656475-5994-441b-a991-e934064da182.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:3477387": {
+      "key": "dollardealers:3477387",
+      "siteId": "dollardealers",
+      "sourceListingId": "3477387",
+      "title": "SWATT HANDHELD RADIO",
+      "canonicalUrl": "https://dollardealers.co.nz/product/swatt-handheld-radio/",
+      "price": 249,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/69b3ee79-0695-4826-9485-81ef91545941.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:swatt-handheld-radio": {
+      "key": "dollardealers:swatt-handheld-radio",
+      "siteId": "dollardealers",
+      "sourceListingId": "swatt-handheld-radio",
+      "title": "SWATT HANDHELD RADIO",
+      "canonicalUrl": "https://dollardealers.co.nz/product/swatt-handheld-radio/",
+      "price": 249,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/69b3ee79-0695-4826-9485-81ef91545941.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:3474712": {
+      "key": "dollardealers:3474712",
+      "siteId": "dollardealers",
+      "sourceListingId": "3474712",
+      "title": "BURNSCO BINOCULERS",
+      "canonicalUrl": "https://dollardealers.co.nz/product/burnsco-binoculers/",
+      "price": 59,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/2e76a98d-0bfd-4629-9e4d-606bc1c22a7d.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:burnsco-binoculers": {
+      "key": "dollardealers:burnsco-binoculers",
+      "siteId": "dollardealers",
+      "sourceListingId": "burnsco-binoculers",
+      "title": "BURNSCO BINOCULERS",
+      "canonicalUrl": "https://dollardealers.co.nz/product/burnsco-binoculers/",
+      "price": 59,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/2e76a98d-0bfd-4629-9e4d-606bc1c22a7d.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:3453747": {
+      "key": "dollardealers:3453747",
+      "siteId": "dollardealers",
+      "sourceListingId": "3453747",
+      "title": "Lady Jane Volumising Hot Brush",
+      "canonicalUrl": "https://dollardealers.co.nz/product/lady-jane-volumising-hot-brush/",
+      "price": 29,
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/7c257e8f-310e-4a98-85cd-70260a9f727f.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:lady-jane-volumising-hot-brush": {
+      "key": "dollardealers:lady-jane-volumising-hot-brush",
+      "siteId": "dollardealers",
+      "sourceListingId": "lady-jane-volumising-hot-brush",
+      "title": "Lady Jane Volumising Hot Brush",
+      "canonicalUrl": "https://dollardealers.co.nz/product/lady-jane-volumising-hot-brush/",
+      "price": 29,
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/7c257e8f-310e-4a98-85cd-70260a9f727f.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:3431138": {
+      "key": "dollardealers:3431138",
+      "siteId": "dollardealers",
+      "sourceListingId": "3431138",
+      "title": "MAKITA CIRCULAR SAW",
+      "canonicalUrl": "https://dollardealers.co.nz/product/makita-circular-saw/",
+      "price": 249,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/fcc2abaa-6013-46a3-bdf7-71726ca97f98.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:makita-circular-saw": {
+      "key": "dollardealers:makita-circular-saw",
+      "siteId": "dollardealers",
+      "sourceListingId": "makita-circular-saw",
+      "title": "MAKITA CIRCULAR SAW",
+      "canonicalUrl": "https://dollardealers.co.nz/product/makita-circular-saw/",
+      "price": 249,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/fcc2abaa-6013-46a3-bdf7-71726ca97f98.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:3424292": {
+      "key": "dollardealers:3424292",
+      "siteId": "dollardealers",
+      "sourceListingId": "3424292",
+      "title": "SAMSUNG SMART TV",
+      "canonicalUrl": "https://dollardealers.co.nz/product/samsung-smart-tv/",
+      "price": 299,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/9750928a-c81c-4281-97ca-ab45cfabbf1a.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:samsung-smart-tv": {
+      "key": "dollardealers:samsung-smart-tv",
+      "siteId": "dollardealers",
+      "sourceListingId": "samsung-smart-tv",
+      "title": "SAMSUNG SMART TV",
+      "canonicalUrl": "https://dollardealers.co.nz/product/samsung-smart-tv/",
+      "price": 299,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/9750928a-c81c-4281-97ca-ab45cfabbf1a.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:3424035": {
+      "key": "dollardealers:3424035",
+      "siteId": "dollardealers",
+      "sourceListingId": "3424035",
+      "title": "SHARP MICROWAVE",
+      "canonicalUrl": "https://dollardealers.co.nz/product/sharp-microwave/",
+      "price": 199,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/0f4b9fd6-2f55-4030-83e5-69e6f76e2dc7.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:sharp-microwave": {
+      "key": "dollardealers:sharp-microwave",
+      "siteId": "dollardealers",
+      "sourceListingId": "sharp-microwave",
+      "title": "SHARP MICROWAVE",
+      "canonicalUrl": "https://dollardealers.co.nz/product/sharp-microwave/",
+      "price": 199,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/0f4b9fd6-2f55-4030-83e5-69e6f76e2dc7.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:3421562": {
+      "key": "dollardealers:3421562",
+      "siteId": "dollardealers",
+      "sourceListingId": "3421562",
+      "title": "LOGITECH RACING WHEEL",
+      "canonicalUrl": "https://dollardealers.co.nz/product/logitech-racing-wheel/",
+      "price": 349,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/63e4ab1c-2162-428c-b39e-452748e3fedf.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:logitech-racing-wheel": {
+      "key": "dollardealers:logitech-racing-wheel",
+      "siteId": "dollardealers",
+      "sourceListingId": "logitech-racing-wheel",
+      "title": "LOGITECH RACING WHEEL",
+      "canonicalUrl": "https://dollardealers.co.nz/product/logitech-racing-wheel/",
+      "price": 349,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/63e4ab1c-2162-428c-b39e-452748e3fedf.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:3421552": {
+      "key": "dollardealers:3421552",
+      "siteId": "dollardealers",
+      "sourceListingId": "3421552",
+      "title": "Impala Quad Roller Skates – US 7 Women’s",
+      "canonicalUrl": "https://dollardealers.co.nz/product/impala-quad-roller-skates-us-7-womens/",
+      "price": 79,
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/1bf3fc3f-eb5a-4af3-9907-32801709bb43.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:impala-quad-roller-skates-us-7-womens": {
+      "key": "dollardealers:impala-quad-roller-skates-us-7-womens",
+      "siteId": "dollardealers",
+      "sourceListingId": "impala-quad-roller-skates-us-7-womens",
+      "title": "Impala Quad Roller Skates – US 7 Women’s",
+      "canonicalUrl": "https://dollardealers.co.nz/product/impala-quad-roller-skates-us-7-womens/",
+      "price": 79,
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/1bf3fc3f-eb5a-4af3-9907-32801709bb43.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:3421535": {
+      "key": "dollardealers:3421535",
+      "siteId": "dollardealers",
+      "sourceListingId": "3421535",
+      "title": "Gallaz Quad Roller Skates – US 4 Women’s",
+      "canonicalUrl": "https://dollardealers.co.nz/product/gallaz-quad-roller-skates-us-4-womens/",
+      "price": 99,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/43a42497-f92c-48ff-b5bf-b03ce1a0177f.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:gallaz-quad-roller-skates-us-4-womens": {
+      "key": "dollardealers:gallaz-quad-roller-skates-us-4-womens",
+      "siteId": "dollardealers",
+      "sourceListingId": "gallaz-quad-roller-skates-us-4-womens",
+      "title": "Gallaz Quad Roller Skates – US 4 Women’s",
+      "canonicalUrl": "https://dollardealers.co.nz/product/gallaz-quad-roller-skates-us-4-womens/",
+      "price": 99,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/43a42497-f92c-48ff-b5bf-b03ce1a0177f.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:3420271": {
+      "key": "dollardealers:3420271",
+      "siteId": "dollardealers",
+      "sourceListingId": "3420271",
+      "title": "Waterpik Water Flosser",
+      "canonicalUrl": "https://dollardealers.co.nz/product/waterpik-water-flosser/",
+      "price": 50,
+      "imageUrl": "https://i2.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/acf19670-0b67-47e0-9708-c102fd22fa59.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:waterpik-water-flosser": {
+      "key": "dollardealers:waterpik-water-flosser",
+      "siteId": "dollardealers",
+      "sourceListingId": "waterpik-water-flosser",
+      "title": "Waterpik Water Flosser",
+      "canonicalUrl": "https://dollardealers.co.nz/product/waterpik-water-flosser/",
+      "price": 50,
+      "imageUrl": "https://i2.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/acf19670-0b67-47e0-9708-c102fd22fa59.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:3418579": {
+      "key": "dollardealers:3418579",
+      "siteId": "dollardealers",
+      "sourceListingId": "3418579",
+      "title": "CASIO WATCH",
+      "canonicalUrl": "https://dollardealers.co.nz/product/casio-watch/",
+      "price": 60,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/af33c25c-bd7a-4ded-9e96-de9ad81271a1.jpeg?resize=247&w=247",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:casio-watch": {
+      "key": "dollardealers:casio-watch",
+      "siteId": "dollardealers",
+      "sourceListingId": "casio-watch",
+      "title": "CASIO WATCH",
+      "canonicalUrl": "https://dollardealers.co.nz/product/casio-watch/",
+      "price": 60,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/af33c25c-bd7a-4ded-9e96-de9ad81271a1.jpeg?resize=247&w=247",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:18.298Z",
+      "lastSeenAt": "2026-09-24T01:31:18.298Z"
+    },
+    "dollardealers:3501161": {
+      "key": "dollardealers:3501161",
+      "siteId": "dollardealers",
+      "sourceListingId": "3501161",
+      "title": "EGO 56V ELECTRIC LAWNMOWER (CH2100E)",
+      "canonicalUrl": "https://dollardealers.co.nz/product/ego-56v-electric-lawnmower-ch2100e/",
+      "price": 450,
+      "seller": "by DollarDealers Mangere, Auckland View Store Details",
+      "imageUrl": "https://i2.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/4c18dd60-d7fd-4335-8d4a-259c412cc606.jpeg?resize=247&w=247",
+      "modelNumber": "CH2100E",
+      "condition": "GOOD",
+      "accessories": "X1 56V 4.0AH BATTERY + CHARGER + CATCHER",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-power-tools"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:38.568Z",
+      "lastSeenAt": "2026-09-24T01:31:38.568Z"
+    },
+    "dollardealers:ego-56v-electric-lawnmower-ch2100e": {
+      "key": "dollardealers:ego-56v-electric-lawnmower-ch2100e",
+      "siteId": "dollardealers",
+      "sourceListingId": "ego-56v-electric-lawnmower-ch2100e",
+      "title": "EGO 56V ELECTRIC LAWNMOWER (CH2100E)",
+      "canonicalUrl": "https://dollardealers.co.nz/product/ego-56v-electric-lawnmower-ch2100e/",
+      "price": 450,
+      "seller": "by DollarDealers Mangere, Auckland View Store Details",
+      "imageUrl": "https://i2.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/4c18dd60-d7fd-4335-8d4a-259c412cc606.jpeg?resize=247&w=247",
+      "modelNumber": "CH2100E",
+      "condition": "GOOD",
+      "accessories": "X1 56V 4.0AH BATTERY + CHARGER + CATCHER",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-power-tools"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:38.568Z",
+      "lastSeenAt": "2026-09-24T01:31:38.568Z"
+    },
+    "dollardealers:3446923": {
+      "key": "dollardealers:3446923",
+      "siteId": "dollardealers",
+      "sourceListingId": "3446923",
+      "title": "EGO POWER WEEDEATER LINE TRIMMER",
+      "canonicalUrl": "https://dollardealers.co.nz/product/ego-power-weedeater-line-trimmer/",
+      "price": 299,
+      "seller": "by DollarDealers Tauranga View Store Details",
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/e85d6277-2fea-48cc-8df0-4a77d6bb2f47.jpeg?resize=247&w=247",
+      "modelNumber": "LINE TRIMMER",
+      "condition": "USED",
+      "accessories": "+ BATTERY + CHARGER",
+      "priority": "high",
+      "matchedRules": [
+        "rule-b-high-bare"
+      ],
+      "searchIds": [
+        "src-b-power-tools"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:38.568Z",
+      "lastSeenAt": "2026-09-24T01:31:38.568Z"
+    },
+    "dollardealers:ego-power-weedeater-line-trimmer": {
+      "key": "dollardealers:ego-power-weedeater-line-trimmer",
+      "siteId": "dollardealers",
+      "sourceListingId": "ego-power-weedeater-line-trimmer",
+      "title": "EGO POWER WEEDEATER LINE TRIMMER",
+      "canonicalUrl": "https://dollardealers.co.nz/product/ego-power-weedeater-line-trimmer/",
+      "price": 299,
+      "seller": "by DollarDealers Tauranga View Store Details",
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/e85d6277-2fea-48cc-8df0-4a77d6bb2f47.jpeg?resize=247&w=247",
+      "modelNumber": "LINE TRIMMER",
+      "condition": "USED",
+      "accessories": "+ BATTERY + CHARGER",
+      "priority": "high",
+      "matchedRules": [
+        "rule-b-high-bare"
+      ],
+      "searchIds": [
+        "src-b-power-tools"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:38.568Z",
+      "lastSeenAt": "2026-09-24T01:31:38.568Z"
+    },
+    "dollardealers:3212402": {
+      "key": "dollardealers:3212402",
+      "siteId": "dollardealers",
+      "sourceListingId": "3212402",
+      "title": "TOUGHBUILT DROP SAW STAND TB-S600",
+      "canonicalUrl": "https://dollardealers.co.nz/product/toughbuilt-drop-saw-stand-tb-s600/",
+      "price": 199,
+      "seller": "by DollarDealers Henderson, Auckland View Store Details",
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/0e461b07-47d4-4817-a4e1-274bdf8bcf9c.jpeg?resize=247&w=247",
+      "modelNumber": "TB-S600",
+      "condition": "GOOD",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:toughbuilt-drop-saw-stand-tb-s600": {
+      "key": "dollardealers:toughbuilt-drop-saw-stand-tb-s600",
+      "siteId": "dollardealers",
+      "sourceListingId": "toughbuilt-drop-saw-stand-tb-s600",
+      "title": "TOUGHBUILT DROP SAW STAND TB-S600",
+      "canonicalUrl": "https://dollardealers.co.nz/product/toughbuilt-drop-saw-stand-tb-s600/",
+      "price": 199,
+      "seller": "by DollarDealers Henderson, Auckland View Store Details",
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/0e461b07-47d4-4817-a4e1-274bdf8bcf9c.jpeg?resize=247&w=247",
+      "modelNumber": "TB-S600",
+      "condition": "GOOD",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:3500631": {
+      "key": "dollardealers:3500631",
+      "siteId": "dollardealers",
+      "sourceListingId": "3500631",
+      "title": "HUSQVARNA CONCRETE SAW",
+      "canonicalUrl": "https://dollardealers.co.nz/product/husqvarna-concrete-saw/",
+      "price": 999,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/37ee3fc0-bbff-4026-9fc0-50cc4ecedbf2.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:husqvarna-concrete-saw": {
+      "key": "dollardealers:husqvarna-concrete-saw",
+      "siteId": "dollardealers",
+      "sourceListingId": "husqvarna-concrete-saw",
+      "title": "HUSQVARNA CONCRETE SAW",
+      "canonicalUrl": "https://dollardealers.co.nz/product/husqvarna-concrete-saw/",
+      "price": 999,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/37ee3fc0-bbff-4026-9fc0-50cc4ecedbf2.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:3492900": {
+      "key": "dollardealers:3492900",
+      "siteId": "dollardealers",
+      "sourceListingId": "3492900",
+      "title": "CASIO WATCH GA710- LIKE NEW",
+      "canonicalUrl": "https://dollardealers.co.nz/product/casio-watch-ga710-like-new/",
+      "price": 149,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/538e6323-61e5-4815-8363-63ec2a52946d.jpeg?resize=247&w=247",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:casio-watch-ga710-like-new": {
+      "key": "dollardealers:casio-watch-ga710-like-new",
+      "siteId": "dollardealers",
+      "sourceListingId": "casio-watch-ga710-like-new",
+      "title": "CASIO WATCH GA710- LIKE NEW",
+      "canonicalUrl": "https://dollardealers.co.nz/product/casio-watch-ga710-like-new/",
+      "price": 149,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/538e6323-61e5-4815-8363-63ec2a52946d.jpeg?resize=247&w=247",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:3492452": {
+      "key": "dollardealers:3492452",
+      "siteId": "dollardealers",
+      "sourceListingId": "3492452",
+      "title": "CASIO G SHOCK WATCH",
+      "canonicalUrl": "https://dollardealers.co.nz/product/casio-g-shock-watch-4/",
+      "price": 149,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/249be710-866c-4066-b11e-fcf1d5853d6a.jpeg?resize=247&w=247",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:casio-g-shock-watch-4": {
+      "key": "dollardealers:casio-g-shock-watch-4",
+      "siteId": "dollardealers",
+      "sourceListingId": "casio-g-shock-watch-4",
+      "title": "CASIO G SHOCK WATCH",
+      "canonicalUrl": "https://dollardealers.co.nz/product/casio-g-shock-watch-4/",
+      "price": 149,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/249be710-866c-4066-b11e-fcf1d5853d6a.jpeg?resize=247&w=247",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:3483126": {
+      "key": "dollardealers:3483126",
+      "siteId": "dollardealers",
+      "sourceListingId": "3483126",
+      "title": "MEN’S CASIO G-SHOCK CLASSIC GOLD WRIST WATCH",
+      "canonicalUrl": "https://dollardealers.co.nz/product/mens-casio-g-shock-classic-gold-wrist-watch/",
+      "price": 599,
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/579497b8-376d-4f46-a400-0a4a8f1f791e.jpeg?resize=247&w=247",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:mens-casio-g-shock-classic-gold-wrist-watch": {
+      "key": "dollardealers:mens-casio-g-shock-classic-gold-wrist-watch",
+      "siteId": "dollardealers",
+      "sourceListingId": "mens-casio-g-shock-classic-gold-wrist-watch",
+      "title": "MEN’S CASIO G-SHOCK CLASSIC GOLD WRIST WATCH",
+      "canonicalUrl": "https://dollardealers.co.nz/product/mens-casio-g-shock-classic-gold-wrist-watch/",
+      "price": 599,
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/579497b8-376d-4f46-a400-0a4a8f1f791e.jpeg?resize=247&w=247",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:3482435": {
+      "key": "dollardealers:3482435",
+      "siteId": "dollardealers",
+      "sourceListingId": "3482435",
+      "title": "RYOBI IMPACT DRILL RID18X",
+      "canonicalUrl": "https://dollardealers.co.nz/product/ryobi-impact-drill-rid18x/",
+      "price": 149,
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/78feba6a-c029-45ed-971c-49105dc801d1.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:ryobi-impact-drill-rid18x": {
+      "key": "dollardealers:ryobi-impact-drill-rid18x",
+      "siteId": "dollardealers",
+      "sourceListingId": "ryobi-impact-drill-rid18x",
+      "title": "RYOBI IMPACT DRILL RID18X",
+      "canonicalUrl": "https://dollardealers.co.nz/product/ryobi-impact-drill-rid18x/",
+      "price": 149,
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/78feba6a-c029-45ed-971c-49105dc801d1.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:3480381": {
+      "key": "dollardealers:3480381",
+      "siteId": "dollardealers",
+      "sourceListingId": "3480381",
+      "title": "DEWALT DCD805 IMPACT DRILL – SKIN ONLY",
+      "canonicalUrl": "https://dollardealers.co.nz/product/dewalt-dcd805-impact-drill-skin-only/",
+      "price": 149,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/f6963551-3cc4-4c22-adb3-0efcbcb34e23.PNG?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:dewalt-dcd805-impact-drill-skin-only": {
+      "key": "dollardealers:dewalt-dcd805-impact-drill-skin-only",
+      "siteId": "dollardealers",
+      "sourceListingId": "dewalt-dcd805-impact-drill-skin-only",
+      "title": "DEWALT DCD805 IMPACT DRILL – SKIN ONLY",
+      "canonicalUrl": "https://dollardealers.co.nz/product/dewalt-dcd805-impact-drill-skin-only/",
+      "price": 149,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/f6963551-3cc4-4c22-adb3-0efcbcb34e23.PNG?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:3478813": {
+      "key": "dollardealers:3478813",
+      "siteId": "dollardealers",
+      "sourceListingId": "3478813",
+      "title": "DEWALT ROTARY HAMMER DRILL DW570",
+      "canonicalUrl": "https://dollardealers.co.nz/product/dewalt-rotary-hammer-drill-dw570/",
+      "price": 229,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/7d4c3cf6-1e94-4f4b-9afa-788ded8368d0.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:dewalt-rotary-hammer-drill-dw570": {
+      "key": "dollardealers:dewalt-rotary-hammer-drill-dw570",
+      "siteId": "dollardealers",
+      "sourceListingId": "dewalt-rotary-hammer-drill-dw570",
+      "title": "DEWALT ROTARY HAMMER DRILL DW570",
+      "canonicalUrl": "https://dollardealers.co.nz/product/dewalt-rotary-hammer-drill-dw570/",
+      "price": 229,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/7d4c3cf6-1e94-4f4b-9afa-788ded8368d0.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:3472445": {
+      "key": "dollardealers:3472445",
+      "siteId": "dollardealers",
+      "sourceListingId": "3472445",
+      "title": "CASIO G-SHOCK WATCH",
+      "canonicalUrl": "https://dollardealers.co.nz/product/casio-g-shock-watch-2/",
+      "price": 99,
+      "imageUrl": "https://i2.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/fb2d3f05-f2d3-4366-92dc-01d12979780e.jpeg?resize=247&w=247",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:casio-g-shock-watch-2": {
+      "key": "dollardealers:casio-g-shock-watch-2",
+      "siteId": "dollardealers",
+      "sourceListingId": "casio-g-shock-watch-2",
+      "title": "CASIO G-SHOCK WATCH",
+      "canonicalUrl": "https://dollardealers.co.nz/product/casio-g-shock-watch-2/",
+      "price": 99,
+      "imageUrl": "https://i2.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/fb2d3f05-f2d3-4366-92dc-01d12979780e.jpeg?resize=247&w=247",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:3469133": {
+      "key": "dollardealers:3469133",
+      "siteId": "dollardealers",
+      "sourceListingId": "3469133",
+      "title": "AEG BBH 18 cordless rotary hammer + 6.0Ah battery + Charger",
+      "canonicalUrl": "https://dollardealers.co.nz/product/aeg-bbh-18-cordless-rotary-hammer-6-0ah-battery-charger/",
+      "price": 199,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/ace364ec-0c1a-4d56-b675-b8c699a497a0.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:aeg-bbh-18-cordless-rotary-hammer-6-0ah-battery-charger": {
+      "key": "dollardealers:aeg-bbh-18-cordless-rotary-hammer-6-0ah-battery-charger",
+      "siteId": "dollardealers",
+      "sourceListingId": "aeg-bbh-18-cordless-rotary-hammer-6-0ah-battery-charger",
+      "title": "AEG BBH 18 cordless rotary hammer + 6.0Ah battery + Charger",
+      "canonicalUrl": "https://dollardealers.co.nz/product/aeg-bbh-18-cordless-rotary-hammer-6-0ah-battery-charger/",
+      "price": 199,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/ace364ec-0c1a-4d56-b675-b8c699a497a0.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:3468575": {
+      "key": "dollardealers:3468575",
+      "siteId": "dollardealers",
+      "sourceListingId": "3468575",
+      "title": "STIHL CONCRETW SAW TS 800",
+      "canonicalUrl": "https://dollardealers.co.nz/product/stihl-concretw-saw-ts-800/",
+      "price": 1499,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/f5b627f4-e136-400f-8ed1-5675b8e1d017.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:stihl-concretw-saw-ts-800": {
+      "key": "dollardealers:stihl-concretw-saw-ts-800",
+      "siteId": "dollardealers",
+      "sourceListingId": "stihl-concretw-saw-ts-800",
+      "title": "STIHL CONCRETW SAW TS 800",
+      "canonicalUrl": "https://dollardealers.co.nz/product/stihl-concretw-saw-ts-800/",
+      "price": 1499,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/f5b627f4-e136-400f-8ed1-5675b8e1d017.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:3458610": {
+      "key": "dollardealers:3458610",
+      "siteId": "dollardealers",
+      "sourceListingId": "3458610",
+      "title": "MILWAUKEE M18 12.0AH BATTERY",
+      "canonicalUrl": "https://dollardealers.co.nz/product/milwaukee-m18-12-0ah-battery/",
+      "price": 199,
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/3027f1c2-e62d-46a8-a5d9-5263c54c3563.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:milwaukee-m18-12-0ah-battery": {
+      "key": "dollardealers:milwaukee-m18-12-0ah-battery",
+      "siteId": "dollardealers",
+      "sourceListingId": "milwaukee-m18-12-0ah-battery",
+      "title": "MILWAUKEE M18 12.0AH BATTERY",
+      "canonicalUrl": "https://dollardealers.co.nz/product/milwaukee-m18-12-0ah-battery/",
+      "price": 199,
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/3027f1c2-e62d-46a8-a5d9-5263c54c3563.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:3454228": {
+      "key": "dollardealers:3454228",
+      "siteId": "dollardealers",
+      "sourceListingId": "3454228",
+      "title": "Casio GA100CM",
+      "canonicalUrl": "https://dollardealers.co.nz/product/casio-ga100cm/",
+      "price": 129,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/4775b206-f1af-481c-8308-abdd5bdef31e.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:casio-ga100cm": {
+      "key": "dollardealers:casio-ga100cm",
+      "siteId": "dollardealers",
+      "sourceListingId": "casio-ga100cm",
+      "title": "Casio GA100CM",
+      "canonicalUrl": "https://dollardealers.co.nz/product/casio-ga100cm/",
+      "price": 129,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/4775b206-f1af-481c-8308-abdd5bdef31e.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:3448807": {
+      "key": "dollardealers:3448807",
+      "siteId": "dollardealers",
+      "sourceListingId": "3448807",
+      "title": "Marc Jacobs Handbag",
+      "canonicalUrl": "https://dollardealers.co.nz/product/marc-jacobs-handbag/",
+      "price": 199,
+      "imageUrl": "https://i2.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/afe5074b-71c5-4025-967d-89fd4ef3d645.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:marc-jacobs-handbag": {
+      "key": "dollardealers:marc-jacobs-handbag",
+      "siteId": "dollardealers",
+      "sourceListingId": "marc-jacobs-handbag",
+      "title": "Marc Jacobs Handbag",
+      "canonicalUrl": "https://dollardealers.co.nz/product/marc-jacobs-handbag/",
+      "price": 199,
+      "imageUrl": "https://i2.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/afe5074b-71c5-4025-967d-89fd4ef3d645.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:3434381": {
+      "key": "dollardealers:3434381",
+      "siteId": "dollardealers",
+      "sourceListingId": "3434381",
+      "title": "STIHL CHAINSAW",
+      "canonicalUrl": "https://dollardealers.co.nz/product/stihl-chainsaw/",
+      "price": 599,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/e56019cd-f7df-4f9d-9f71-9da7d41a4ea1.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:stihl-chainsaw": {
+      "key": "dollardealers:stihl-chainsaw",
+      "siteId": "dollardealers",
+      "sourceListingId": "stihl-chainsaw",
+      "title": "STIHL CHAINSAW",
+      "canonicalUrl": "https://dollardealers.co.nz/product/stihl-chainsaw/",
+      "price": 599,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/e56019cd-f7df-4f9d-9f71-9da7d41a4ea1.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:3430839": {
+      "key": "dollardealers:3430839",
+      "siteId": "dollardealers",
+      "sourceListingId": "3430839",
+      "title": "CASIO WATCH",
+      "canonicalUrl": "https://dollardealers.co.nz/product/casio-watch-3/",
+      "price": 429,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/1bcc71e1-0f23-4dd2-9578-992b599cd4a7.jpeg?resize=247&w=247",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:casio-watch-3": {
+      "key": "dollardealers:casio-watch-3",
+      "siteId": "dollardealers",
+      "sourceListingId": "casio-watch-3",
+      "title": "CASIO WATCH",
+      "canonicalUrl": "https://dollardealers.co.nz/product/casio-watch-3/",
+      "price": 429,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/1bcc71e1-0f23-4dd2-9578-992b599cd4a7.jpeg?resize=247&w=247",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:3429934": {
+      "key": "dollardealers:3429934",
+      "siteId": "dollardealers",
+      "sourceListingId": "3429934",
+      "title": "MASTER LOCK PADLOCKS EXCELL 50MM 4 PACK",
+      "canonicalUrl": "https://dollardealers.co.nz/product/master-lock-padlocks-excell-50mm-4-pack/",
+      "price": 79,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/717451e1-81ca-4e72-bfd6-95c6ba074c75.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:master-lock-padlocks-excell-50mm-4-pack": {
+      "key": "dollardealers:master-lock-padlocks-excell-50mm-4-pack",
+      "siteId": "dollardealers",
+      "sourceListingId": "master-lock-padlocks-excell-50mm-4-pack",
+      "title": "MASTER LOCK PADLOCKS EXCELL 50MM 4 PACK",
+      "canonicalUrl": "https://dollardealers.co.nz/product/master-lock-padlocks-excell-50mm-4-pack/",
+      "price": 79,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/717451e1-81ca-4e72-bfd6-95c6ba074c75.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:3429880": {
+      "key": "dollardealers:3429880",
+      "siteId": "dollardealers",
+      "sourceListingId": "3429880",
+      "title": "MASTER LOCK LOCK AND KEY SET M5BQAU",
+      "canonicalUrl": "https://dollardealers.co.nz/product/master-lock-lock-and-key-set-m5bqau/",
+      "price": 80,
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/35925e66-f4ea-4703-ba8b-0ffc96aca128.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:master-lock-lock-and-key-set-m5bqau": {
+      "key": "dollardealers:master-lock-lock-and-key-set-m5bqau",
+      "siteId": "dollardealers",
+      "sourceListingId": "master-lock-lock-and-key-set-m5bqau",
+      "title": "MASTER LOCK LOCK AND KEY SET M5BQAU",
+      "canonicalUrl": "https://dollardealers.co.nz/product/master-lock-lock-and-key-set-m5bqau/",
+      "price": 80,
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/35925e66-f4ea-4703-ba8b-0ffc96aca128.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:3423927": {
+      "key": "dollardealers:3423927",
+      "siteId": "dollardealers",
+      "sourceListingId": "3423927",
+      "title": "10CT WHITE GOLD TENNIS BRACELET 5.0GMS TDW1.40CTS",
+      "canonicalUrl": "https://dollardealers.co.nz/product/10ct-white-gold-tennis-bracelet-5-0gms-tdw1-40cts/",
+      "price": 1999,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/6c839261-2b99-47c4-b2d1-4e23fe228cc2.jpeg?resize=247&w=247",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:10ct-white-gold-tennis-bracelet-5-0gms-tdw1-40cts": {
+      "key": "dollardealers:10ct-white-gold-tennis-bracelet-5-0gms-tdw1-40cts",
+      "siteId": "dollardealers",
+      "sourceListingId": "10ct-white-gold-tennis-bracelet-5-0gms-tdw1-40cts",
+      "title": "10CT WHITE GOLD TENNIS BRACELET 5.0GMS TDW1.40CTS",
+      "canonicalUrl": "https://dollardealers.co.nz/product/10ct-white-gold-tennis-bracelet-5-0gms-tdw1-40cts/",
+      "price": 1999,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/6c839261-2b99-47c4-b2d1-4e23fe228cc2.jpeg?resize=247&w=247",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:3423918": {
+      "key": "dollardealers:3423918",
+      "siteId": "dollardealers",
+      "sourceListingId": "3423918",
+      "title": "14CT WHITE GOLD RING 2.3GMS TDW 0.20 CTS",
+      "canonicalUrl": "https://dollardealers.co.nz/product/14ct-white-gold-ring-2-3gms-tdw-0-20-cts/",
+      "price": 599,
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/171f9bf7-d49e-41c8-b4e2-1a8279645629.jpeg?resize=247&w=247",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:14ct-white-gold-ring-2-3gms-tdw-0-20-cts": {
+      "key": "dollardealers:14ct-white-gold-ring-2-3gms-tdw-0-20-cts",
+      "siteId": "dollardealers",
+      "sourceListingId": "14ct-white-gold-ring-2-3gms-tdw-0-20-cts",
+      "title": "14CT WHITE GOLD RING 2.3GMS TDW 0.20 CTS",
+      "canonicalUrl": "https://dollardealers.co.nz/product/14ct-white-gold-ring-2-3gms-tdw-0-20-cts/",
+      "price": 599,
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/171f9bf7-d49e-41c8-b4e2-1a8279645629.jpeg?resize=247&w=247",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:3423912": {
+      "key": "dollardealers:3423912",
+      "siteId": "dollardealers",
+      "sourceListingId": "3423912",
+      "title": "22CT GOLD 1910 FULL SOVEREIGN RING",
+      "canonicalUrl": "https://dollardealers.co.nz/product/22ct-gold-1910-full-sovereign-ring/",
+      "price": 4799,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/34a2b37f-c8f5-4b6d-8048-e19d14fa9826.jpeg?resize=247&w=247",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:22ct-gold-1910-full-sovereign-ring": {
+      "key": "dollardealers:22ct-gold-1910-full-sovereign-ring",
+      "siteId": "dollardealers",
+      "sourceListingId": "22ct-gold-1910-full-sovereign-ring",
+      "title": "22CT GOLD 1910 FULL SOVEREIGN RING",
+      "canonicalUrl": "https://dollardealers.co.nz/product/22ct-gold-1910-full-sovereign-ring/",
+      "price": 4799,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/34a2b37f-c8f5-4b6d-8048-e19d14fa9826.jpeg?resize=247&w=247",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:3423836": {
+      "key": "dollardealers:3423836",
+      "siteId": "dollardealers",
+      "sourceListingId": "3423836",
+      "title": "9CT GOLD NECKLACE 7.4GM",
+      "canonicalUrl": "https://dollardealers.co.nz/product/9ct-gold-necklace-7-4gm/",
+      "price": 1099,
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/4c332b74-4b4c-43f2-b82a-1cab5934036d.jpeg?resize=247&w=247",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:9ct-gold-necklace-7-4gm": {
+      "key": "dollardealers:9ct-gold-necklace-7-4gm",
+      "siteId": "dollardealers",
+      "sourceListingId": "9ct-gold-necklace-7-4gm",
+      "title": "9CT GOLD NECKLACE 7.4GM",
+      "canonicalUrl": "https://dollardealers.co.nz/product/9ct-gold-necklace-7-4gm/",
+      "price": 1099,
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/4c332b74-4b4c-43f2-b82a-1cab5934036d.jpeg?resize=247&w=247",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:3422207": {
+      "key": "dollardealers:3422207",
+      "siteId": "dollardealers",
+      "sourceListingId": "3422207",
+      "title": "MASTERLOCK LOCK M116QLFAU 4-PIECE 45MM",
+      "canonicalUrl": "https://dollardealers.co.nz/product/masterlock-lock-m116qlfau-4-piece-45mm/",
+      "price": 50,
+      "imageUrl": "https://i2.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/a29ca7bf-889c-4149-ba8f-9fc6c1c442d0.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:masterlock-lock-m116qlfau-4-piece-45mm": {
+      "key": "dollardealers:masterlock-lock-m116qlfau-4-piece-45mm",
+      "siteId": "dollardealers",
+      "sourceListingId": "masterlock-lock-m116qlfau-4-piece-45mm",
+      "title": "MASTERLOCK LOCK M116QLFAU 4-PIECE 45MM",
+      "canonicalUrl": "https://dollardealers.co.nz/product/masterlock-lock-m116qlfau-4-piece-45mm/",
+      "price": 50,
+      "imageUrl": "https://i2.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/a29ca7bf-889c-4149-ba8f-9fc6c1c442d0.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:3413814": {
+      "key": "dollardealers:3413814",
+      "siteId": "dollardealers",
+      "sourceListingId": "3413814",
+      "title": "10CT YELLOW GOLD CHAIN 17.1GMS",
+      "canonicalUrl": "https://dollardealers.co.nz/product/10ct-yellow-gold-chain-17-1gms/",
+      "price": 2300,
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/fa16d3a6-36c6-426a-b3d8-2a9a7f134f8f.jpeg?resize=247&w=247",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:10ct-yellow-gold-chain-17-1gms": {
+      "key": "dollardealers:10ct-yellow-gold-chain-17-1gms",
+      "siteId": "dollardealers",
+      "sourceListingId": "10ct-yellow-gold-chain-17-1gms",
+      "title": "10CT YELLOW GOLD CHAIN 17.1GMS",
+      "canonicalUrl": "https://dollardealers.co.nz/product/10ct-yellow-gold-chain-17-1gms/",
+      "price": 2300,
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/fa16d3a6-36c6-426a-b3d8-2a9a7f134f8f.jpeg?resize=247&w=247",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:3413808": {
+      "key": "dollardealers:3413808",
+      "siteId": "dollardealers",
+      "sourceListingId": "3413808",
+      "title": "ROCKROOSTER SHOES PAIR AM606",
+      "canonicalUrl": "https://dollardealers.co.nz/product/rockrooster-shoes-pair-am606/",
+      "price": 40,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/f4b3288c-4c9c-4eb9-bbb7-d049d741ca5d.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:rockrooster-shoes-pair-am606": {
+      "key": "dollardealers:rockrooster-shoes-pair-am606",
+      "siteId": "dollardealers",
+      "sourceListingId": "rockrooster-shoes-pair-am606",
+      "title": "ROCKROOSTER SHOES PAIR AM606",
+      "canonicalUrl": "https://dollardealers.co.nz/product/rockrooster-shoes-pair-am606/",
+      "price": 40,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/f4b3288c-4c9c-4eb9-bbb7-d049d741ca5d.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:3413761": {
+      "key": "dollardealers:3413761",
+      "siteId": "dollardealers",
+      "sourceListingId": "3413761",
+      "title": "14CT WG GOLD RING 1.5GMS TDW 0.20CT",
+      "canonicalUrl": "https://dollardealers.co.nz/product/14ct-wg-gold-ring-1-5gms-tdw-0-20ct/",
+      "price": 330,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/d9d5d6c2-f5d4-4e16-98e6-8a1641afcedc.jpeg?resize=247&w=247",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:14ct-wg-gold-ring-1-5gms-tdw-0-20ct": {
+      "key": "dollardealers:14ct-wg-gold-ring-1-5gms-tdw-0-20ct",
+      "siteId": "dollardealers",
+      "sourceListingId": "14ct-wg-gold-ring-1-5gms-tdw-0-20ct",
+      "title": "14CT WG GOLD RING 1.5GMS TDW 0.20CT",
+      "canonicalUrl": "https://dollardealers.co.nz/product/14ct-wg-gold-ring-1-5gms-tdw-0-20ct/",
+      "price": 330,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/d9d5d6c2-f5d4-4e16-98e6-8a1641afcedc.jpeg?resize=247&w=247",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:3413734": {
+      "key": "dollardealers:3413734",
+      "siteId": "dollardealers",
+      "sourceListingId": "3413734",
+      "title": "14CT WHITE GOLD RING 3.9GMS TDW 0.50 CTS",
+      "canonicalUrl": "https://dollardealers.co.nz/product/14ct-white-gold-ring-3-9gms-tdw-0-50-cts/",
+      "price": 820,
+      "imageUrl": "https://i2.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/c1d22818-4721-419b-8abd-312513088163.jpeg?resize=247&w=247",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:14ct-white-gold-ring-3-9gms-tdw-0-50-cts": {
+      "key": "dollardealers:14ct-white-gold-ring-3-9gms-tdw-0-50-cts",
+      "siteId": "dollardealers",
+      "sourceListingId": "14ct-white-gold-ring-3-9gms-tdw-0-50-cts",
+      "title": "14CT WHITE GOLD RING 3.9GMS TDW 0.50 CTS",
+      "canonicalUrl": "https://dollardealers.co.nz/product/14ct-white-gold-ring-3-9gms-tdw-0-50-cts/",
+      "price": 820,
+      "imageUrl": "https://i2.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/c1d22818-4721-419b-8abd-312513088163.jpeg?resize=247&w=247",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:3413702": {
+      "key": "dollardealers:3413702",
+      "siteId": "dollardealers",
+      "sourceListingId": "3413702",
+      "title": "10CT YELLOW GOLD RING 4.1GMS TDW 0.15CTS",
+      "canonicalUrl": "https://dollardealers.co.nz/product/10ct-yellow-gold-ring-4-1gms-tdw-0-15cts/",
+      "price": 640,
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/abe78d37-5172-4707-bcfa-8ff5740c4d97.jpeg?resize=247&w=247",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:10ct-yellow-gold-ring-4-1gms-tdw-0-15cts": {
+      "key": "dollardealers:10ct-yellow-gold-ring-4-1gms-tdw-0-15cts",
+      "siteId": "dollardealers",
+      "sourceListingId": "10ct-yellow-gold-ring-4-1gms-tdw-0-15cts",
+      "title": "10CT YELLOW GOLD RING 4.1GMS TDW 0.15CTS",
+      "canonicalUrl": "https://dollardealers.co.nz/product/10ct-yellow-gold-ring-4-1gms-tdw-0-15cts/",
+      "price": 640,
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/abe78d37-5172-4707-bcfa-8ff5740c4d97.jpeg?resize=247&w=247",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:3413665": {
+      "key": "dollardealers:3413665",
+      "siteId": "dollardealers",
+      "sourceListingId": "3413665",
+      "title": "14CT Y/G GOLD P/CUT SOLITAIRE RING 2.8GMS TDW 0.70CTS F I2 + VAL",
+      "canonicalUrl": "https://dollardealers.co.nz/product/14ct-y-g-gold-p-cut-solitaire-ring-2-8gms-tdw-0-70cts-f-i2-val/",
+      "price": 1300,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/38486fe4-308e-45d5-984a-2b8ac7e43acd.jpeg?resize=247&w=247",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:14ct-y-g-gold-p-cut-solitaire-ring-2-8gms-tdw-0-70cts-f-i2-val": {
+      "key": "dollardealers:14ct-y-g-gold-p-cut-solitaire-ring-2-8gms-tdw-0-70cts-f-i2-val",
+      "siteId": "dollardealers",
+      "sourceListingId": "14ct-y-g-gold-p-cut-solitaire-ring-2-8gms-tdw-0-70cts-f-i2-val",
+      "title": "14CT Y/G GOLD P/CUT SOLITAIRE RING 2.8GMS TDW 0.70CTS F I2 + VAL",
+      "canonicalUrl": "https://dollardealers.co.nz/product/14ct-y-g-gold-p-cut-solitaire-ring-2-8gms-tdw-0-70cts-f-i2-val/",
+      "price": 1300,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/38486fe4-308e-45d5-984a-2b8ac7e43acd.jpeg?resize=247&w=247",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:3410570": {
+      "key": "dollardealers:3410570",
+      "siteId": "dollardealers",
+      "sourceListingId": "3410570",
+      "title": "SAFETY WORK BOOTS",
+      "canonicalUrl": "https://dollardealers.co.nz/product/safety-work-boots/",
+      "price": 140,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/bacaeeff-a835-476c-9034-701d4d5ac00e.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:safety-work-boots": {
+      "key": "dollardealers:safety-work-boots",
+      "siteId": "dollardealers",
+      "sourceListingId": "safety-work-boots",
+      "title": "SAFETY WORK BOOTS",
+      "canonicalUrl": "https://dollardealers.co.nz/product/safety-work-boots/",
+      "price": 140,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/bacaeeff-a835-476c-9034-701d4d5ac00e.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:3406398": {
+      "key": "dollardealers:3406398",
+      "siteId": "dollardealers",
+      "sourceListingId": "3406398",
+      "title": "G-Shock Full-Metal Gold Tone Solar Watch GMB2100GD-9A",
+      "canonicalUrl": "https://dollardealers.co.nz/product/g-shock-full-metal-gold-tone-solar-watch-gmb2100gd-9a/",
+      "price": 599,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/db9cce9f-e5cf-4305-80b0-433f4e9e4187.jpeg?resize=247&w=247",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:g-shock-full-metal-gold-tone-solar-watch-gmb2100gd-9a": {
+      "key": "dollardealers:g-shock-full-metal-gold-tone-solar-watch-gmb2100gd-9a",
+      "siteId": "dollardealers",
+      "sourceListingId": "g-shock-full-metal-gold-tone-solar-watch-gmb2100gd-9a",
+      "title": "G-Shock Full-Metal Gold Tone Solar Watch GMB2100GD-9A",
+      "canonicalUrl": "https://dollardealers.co.nz/product/g-shock-full-metal-gold-tone-solar-watch-gmb2100gd-9a/",
+      "price": 599,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/db9cce9f-e5cf-4305-80b0-433f4e9e4187.jpeg?resize=247&w=247",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:3398135": {
+      "key": "dollardealers:3398135",
+      "siteId": "dollardealers",
+      "sourceListingId": "3398135",
+      "title": "GSHOCK WATCH 5553 GM-110G",
+      "canonicalUrl": "https://dollardealers.co.nz/product/gshock-watch-5553-gm-110g/",
+      "price": 179,
+      "imageUrl": "https://i2.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/fa57bbbe-0ed1-4808-acf7-46f3865af553.png?resize=247&w=247",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    },
+    "dollardealers:gshock-watch-5553-gm-110g": {
+      "key": "dollardealers:gshock-watch-5553-gm-110g",
+      "siteId": "dollardealers",
+      "sourceListingId": "gshock-watch-5553-gm-110g",
+      "title": "GSHOCK WATCH 5553 GM-110G",
+      "canonicalUrl": "https://dollardealers.co.nz/product/gshock-watch-5553-gm-110g/",
+      "price": 179,
+      "imageUrl": "https://i2.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/fa57bbbe-0ed1-4808-acf7-46f3865af553.png?resize=247&w=247",
+      "priority": "ignore",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-tough-cameras"
+      ],
+      "firstSeenAt": "2026-09-24T01:31:55.829Z",
+      "lastSeenAt": "2026-09-24T01:31:55.829Z"
+    }
+  }
 }
