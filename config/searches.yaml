@@ -45,24 +45,24 @@ searches:
   - id: src-a-power-tools
     site: cashconverters
     label: "Source A - Cordless Power Equipment"
-    path: "/Search?SearchQuery=EGO"
+    path: "/Search?SearchQuery=EGO+56V"
     enabled: true
     rules:
       - id: rule-a-high-multitool
         label: "Multi-Tool Modular Head"
         priority: high
         includeKeywords: ["ego", "multi"]
-        excludeKeywords: ["lego"]
+        excludeKeywords: ["lego", "makita", "corded", "dewalt", "ryobi", "bosch", "fein"]
       - id: rule-a-high-blower
         label: "High-CFM Blower"
         priority: high
         includeKeywords: ["ego", "blower"]
-        excludeKeywords: ["lego"]
+        excludeKeywords: ["lego", "makita", "dewalt", "ryobi", "bosch"]
       - id: rule-a-high-chainsaw
         label: "Chainsaw Equipment"
         priority: high
         includeKeywords: ["ego", "chainsaw"]
-        excludeKeywords: ["lego"]
+        excludeKeywords: ["lego", "makita", "dewalt", "stihl", "husqvarna"]
       - id: rule-a-high-battery
         label: "Arc Lithium Battery Pack"
         priority: high
@@ -72,12 +72,12 @@ searches:
         label: "Power Equipment Bare Tool"
         priority: high
         includeKeywords: ["ego", "power"]
-        excludeKeywords: ["lego"]
+        excludeKeywords: ["lego", "makita", "dewalt", "ryobi", "bosch"]
       - id: rule-a-normal-mower
         label: "Cordless Mower"
         priority: normal
         includeKeywords: ["ego", "mower"]
-        excludeKeywords: ["lego"]
+        excludeKeywords: ["lego", "makita", "victa", "masport"]
 
   - id: src-a-tough-cameras
     site: cashconverters
@@ -89,22 +89,22 @@ searches:
         label: "OM System Tough TG-7"
         priority: critical
         includeKeywords: ["tg-7"]
-        excludeKeywords: ["case only", "housing only", "battery only"]
+        excludeKeywords: ["case only", "housing only", "battery only", "watch"]
       - id: rule-a-critical-tg6
         label: "Olympus Tough TG-6"
         priority: critical
         includeKeywords: ["tg-6"]
-        excludeKeywords: ["case only", "housing only", "battery only"]
+        excludeKeywords: ["case only", "housing only", "battery only", "watch"]
       - id: rule-a-high-tough-om
         label: "OM System Tough Camera"
         priority: high
         includeKeywords: ["om system", "tough"]
-        excludeKeywords: ["case only", "housing only"]
+        excludeKeywords: ["case only", "housing only", "watch"]
       - id: rule-a-high-tough-olympus
         label: "Olympus Tough Camera"
         priority: high
         includeKeywords: ["olympus", "tough"]
-        excludeKeywords: ["case only", "housing only", "tg-1", "tg-2", "tg-3", "tg-4", "tg-5"]
+        excludeKeywords: ["case only", "housing only", "tg-1", "tg-2", "tg-3", "tg-4", "tg-5", "watch"]
 
   # =============================================================
   # SOURCE CONNECTOR B
@@ -159,17 +159,17 @@ searches:
         label: "Multi-Tool Modular Head"
         priority: high
         includeKeywords: ["ego", "multi"]
-        excludeKeywords: ["lego"]
+        excludeKeywords: ["lego", "makita", "corded", "dewalt", "ryobi", "bosch", "fein"]
       - id: rule-b-high-blower
         label: "High-CFM Blower"
         priority: high
         includeKeywords: ["ego", "blower"]
-        excludeKeywords: ["lego"]
+        excludeKeywords: ["lego", "makita", "dewalt", "ryobi", "bosch"]
       - id: rule-b-high-chainsaw
         label: "Chainsaw Equipment"
         priority: high
         includeKeywords: ["ego", "chainsaw"]
-        excludeKeywords: ["lego"]
+        excludeKeywords: ["lego", "makita", "dewalt", "stihl", "husqvarna"]
       - id: rule-b-high-battery
         label: "Arc Lithium Battery Pack"
         priority: high
@@ -179,12 +179,12 @@ searches:
         label: "Power Equipment Bare Tool"
         priority: high
         includeKeywords: ["ego", "power"]
-        excludeKeywords: ["lego"]
+        excludeKeywords: ["lego", "makita", "dewalt", "ryobi", "bosch"]
       - id: rule-b-normal-mower
         label: "Cordless Mower"
         priority: normal
         includeKeywords: ["ego", "mower"]
-        excludeKeywords: ["lego"]
+        excludeKeywords: ["lego", "makita", "victa", "masport"]
 
   - id: src-b-tough-cameras
     site: dollardealers
@@ -196,19 +196,19 @@ searches:
         label: "OM System Tough TG-7"
         priority: critical
         includeKeywords: ["tg-7"]
-        excludeKeywords: ["case only", "housing only", "battery only"]
+        excludeKeywords: ["case only", "housing only", "battery only", "watch"]
       - id: rule-b-critical-tg6
         label: "Olympus Tough TG-6"
         priority: critical
         includeKeywords: ["tg-6"]
-        excludeKeywords: ["case only", "housing only", "battery only"]
+        excludeKeywords: ["case only", "housing only", "battery only", "watch"]
       - id: rule-b-high-tough-om
         label: "OM System Tough Camera"
         priority: high
         includeKeywords: ["om system", "tough"]
-        excludeKeywords: ["case only", "housing only"]
+        excludeKeywords: ["case only", "housing only", "watch"]
       - id: rule-b-high-tough-olympus
         label: "Olympus Tough Camera"
         priority: high
         includeKeywords: ["olympus", "tough"]
-        excludeKeywords: ["case only", "housing only", "tg-1", "tg-2", "tg-3", "tg-4", "tg-5"]
+        excludeKeywords: ["case only", "housing only", "tg-1", "tg-2", "tg-3", "tg-4", "tg-5", "watch"]

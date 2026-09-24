@@ -52,7 +52,14 @@ const GLOBAL_EXCLUDED_KEYWORDS = [
   "ruby",
   "cufflink",
   "cufflinks",
-  "brooch"
+  "brooch",
+  // Watches & horology (prevent 'watch' or 'lorus' collisions)
+  "watch",
+  "watches",
+  "wrist watch",
+  "wrist-watch",
+  "analogue watch",
+  "chronograph"
 ];
 
 /**
@@ -72,6 +79,16 @@ export function wordBoundaryMatch(corpus: string, keyword: string): boolean {
     return rx.test(corpus);
   }
 
+  // Exact model match for tough cameras
+  if (clean === "tg-6") {
+    const rx = /(?:^|[^a-zA-Z0-9])(?:tg[- ]?6)(?:[^a-zA-Z0-9]|$)/i;
+    return rx.test(corpus);
+  }
+  if (clean === "tg-7") {
+    const rx = /(?:^|[^a-zA-Z0-9])(?:tg[- ]?7)(?:[^a-zA-Z0-9]|$)/i;
+    return rx.test(corpus);
+  }
+
   const escaped = escapeRegex(clean);
   const regex = new RegExp(`(?:^|[^a-zA-Z0-9])${escaped}(?:[^a-zA-Z0-9]|$)`, "i");
   return regex.test(corpus);
@@ -83,9 +100,9 @@ export function matchRules(raw: RawListing, rules: SearchRule[]): MatchResult {
 
   const searchSubject = `${raw.title} ${raw.modelNumber || ""} ${raw.rawText || ""}`.toLowerCase();
 
-  // 1. Check global exclusions (purge jewelry from tech/tool watchers)
-  const isJewelry = GLOBAL_EXCLUDED_KEYWORDS.some((kw) => wordBoundaryMatch(searchSubject, kw));
-  if (isJewelry) {
+  // 1. Check global exclusions (purge jewelry & watches)
+  const isExcluded = GLOBAL_EXCLUDED_KEYWORDS.some((kw) => wordBoundaryMatch(searchSubject, kw));
+  if (isExcluded) {
     return { priority: "ignore", matchedRules: [] };
   }
 
