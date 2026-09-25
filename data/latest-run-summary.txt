@@ -3,5 +3,5 @@
 > tsx src/index.ts
 
 Starting Market Watch run...
-Fatal error in Market Watch: TypeError: config.searches is not iterable
-    at main (/home/runner/work/market-watch/market-watch/src/index.ts:25:31)
+Fatal error in Market Watch: TypeError: searches is not iterable
+    at main (/home/runner/work/market-watch/market-watch/src/index.ts:25:24)
