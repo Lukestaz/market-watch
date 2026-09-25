@@ -16,13 +16,13 @@ const ADAPTERS: Record<SearchConfig["site"], SiteAdapter> = {
 
 async function main(): Promise<void> {
   console.log("Starting Market Watch run...");
-  const config = loadConfig();
+  const searches = loadConfig();
   const state = await loadState();
 
   const context: SiteAdapterContext = {};
   const allRawListings = new Map<string, { raw: RawListing; search: SearchConfig }>();
 
-  for (const search of config.searches) {
+  for (const search of searches) {
     if (!search.enabled) {
       console.log(`Skipping disabled search: ${search.id}`);
       continue;
@@ -77,7 +77,7 @@ async function main(): Promise<void> {
 
   const evaluatedListings: EnrichedListing[] = [];
   for (const listing of activeCandidates) {
-    const matchedRuleLabels = config.searches
+    const matchedRuleLabels = searches
       .flatMap((s) => s.rules)
       .filter((r) => listing.matchedRules.includes(r.id))
       .map((r) => r.label)
@@ -85,7 +85,7 @@ async function main(): Promise<void> {
 
     const aiResult = await evaluateListingWithGemini(listing, matchedRuleLabels);
     if (aiResult) {
-      console.log(`[AI] "${listing.title}" -> ${aiResult.verdict} (score: ${aiResult.score}/10, valid: ${aiResult.isTruePositive})`);
+      console.log(`[AI] \"${listing.title}\" -> ${aiResult.verdict} (score: ${aiResult.score}/10, valid: ${aiResult.isTruePositive})`);
       if (!aiResult.isTruePositive) {
         console.log(`[AI] Dropping false positive: ${listing.title} (${aiResult.reason})`);
         continue;
