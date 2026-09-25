@@ -1,8 +1,8 @@
 {
   "status": "failed",
   "exitCode": 1,
-  "startedAt": "2026-09-25T16:06:33Z",
-  "finishedAt": "2026-09-25T16:06:33Z",
+  "startedAt": "2026-09-25T19:38:43Z",
+  "finishedAt": "2026-09-25T19:38:43Z",
   "command": "npm run watch",
-  "summary": "\n> market-watch@0.1.0 watch\n> tsx src/index.ts\n\n/home/runner/work/market-watch/market-watch/src/index.ts:3\nimport { scrapeDollarDealers } from \"./sites/dollardealers.js\";\n         ^\n\nSyntaxError: The requested module './sites/dollardealers.js' does not provide an export named 'scrapeDollarDealers'\n    at ModuleJob._instantiate (node:internal/modules/esm/module_job:213:21)\n    at async ModuleJob.run (node:internal/modules/esm/module_job:320:5)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)\n\nNode.js v20.20.2\n"
+  "summary": "\nnode:internal/modules/run_main:123\n    triggerUncaughtException(\n    ^\nError [ERR_MODULE_NOT_FOUND]: Cannot find package 'playwright' imported from /home/runner/work/market-watch/market-watch/src/index.ts\n    at packageResolve (node:internal/modules/esm/resolve:873:9)\n    at moduleResolve (node:internal/modules/esm/resolve:946:18)\n    at defaultResolve (node:internal/modules/esm/resolve:1188:11)\n    at nextResolve (node:internal/modules/esm/hooks:864:28)\n    at resolveBase (file:///home/runner/work/market-watch/market-watch/node_modules/tsx/dist/register-nyXW-TH3.mjs:2:10494)\n    at resolveDirectory (file:///home/runner/work/market-watch/market-watch/node_modules/tsx/dist/register-nyXW-TH3.mjs:2:11581)\n    at resolveTsPaths (file:///home/runner/work/market-watch/market-watch/node_modules/tsx/dist/register-nyXW-TH3.mjs:2:13222)\n    at resolve (file:///home/runner/work/market-watch/market-watch/node_modules/tsx/dist/register-nyXW-TH3.mjs:2:15453)\n    at nextResolve (node:internal/modules/esm/hooks:864:28)\n    at Hooks.resolve (node:internal/modules/esm/hooks:306:30) {\n  code: 'ERR_MODULE_NOT_FOUND'\n}\n\nNode.js v20.20.2\n"
 }

@@ -2,14 +2,22 @@
 > market-watch@0.1.0 watch
 > tsx src/index.ts
 
-/home/runner/work/market-watch/market-watch/src/index.ts:3
-import { scrapeDollarDealers } from "./sites/dollardealers.js";
-         ^
 
-SyntaxError: The requested module './sites/dollardealers.js' does not provide an export named 'scrapeDollarDealers'
-    at ModuleJob._instantiate (node:internal/modules/esm/module_job:213:21)
-    at async ModuleJob.run (node:internal/modules/esm/module_job:320:5)
-    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
-    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)
+node:internal/modules/run_main:123
+    triggerUncaughtException(
+    ^
+Error [ERR_MODULE_NOT_FOUND]: Cannot find package 'playwright' imported from /home/runner/work/market-watch/market-watch/src/index.ts
+    at packageResolve (node:internal/modules/esm/resolve:873:9)
+    at moduleResolve (node:internal/modules/esm/resolve:946:18)
+    at defaultResolve (node:internal/modules/esm/resolve:1188:11)
+    at nextResolve (node:internal/modules/esm/hooks:864:28)
+    at resolveBase (file:///home/runner/work/market-watch/market-watch/node_modules/tsx/dist/register-nyXW-TH3.mjs:2:10494)
+    at resolveDirectory (file:///home/runner/work/market-watch/market-watch/node_modules/tsx/dist/register-nyXW-TH3.mjs:2:11581)
+    at resolveTsPaths (file:///home/runner/work/market-watch/market-watch/node_modules/tsx/dist/register-nyXW-TH3.mjs:2:13222)
+    at resolve (file:///home/runner/work/market-watch/market-watch/node_modules/tsx/dist/register-nyXW-TH3.mjs:2:15453)
+    at nextResolve (node:internal/modules/esm/hooks:864:28)
+    at Hooks.resolve (node:internal/modules/esm/hooks:306:30) {
+  code: 'ERR_MODULE_NOT_FOUND'
+}
 
 Node.js v20.20.2
