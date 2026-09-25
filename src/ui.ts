@@ -1,6 +1,10 @@
-import { mkdir, readFile, writeFile } from "node:fs/promises";
-import path from "node:path";
-import type { Listing, WatchState } from "./models.js";
+import * as fs from "node:fs/promises";
+import * as path from "node:path";
+import type { AppState } from "./state.js";
+import type { EnrichedListing, ListingEvent } from "./models.js";
+
+const DIST_DIR = "./dist";
+const REPO_URL = "https://github.com/Lukestaz/market-watch";
 
 function escapeHtml(str: string | undefined): string {
   if (!str) return "";
@@ -18,358 +22,362 @@ function getStoreLabel(siteId: string): string {
   return "Marketplace";
 }
 
-export async function generateHtmlDashboard(statePath = "data/state.json", outputDir = "public"): Promise<void> {
-  await mkdir(outputDir, { recursive: true });
+function generateCard(listing: EnrichedListing): string {
+  const price = listing.price !== undefined ? `$${listing.price.toFixed(2)}` : "Price on request";
+  const priorityClass = `priority-${listing.priority}`;
+  const storeLabel = getStoreLabel(listing.siteId);
 
-  let listings: Listing[] = [];
-  let updatedAt = new Date().toISOString();
+  const downvoteIssueUrl = `${REPO_URL}/issues/new?title=${encodeURIComponent(
+    `[False Positive] ${listing.title}`
+  )}&body=${encodeURIComponent(
+    `### False Positive Report\n- **Item:** ${listing.title}\n- **URL:** ${listing.canonicalUrl}\n- **Matched Rules:** ${listing.matchedRules.join(
+      ", "
+    )}\n\nPlease tune keywords to exclude this item.`
+  )}&labels=feedback`;
 
-  try {
-    const raw = await readFile(statePath, "utf8");
-    const state = JSON.parse(raw) as WatchState;
-    listings = Object.values(state.listings || {});
-    updatedAt = state.updatedAt || updatedAt;
-  } catch {
-    console.log("No existing state found, generating empty dashboard.");
-  }
+  const aiBadge = listing.ai
+    ? `
+      <div class="ai-box">
+        <div class="ai-header">
+          <span class="ai-title">🤖 AI Deal Score: <strong>${listing.ai.score}/10</strong> &bull; ${escapeHtml(
+        listing.ai.verdict
+      )}</span>
+        </div>
+        <p class="ai-reason">${escapeHtml(listing.ai.reason)}</p>
+      </div>
+    `
+    : "";
 
-  // Sort: critical first, then high, then normal; then by most recently seen
-  const priorityWeight: Record<string, number> = { critical: 3, high: 2, normal: 1, ignore: 0 };
-  listings.sort((a, b) => {
-    const diff = (priorityWeight[b.priority] || 0) - (priorityWeight[a.priority] || 0);
-    if (diff !== 0) return diff;
-    return new Date(b.lastSeenAt).getTime() - new Date(a.lastSeenAt).getTime();
-  });
+  return `
+    <div class="card ${priorityClass}" data-priority="${listing.priority}" data-store="${listing.siteId}">
+      <div class="card-header">
+        <div class="badges">
+          <span class="badge badge-${listing.priority}">${listing.priority.toUpperCase()}</span>
+          <span class="badge badge-store">${storeLabel}</span>
+        </div>
+        <span class="price">${price}</span>
+      </div>
+      <h3 class="card-title">
+        <a href="${escapeHtml(listing.canonicalUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(
+    listing.title
+  )}</a>
+      </h3>
+      <div class="meta">
+        ${listing.modelNumber ? `<p class="meta-row"><strong>Model:</strong> ${escapeHtml(listing.modelNumber)}</p>` : ""}
+        ${listing.condition ? `<p class="meta-row"><strong>Condition:</strong> ${escapeHtml(listing.condition)}</p>` : ""}
+        ${listing.seller ? `<p class="meta-row"><strong>Branch:</strong> ${escapeHtml(listing.seller.replace(/DollarDealers|CashConverters/gi, "Store"))}</p>` : ""}
+        ${listing.matchedRules.length ? `<p class="meta-row rules"><strong>Rules:</strong> ${listing.matchedRules.join(", ")}</p>` : ""}
+      </div>
+      ${aiBadge}
+      <div class="card-footer">
+        <a href="${escapeHtml(listing.canonicalUrl)}" target="_blank" rel="noopener noreferrer" class="btn btn-primary">View Listing &rarr;</a>
+        <a href="${downvoteIssueUrl}" target="_blank" rel="noopener noreferrer" class="btn btn-downvote">👎 False Positive</a>
+      </div>
+    </div>
+  `;
+}
 
-  const criticalCount = listings.filter((l) => l.priority === "critical").length;
-  const highCount = listings.filter((l) => l.priority === "high").length;
-  const normalCount = listings.filter((l) => l.priority === "normal").length;
+export async function generateUiFiles(state: AppState, events: ListingEvent[]): Promise<void> {
+  await fs.mkdir(DIST_DIR, { recursive: true });
+
+  const activeListings = Object.values(state.listings).filter((l) => l.status === "active");
+
+  const cardsHtml =
+    activeListings.length > 0
+      ? activeListings.map(generateCard).join("\n")
+      : `<div class="empty-state">No active matched items right now. Check back next run.</div>`;
 
   const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Market Watch Dashboard</title>
+  <title>Market Watcher Dashboard</title>
   <style>
     :root {
       --bg: #0f172a;
       --card-bg: #1e293b;
-      --border: #334155;
       --text: #f8fafc;
       --text-muted: #94a3b8;
+      --accent: #3b82f6;
+      --accent-hover: #2563eb;
+      --border: #334155;
       --critical: #ef4444;
-      --high: #f59e0b;
-      --normal: #3b82f6;
-      --accent: #10b981;
+      --high: #f97316;
+      --normal: #64748b;
+      --green: #22c55e;
     }
+
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       background-color: var(--bg);
       color: var(--text);
       line-height: 1.5;
-      padding: 24px;
+      padding: 20px;
     }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
     header {
-      max-width: 1300px;
-      margin: 0 auto 24px auto;
       display: flex;
-      flex-wrap: wrap;
       justify-content: space-between;
       align-items: center;
-      gap: 16px;
       padding-bottom: 20px;
+      margin-bottom: 24px;
       border-bottom: 1px solid var(--border);
-    }
-    .title-group h1 { font-size: 26px; font-weight: 800; letter-spacing: -0.5px; }
-    .title-group p { font-size: 13px; color: var(--text-muted); margin-top: 4px; }
-    .stats-bar {
-      display: flex;
-      gap: 12px;
       flex-wrap: wrap;
+      gap: 16px;
     }
-    .stat-badge {
-      padding: 6px 14px;
-      border-radius: 9999px;
-      font-size: 13px;
-      font-weight: 600;
-      background: var(--card-bg);
-      border: 1px solid var(--border);
+
+    .title-group h1 {
+      font-size: 24px;
+      font-weight: 700;
     }
-    .stat-badge.crit { border-color: var(--critical); color: #fca5a5; }
-    .stat-badge.high { border-color: var(--high); color: #fde68a; }
-    .stat-badge.total { border-color: var(--normal); color: #93c5fd; }
-    
-    .controls {
-      max-width: 1300px;
-      margin: 0 auto 24px auto;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 12px;
-      align-items: center;
-    }
-    .search-input {
-      flex: 1;
-      min-width: 250px;
-      background: var(--card-bg);
-      border: 1px solid var(--border);
-      color: var(--text);
-      padding: 10px 16px;
-      border-radius: 8px;
-      font-size: 14px;
-      outline: none;
-    }
-    .search-input:focus { border-color: var(--normal); }
-    .filter-btn {
-      background: var(--card-bg);
-      border: 1px solid var(--border);
+
+    .title-group p {
       color: var(--text-muted);
-      padding: 9px 16px;
-      border-radius: 8px;
-      font-size: 13px;
-      font-weight: 600;
-      cursor: pointer;
-      transition: all 0.2s;
+      font-size: 14px;
     }
-    .filter-btn.active, .filter-btn:hover {
-      background: var(--normal);
-      color: white;
-      border-color: var(--normal);
+
+    .stats {
+      display: flex;
+      gap: 12px;
+    }
+
+    .stat-box {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      padding: 8px 16px;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    .stat-val {
+      font-size: 20px;
+      font-weight: 700;
+      color: var(--accent);
+    }
+
+    .stat-label {
+      font-size: 11px;
+      text-transform: uppercase;
+      color: var(--text-muted);
     }
 
     .grid {
-      max-width: 1300px;
-      margin: 0 auto;
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
       gap: 20px;
     }
+
     .card {
       background: var(--card-bg);
       border: 1px solid var(--border);
-      border-radius: 12px;
-      overflow: hidden;
-      display: flex;
-      flex-direction: column;
-      transition: transform 0.2s, border-color 0.2s;
-    }
-    .card:hover {
-      transform: translateY(-2px);
-      border-color: #64748b;
-    }
-    .card-img {
-      width: 100%;
-      height: 180px;
-      background: #0f172a;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: relative;
-      overflow: hidden;
-    }
-    .card-img img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-    }
-    .placeholder-icon {
-      font-size: 40px;
-      color: #334155;
-    }
-    .badge {
-      position: absolute;
-      top: 10px;
-      left: 10px;
-      padding: 4px 10px;
-      border-radius: 6px;
-      font-size: 11px;
-      font-weight: 800;
-      text-transform: uppercase;
-      letter-spacing: 0.5px;
-      color: white;
-    }
-    .badge.critical { background: var(--critical); box-shadow: 0 0 10px rgba(239, 68, 68, 0.4); }
-    .badge.high { background: var(--high); }
-    .badge.normal { background: #64748b; }
-    
-    .source-badge {
-      position: absolute;
-      top: 10px;
-      right: 10px;
-      padding: 3px 8px;
-      border-radius: 6px;
-      font-size: 10px;
-      font-weight: 700;
-      background: rgba(15, 23, 42, 0.8);
-      backdrop-filter: blur(4px);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      color: #cbd5e1;
-    }
-
-    .card-body {
+      border-radius: 10px;
       padding: 16px;
       display: flex;
       flex-direction: column;
-      flex: 1;
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.15s ease, border-color 0.15s ease;
     }
-    .price-row {
+
+    .card:hover {
+      transform: translateY(-2px);
+      border-color: #475569;
+    }
+
+    .card.priority-critical { border-left: 4px solid var(--critical); }
+    .card.priority-high { border-left: 4px solid var(--high); }
+    .card.priority-normal { border-left: 4px solid var(--normal); }
+
+    .card-header {
       display: flex;
       justify-content: space-between;
-      align-items: baseline;
-      margin-bottom: 8px;
+      align-items: center;
+      margin-bottom: 12px;
     }
+
+    .badges {
+      display: flex;
+      gap: 6px;
+    }
+
+    .badge {
+      font-size: 10px;
+      font-weight: 700;
+      padding: 2px 6px;
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+
+    .badge-critical { background: var(--critical); color: white; }
+    .badge-high { background: var(--high); color: white; }
+    .badge-normal { background: var(--normal); color: white; }
+    .badge-store { background: #334155; color: #cbd5e1; }
+
     .price {
-      font-size: 20px;
-      font-weight: 800;
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--green);
+    }
+
+    .card-title {
+      font-size: 16px;
+      line-height: 1.3;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+
+    .card-title a {
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .card-title a:hover {
       color: var(--accent);
     }
-    .card-title {
-      font-size: 15px;
-      font-weight: 600;
-      color: var(--text);
-      line-height: 1.4;
-      margin-bottom: 12px;
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-    }
-    .specs-list {
-      list-style: none;
-      font-size: 12px;
-      color: var(--text-muted);
-      margin-bottom: 16px;
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      gap: 4px;
-    }
-    .specs-list strong { color: #cbd5e1; }
-    
-    .btn-view {
-      display: block;
-      width: 100%;
-      text-align: center;
-      background: #2563eb;
-      color: white;
-      text-decoration: none;
-      padding: 10px;
-      border-radius: 8px;
+
+    .meta {
       font-size: 13px;
-      font-weight: 600;
-      transition: background 0.2s;
+      color: var(--text-muted);
+      margin-bottom: 12px;
+      flex-grow: 1;
     }
-    .btn-view:hover { background: #1d4ed8; }
-    
+
+    .meta-row {
+      margin-bottom: 4px;
+    }
+
+    .meta-row strong {
+      color: #cbd5e1;
+    }
+
+    .rules {
+      font-size: 11px;
+      color: #64748b;
+    }
+
+    .ai-box {
+      background: rgba(34, 197, 94, 0.1);
+      border: 1px solid rgba(34, 197, 94, 0.25);
+      border-radius: 6px;
+      padding: 8px 10px;
+      margin-bottom: 12px;
+      font-size: 12px;
+    }
+
+    .ai-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2px;
+    }
+
+    .ai-title {
+      color: #4ade80;
+    }
+
+    .ai-reason {
+      color: #86efac;
+      font-size: 11px;
+    }
+
+    .card-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid var(--border);
+      padding-top: 12px;
+      margin-top: auto;
+    }
+
+    .btn {
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background 0.15s ease;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background: var(--accent-hover);
+    }
+
+    .btn-downvote {
+      color: #f87171;
+      font-size: 11px;
+    }
+
+    .btn-downvote:hover {
+      text-decoration: underline;
+    }
+
+    .empty-state {
+      grid-column: 1 / -1;
+      text-align: center;
+      padding: 40px;
+      background: var(--card-bg);
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+    }
+
     footer {
-      max-width: 1300px;
-      margin: 40px auto 0 auto;
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
       text-align: center;
       font-size: 12px;
       color: var(--text-muted);
-      border-top: 1px solid var(--border);
-      padding-top: 20px;
     }
   </style>
 </head>
 <body>
-  <header>
-    <div class="title-group">
-      <h1>Market Watch Dashboard</h1>
-      <p>Tracking Refurbished Hardware & Tools &bull; Last updated: ${new Date(updatedAt).toLocaleString("en-NZ", { timeZone: "Pacific/Auckland" })}</p>
+  <div class="container">
+    <header>
+      <div class="title-group">
+        <h1>Market Watcher Dashboard</h1>
+        <p>Last checked: ${new Date().toLocaleString("en-NZ", { timeZone: "Pacific/Auckland" })} NZST</p>
+      </div>
+      <div class="stats">
+        <div class="stat-box">
+          <div class="stat-val">${activeListings.length}</div>
+          <div class="stat-label">Active Items</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-val">${events.length}</div>
+          <div class="stat-label">New / Dropped</div>
+        </div>
+      </div>
+    </header>
+
+    <div class="grid">
+      ${cardsHtml}
     </div>
-    <div class="stats-bar">
-      <div class="stat-badge crit">${criticalCount} Critical</div>
-      <div class="stat-badge high">${highCount} Priority</div>
-      <div class="stat-badge total">${listings.length} Total Tracked</div>
-    </div>
-  </header>
 
-  <div class="controls">
-    <input type="text" id="searchInput" class="search-input" placeholder="Search by title, model (e.g. OLED65, 56V), or store..." oninput="filterCards()">
-    <button class="filter-btn active" onclick="setFilter('all', this)">All (${listings.length})</button>
-    <button class="filter-btn" onclick="setFilter('critical', this)">🚨 Critical (${criticalCount})</button>
-    <button class="filter-btn" onclick="setFilter('high', this)">⭐ Priority (${highCount})</button>
-    <button class="filter-btn" onclick="setFilter('dollardealers', this)">Store B</button>
-    <button class="filter-btn" onclick="setFilter('cashconverters', this)">Store A</button>
+    <footer>
+      <p>Automated market alerts running via GitHub Actions &bull; <a href="${REPO_URL}" target="_blank" rel="noopener noreferrer" style="color: var(--accent); text-decoration: none;">View Repository</a></p>
+    </footer>
   </div>
-
-  <div class="grid" id="productGrid">
-    ${listings
-      .map((item) => {
-        const price = item.price !== undefined ? "$" + item.price.toFixed(2) : "Price on request";
-        const sourceLabel = getStoreLabel(item.siteId);
-        return `
-          <div class="card" 
-               data-priority="${item.priority}" 
-               data-site="${item.siteId}" 
-               data-search="${escapeHtml(item.title + " " + (item.modelNumber || "") + " " + (item.seller || "") + " " + item.siteId).toLowerCase()}">
-            <div class="card-img">
-              <span class="badge ${item.priority}">${item.priority}</span>
-              <span class="source-badge">${sourceLabel}</span>
-              ${item.imageUrl ? `<img src="${escapeHtml(item.imageUrl)}" alt="${escapeHtml(item.title)}" loading="lazy" onerror="this.style.display='none'">` : `<div class="placeholder-icon">📦</div>`}
-            </div>
-            <div class="card-body">
-              <div class="price-row">
-                <span class="price">${price}</span>
-              </div>
-              <h2 class="card-title" title="${escapeHtml(item.title)}">${escapeHtml(item.title)}</h2>
-              <ul class="specs-list">
-                ${item.modelNumber ? `<li><strong>Model:</strong> ${escapeHtml(item.modelNumber)}</li>` : ""}
-                ${item.condition ? `<li><strong>Condition:</strong> ${escapeHtml(item.condition)}</li>` : ""}
-                ${item.accessories ? `<li><strong>Includes:</strong> ${escapeHtml(item.accessories)}</li>` : ""}
-                ${item.seller ? `<li><strong>Branch:</strong> ${escapeHtml(item.seller.replace(/DollarDealers|CashConverters/gi, "Store"))}</li>` : ""}
-                <li><strong>First Seen:</strong> ${new Date(item.firstSeenAt).toLocaleDateString("en-NZ")}</li>
-              </ul>
-              <a href="${escapeHtml(item.canonicalUrl)}" target="_blank" rel="noopener noreferrer" class="btn-view">
-                View Listing &rarr;
-              </a>
-            </div>
-          </div>
-        `;
-      })
-      .join("")}
-  </div>
-
-  <footer>
-    Automatically generated by private Market Watcher. Refreshed periodically.
-  </footer>
-
-  <script>
-    let currentFilter = 'all';
-
-    function setFilter(filter, btn) {
-      currentFilter = filter;
-      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      filterCards();
-    }
-
-    function filterCards() {
-      const query = document.getElementById('searchInput').value.toLowerCase().trim();
-      const cards = document.querySelectorAll('.card');
-
-      cards.forEach(card => {
-        const priority = card.getAttribute('data-priority');
-        const site = card.getAttribute('data-site');
-        const searchCorpus = card.getAttribute('data-search') || '';
-
-        const matchesQuery = !query || searchCorpus.includes(query);
-        let matchesFilter = true;
-
-        if (currentFilter === 'critical') matchesFilter = (priority === 'critical');
-        else if (currentFilter === 'high') matchesFilter = (priority === 'high');
-        else if (currentFilter === 'dollardealers') matchesFilter = (site === 'dollardealers');
-        else if (currentFilter === 'cashconverters') matchesFilter = (site === 'cashconverters');
-
-        card.style.display = (matchesQuery && matchesFilter) ? 'flex' : 'none';
-      });
-    }
-  </script>
 </body>
 </html>`;
 
-  await writeFile(path.join(outputDir, "index.html"), html, "utf8");
-  console.log(`Successfully generated web dashboard at ${outputDir}/index.html with ${listings.length} listings.`);
+  await fs.writeFile(path.join(DIST_DIR, "index.html"), html, "utf-8");
+  await fs.writeFile(
+    path.join(DIST_DIR, "feed.json"),
+    JSON.stringify({ updatedAt: new Date().toISOString(), listings: activeListings }, null, 2),
+    "utf-8"
+  );
+  console.log(`[UI] Generated index.html and feed.json in ${DIST_DIR}`);
 }
