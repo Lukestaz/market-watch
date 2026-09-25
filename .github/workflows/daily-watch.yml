@@ -74,7 +74,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           set +e
-          npm start 2>&1 | tee data/latest-run.log
+          npm run watch 2>&1 | tee data/latest-run.log
           exit_code=${PIPESTATUS[0]}
           echo "Pipeline exit code: ${exit_code}" | tee -a data/latest-run.log
           echo "exit_code=${exit_code}" >> "$GITHUB_OUTPUT"
@@ -100,7 +100,7 @@ jobs:
         if: always()
         run: |
           git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.email "github-actions[bot]@users.noreply.com"
           git add data/state.json data/latest-run.log
           if git diff --staged --quiet; then
             echo "No state or run-log changes to commit."
