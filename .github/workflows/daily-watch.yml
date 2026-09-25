@@ -9,7 +9,6 @@ on:
       - 'config/**'
       - '.github/workflows/daily-watch.yml'
       - 'package.json'
-      - 'package-lock.json'
   schedule:
     - cron: '0 */6 * * *'
   workflow_dispatch:
@@ -37,7 +36,7 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: npm ci
+        run: npm install
 
       - name: Create fallback dashboard
         run: |
