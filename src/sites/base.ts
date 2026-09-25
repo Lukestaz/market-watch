@@ -1,9 +1,7 @@
-import type { Browser } from "playwright";
 import type { ScrapeResult, SearchConfig } from "../models.js";
 
 export interface SiteAdapterContext {
-  browser: Browser;
-  debugDirectory?: string;
+  signal?: AbortSignal;
 }
 
 export interface SiteAdapter {

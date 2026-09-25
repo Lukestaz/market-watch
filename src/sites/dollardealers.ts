@@ -1,18 +1,12 @@
+import * as cheerio from "cheerio";
 import type { RawListing, ScrapeResult, SearchConfig } from "../models.js";
-import { parsePrice } from "../normalise.js";
 import type { SiteAdapter, SiteAdapterContext } from "./base.js";
 
-function sleep(ms: number): Promise<void> {
-  return new Promise((resolve) => setTimeout(resolve, ms));
-}
+const BASE_URL = "https://dollardealers.co.nz";
 
-interface RawProductCard {
-  id: string;
-  title: string;
-  url: string;
-  priceText: string;
-  seller: string;
-  imageUrl: string;
+function parsePrice(text: string): number | undefined {
+  const num = parseFloat(text.replace(/[^0-9.]/g, ""));
+  return isNaN(num) ? undefined : num;
 }
 
 export class DollarDealersAdapter implements SiteAdapter {
@@ -20,125 +14,82 @@ export class DollarDealersAdapter implements SiteAdapter {
 
   async scrape(search: SearchConfig, context: SiteAdapterContext): Promise<ScrapeResult> {
     const fetchedAt = new Date().toISOString();
-    const page = await context.browser.newPage({
-      userAgent:
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
-    });
+    const url = `${BASE_URL}${search.path}`;
+    console.log(`[DollarDealers] Fetching: ${url}`);
 
     try {
-      // Ensure __name helper is polyfilled in browser context
-      await page.addInitScript(() => {
-        (window as any).__name = (func: any) => func;
+      const res = await fetch(url, {
+        headers: {
+          "User-Agent":
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+          Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+          "Accept-Language": "en-NZ,en;q=0.9"
+        },
+        signal: context.signal
       });
 
-      const url = `https://dollardealers.co.nz${search.path}`;
-      const response = await page.goto(url, { waitUntil: "domcontentloaded", timeout: 45000 });
-
-      if (!response || response.status() >= 400) {
+      if (!res.ok) {
+        console.warn(`[DollarDealers] HTTP ${res.status} for ${url}`);
         return {
           siteId: this.siteId,
           fetchedAt,
-          diagnostics: { resultCount: 0, blocked: response?.status() === 403, error: `HTTP ${response?.status()}` },
+          diagnostics: { resultCount: 0, blocked: res.status === 403, error: `HTTP ${res.status}` },
           listings: []
         };
       }
 
-      await page.waitForTimeout(2000);
+      const html = await res.text();
+      const $ = cheerio.load(html);
+      const listings: RawListing[] = [];
 
-      // Extract products from WooCommerce listing grid
-      const rawCards = await page.$$eval("li.product, div.product-small, .products .product", (elements: Element[]) => {
-        return elements.map((el: Element): RawProductCard => {
-          const link = el.querySelector("a.woocommerce-LoopProduct-link") as HTMLAnchorElement | null;
-          const title = el.querySelector(".woocommerce-loop-product__title, h2, h3")?.textContent?.trim() || "";
-          const href = link?.href || "";
-          const priceText = el.querySelector(".price")?.textContent?.trim() || "";
-          const img = el.querySelector("img") as HTMLImageElement | null;
-          const imageSrc = img?.getAttribute("src") || img?.getAttribute("data-src") || "";
-          const storeElem = el.querySelector(".store-name, .sold-by, .vendor-name") || Array.from(el.querySelectorAll("span, p")).find((p: Element) => (p.textContent || "").includes("DollarDealers"));
-          const seller = storeElem?.textContent?.trim() || "";
+      $("li.product, div.product-small, .products .product").each((_, el) => {
+        const $el = $(el);
+        const link = $el.find("a.woocommerce-LoopProduct-link, a[href*='/product/']").first();
+        const href = link.attr("href") || "";
+        const title = $el.find(".woocommerce-loop-product__title, h2, h3").first().text().trim();
+        if (!title || !href) return;
 
-          let id = "";
-          const classAttr = el.getAttribute("class") || "";
-          const postMatch = classAttr.match(/post-(\d+)/);
-          if (postMatch) {
-            id = postMatch[1];
-          } else if (href) {
-            const slug = href.replace(/\/$/, "").split("/").pop();
-            id = slug || "";
-          }
+        const priceText = $el.find(".price").first().text().trim();
+        const seller = $el.find(".store-name, .sold-by, .vendor-name").first().text().trim();
+        const img = $el.find("img").first();
+        const imageUrl = img.attr("src") || img.attr("data-src") || "";
 
-          return { id, title, url: href, priceText, seller, imageUrl: imageSrc };
+        let id = "";
+        const classAttr = $el.attr("class") || "";
+        const postMatch = classAttr.match(/post-(\d+)/);
+        if (postMatch) {
+          id = `dd-${postMatch[1]}`;
+        } else {
+          const slug = href.replace(/\/$/, "").split("/").pop();
+          id = slug ? `dd-${slug}` : `dd-${Buffer.from(href).toString("base64url").slice(0, 16)}`;
+        }
+
+        listings.push({
+          id,
+          title,
+          url: href.startsWith("http") ? href : `${BASE_URL}${href}`,
+          priceText,
+          price: parsePrice(priceText),
+          seller: seller.replace(/^by\s+/i, ""),
+          imageUrl,
+          rawText: $el.text().replace(/\s+/g, " ").trim()
         });
       });
 
-      const initialListings: RawListing[] = rawCards
-        .filter((c: RawProductCard) => c.title && c.url)
-        .map((c: RawProductCard) => ({
-          id: c.id || c.url,
-          title: c.title,
-          url: c.url,
-          priceText: c.priceText,
-          price: parsePrice(c.priceText),
-          seller: c.seller.replace(/^by\s+/i, ""),
-          imageUrl: c.imageUrl
-        }));
-
-      // Selective deep-scrape: inspect product pages for potential target matches to extract Model, Condition, Accessories
-      const candidateListings = initialListings.filter((l) => {
-        const text = l.title.toLowerCase();
-        return (
-          text.includes("oled") ||
-          text.includes("65") ||
-          text.includes("77") ||
-          text.includes("ego") ||
-          text.includes("56v") ||
-          text.includes("tg-6") ||
-          text.includes("tg-7") ||
-          text.includes("tough")
-        );
+      const seen = new Set<string>();
+      const unique = listings.filter((item) => {
+        if (seen.has(item.id)) return false;
+        seen.add(item.id);
+        return true;
       });
 
-      for (const item of candidateListings.slice(0, 5)) {
-        try {
-          await sleep(1500);
-          await page.goto(item.url, { waitUntil: "domcontentloaded", timeout: 25000 });
-
-          const details = await page.evaluate(() => {
-            const specs: Record<string, string> = {};
-            const rows = document.querySelectorAll("table tr, .woocommerce-product-attributes tr, .specifications tr");
-            rows.forEach((r) => {
-              const cells = r.querySelectorAll("th, td");
-              if (cells.length >= 2) {
-                const key = cells[0].textContent?.trim().toLowerCase() || "";
-                const val = cells[1].textContent?.trim() || "";
-                if (key && val) specs[key] = val;
-              }
-            });
-
-            const store = document.querySelector(".store-name, a[href*='/store/']")?.textContent?.trim();
-            return {
-              brand: specs["brand"],
-              model: specs["model"],
-              condition: specs["condition"],
-              accessories: specs["accessories"],
-              store
-            };
-          });
-
-          if (details.model) item.modelNumber = details.model;
-          if (details.condition) item.condition = details.condition;
-          if (details.accessories) item.accessories = details.accessories;
-          if (details.store && !item.seller) item.seller = details.store;
-        } catch {
-          // Continue gracefully if single detail page load times out
-        }
-      }
+      console.log(`[DollarDealers] Found ${unique.length} listings for ${search.path}`);
 
       return {
         siteId: this.siteId,
         fetchedAt,
-        diagnostics: { resultCount: initialListings.length, blocked: false },
-        listings: initialListings
+        diagnostics: { resultCount: unique.length, blocked: false },
+        listings: unique
       };
     } catch (err: any) {
       return {
@@ -147,8 +98,6 @@ export class DollarDealersAdapter implements SiteAdapter {
         diagnostics: { resultCount: 0, blocked: false, error: err.message },
         listings: []
       };
-    } finally {
-      await page.close();
     }
   }
 }

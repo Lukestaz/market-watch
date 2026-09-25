@@ -1,4 +1,3 @@
-import { chromium } from "playwright";
 import { loadConfig } from "./config.js";
 import { CashConvertersAdapter } from "./sites/cashconverters.js";
 import { DollarDealersAdapter } from "./sites/dollardealers.js";
@@ -20,42 +19,36 @@ async function main(): Promise<void> {
   const config = loadConfig();
   const state = await loadState();
 
-  const browser = await chromium.launch({ headless: true });
-  const context: SiteAdapterContext = { browser };
-
+  const context: SiteAdapterContext = {};
   const allRawListings = new Map<string, { raw: RawListing; search: SearchConfig }>();
 
-  try {
-    for (const search of config.searches) {
-      if (!search.enabled) {
-        console.log(`Skipping disabled search: ${search.id}`);
-        continue;
-      }
-
-      const adapter = ADAPTERS[search.site];
-      if (!adapter) {
-        console.warn(`No adapter found for site: ${search.site}`);
-        continue;
-      }
-
-      console.log(`Executing search: ${search.label} (${search.site})`);
-      try {
-        const result = await adapter.scrape(search, context);
-        if (result.diagnostics.error) {
-          console.warn(`[${search.id}] Scrape error: ${result.diagnostics.error}`);
-        }
-        for (const raw of result.listings) {
-          const dedupeKey = `${search.site}:${raw.id}`;
-          if (!allRawListings.has(dedupeKey)) {
-            allRawListings.set(dedupeKey, { raw, search });
-          }
-        }
-      } catch (err) {
-        console.error(`Failed to scrape search ${search.id}:`, err);
-      }
+  for (const search of config.searches) {
+    if (!search.enabled) {
+      console.log(`Skipping disabled search: ${search.id}`);
+      continue;
     }
-  } finally {
-    await browser.close();
+
+    const adapter = ADAPTERS[search.site];
+    if (!adapter) {
+      console.warn(`No adapter found for site: ${search.site}`);
+      continue;
+    }
+
+    console.log(`Executing search: ${search.label} (${search.site})`);
+    try {
+      const result = await adapter.scrape(search, context);
+      if (result.diagnostics.error) {
+        console.warn(`[${search.id}] Scrape error: ${result.diagnostics.error}`);
+      }
+      for (const raw of result.listings) {
+        const dedupeKey = `${search.site}:${raw.id}`;
+        if (!allRawListings.has(dedupeKey)) {
+          allRawListings.set(dedupeKey, { raw, search });
+        }
+      }
+    } catch (err) {
+      console.error(`Failed to scrape search ${search.id}:`, err);
+    }
   }
 
   console.log(`Total raw listings collected: ${allRawListings.size}`);
