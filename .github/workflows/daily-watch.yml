@@ -74,11 +74,39 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           set +e
-          npm run watch 2>&1 | tee data/latest-run.log
+          started_at="$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+          npm run watch 2>&1 | tee /tmp/market-watch-run.log
           exit_code=${PIPESTATUS[0]}
-          echo "Pipeline exit code: ${exit_code}" | tee -a data/latest-run.log
-          echo "exit_code=${exit_code}" >> "$GITHUB_OUTPUT"
-          exit ${exit_code}
+          finished_at="$(date -u +'%Y-%m-%dT%H:%M:%SZ')"
+
+          status="success"
+          if [ "$exit_code" -ne 0 ]; then
+            status="failed"
+          fi
+
+          mkdir -p data dist
+          tail -n 100 /tmp/market-watch-run.log \
+            | sed -E \
+              -e 's/(AIza[[:alnum:]_-]{20,})/[REDACTED_GEMINI_KEY]/g' \
+              -e 's/(ghp_[[:alnum:]_]+|github_pat_[[:alnum:]_]+)/[REDACTED_GITHUB_TOKEN]/g' \
+              -e 's/([Pp]assword|[Tt]oken|[Kk]ey)[=:][^[:space:]]+/\1=[REDACTED]/g' \
+            > data/latest-run-summary.txt
+
+          node -e '
+            const fs = require("fs");
+            const [status, exitCode, startedAt, finishedAt] = process.argv.slice(1);
+            fs.writeFileSync("data/run-status.json", JSON.stringify({
+              status,
+              exitCode: Number(exitCode),
+              startedAt,
+              finishedAt,
+              command: "npm run watch"
+            }, null, 2) + "\n");
+          ' "$status" "$exit_code" "$started_at" "$finished_at"
+          cp data/run-status.json dist/status.json
+
+          echo "exit_code=$exit_code" >> "$GITHUB_OUTPUT"
+          exit "$exit_code"
 
       - name: Ensure dashboard output exists
         if: always()
@@ -96,15 +124,15 @@ jobs:
           publish_branch: gh-pages
           force_orphan: true
 
-      - name: Commit run state and log
+      - name: Commit run state and diagnostics
         if: always()
         run: |
           git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.com"
-          git add data/state.json data/latest-run.log
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/state.json data/run-status.json data/latest-run-summary.txt
           if git diff --staged --quiet; then
-            echo "No state or run-log changes to commit."
+            echo "No state or diagnostic changes to commit."
           else
-            git commit -m "Update state and run log [skip ci]"
+            git commit -m "Update watcher status [skip ci]"
             git push origin main
           fi
