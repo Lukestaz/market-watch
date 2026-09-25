@@ -33,25 +33,55 @@ export interface RawListing {
 
 export interface AiEvaluation {
   isTruePositive: boolean;
-  score: number; // 1 - 10
-  verdict: string; // e.g. "Solid Deal", "Below Market", "Irrelevant"
+  score: number;
+  verdict: string;
   reason: string;
   estimatedMarketPriceNzd?: number;
 }
 
-export interface EnrichedListing extends RawListing {
+/**
+ * Normalized listing shape stored by the watcher state engine.
+ *
+ * `id` remains the source listing identifier inherited from RawListing.
+ * `key` is the stable state key used by WatchState.listings.
+ */
+export interface Listing extends RawListing {
+  key: string;
   canonicalUrl: string;
   priority: Priority;
   matchedRules: string[];
-  firstSeen: string;
-  lastSeen: string;
+  searchIds: string[];
+  firstSeenAt: string;
+  lastSeenAt: string;
   siteId: string;
   status: "active" | "sold" | "removed";
   ai?: AiEvaluation;
 }
 
+/**
+ * Compatibility type for code that still uses the earlier timestamp names.
+ *
+ * New state-oriented code should use Listing and firstSeenAt / lastSeenAt.
+ */
+export interface EnrichedListing extends Listing {
+  firstSeen: string;
+  lastSeen: string;
+}
+
+/**
+ * Persistent watcher state, keyed by each listing's stable `key`.
+ */
+export interface WatchState {
+  listings: Record<string, Listing>;
+  updatedAt: string;
+}
+
+/**
+ * Events emitted when incoming listings are applied to WatchState.
+ */
 export interface ListingEvent {
-  type: "new" | "price_drop";
-  listing: EnrichedListing;
+  type: "new" | "price_drop" | "price_change" | "seen";
+  listing: Listing;
   previousPrice?: number;
+  timestamp: string;
 }
