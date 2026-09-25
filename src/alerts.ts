@@ -54,7 +54,7 @@ export async function sendEmailAlerts(events: ListingEvent[]): Promise<void> {
       <div style="background: #0f172a; padding: 16px 20px; border-radius: 8px 8px 0 0; display: flex; justify-content: space-between; align-items: center;">
         <div>
           <h2 style="color: #f8fafc; margin: 0; font-size: 18px;">Market Watch Alerts</h2>
-          <p style="color: #94a3b8; margin: 2px 0 0 0; font-size: 12px;">${alertable.length} new or updated item${alertable.length > 1 ? "s" : ""}</p>
+          <p style="color: #94a3b8; margin: 2px 0 0 0; font-size: 12px;">${alertable.length} verified item${alertable.length > 1 ? "s" : ""}</p>
         </div>
         <div>
           <a href="${DASHBOARD_URL}" style="background: #2563eb; color: white; padding: 8px 16px; border-radius: 6px; text-decoration: none; font-size: 13px; font-weight: bold; display: inline-block;">
@@ -85,6 +85,17 @@ export async function sendEmailAlerts(events: ListingEvent[]): Promise<void> {
               // Pre-filled GitHub issue URL for one-click downvoting/feedback
               const downvoteIssueUrl = `${REPO_URL}/issues/new?title=${encodeURIComponent(`[False Positive] ${listing.title}`)}&body=${encodeURIComponent(`### False Positive Report\n- **Item:** ${listing.title}\n- **URL:** ${listing.canonicalUrl}\n- **Matched Rules:** ${listing.matchedRules.join(", ")}\n\nPlease tune keywords to exclude this item.`)}&labels=feedback`;
 
+              const aiBox = listing.ai
+                ? `
+                  <div style="margin: 8px 0; background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 6px; padding: 8px 10px; font-size: 12px;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2px;">
+                      <strong style="color: #166534;">🤖 AI Deal Score: ${listing.ai.score}/10 &bull; ${escapeHtml(listing.ai.verdict)}</strong>
+                    </div>
+                    <span style="color: #15803d;">${escapeHtml(listing.ai.reason)}</span>
+                  </div>
+                `
+                : "";
+
               return `
                 <li style="border: 1px solid #e2e8f0; border-radius: 8px; margin-bottom: 16px; padding: 14px; background: #fafafa;">
                   <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px;">
@@ -108,8 +119,10 @@ export async function sendEmailAlerts(events: ListingEvent[]): Promise<void> {
                   ${listing.condition ? `<p style="margin: 0 0 4px 0; font-size: 13px; color: #444;">Condition: <strong>${escapeHtml(listing.condition)}</strong></p>` : ""}
                   ${listing.accessories ? `<p style="margin: 0 0 4px 0; font-size: 13px; color: #555;">Includes: <em>${escapeHtml(listing.accessories)}</em></p>` : ""}
                   ${listing.seller ? `<p style="margin: 0 0 6px 0; font-size: 13px; color: #666;">Branch: <strong>${escapeHtml(listing.seller.replace(/DollarDealers|CashConverters/gi, "Store"))}</strong></p>` : ""}
-                  ${listing.matchedRules.length ? `<p style="margin: 0 0 10px 0; font-size: 11px; color: #888;">Matched: <em>${listing.matchedRules.join(", ")}</em></p>` : ""}
+                  ${listing.matchedRules.length ? `<p style="margin: 0 0 6px 0; font-size: 11px; color: #888;">Matched: <em>${listing.matchedRules.join(", ")}</em></p>` : ""}
                   
+                  ${aiBox}
+
                   <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 10px; border-top: 1px dashed #e2e8f0; padding-top: 10px;">
                     <a href="${escapeHtml(listing.canonicalUrl)}" style="display: inline-block; background: #2563eb; color: white; padding: 6px 14px; text-decoration: none; border-radius: 4px; font-size: 12px; font-weight: bold;">
                       View Listing &rarr;

@@ -1,140 +1,123 @@
-import { mkdir } from "node:fs/promises";
-import { chromium } from "playwright";
 import { loadConfig } from "./config.js";
-import type { Listing, ListingEvent, SearchConfig, SiteConfig } from "./models.js";
-import { highestPriority, mergeUnique } from "./matching.js";
-import { toListing } from "./normalise.js";
-import { applyListings, loadState, saveState } from "./state.js";
-import type { SiteAdapter } from "./sites/base.js";
-import { CashConvertersAdapter } from "./sites/cashconverters.js";
-import { DollarDealersAdapter } from "./sites/dollardealers.js";
+import { scrapeCashConverters } from "./sites/cashconverters.js";
+import { scrapeDollarDealers } from "./sites/dollardealers.js";
+import { normaliseListing } from "./normalise.js";
+import { matchRules } from "./matching.js";
+import { evaluateListingWithGemini } from "./ai.js";
+import { loadState, saveState, reconcileListings } from "./state.js";
 import { sendEmailAlerts } from "./alerts.js";
-import { generateHtmlDashboard } from "./ui.js";
+import { generateUiFiles } from "./ui.js";
+import type { RawListing, EnrichedListing, ListingEvent } from "./models.js";
 
-const adapters: Record<string, SiteAdapter> = {
-  cashconverters: new CashConvertersAdapter(),
-  dollardealers: new DollarDealersAdapter()
-};
-
-function argumentValue(flag: string): string | undefined {
-  const index = process.argv.indexOf(flag);
-  return index >= 0 ? process.argv[index + 1] : undefined;
-}
-
-function formatEvent(event: ListingEvent): string {
-  const { listing } = event;
-  const price = listing.price !== undefined ? `NZ$${listing.price.toFixed(2)}` : "price unavailable";
-  const prior = event.previousPrice !== undefined ? ` (was NZ$${event.previousPrice.toFixed(2)})` : "";
-  const model = listing.modelNumber ? ` [Model: ${listing.modelNumber}]` : "";
-  const cond = listing.condition ? ` [Cond: ${listing.condition}]` : "";
-  return `[${event.type}] [${listing.priority}] ${listing.title}${model}${cond} | ${price}${prior} | ${listing.canonicalUrl}`;
-}
-
-function mergeListings(existing: Listing, incoming: Listing): Listing {
-  return {
-    ...existing,
-    ...incoming,
-    firstSeenAt: existing.firstSeenAt,
-    searchIds: mergeUnique(existing.searchIds, incoming.searchIds),
-    matchedRules: mergeUnique(existing.matchedRules, incoming.matchedRules),
-    priority: highestPriority(existing.priority, incoming.priority)
-  };
-}
-
-async function sleep(milliseconds: number): Promise<void> {
-  await new Promise((resolve) => setTimeout(resolve, milliseconds));
+async function scrapeSearch(
+  site: "dollardealers" | "cashconverters",
+  path: string
+): Promise<RawListing[]> {
+  if (site === "cashconverters") {
+    return scrapeCashConverters(path);
+  } else if (site === "dollardealers") {
+    return scrapeDollarDealers(path);
+  }
+  return [];
 }
 
 async function main(): Promise<void> {
-  const config = await loadConfig();
-  const onlySite = argumentValue("--site");
-  const onlySearch = argumentValue("--search");
-  const searches = config.searches.filter((search: SearchConfig) => {
-    if (!search.enabled) return false;
-    if (onlySite && search.site !== onlySite) return false;
-    if (onlySearch && search.id !== onlySearch) return false;
-    const siteConfig = config.sites?.[search.site];
-    return siteConfig ? siteConfig.enabled : false;
-  });
+  console.log("Starting Market Watch run...");
+  const config = loadConfig();
+  const state = loadState();
 
-  if (!searches.length) {
-    throw new Error("No enabled searches matched the supplied filters.");
-  }
+  const allRawListings: Map<string, RawListing> = new Map();
 
-  await mkdir("debug", { recursive: true });
-  const state = await loadState();
-  const browser = await chromium.launch({ headless: true });
-  const collected = new Map<string, Listing>();
-  const failedSearches: string[] = [];
-  let lastSite = "";
-
-  try {
-    for (const search of searches) {
-      const site: SiteConfig | undefined = config.sites?.[search.site];
-      const adapter = adapters[site?.adapter ?? ""];
-
-      if (!site || !adapter) {
-        failedSearches.push(`${search.id}: no adapter configured for site ${search.site}`);
-        continue;
-      }
-
-      if (lastSite === search.site) {
-        await sleep(site.minimumDelayMs ?? config.defaults.minimumDelayBetweenSearchesMs);
-      }
-
-      console.log(`Running ${search.id}: ${search.label}`);
-      const result = await adapter.scrape(search, { browser, debugDirectory: "debug" });
-      console.log(`  ${result.diagnostics.resultCount} listings; blocked=${result.diagnostics.blocked}`);
-
-      if (result.diagnostics.blocked || result.diagnostics.error) {
-        failedSearches.push(`${search.id}: ${result.diagnostics.error ?? "site returned no usable listings"}`);
-        lastSite = search.site;
-        continue;
-      }
-
-      const timestamp = result.fetchedAt;
-      for (const raw of result.listings) {
-        const listing = toListing(result.siteId, search, raw, timestamp);
-        const existing = collected.get(listing.key);
-        collected.set(listing.key, existing ? mergeListings(existing, listing) : listing);
-      }
-      lastSite = search.site;
+  for (const search of config.searches) {
+    if (!search.enabled) {
+      console.log(`Skipping disabled search: ${search.id}`);
+      continue;
     }
-  } finally {
-    await browser.close();
-  }
 
-  if (failedSearches.length) {
-    console.error(`Failed searches (${failedSearches.length}):`);
-    failedSearches.forEach((failure) => console.error(`  ${failure}`));
-    process.exitCode = 1;
-    return;
-  }
-
-  const events = applyListings(state, [...collected.values()], new Date().toISOString());
-  await saveState(state);
-
-  // Generate responsive HTML web dashboard for GitHub Pages
-  try {
-    await generateHtmlDashboard("data/state.json", "public");
-  } catch (err) {
-    console.error("Failed to generate HTML dashboard:", err);
-  }
-
-  const meaningful = events.filter((event) => event.type !== "seen");
-  console.log(`Completed ${searches.length} searches. ${collected.size} unique listings. ${meaningful.length} meaningful events.`);
-  meaningful.forEach((event) => console.log(formatEvent(event)));
-
-  if (meaningful.length) {
+    console.log(`Executing search: ${search.label} (${search.site})`);
     try {
-      await sendEmailAlerts(meaningful);
-    } catch (error) {
-      console.error("Failed to send email alert:", error);
+      const rawListings = await scrapeSearch(search.site, search.path);
+      for (const raw of rawListings) {
+        if (!allRawListings.has(raw.id)) {
+          allRawListings.set(raw.id, raw);
+        }
+      }
+    } catch (err) {
+      console.error(`Failed to scrape ${search.id}:`, err);
     }
   }
+
+  console.log(`Total raw listings collected: ${allRawListings.size}`);
+
+  const activeCandidates: EnrichedListing[] = [];
+  const allRules = config.searches.flatMap((s) => s.rules);
+
+  for (const raw of allRawListings.values()) {
+    const normalised = normaliseListing(raw);
+    const match = matchRules(normalised, allRules);
+
+    if (match.priority === "ignore") {
+      continue;
+    }
+
+    // Determine siteId based on ID prefix
+    const siteId = raw.id.startsWith("cc-") ? "cashconverters" : "dollardealers";
+
+    const enriched: EnrichedListing = {
+      ...normalised,
+      canonicalUrl: normalised.url,
+      priority: match.priority,
+      matchedRules: match.matchedRules,
+      firstSeen: new Date().toISOString(),
+      lastSeen: new Date().toISOString(),
+      siteId,
+      status: "active"
+    };
+
+    activeCandidates.push(enriched);
+  }
+
+  console.log(`Candidate listings passing keyword rules: ${activeCandidates.length}`);
+
+  // AI Evaluation Step (Google Gemini 2.0 Flash)
+  const evaluatedListings: EnrichedListing[] = [];
+  for (const listing of activeCandidates) {
+    // Find the target label
+    const matchedRuleLabels = config.searches
+      .flatMap((s) => s.rules)
+      .filter((r) => listing.matchedRules.includes(r.id))
+      .map((r) => r.label)
+      .join(", ") || "Target Item";
+
+    const aiResult = await evaluateListingWithGemini(listing, matchedRuleLabels);
+    if (aiResult) {
+      console.log(`[AI] "${listing.title}" -> ${aiResult.verdict} (score: ${aiResult.score}/10, valid: ${aiResult.isTruePositive})`);
+      if (!aiResult.isTruePositive) {
+        console.log(`[AI] Dropping false positive: ${listing.title} (${aiResult.reason})`);
+        continue;
+      }
+      listing.ai = aiResult;
+    }
+    evaluatedListings.push(listing);
+  }
+
+  console.log(`Listings verified after AI assessment: ${evaluatedListings.length}`);
+
+  const { updatedState, events } = reconcileListings(state, evaluatedListings);
+  saveState(updatedState);
+
+  console.log(`Listing events detected: ${events.length}`);
+
+  // Send email alerts for new or price-dropped items
+  await sendEmailAlerts(events);
+
+  // Generate GitHub Pages HTML and JSON feed
+  await generateUiFiles(updatedState, events);
+
+  console.log("Market Watch run complete.");
 }
 
-main().catch((error) => {
-  console.error(error);
-  process.exitCode = 1;
+main().catch((err) => {
+  console.error("Fatal error in Market Watch:", err);
+  process.exit(1);
 });

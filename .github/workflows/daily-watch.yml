@@ -1,120 +1,74 @@
-name: Daily market watch
-run-name: >-
-  ${{
-    github.event_name == 'workflow_dispatch'
-      && format('Market Watch [Manual: {0}] by @{1}', inputs.search_scope, github.actor)
-      || github.event_name == 'schedule'
-      && 'Market Watch [Scheduled NZST]'
-      || format('Market Watch [Push]: {0}', github.event.head_commit.message)
-  }}
+name: Market Watcher Automated Scrape & Alert
 
 on:
   schedule:
-    # 23:15 UTC is 11:15 AM NZST (mid-morning additions)
-    # 06:15 UTC is 06:15 PM NZST (afternoon/close-of-day additions)
-    - cron: "15 23,6 * * *"
-  push:
-    branches:
-      - main
-    paths:
-      - "src/**"
-      - "config/**"
-      - "package.json"
-      - "tsconfig.json"
-      - ".github/workflows/daily-watch.yml"
+    # Run every 6 hours (00:00, 06:00, 12:00, 18:00 UTC)
+    - cron: '0 */6 * * *'
   workflow_dispatch:
     inputs:
-      search_scope:
-        description: "Search scope to run"
-        required: true
-        type: choice
-        default: "all"
-        options:
-          - "all"
-          - "src-a-display-65"
-          - "src-a-power-tools"
-          - "src-a-tough-cameras"
-          - "src-b-display-65"
-          - "src-b-power-tools"
-          - "src-b-tough-cameras"
-
-permissions:
-  contents: write
-  issues: write
-  pages: write
-  id-token: write
+      force_alert:
+        description: 'Force alert even if no changes'
+        required: false
+        default: false
+        type: boolean
 
 concurrency:
-  group: market-watch
+  group: market-watch-scrape
   cancel-in-progress: false
 
 jobs:
-  watch:
+  scrape-and-alert:
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
 
     steps:
-      - name: Check out repository
+      - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Set up Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: '20'
+          cache: 'npm'
 
-      - name: Install packages
-        run: npm install
+      - name: Install dependencies
+        run: npm ci
 
-      - name: Typecheck
-        run: |
-          mkdir -p data debug public
-          npm test 2>&1 | tee data/latest-run.log
-
-      - name: Install Chromium
-        run: npx playwright install --with-deps chromium
-
-      - name: Run watcher
+      - name: Run Market Watcher Pipeline
         env:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           ALERT_TO_EMAIL: ${{ secrets.ALERT_TO_EMAIL }}
-        run: |
-          if [ "${{ inputs.search_scope }}" != "all" ] && [ -n "${{ inputs.search_scope }}" ]; then
-            npm run watch -- --search "${{ inputs.search_scope }}" 2>&1 | tee -a data/latest-run.log
-          else
-            npm run watch 2>&1 | tee -a data/latest-run.log
-          fi
-
-      - name: Commit run log and state update
-        if: always()
-        run: |
-          git config user.name "market-watch[bot]"
-          git config user.email "market-watch[bot]@users.noreply.github.com"
-          git add data/state.json data/latest-run.log
-          git diff --cached --quiet || git commit -m "Update state and run log [skip ci]"
-          git push || echo "Git push skipped"
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: npm start
 
       - name: Deploy Dashboard to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         if: success()
-        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          publish_dir: ./dist
+          publish_branch: gh-pages
+          force_orphan: true
 
-      - name: Report failure to GitHub Issues
-        if: failure()
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit and Push State Updates
+        if: success()
         run: |
-          TITLE="[Automated Alert] Watcher Run Failed ($(date -u +'%Y-%m-%d %H:%M UTC'))"
-          BODY=$(printf "### Watcher Execution Failure\n\nRun failed with the following log excerpt:\n\n\`\`\`\n%s\n\`\`\`\n\nWorkflow: %s/actions/runs/%s" "$(tail -n 80 data/latest-run.log 2>/dev/null || echo 'No log available')" "$GITHUB_SERVER_URL/$GITHUB_REPOSITORY" "$GITHUB_RUN_ID")
-          gh issue create --title "$TITLE" --body "$BODY" --label "bug" || echo "Issue creation skipped"
-
-      - name: Upload diagnostics
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: watcher-diagnostics
-          path: debug/
-          if-no-files-found: ignore
-          retention-days: 14
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Stage tracking state
+          git add data/state.json
+          
+          # Check if state actually changed
+          if git diff --staged --quiet; then
+            echo "No state changes to commit."
+          else
+            git commit -m "Update listing tracking state [skip ci]"
+            git push origin main
+          fi

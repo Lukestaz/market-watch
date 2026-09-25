@@ -12,90 +12,46 @@ export interface SearchRule {
 
 export interface SearchConfig {
   id: string;
-  site: string;
+  site: "dollardealers" | "cashconverters";
   label: string;
   path: string;
   enabled: boolean;
   rules: SearchRule[];
 }
 
-export interface SiteConfig {
-  adapter: string;
-  baseUrl: string;
-  enabled: boolean;
-  minimumDelayMs?: number;
-  deepScrapeCandidateLimit?: number;
-}
-
-export interface DefaultsConfig {
-  minimumDelayBetweenSearchesMs: number;
-}
-
-export interface WatchConfig {
-  defaults: DefaultsConfig;
-  sites: Record<string, SiteConfig>;
-  searches: SearchConfig[];
-}
-
-export type AppConfig = WatchConfig;
-
 export interface RawListing {
   id: string;
   title: string;
   url: string;
-  priceText?: string;
   price?: number;
   seller?: string;
-  imageUrl?: string;
   modelNumber?: string;
   condition?: string;
   accessories?: string;
   rawText?: string;
 }
 
-export interface Listing {
-  key: string;
-  siteId: string;
-  sourceListingId: string;
-  title: string;
+export interface AiEvaluation {
+  isTruePositive: boolean;
+  score: number; // 1 - 10
+  verdict: string; // e.g. "Solid Deal", "Below Market", "Irrelevant"
+  reason: string;
+  estimatedMarketPriceNzd?: number;
+}
+
+export interface EnrichedListing extends RawListing {
   canonicalUrl: string;
-  price?: number;
-  seller?: string;
-  imageUrl?: string;
-  modelNumber?: string;
-  condition?: string;
-  accessories?: string;
   priority: Priority;
   matchedRules: string[];
-  searchIds: string[];
-  firstSeenAt: string;
-  lastSeenAt: string;
+  firstSeen: string;
+  lastSeen: string;
+  siteId: string;
+  status: "active" | "sold" | "removed";
+  ai?: AiEvaluation;
 }
-
-export interface WatchState {
-  version?: number;
-  updatedAt: string;
-  listings: Record<string, Listing>;
-}
-
-export type ListingEventType = "new" | "price_drop" | "seen" | "price_change";
 
 export interface ListingEvent {
-  type: ListingEventType;
-  listing: Listing;
+  type: "new" | "price_drop";
+  listing: EnrichedListing;
   previousPrice?: number;
-  timestamp?: string;
-}
-
-export interface ScrapeDiagnostics {
-  resultCount: number;
-  blocked: boolean;
-  error?: string;
-}
-
-export interface ScrapeResult {
-  siteId: string;
-  fetchedAt: string;
-  diagnostics: ScrapeDiagnostics;
-  listings: RawListing[];
 }
