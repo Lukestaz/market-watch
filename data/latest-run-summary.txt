@@ -2,11 +2,11 @@
 > market-watch@0.1.0 watch
 > tsx src/index.ts
 
-/home/runner/work/market-watch/market-watch/src/index.ts:6
-import { loadState, saveState, reconcileListings } from "./state.js";
-                               ^
+/home/runner/work/market-watch/market-watch/src/index.ts:3
+import { scrapeDollarDealers } from "./sites/dollardealers.js";
+         ^
 
-SyntaxError: The requested module './state.js' does not provide an export named 'reconcileListings'
+SyntaxError: The requested module './sites/dollardealers.js' does not provide an export named 'scrapeDollarDealers'
     at ModuleJob._instantiate (node:internal/modules/esm/module_job:213:21)
     at async ModuleJob.run (node:internal/modules/esm/module_job:320:5)
     at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)
