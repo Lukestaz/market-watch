@@ -3,10 +3,10 @@ import { scrapeCashConverters } from "./sites/cashconverters.js";
 import { scrapeDollarDealers } from "./sites/dollardealers.js";
 import { toListing } from "./normalise.js";
 import { evaluateListingWithGemini } from "./ai.js";
-import { loadState, saveState, reconcileListings } from "./state.js";
+import { applyListings, loadState, saveState } from "./state.js";
 import { sendEmailAlerts } from "./alerts.js";
 import { generateUiFiles } from "./ui.js";
-import type { RawListing, EnrichedListing, SearchConfig } from "./models.js";
+import type { EnrichedListing, RawListing, SearchConfig } from "./models.js";
 
 async function scrapeSearch(
   site: "dollardealers" | "cashconverters",
@@ -23,7 +23,7 @@ async function scrapeSearch(
 async function main(): Promise<void> {
   console.log("Starting Market Watch run...");
   const config = loadConfig();
-  const state = loadState();
+  const state = await loadState();
 
   const allRawListings = new Map<string, { raw: RawListing; search: SearchConfig }>();
 
@@ -90,13 +90,13 @@ async function main(): Promise<void> {
 
   console.log(`Listings verified after AI assessment: ${evaluatedListings.length}`);
 
-  const { updatedState, events } = reconcileListings(state, evaluatedListings);
-  saveState(updatedState);
+  const events = applyListings(state, evaluatedListings, now);
+  await saveState(state);
 
   console.log(`Listing events detected: ${events.length}`);
 
   await sendEmailAlerts(events);
-  await generateUiFiles(updatedState, events);
+  await generateUiFiles(state, events);
 
   console.log("Market Watch run complete.");
 }
