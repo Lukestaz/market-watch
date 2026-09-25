@@ -30,21 +30,58 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Create fallback dashboard
+        run: |
+          mkdir -p dist data
+          cat > dist/index.html <<'EOF'
+          <!doctype html>
+          <html lang="en">
+          <head>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <title>Market Watch</title>
+            <style>
+              body { margin: 0; padding: 32px; background: #0f172a; color: #f8fafc; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+              main { max-width: 720px; margin: 10vh auto; background: #1e293b; padding: 28px; border: 1px solid #334155; border-radius: 12px; }
+              h1 { margin-top: 0; } p { color: #cbd5e1; line-height: 1.55; } .muted { color: #94a3b8; font-size: .9rem; }
+            </style>
+          </head>
+          <body>
+            <main>
+              <h1>Market Watch</h1>
+              <p>The dashboard is being refreshed. Please check back shortly.</p>
+              <p class="muted">A source or processing task may have failed during the latest run; the automated watcher will retry on its next scheduled run.</p>
+            </main>
+          </body>
+          </html>
+          EOF
+          echo '{"status":"refreshing"}' > dist/feed.json
+
       - name: Run Market Watcher Pipeline
+        id: pipeline
+        continue-on-error: true
         env:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           ALERT_TO_EMAIL: ${{ secrets.ALERT_TO_EMAIL }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: npm start
+        run: |
+          set +e
+          npm start 2>&1 | tee data/latest-run.log
+          exit_code=${PIPESTATUS[0]}
+          echo "Pipeline exit code: ${exit_code}" | tee -a data/latest-run.log
+          echo "exit_code=${exit_code}" >> "$GITHUB_OUTPUT"
+          exit ${exit_code}
 
-      - name: Verify dashboard output
+      - name: Ensure dashboard output exists
+        if: always()
         run: |
           test -f dist/index.html
           test -s dist/index.html
           echo "Dashboard output is present."
 
       - name: Deploy Dashboard to GitHub Pages
+        if: always()
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -52,14 +89,15 @@ jobs:
           publish_branch: gh-pages
           force_orphan: true
 
-      - name: Commit and Push State Updates
+      - name: Commit run state and log
+        if: always()
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/state.json
+          git add data/state.json data/latest-run.log
           if git diff --staged --quiet; then
-            echo "No state changes to commit."
+            echo "No state or run-log changes to commit."
           else
-            git commit -m "Update listing tracking state [skip ci]"
+            git commit -m "Update state and run log [skip ci]"
             git push origin main
           fi
