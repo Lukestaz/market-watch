@@ -133,7 +133,27 @@ jobs:
           git add -f data/state.json 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "No state or diagnostic changes to commit."
-          else
-            git commit -m "Update watcher status [skip ci]"
-            git push origin main
+            exit 0
           fi
+
+          git commit -m "Update watcher status [skip ci]"
+
+          for attempt in 1 2 3; do
+            git fetch origin main
+            if ! git rebase origin/main; then
+              git rebase --abort || true
+              echo "Could not rebase diagnostic commit onto origin/main."
+              exit 1
+            fi
+
+            if git push origin HEAD:main; then
+              echo "Diagnostics pushed."
+              exit 0
+            fi
+
+            echo "Push conflict on attempt ${attempt}; retrying."
+            sleep $((attempt * 2))
+          done
+
+          echo "Unable to push diagnostics after retries."
+          exit 1
