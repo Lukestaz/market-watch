@@ -1,6 +1,8 @@
+import { chromium } from "playwright";
 import { loadConfig } from "./config.js";
-import { scrapeCashConverters } from "./sites/cashconverters.js";
-import { scrapeDollarDealers } from "./sites/dollardealers.js";
+import { CashConvertersAdapter } from "./sites/cashconverters.js";
+import { DollarDealersAdapter } from "./sites/dollardealers.js";
+import type { SiteAdapter, SiteAdapterContext } from "./sites/base.js";
 import { toListing } from "./normalise.js";
 import { evaluateListingWithGemini } from "./ai.js";
 import { applyListings, loadState, saveState } from "./state.js";
@@ -8,42 +10,52 @@ import { sendEmailAlerts } from "./alerts.js";
 import { generateUiFiles } from "./ui.js";
 import type { EnrichedListing, RawListing, SearchConfig } from "./models.js";
 
-async function scrapeSearch(
-  site: "dollardealers" | "cashconverters",
-  path: string
-): Promise<RawListing[]> {
-  if (site === "cashconverters") {
-    return scrapeCashConverters(path);
-  } else if (site === "dollardealers") {
-    return scrapeDollarDealers(path);
-  }
-  return [];
-}
+const ADAPTERS: Record<SearchConfig["site"], SiteAdapter> = {
+  cashconverters: new CashConvertersAdapter(),
+  dollardealers: new DollarDealersAdapter()
+};
 
 async function main(): Promise<void> {
   console.log("Starting Market Watch run...");
   const config = loadConfig();
   const state = await loadState();
 
+  const browser = await chromium.launch({ headless: true });
+  const context: SiteAdapterContext = { browser };
+
   const allRawListings = new Map<string, { raw: RawListing; search: SearchConfig }>();
 
-  for (const search of config.searches) {
-    if (!search.enabled) {
-      console.log(`Skipping disabled search: ${search.id}`);
-      continue;
-    }
-
-    console.log(`Executing search: ${search.label} (${search.site})`);
-    try {
-      const rawListings = await scrapeSearch(search.site, search.path);
-      for (const raw of rawListings) {
-        if (!allRawListings.has(raw.id)) {
-          allRawListings.set(raw.id, { raw, search });
-        }
+  try {
+    for (const search of config.searches) {
+      if (!search.enabled) {
+        console.log(`Skipping disabled search: ${search.id}`);
+        continue;
       }
-    } catch (err) {
-      console.error(`Failed to scrape ${search.id}:`, err);
+
+      const adapter = ADAPTERS[search.site];
+      if (!adapter) {
+        console.warn(`No adapter found for site: ${search.site}`);
+        continue;
+      }
+
+      console.log(`Executing search: ${search.label} (${search.site})`);
+      try {
+        const result = await adapter.scrape(search, context);
+        if (result.diagnostics.error) {
+          console.warn(`[${search.id}] Scrape error: ${result.diagnostics.error}`);
+        }
+        for (const raw of result.listings) {
+          const dedupeKey = `${search.site}:${raw.id}`;
+          if (!allRawListings.has(dedupeKey)) {
+            allRawListings.set(dedupeKey, { raw, search });
+          }
+        }
+      } catch (err) {
+        console.error(`Failed to scrape search ${search.id}:`, err);
+      }
     }
+  } finally {
+    await browser.close();
   }
 
   console.log(`Total raw listings collected: ${allRawListings.size}`);
@@ -60,7 +72,9 @@ async function main(): Promise<void> {
 
     const enriched: EnrichedListing = {
       ...normalised,
-      status: "active"
+      status: "active",
+      firstSeen: normalised.firstSeenAt || now,
+      lastSeen: normalised.lastSeenAt || now
     };
 
     activeCandidates.push(enriched);
