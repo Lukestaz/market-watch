@@ -1,6 +1,15 @@
 name: Market Watcher Automated Scrape & Alert
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'src/**'
+      - 'config/**'
+      - '.github/workflows/daily-watch.yml'
+      - 'package.json'
+      - 'package-lock.json'
   schedule:
     - cron: '0 */6 * * *'
   workflow_dispatch:
