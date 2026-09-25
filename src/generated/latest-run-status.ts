@@ -2,8 +2,8 @@
 export const latestRun = {
   "status": "failed",
   "exitCode": 1,
-  "startedAt": "2026-09-25T11:40:46Z",
-  "finishedAt": "2026-09-25T11:40:47Z",
+  "startedAt": "2026-09-25T16:06:33Z",
+  "finishedAt": "2026-09-25T16:06:33Z",
   "command": "npm run watch",
   "summary": "\n> market-watch@0.1.0 watch\n> tsx src/index.ts\n\n/home/runner/work/market-watch/market-watch/src/index.ts:3\nimport { scrapeDollarDealers } from \"./sites/dollardealers.js\";\n         ^\n\nSyntaxError: The requested module './sites/dollardealers.js' does not provide an export named 'scrapeDollarDealers'\n    at ModuleJob._instantiate (node:internal/modules/esm/module_job:213:21)\n    at async ModuleJob.run (node:internal/modules/esm/module_job:320:5)\n    at async ModuleLoader.import (node:internal/modules/esm/loader:606:24)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:117:5)\n\nNode.js v20.20.2\n"
 } as const;
