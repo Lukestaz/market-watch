@@ -1,4 +1,873 @@
 {
-  "updatedAt": "2026-09-25T00:00:00.000Z",
-  "listings": {}
+  "updatedAt": "2026-09-29T08:57:07.874Z",
+  "listings": {
+    "dollardealers:dd-3481663": {
+      "key": "dollardealers:dd-3481663",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-3481663",
+      "title": "LG 65 SMART TV",
+      "canonicalUrl": "https://dollardealers.co.nz/product/lg-65-smart-tv-2/",
+      "price": 749,
+      "imageUrl": "https://i2.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/fe5a3f5a-0c17-4164-85fd-4d0b0d8ad079.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [
+        "rule-b-normal-65"
+      ],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-lg-65-smart-tv-2": {
+      "key": "dollardealers:dd-lg-65-smart-tv-2",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-lg-65-smart-tv-2",
+      "title": "LG 65 SMART TV",
+      "canonicalUrl": "https://dollardealers.co.nz/product/lg-65-smart-tv-2/",
+      "price": 749,
+      "imageUrl": "https://i2.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/fe5a3f5a-0c17-4164-85fd-4d0b0d8ad079.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [
+        "rule-b-normal-65"
+      ],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-3458094": {
+      "key": "dollardealers:dd-3458094",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-3458094",
+      "title": "LG 65″ Smart TV",
+      "canonicalUrl": "https://dollardealers.co.nz/product/lg-65-smart-tv/",
+      "price": 749,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/bf5edda4-3e37-4512-b9a8-5291485cacbd.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [
+        "rule-b-normal-65"
+      ],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-lg-65-smart-tv": {
+      "key": "dollardealers:dd-lg-65-smart-tv",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-lg-65-smart-tv",
+      "title": "LG 65″ Smart TV",
+      "canonicalUrl": "https://dollardealers.co.nz/product/lg-65-smart-tv/",
+      "price": 749,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/bf5edda4-3e37-4512-b9a8-5291485cacbd.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [
+        "rule-b-normal-65"
+      ],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-3486344": {
+      "key": "dollardealers:dd-3486344",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-3486344",
+      "title": "Samsung 43″ Smart TV",
+      "canonicalUrl": "https://dollardealers.co.nz/product/samsung-43-smart-tv-2/",
+      "price": 599,
+      "imageUrl": "https://i2.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/12709af2-17ec-40fb-b31a-b98418a83850.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-samsung-43-smart-tv-2": {
+      "key": "dollardealers:dd-samsung-43-smart-tv-2",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-samsung-43-smart-tv-2",
+      "title": "Samsung 43″ Smart TV",
+      "canonicalUrl": "https://dollardealers.co.nz/product/samsung-43-smart-tv-2/",
+      "price": 599,
+      "imageUrl": "https://i2.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/12709af2-17ec-40fb-b31a-b98418a83850.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-3472974": {
+      "key": "dollardealers:dd-3472974",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-3472974",
+      "title": "LG 50″ SMART TELEVISION",
+      "canonicalUrl": "https://dollardealers.co.nz/product/lg-50-smart-television/",
+      "price": 699,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/18b34128-93ed-4637-b95c-e6bb35ef540a.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-lg-50-smart-television": {
+      "key": "dollardealers:dd-lg-50-smart-television",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-lg-50-smart-television",
+      "title": "LG 50″ SMART TELEVISION",
+      "canonicalUrl": "https://dollardealers.co.nz/product/lg-50-smart-television/",
+      "price": 699,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/18b34128-93ed-4637-b95c-e6bb35ef540a.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-3431391": {
+      "key": "dollardealers:dd-3431391",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-3431391",
+      "title": "PANASONIC 65″ 4K SMART TV TH-65LX800Z",
+      "canonicalUrl": "https://dollardealers.co.nz/product/panasonic-65-4k-smart-tv-th-65lx800z/",
+      "price": 999,
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/88a3e2a7-2622-4e83-b76e-dba190701698.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [
+        "rule-b-normal-65"
+      ],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-panasonic-65-4k-smart-tv-th-65lx800z": {
+      "key": "dollardealers:dd-panasonic-65-4k-smart-tv-th-65lx800z",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-panasonic-65-4k-smart-tv-th-65lx800z",
+      "title": "PANASONIC 65″ 4K SMART TV TH-65LX800Z",
+      "canonicalUrl": "https://dollardealers.co.nz/product/panasonic-65-4k-smart-tv-th-65lx800z/",
+      "price": 999,
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/88a3e2a7-2622-4e83-b76e-dba190701698.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [
+        "rule-b-normal-65"
+      ],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-3424292": {
+      "key": "dollardealers:dd-3424292",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-3424292",
+      "title": "SAMSUNG SMART TV",
+      "canonicalUrl": "https://dollardealers.co.nz/product/samsung-smart-tv/",
+      "price": 250,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/9750928a-c81c-4281-97ca-ab45cfabbf1a.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-samsung-smart-tv": {
+      "key": "dollardealers:dd-samsung-smart-tv",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-samsung-smart-tv",
+      "title": "SAMSUNG SMART TV",
+      "canonicalUrl": "https://dollardealers.co.nz/product/samsung-smart-tv/",
+      "price": 250,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/9750928a-c81c-4281-97ca-ab45cfabbf1a.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-3274636": {
+      "key": "dollardealers:dd-3274636",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-3274636",
+      "title": "LG SOUNDBAR S70TY",
+      "canonicalUrl": "https://dollardealers.co.nz/product/lg-soundbar-s70ty/",
+      "price": 63,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/9a554d89-7e5d-41d2-b2cf-ab5b758e51db.png?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-lg-soundbar-s70ty": {
+      "key": "dollardealers:dd-lg-soundbar-s70ty",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-lg-soundbar-s70ty",
+      "title": "LG SOUNDBAR S70TY",
+      "canonicalUrl": "https://dollardealers.co.nz/product/lg-soundbar-s70ty/",
+      "price": 63,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/9a554d89-7e5d-41d2-b2cf-ab5b758e51db.png?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-3131399": {
+      "key": "dollardealers:dd-3131399",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-3131399",
+      "title": "LG DVD WRITER",
+      "canonicalUrl": "https://dollardealers.co.nz/product/lg-dvd-writer/",
+      "price": 20,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/2467e40d-e2d7-4a69-a2a3-9b86ccf0642e.png?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-lg-dvd-writer": {
+      "key": "dollardealers:dd-lg-dvd-writer",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-lg-dvd-writer",
+      "title": "LG DVD WRITER",
+      "canonicalUrl": "https://dollardealers.co.nz/product/lg-dvd-writer/",
+      "price": 20,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/2467e40d-e2d7-4a69-a2a3-9b86ccf0642e.png?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-3391770": {
+      "key": "dollardealers:dd-3391770",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-3391770",
+      "title": "ONE FOR ALL UNIVERSAL REMOTE",
+      "canonicalUrl": "https://dollardealers.co.nz/product/one-for-all-universal-remote-3/",
+      "price": 25,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/60b53e26-5156-4549-ba43-90481f45e6fe.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-one-for-all-universal-remote-3": {
+      "key": "dollardealers:dd-one-for-all-universal-remote-3",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-one-for-all-universal-remote-3",
+      "title": "ONE FOR ALL UNIVERSAL REMOTE",
+      "canonicalUrl": "https://dollardealers.co.nz/product/one-for-all-universal-remote-3/",
+      "price": 25,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/60b53e26-5156-4549-ba43-90481f45e6fe.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-3493762": {
+      "key": "dollardealers:dd-3493762",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-3493762",
+      "title": "MILWAUKEE BATTERY M18 2.0AH",
+      "canonicalUrl": "https://dollardealers.co.nz/product/milwaukee-battery-m18-2-0ah/",
+      "price": 49,
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/1df714ab-13bb-4bc8-9b02-26a128d7d9d7.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-milwaukee-battery-m18-2-0ah": {
+      "key": "dollardealers:dd-milwaukee-battery-m18-2-0ah",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-milwaukee-battery-m18-2-0ah",
+      "title": "MILWAUKEE BATTERY M18 2.0AH",
+      "canonicalUrl": "https://dollardealers.co.nz/product/milwaukee-battery-m18-2-0ah/",
+      "price": 49,
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/1df714ab-13bb-4bc8-9b02-26a128d7d9d7.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-3483419": {
+      "key": "dollardealers:dd-3483419",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-3483419",
+      "title": "arlec EXTENSION CORD",
+      "canonicalUrl": "https://dollardealers.co.nz/product/arlec-extension-cord/",
+      "price": 20,
+      "imageUrl": "https://i2.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/e23608fa-cfac-4fc7-a374-d70cbd06f995.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-arlec-extension-cord": {
+      "key": "dollardealers:dd-arlec-extension-cord",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-arlec-extension-cord",
+      "title": "arlec EXTENSION CORD",
+      "canonicalUrl": "https://dollardealers.co.nz/product/arlec-extension-cord/",
+      "price": 20,
+      "imageUrl": "https://i2.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/e23608fa-cfac-4fc7-a374-d70cbd06f995.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-3479570": {
+      "key": "dollardealers:dd-3479570",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-3479570",
+      "title": "RUSSEL HOBBS MULTI COOKER RHMC20",
+      "canonicalUrl": "https://dollardealers.co.nz/product/russel-hobbs-multi-cooker-rhmc20/",
+      "price": 99,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/f01e3746-ee2e-4495-8144-d34fa04f00d1.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-russel-hobbs-multi-cooker-rhmc20": {
+      "key": "dollardealers:dd-russel-hobbs-multi-cooker-rhmc20",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-russel-hobbs-multi-cooker-rhmc20",
+      "title": "RUSSEL HOBBS MULTI COOKER RHMC20",
+      "canonicalUrl": "https://dollardealers.co.nz/product/russel-hobbs-multi-cooker-rhmc20/",
+      "price": 99,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/f01e3746-ee2e-4495-8144-d34fa04f00d1.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-3465311": {
+      "key": "dollardealers:dd-3465311",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-3465311",
+      "title": "RYOBI DRILL R18DDP2 AND BATTERY",
+      "canonicalUrl": "https://dollardealers.co.nz/product/ryobi-drill-r18ddp2-and-battery/",
+      "price": 79,
+      "imageUrl": "https://i2.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/4c87c363-e3bc-4ea0-bd86-613000421d71.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-ryobi-drill-r18ddp2-and-battery": {
+      "key": "dollardealers:dd-ryobi-drill-r18ddp2-and-battery",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-ryobi-drill-r18ddp2-and-battery",
+      "title": "RYOBI DRILL R18DDP2 AND BATTERY",
+      "canonicalUrl": "https://dollardealers.co.nz/product/ryobi-drill-r18ddp2-and-battery/",
+      "price": 79,
+      "imageUrl": "https://i2.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/4c87c363-e3bc-4ea0-bd86-613000421d71.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-3395594": {
+      "key": "dollardealers:dd-3395594",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-3395594",
+      "title": "DYSON HAIR AIRSTRAIGHTENER",
+      "canonicalUrl": "https://dollardealers.co.nz/product/dyson-hair-airstraightener/",
+      "price": 299,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/bab5270a-9bdb-44c1-a19e-536b9d965020.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-dyson-hair-airstraightener": {
+      "key": "dollardealers:dd-dyson-hair-airstraightener",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-dyson-hair-airstraightener",
+      "title": "DYSON HAIR AIRSTRAIGHTENER",
+      "canonicalUrl": "https://dollardealers.co.nz/product/dyson-hair-airstraightener/",
+      "price": 299,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/bab5270a-9bdb-44c1-a19e-536b9d965020.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-3350760": {
+      "key": "dollardealers:dd-3350760",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-3350760",
+      "title": "APLE IPAD PRO 11” 256G",
+      "canonicalUrl": "https://dollardealers.co.nz/product/aple-ipad-pro-11-256g/",
+      "price": 899,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/2baaae21-c300-4b28-aba7-3d34695aac79.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-aple-ipad-pro-11-256g": {
+      "key": "dollardealers:dd-aple-ipad-pro-11-256g",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-aple-ipad-pro-11-256g",
+      "title": "APLE IPAD PRO 11” 256G",
+      "canonicalUrl": "https://dollardealers.co.nz/product/aple-ipad-pro-11-256g/",
+      "price": 899,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/2baaae21-c300-4b28-aba7-3d34695aac79.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-3102579": {
+      "key": "dollardealers:dd-3102579",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-3102579",
+      "title": "AEG DRILL AND BATTERY A18IDB3",
+      "canonicalUrl": "https://dollardealers.co.nz/product/aeg-drill-and-battery-a18idb3/",
+      "price": 220,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/d8951224-5757-4640-bbc0-0f7eca8d1947.JPG?resize=247&w=247",
+      "priority": "high",
+      "matchedRules": [
+        "rule-b-high-battery",
+        "rule-b-high-bare"
+      ],
+      "searchIds": [
+        "src-b-power-tools"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-aeg-drill-and-battery-a18idb3": {
+      "key": "dollardealers:dd-aeg-drill-and-battery-a18idb3",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-aeg-drill-and-battery-a18idb3",
+      "title": "AEG DRILL AND BATTERY A18IDB3",
+      "canonicalUrl": "https://dollardealers.co.nz/product/aeg-drill-and-battery-a18idb3/",
+      "price": 220,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/d8951224-5757-4640-bbc0-0f7eca8d1947.JPG?resize=247&w=247",
+      "priority": "high",
+      "matchedRules": [
+        "rule-b-high-battery",
+        "rule-b-high-bare"
+      ],
+      "searchIds": [
+        "src-b-power-tools"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-3124236": {
+      "key": "dollardealers:dd-3124236",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-3124236",
+      "title": "MILWAUKEE CIRCULAR SAW",
+      "canonicalUrl": "https://dollardealers.co.nz/product/milwaukee-circular-saw/",
+      "price": 210,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/84d6ee99-550d-4a27-a6a8-88a53600c217.jpeg?resize=247&w=247",
+      "priority": "high",
+      "matchedRules": [
+        "rule-b-high-bare"
+      ],
+      "searchIds": [
+        "src-b-power-tools"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-milwaukee-circular-saw": {
+      "key": "dollardealers:dd-milwaukee-circular-saw",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-milwaukee-circular-saw",
+      "title": "MILWAUKEE CIRCULAR SAW",
+      "canonicalUrl": "https://dollardealers.co.nz/product/milwaukee-circular-saw/",
+      "price": 210,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/84d6ee99-550d-4a27-a6a8-88a53600c217.jpeg?resize=247&w=247",
+      "priority": "high",
+      "matchedRules": [
+        "rule-b-high-bare"
+      ],
+      "searchIds": [
+        "src-b-power-tools"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-3163278": {
+      "key": "dollardealers:dd-3163278",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-3163278",
+      "title": "MILWAUKEE M18 CHARGER RADIO",
+      "canonicalUrl": "https://dollardealers.co.nz/product/milwaukee-m18-charger-radio/",
+      "price": 249,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/77671f65-e336-4f7d-bff4-fe3f0a63b973.jpeg?resize=247&w=247",
+      "priority": "high",
+      "matchedRules": [
+        "rule-b-high-bare"
+      ],
+      "searchIds": [
+        "src-b-power-tools"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-milwaukee-m18-charger-radio": {
+      "key": "dollardealers:dd-milwaukee-m18-charger-radio",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-milwaukee-m18-charger-radio",
+      "title": "MILWAUKEE M18 CHARGER RADIO",
+      "canonicalUrl": "https://dollardealers.co.nz/product/milwaukee-m18-charger-radio/",
+      "price": 249,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/77671f65-e336-4f7d-bff4-fe3f0a63b973.jpeg?resize=247&w=247",
+      "priority": "high",
+      "matchedRules": [
+        "rule-b-high-bare"
+      ],
+      "searchIds": [
+        "src-b-power-tools"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-2756700": {
+      "key": "dollardealers:dd-2756700",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-2756700",
+      "title": "DEWALT CIRCULAR SAW",
+      "canonicalUrl": "https://dollardealers.co.nz/product/dewalt-circular-saw/",
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/ca9b401b-9b2a-4c27-ab98-1c1c62cd9ae0.png?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-power-tools"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-dewalt-circular-saw": {
+      "key": "dollardealers:dd-dewalt-circular-saw",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-dewalt-circular-saw",
+      "title": "DEWALT CIRCULAR SAW",
+      "canonicalUrl": "https://dollardealers.co.nz/product/dewalt-circular-saw/",
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/ca9b401b-9b2a-4c27-ab98-1c1c62cd9ae0.png?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-power-tools"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-3173515": {
+      "key": "dollardealers:dd-3173515",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-3173515",
+      "title": "RYOBI IMPACT DRILL RID18",
+      "canonicalUrl": "https://dollardealers.co.nz/product/ryobi-impact-drill-rid18-2/",
+      "price": 85,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/6e72716a-831d-4a96-91ca-1161abeb2766.jpg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-power-tools"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-ryobi-impact-drill-rid18-2": {
+      "key": "dollardealers:dd-ryobi-impact-drill-rid18-2",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-ryobi-impact-drill-rid18-2",
+      "title": "RYOBI IMPACT DRILL RID18",
+      "canonicalUrl": "https://dollardealers.co.nz/product/ryobi-impact-drill-rid18-2/",
+      "price": 85,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/6e72716a-831d-4a96-91ca-1161abeb2766.jpg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-b-power-tools"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-3158669": {
+      "key": "dollardealers:dd-3158669",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-3158669",
+      "title": "AEG IMPACT DRIVER",
+      "canonicalUrl": "https://dollardealers.co.nz/product/aeg-impact-driver-3/",
+      "price": 60,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/4ffcfaf6-0049-493f-975a-0679b49ff536.jpeg?resize=247&w=247",
+      "priority": "high",
+      "matchedRules": [
+        "rule-b-high-bare"
+      ],
+      "searchIds": [
+        "src-b-power-tools"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-aeg-impact-driver-3": {
+      "key": "dollardealers:dd-aeg-impact-driver-3",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-aeg-impact-driver-3",
+      "title": "AEG IMPACT DRIVER",
+      "canonicalUrl": "https://dollardealers.co.nz/product/aeg-impact-driver-3/",
+      "price": 60,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/4ffcfaf6-0049-493f-975a-0679b49ff536.jpeg?resize=247&w=247",
+      "priority": "high",
+      "matchedRules": [
+        "rule-b-high-bare"
+      ],
+      "searchIds": [
+        "src-b-power-tools"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-3105149": {
+      "key": "dollardealers:dd-3105149",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-3105149",
+      "title": "OZITO DRILL",
+      "canonicalUrl": "https://dollardealers.co.nz/product/ozito-drill-2/",
+      "price": 70,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/d8a701e2-33ac-4b6c-88bf-3dd30a946f28.jpeg?resize=247&w=247",
+      "priority": "high",
+      "matchedRules": [
+        "rule-b-high-bare"
+      ],
+      "searchIds": [
+        "src-b-power-tools"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    },
+    "dollardealers:dd-ozito-drill-2": {
+      "key": "dollardealers:dd-ozito-drill-2",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-ozito-drill-2",
+      "title": "OZITO DRILL",
+      "canonicalUrl": "https://dollardealers.co.nz/product/ozito-drill-2/",
+      "price": 70,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/d8a701e2-33ac-4b6c-88bf-3dd30a946f28.jpeg?resize=247&w=247",
+      "priority": "high",
+      "matchedRules": [
+        "rule-b-high-bare"
+      ],
+      "searchIds": [
+        "src-b-power-tools"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-09-29T08:57:07.874Z",
+      "status": "active",
+      "firstSeen": "2026-09-29T08:57:07.874Z",
+      "lastSeen": "2026-09-29T08:57:07.874Z"
+    }
+  }
 }
