@@ -34,7 +34,9 @@ export function toListing(
   const evaluation = matchRules(raw, search.rules);
 
   return {
+    ...raw,
     key: `${siteId}:${raw.id}`,
+    status: "active",
     siteId,
     sourceListingId: raw.id,
     title: cleanText(raw.title),

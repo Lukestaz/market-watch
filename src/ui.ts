@@ -1,7 +1,6 @@
 import * as fs from "node:fs/promises";
 import * as path from "node:path";
-import type { AppState } from "./state.js";
-import type { EnrichedListing, ListingEvent } from "./models.js";
+import type { EnrichedListing, Listing, ListingEvent, WatchState } from "./models.js";
 
 const DIST_DIR = "./dist";
 const REPO_URL = "https://github.com/Lukestaz/market-watch";
@@ -22,7 +21,7 @@ function getStoreLabel(siteId: string): string {
   return "Marketplace";
 }
 
-function generateCard(listing: EnrichedListing): string {
+function generateCard(listing: Listing): string {
   const price = listing.price !== undefined ? `$${listing.price.toFixed(2)}` : "Price on request";
   const priorityClass = `priority-${listing.priority}`;
   const storeLabel = getStoreLabel(listing.siteId);
@@ -85,10 +84,10 @@ function generateCard(listing: EnrichedListing): string {
   `;
 }
 
-export async function generateUiFiles(state: AppState, events: ListingEvent[]): Promise<void> {
+export async function generateUiFiles(state: WatchState, events: ListingEvent[]): Promise<void> {
   await fs.mkdir(DIST_DIR, { recursive: true });
 
-  const activeListings = Object.values(state.listings)
+  const activeListings = (Object.values(state.listings) as Listing[])
     .filter((l) => l.status === "active" && l.priority !== "ignore")
     .sort((a, b) => {
       const order: Record<string, number> = { critical: 0, high: 1, normal: 2 };

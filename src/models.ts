@@ -56,6 +56,7 @@ export interface AiEvaluation {
 
 export interface Listing extends RawListing {
   key: string;
+  sourceListingId?: string;
   canonicalUrl: string;
   priority: Priority;
   matchedRules: string[];
