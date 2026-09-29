@@ -66,6 +66,7 @@ export interface Listing extends RawListing {
   siteId: string;
   status: "active" | "sold" | "removed";
   ai?: AiEvaluation;
+  aiContext?: string;
 }
 
 export interface EnrichedListing extends Listing {

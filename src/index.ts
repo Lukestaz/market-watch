@@ -119,7 +119,12 @@ async function main(): Promise<void> {
     const searchLabel = searches.find((s) => listing.searchIds.includes(s.id))?.label.replace(/^Source [AB] - /, "") ?? "";
     const targetContext = searchLabel ? `${searchLabel} (${matchedRuleLabels})` : matchedRuleLabels;
 
-    const aiResult = await evaluateListingWithGemini(listing, targetContext);
+    // Reuse a previous verdict if price is unchanged (saves Gemini quota; free tier is rate-limited)
+    const prior = state.listings[listing.key];
+    const cached = prior?.ai && prior.price === listing.price && prior.aiContext === targetContext ? prior.ai : null;
+    const aiResult = cached ?? (await evaluateListingWithGemini(listing, targetContext));
+    if (!cached && aiResult) await sleep(4500); // stay under free-tier requests-per-minute
+    listing.aiContext = targetContext;
     if (aiResult) {
       console.log(`[AI] "${listing.title}" -> ${aiResult.verdict} (score: ${aiResult.score}/10, valid: ${aiResult.isTruePositive})`);
       if (!aiResult.isTruePositive) {
