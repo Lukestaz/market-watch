@@ -15,8 +15,8 @@ interface GeminiResponse {
 }
 
 /**
- * Evaluates candidate listings using Google Gemini 2.0/1.5 Flash.
- * If GEMINI_API_KEY is not configured or an error occurs, falls back gracefully.
+ * Evaluates candidate listings using Google Gemini Flash.
+ * Tries the primary stable model (gemini-2.5-flash) and falls back to gemini-1.5-flash.
  */
 export async function evaluateListingWithGemini(
   listing: EnrichedListing,
@@ -26,8 +26,6 @@ export async function evaluateListingWithGemini(
   if (!apiKey) {
     return null;
   }
-
-  const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
 
   const prompt = `You are an expert second-hand valuation and deal assessment engine for a personal market watcher in New Zealand.
 We are searching second-hand stores (Cash Converters / Dollar Dealers NZ) for: "${targetContext}".
@@ -54,42 +52,49 @@ Respond ONLY with valid, raw JSON in this exact structure:
   "reason": "1-sentence plain text summary of why it matches and if it's a good deal"
 }`;
 
-  try {
-    const res = await fetch(endpoint, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        contents: [
-          {
-            parts: [{ text: prompt }]
+  const models = ["gemini-2.5-flash", "gemini-1.5-flash"];
+
+  for (const model of models) {
+    const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
+
+    try {
+      const res = await fetch(endpoint, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          contents: [
+            {
+              parts: [{ text: prompt }]
+            }
+          ],
+          generationConfig: {
+            responseMimeType: "application/json",
+            temperature: 0.1
           }
-        ],
-        generationConfig: {
-          responseMimeType: "application/json",
-          temperature: 0.1
-        }
-      })
-    });
+        })
+      });
 
-    if (!res.ok) {
-      const errText = await res.text();
-      console.warn(`[AI Evaluator] Gemini HTTP ${res.status}: ${errText.slice(0, 150)}`);
-      return null;
+      if (!res.ok) {
+        const errText = await res.text();
+        console.warn(`[AI Evaluator] Gemini (${model}) HTTP ${res.status}: ${errText.slice(0, 150)}`);
+        continue;
+      }
+
+      const data = (await res.json()) as GeminiResponse;
+      const rawText = data.candidates?.[0]?.content?.parts?.[0]?.text;
+      if (!rawText) continue;
+
+      const parsed = JSON.parse(rawText);
+      return {
+        isTruePositive: Boolean(parsed.isTruePositive),
+        score: typeof parsed.score === "number" ? parsed.score : 5,
+        verdict: String(parsed.verdict || "Fair Price"),
+        reason: String(parsed.reason || "")
+      };
+    } catch (err) {
+      console.warn(`[AI Evaluator] Error evaluating "${listing.title}" with ${model}:`, err);
     }
-
-    const data = (await res.json()) as GeminiResponse;
-    const rawText = data.candidates?.[0]?.content?.parts?.[0]?.text;
-    if (!rawText) return null;
-
-    const parsed = JSON.parse(rawText);
-    return {
-      isTruePositive: Boolean(parsed.isTruePositive),
-      score: typeof parsed.score === "number" ? parsed.score : 5,
-      verdict: String(parsed.verdict || "Fair Price"),
-      reason: String(parsed.reason || "")
-    };
-  } catch (err) {
-    console.warn(`[AI Evaluator] Error evaluating "${listing.title}":`, err);
-    return null;
   }
+
+  return null;
 }
