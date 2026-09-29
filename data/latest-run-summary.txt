@@ -1,99 +1,99 @@
-[AI Evaluator] Gemini HTTP 404: {
+[AI Evaluator] Gemini (gemini-2.5-flash) HTTP 404: {
   "error": {
     "code": 404,
-    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemin
-[AI Evaluator] Gemini HTTP 404: {
+    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use
+[AI Evaluator] Gemini (gemini-1.5-flash) HTTP 404: {
   "error": {
     "code": 404,
-    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemin
-[AI Evaluator] Gemini HTTP 404: {
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. 
+[AI Evaluator] Gemini (gemini-2.5-flash) HTTP 404: {
   "error": {
     "code": 404,
-    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemin
-[AI Evaluator] Gemini HTTP 404: {
+    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use
+[AI Evaluator] Gemini (gemini-1.5-flash) HTTP 404: {
   "error": {
     "code": 404,
-    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemin
-[AI Evaluator] Gemini HTTP 404: {
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. 
+[AI Evaluator] Gemini (gemini-2.5-flash) HTTP 404: {
   "error": {
     "code": 404,
-    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemin
-[AI Evaluator] Gemini HTTP 404: {
+    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use
+[AI Evaluator] Gemini (gemini-1.5-flash) HTTP 404: {
   "error": {
     "code": 404,
-    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemin
-[AI Evaluator] Gemini HTTP 404: {
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. 
+[AI Evaluator] Gemini (gemini-2.5-flash) HTTP 404: {
   "error": {
     "code": 404,
-    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemin
-[AI Evaluator] Gemini HTTP 404: {
+    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use
+[AI Evaluator] Gemini (gemini-1.5-flash) HTTP 404: {
   "error": {
     "code": 404,
-    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemin
-[AI Evaluator] Gemini HTTP 404: {
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. 
+[AI Evaluator] Gemini (gemini-2.5-flash) HTTP 404: {
   "error": {
     "code": 404,
-    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemin
-[AI Evaluator] Gemini HTTP 404: {
+    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use
+[AI Evaluator] Gemini (gemini-1.5-flash) HTTP 404: {
   "error": {
     "code": 404,
-    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemin
-[AI Evaluator] Gemini HTTP 404: {
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. 
+[AI Evaluator] Gemini (gemini-2.5-flash) HTTP 404: {
   "error": {
     "code": 404,
-    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemin
-[AI Evaluator] Gemini HTTP 404: {
+    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use
+[AI Evaluator] Gemini (gemini-1.5-flash) HTTP 404: {
   "error": {
     "code": 404,
-    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemin
-[AI Evaluator] Gemini HTTP 404: {
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. 
+[AI Evaluator] Gemini (gemini-2.5-flash) HTTP 404: {
   "error": {
     "code": 404,
-    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemin
-[AI Evaluator] Gemini HTTP 404: {
+    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use
+[AI Evaluator] Gemini (gemini-1.5-flash) HTTP 404: {
   "error": {
     "code": 404,
-    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemin
-[AI Evaluator] Gemini HTTP 404: {
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. 
+[AI Evaluator] Gemini (gemini-2.5-flash) HTTP 404: {
   "error": {
     "code": 404,
-    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemin
-[AI Evaluator] Gemini HTTP 404: {
+    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use
+[AI Evaluator] Gemini (gemini-1.5-flash) HTTP 404: {
   "error": {
     "code": 404,
-    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemin
-[AI Evaluator] Gemini HTTP 404: {
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. 
+[AI Evaluator] Gemini (gemini-2.5-flash) HTTP 404: {
   "error": {
     "code": 404,
-    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemin
-[AI Evaluator] Gemini HTTP 404: {
+    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use
+[AI Evaluator] Gemini (gemini-1.5-flash) HTTP 404: {
   "error": {
     "code": 404,
-    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemin
-[AI Evaluator] Gemini HTTP 404: {
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. 
+[AI Evaluator] Gemini (gemini-2.5-flash) HTTP 404: {
   "error": {
     "code": 404,
-    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemin
-[AI Evaluator] Gemini HTTP 404: {
+    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use
+[AI Evaluator] Gemini (gemini-1.5-flash) HTTP 404: {
   "error": {
     "code": 404,
-    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemin
-[AI Evaluator] Gemini HTTP 404: {
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. 
+[AI Evaluator] Gemini (gemini-2.5-flash) HTTP 404: {
   "error": {
     "code": 404,
-    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemin
-[AI Evaluator] Gemini HTTP 404: {
+    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use
+[AI Evaluator] Gemini (gemini-1.5-flash) HTTP 404: {
   "error": {
     "code": 404,
-    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemin
-[AI Evaluator] Gemini HTTP 404: {
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. 
+[AI Evaluator] Gemini (gemini-2.5-flash) HTTP 404: {
   "error": {
     "code": 404,
-    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemin
-[AI Evaluator] Gemini HTTP 404: {
+    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use
+[AI Evaluator] Gemini (gemini-1.5-flash) HTTP 404: {
   "error": {
     "code": 404,
-    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemin
+    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. 
 Listings verified after AI assessment: 44
 Listing events detected: 44
 [UI] Generated index.html and feed.json in /home/runner/work/market-watch/market-watch/dist
