@@ -8,8 +8,8 @@ export const latestRun = {
     "typecheck": "success",
     "pipeline": "success"
   },
-  "commit": "095549009228c34df54372ccfba7d89e2d5679c9",
-  "runUrl": "https://github.com/Lukestaz/market-watch/actions/runs/36554485664",
-  "finishedAt": "2026-09-29T10:18:51.493Z",
-  "summary": "    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on t\n[AI] \"LG 65″ Smart TV\" -> Great Deal (score: 7/10, valid: true)\n[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on t\n[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on t\n[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on t\n[AI] \"PANASONIC 65″ 4K SMART TV TH-65LX800Z\" -> Fair Price (score: 6/10, valid: true)\nListings verified after AI assessment: 7\nListing events detected: 7\n[UI] Generated index.html and feed.json in ./dist\nMarket Watch run complete.\n"
+  "commit": "202000bcf67c779246194bb2f7fd9b5cbb5d72f1",
+  "runUrl": "https://github.com/Lukestaz/market-watch/actions/runs/36555424890",
+  "finishedAt": "2026-09-29T10:26:32.783Z",
+  "summary": "[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on t\n[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on t\n[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on t\n[AI] \"BASEUS PPTSZ10 POWERBANK\" -> Great Deal (score: 7/10, valid: true)\nListings verified after AI assessment: 10\nListing events detected: 10\nSending email alert for 3 event(s) to [REDACTED_EMAIL]...\nEmail alert sent successfully.\n[UI] Generated index.html and feed.json in ./dist\nMarket Watch run complete.\n"
 } as const;

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T10:16:23.050Z",
+  "updatedAt": "2026-09-29T10:25:23.530Z",
   "listings": {
     "dollardealers:dd-samsung-43-smart-tv-2": {
       "key": "dollardealers:dd-samsung-43-smart-tv-2",
@@ -606,9 +606,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-09-29T10:16:23.050Z",
-      "firstSeen": "2026-09-29T10:16:23.050Z",
-      "lastSeen": "2026-09-29T10:16:23.050Z",
+      "lastSeenAt": "2026-09-29T10:25:23.530Z",
+      "firstSeen": "2026-09-29T10:25:23.530Z",
+      "lastSeen": "2026-09-29T10:25:23.530Z",
       "ai": {
         "isTruePositive": true,
         "score": 8,
@@ -638,9 +638,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-09-29T10:16:23.050Z",
-      "firstSeen": "2026-09-29T10:16:23.050Z",
-      "lastSeen": "2026-09-29T10:16:23.050Z",
+      "lastSeenAt": "2026-09-29T10:25:23.530Z",
+      "firstSeen": "2026-09-29T10:25:23.530Z",
+      "lastSeen": "2026-09-29T10:25:23.530Z",
       "ai": {
         "isTruePositive": true,
         "score": 8,
@@ -1172,9 +1172,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-09-29T10:16:23.050Z",
-      "firstSeen": "2026-09-29T10:16:23.050Z",
-      "lastSeen": "2026-09-29T10:16:23.050Z",
+      "lastSeenAt": "2026-09-29T10:25:23.530Z",
+      "firstSeen": "2026-09-29T10:25:23.530Z",
+      "lastSeen": "2026-09-29T10:25:23.530Z",
       "ai": {
         "isTruePositive": true,
         "score": 4,
@@ -1203,9 +1203,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-09-29T10:16:23.050Z",
-      "firstSeen": "2026-09-29T10:16:23.050Z",
-      "lastSeen": "2026-09-29T10:16:23.050Z",
+      "lastSeenAt": "2026-09-29T10:25:23.530Z",
+      "firstSeen": "2026-09-29T10:25:23.530Z",
+      "lastSeen": "2026-09-29T10:25:23.530Z",
       "ai": {
         "isTruePositive": true,
         "score": 7,
@@ -1230,10 +1230,10 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T10:16:23.050Z",
+      "lastSeenAt": "2026-09-29T10:25:23.530Z",
       "status": "active",
-      "firstSeen": "2026-09-29T10:16:23.050Z",
-      "lastSeen": "2026-09-29T10:16:23.050Z",
+      "firstSeen": "2026-09-29T10:25:23.530Z",
+      "lastSeen": "2026-09-29T10:25:23.530Z",
       "id": "dd-3481663",
       "url": "https://dollardealers.co.nz/product/lg-65-smart-tv-2/",
       "priceText": "$749.00 incl. GST",
@@ -1262,10 +1262,10 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T10:16:23.050Z",
+      "lastSeenAt": "2026-09-29T10:25:23.530Z",
       "status": "active",
-      "firstSeen": "2026-09-29T10:16:23.050Z",
-      "lastSeen": "2026-09-29T10:16:23.050Z",
+      "firstSeen": "2026-09-29T10:25:23.530Z",
+      "lastSeen": "2026-09-29T10:25:23.530Z",
       "id": "dd-3458094",
       "url": "https://dollardealers.co.nz/product/lg-65-smart-tv/",
       "priceText": "$749.00 incl. GST",
@@ -1294,10 +1294,10 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T10:16:23.050Z",
+      "lastSeenAt": "2026-09-29T10:25:23.530Z",
       "status": "active",
-      "firstSeen": "2026-09-29T10:16:23.050Z",
-      "lastSeen": "2026-09-29T10:16:23.050Z",
+      "firstSeen": "2026-09-29T10:25:23.530Z",
+      "lastSeen": "2026-09-29T10:25:23.530Z",
       "id": "dd-3431391",
       "url": "https://dollardealers.co.nz/product/panasonic-65-4k-smart-tv-th-65lx800z/",
       "priceText": "$999.00 incl. GST",
@@ -1309,6 +1309,101 @@
         "reason": "It is a genuine 65-inch 4K smart TV from Panasonic, and at $999 NZD it sits at a fair second-hand market rate for a large screen of this tier."
       },
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)"
+    },
+    "cashconverters:cc-177302410": {
+      "id": "cc-177302410",
+      "title": "Anker Powerbank 20100Mah A1271",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/177302410/Anker-Powerbank-20100Mah-A1271",
+      "priceText": "",
+      "rawText": "Anker Powerbank 20100Mah A1271 Seller: CCPapakura Anker Powerbank 20100Mah Model: A1271 ********************************************************************************************************Goods are available for viewing at our store during our trading hours 7 days per week -Goods are offered for sale under the following conditions:-Goods must be paid for within 5 working days of the auction finishing-Goods have a 90 days warranty or longer as required by the Consumer Guarantees Act-ID Required upon pick up.-Online payments only - Credit and debit cards (MasterCard and Visa) and direct deposit.-In-store payments accepted. ***Stock Wanted***We are looking for more stock for our shop floor!Bring your good quality second hand goods for cash on the spot! All you need is your item and a valid ID Come and have a chat with one of our friendly staff at: Cash converters Papakura6-10 Railway Street West09 973 4266",
+      "key": "cashconverters:cc-177302410",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-177302410",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/177302410/Anker-Powerbank-20100Mah-A1271",
+      "priority": "high",
+      "matchedRules": [
+        "rule-a-high-anker-powerbank",
+        "rule-a-normal-anker-mah"
+      ],
+      "searchIds": [
+        "src-a-anker-nano"
+      ],
+      "firstSeenAt": "2026-09-29T10:25:23.530Z",
+      "lastSeenAt": "2026-09-29T10:25:23.530Z",
+      "firstSeen": "2026-09-29T10:25:23.530Z",
+      "lastSeen": "2026-09-29T10:25:23.530Z",
+      "aiContext": "Anker Power (chargers / power banks) (Anker power bank, Anker battery pack (mAh))",
+      "ai": {
+        "isTruePositive": true,
+        "score": 6,
+        "verdict": "Fair Price",
+        "reason": "This is a genuine Anker 20100mAh power bank (A1271) matching the target category, offering solid high-capacity utility at a typical second-hand market value."
+      }
+    },
+    "cashconverters:cc-177354032": {
+      "id": "cc-177354032",
+      "title": "Baseus 100Mah 45W Powerbank Picogo",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/177354032/Baseus-100Mah-45W-Powerbank-Picogo",
+      "priceText": "",
+      "rawText": "Baseus 100Mah 45W Powerbank Picogo Seller: CCManukau Baseus 100Mah 45W Powerbank Model: Picogo Stock Needed! Bring your unwanted quality items for instant cash !!Valid ID is required WE ALSO PAWN ON CARS, BIKES, AND BOATS!For more information contact our stores and get in touch with one of our friendly staffStore ContactPhone: (09) 262 0783Address : 615 Great South Road Manukau 2104 Products must be paid within five days when auction is closedOnline payments only - we are not accepting in-store paymentsID is required upon collecting goods in-store P : 09 262 0783 | 615 Great South Road, Manukau 2104",
+      "key": "cashconverters:cc-177354032",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-177354032",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/177354032/Baseus-100Mah-45W-Powerbank-Picogo",
+      "priority": "high",
+      "matchedRules": [
+        "rule-a-high-baseus-powerbank",
+        "rule-a-normal-baseus-mah"
+      ],
+      "searchIds": [
+        "src-a-baseus-blade"
+      ],
+      "firstSeenAt": "2026-09-29T10:25:23.530Z",
+      "lastSeenAt": "2026-09-29T10:25:23.530Z",
+      "firstSeen": "2026-09-29T10:25:23.530Z",
+      "lastSeen": "2026-09-29T10:25:23.530Z",
+      "aiContext": "Baseus Power (chargers / power banks) (Baseus power bank, Baseus battery pack (mAh))",
+      "ai": {
+        "isTruePositive": true,
+        "score": 5,
+        "verdict": "Fair Price",
+        "reason": "It is a genuine Baseus power bank, but valuation is not possible with an unknown price."
+      }
+    },
+    "dollardealers:dd-3496109": {
+      "id": "dd-3496109",
+      "title": "BASEUS PPTSZ10 POWERBANK",
+      "url": "https://dollardealers.co.nz/product/baseus-pptsz10-powerbank/",
+      "priceText": "$49.00 incl. GST",
+      "price": 49,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/69ed93e7-8542-4e1f-a639-af12572b8aaa.jpeg?resize=247&w=247",
+      "rawText": "Mobile Phones & accessories BASEUS PPTSZ10 POWERBANK $49.00 incl. GST The Baseus PPTSZ10 is a compact 10,000mAh power bank with up to 22.5W fast charging, making it convenient for charging smartphones and other USB devices while travelling or on the go. It features USB-C and USB-A outputs and has a portable design that is easy to carry. THIS ITEM HAS A 30 DAY WARRANTY EXCLUDING BATTERY. 120 DAY PURCHASE PROTECTION PLAN CAN BE PURCHASED AT AN ADDITIONAL COST FOR EXTRA COVER AND PEACE OF MIND. THIS ITEM CAN BE VIEWED AT NEW LYNN DOLLAR DEALERS, OPEN FROM 9AM-5PM. STOCK NUMBER: 373421",
+      "modelNumber": "373421",
+      "key": "dollardealers:dd-3496109",
+      "status": "active",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-3496109",
+      "canonicalUrl": "https://dollardealers.co.nz/product/baseus-pptsz10-powerbank/",
+      "priority": "high",
+      "matchedRules": [
+        "rule-b-high-baseus-powerbank"
+      ],
+      "searchIds": [
+        "src-b-baseus-blade"
+      ],
+      "firstSeenAt": "2026-09-29T10:25:23.530Z",
+      "lastSeenAt": "2026-09-29T10:25:23.530Z",
+      "firstSeen": "2026-09-29T10:25:23.530Z",
+      "lastSeen": "2026-09-29T10:25:23.530Z",
+      "aiContext": "Baseus Power (chargers / power banks) (Baseus power bank)",
+      "ai": {
+        "isTruePositive": true,
+        "score": 7,
+        "verdict": "Great Deal",
+        "reason": "This is a genuine Baseus power bank priced attractively below standard retail value for a secondary market find."
+      }
     }
   }
 }
