@@ -1,6 +1,6 @@
 searches:
   # =============================================================
-  # SOURCE CONNECTOR A
+  # SOURCE CONNECTOR A (Cash Converters)
   # =============================================================
   - id: src-a-display-65
     site: cashconverters
@@ -106,8 +106,32 @@ searches:
         includeKeywords: ["olympus", "tough"]
         excludeKeywords: ["case only", "housing only", "tg-1", "tg-2", "tg-3", "tg-4", "tg-5", "mirrorless", "om-d", "e-m1", "e-m5", "e-m10", "pen"]
 
+  - id: src-a-anker-nano
+    site: cashconverters
+    label: "Source A - Anker Nano"
+    path: "/Browse?FullTextQuery=Anker%20Nano"
+    enabled: true
+    rules:
+      - id: rule-a-high-anker-nano
+        label: "Anker Nano Charger / Power Bank"
+        priority: high
+        includeKeywords: ["anker", "nano"]
+        excludeKeywords: ["cable only", "case only"]
+
+  - id: src-a-baseus-blade
+    site: cashconverters
+    label: "Source A - Baseus Blade"
+    path: "/Browse?FullTextQuery=Baseus%20Blade"
+    enabled: true
+    rules:
+      - id: rule-a-critical-baseus-blade
+        label: "Baseus Blade 100W Power Bank"
+        priority: critical
+        includeKeywords: ["baseus", "blade"]
+        excludeKeywords: ["case only", "pouch only"]
+
   # =============================================================
-  # SOURCE CONNECTOR B
+  # SOURCE CONNECTOR B (Dollar Dealers)
   # =============================================================
   - id: src-b-display-65
     site: dollardealers
@@ -212,3 +236,27 @@ searches:
         priority: high
         includeKeywords: ["olympus", "tough"]
         excludeKeywords: ["case only", "housing only", "tg-1", "tg-2", "tg-3", "tg-4", "tg-5", "mirrorless", "om-d", "e-m1", "e-m5", "e-m10", "pen"]
+
+  - id: src-b-anker-nano
+    site: dollardealers
+    label: "Source B - Anker Nano"
+    path: "/?s=anker+nano&post_type=product"
+    enabled: true
+    rules:
+      - id: rule-b-high-anker-nano
+        label: "Anker Nano Charger / Power Bank"
+        priority: high
+        includeKeywords: ["anker", "nano"]
+        excludeKeywords: ["cable only", "case only"]
+
+  - id: src-b-baseus-blade
+    site: dollardealers
+    label: "Source B - Baseus Blade"
+    path: "/?s=baseus+blade&post_type=product"
+    enabled: true
+    rules:
+      - id: rule-b-critical-baseus-blade
+        label: "Baseus Blade 100W Power Bank"
+        priority: critical
+        includeKeywords: ["baseus", "blade"]
+        excludeKeywords: ["case only", "pouch only"]
