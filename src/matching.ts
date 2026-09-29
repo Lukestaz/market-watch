@@ -83,6 +83,11 @@ export function wordBoundaryMatch(corpus: string, keyword: string): boolean {
   if (!clean) return false;
 
   // Trailing * = prefix match (e.g. "oled65*" matches OLED65C56LA)
+  // Leading * = suffix match (e.g. "*mah" matches 20100Mah)
+  if (clean.startsWith("*")) {
+    const stem = escapeRegex(clean.slice(1));
+    return new RegExp(`${stem}(?:[^a-zA-Z0-9]|$)`, "i").test(corpus);
+  }
   if (clean.endsWith("*")) {
     const stem = escapeRegex(clean.slice(0, -1));
     return new RegExp(`(?:^|[^a-zA-Z0-9])${stem}`, "i").test(corpus);

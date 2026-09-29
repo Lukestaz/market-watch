@@ -311,21 +311,110 @@
   {
     "id": "src-a-anker-nano",
     "site": "cashconverters",
-    "label": "Source A - Anker Nano",
-    "path": "/Browse?FullTextQuery=Anker%20Nano",
+    "label": "Source A - Anker Power (chargers / power banks)",
+    "path": "/Browse?FullTextQuery=Anker&StatusFilter=active_only",
     "enabled": true,
     "rules": [
       {
-        "id": "rule-a-high-anker-nano",
-        "label": "Anker Nano Charger / Power Bank",
+        "id": "rule-a-critical-nano",
+        "label": "Anker Nano",
         "priority": "high",
         "includeKeywords": [
           "anker",
           "nano"
         ],
         "excludeKeywords": [
+          "case only",
           "cable only",
-          "case only"
+          "pouch only",
+          "headphones",
+          "earbuds",
+          "jump starter"
+        ]
+      },
+      {
+        "id": "rule-a-high-anker-powerbank",
+        "label": "Anker power bank",
+        "priority": "high",
+        "includeKeywords": [
+          "anker",
+          "powerbank*"
+        ],
+        "excludeKeywords": [
+          "case only",
+          "cable only",
+          "pouch only",
+          "headphones",
+          "earbuds",
+          "jump starter"
+        ]
+      },
+      {
+        "id": "rule-a-high-anker-power-bank",
+        "label": "Anker power bank",
+        "priority": "high",
+        "includeKeywords": [
+          "anker",
+          "power bank"
+        ],
+        "excludeKeywords": [
+          "case only",
+          "cable only",
+          "pouch only",
+          "headphones",
+          "earbuds",
+          "jump starter"
+        ]
+      },
+      {
+        "id": "rule-a-normal-anker-charger",
+        "label": "Anker charger (GaN / USB-C)",
+        "priority": "normal",
+        "includeKeywords": [
+          "anker",
+          "charger*"
+        ],
+        "excludeKeywords": [
+          "case only",
+          "cable only",
+          "pouch only",
+          "headphones",
+          "earbuds",
+          "jump starter"
+        ]
+      },
+      {
+        "id": "rule-a-normal-anker-gan",
+        "label": "Anker GaN charger",
+        "priority": "normal",
+        "includeKeywords": [
+          "anker",
+          "gan"
+        ],
+        "excludeKeywords": [
+          "case only",
+          "cable only",
+          "pouch only",
+          "headphones",
+          "earbuds",
+          "jump starter"
+        ]
+      },
+      {
+        "id": "rule-a-normal-anker-mah",
+        "label": "Anker battery pack (mAh)",
+        "priority": "normal",
+        "includeKeywords": [
+          "anker",
+          "*mah"
+        ],
+        "excludeKeywords": [
+          "case only",
+          "cable only",
+          "pouch only",
+          "headphones",
+          "earbuds",
+          "jump starter"
         ]
       }
     ]
@@ -333,13 +422,13 @@
   {
     "id": "src-a-baseus-blade",
     "site": "cashconverters",
-    "label": "Source A - Baseus Blade",
-    "path": "/Browse?FullTextQuery=Baseus%20Blade",
+    "label": "Source A - Baseus Power (chargers / power banks)",
+    "path": "/Browse?FullTextQuery=Baseus&StatusFilter=active_only",
     "enabled": true,
     "rules": [
       {
-        "id": "rule-a-critical-baseus-blade",
-        "label": "Baseus Blade 100W Power Bank",
+        "id": "rule-a-critical-blade",
+        "label": "Baseus Blade",
         "priority": "critical",
         "includeKeywords": [
           "baseus",
@@ -347,7 +436,96 @@
         ],
         "excludeKeywords": [
           "case only",
-          "pouch only"
+          "cable only",
+          "pouch only",
+          "headphones",
+          "earbuds",
+          "jump starter"
+        ]
+      },
+      {
+        "id": "rule-a-high-baseus-powerbank",
+        "label": "Baseus power bank",
+        "priority": "high",
+        "includeKeywords": [
+          "baseus",
+          "powerbank*"
+        ],
+        "excludeKeywords": [
+          "case only",
+          "cable only",
+          "pouch only",
+          "headphones",
+          "earbuds",
+          "jump starter"
+        ]
+      },
+      {
+        "id": "rule-a-high-baseus-power-bank",
+        "label": "Baseus power bank",
+        "priority": "high",
+        "includeKeywords": [
+          "baseus",
+          "power bank"
+        ],
+        "excludeKeywords": [
+          "case only",
+          "cable only",
+          "pouch only",
+          "headphones",
+          "earbuds",
+          "jump starter"
+        ]
+      },
+      {
+        "id": "rule-a-normal-baseus-charger",
+        "label": "Baseus charger (GaN / USB-C)",
+        "priority": "normal",
+        "includeKeywords": [
+          "baseus",
+          "charger*"
+        ],
+        "excludeKeywords": [
+          "case only",
+          "cable only",
+          "pouch only",
+          "headphones",
+          "earbuds",
+          "jump starter"
+        ]
+      },
+      {
+        "id": "rule-a-normal-baseus-gan",
+        "label": "Baseus GaN charger",
+        "priority": "normal",
+        "includeKeywords": [
+          "baseus",
+          "gan"
+        ],
+        "excludeKeywords": [
+          "case only",
+          "cable only",
+          "pouch only",
+          "headphones",
+          "earbuds",
+          "jump starter"
+        ]
+      },
+      {
+        "id": "rule-a-normal-baseus-mah",
+        "label": "Baseus battery pack (mAh)",
+        "priority": "normal",
+        "includeKeywords": [
+          "baseus",
+          "*mah"
+        ],
+        "excludeKeywords": [
+          "case only",
+          "cable only",
+          "pouch only",
+          "headphones",
+          "earbuds",
+          "jump starter"
         ]
       }
     ]
@@ -664,21 +842,110 @@
   {
     "id": "src-b-anker-nano",
     "site": "dollardealers",
-    "label": "Source B - Anker Nano",
-    "path": "/?s=anker+nano&post_type=product",
+    "label": "Source B - Anker Power (chargers / power banks)",
+    "path": "/?s=anker&post_type=product",
     "enabled": true,
     "rules": [
       {
-        "id": "rule-b-high-anker-nano",
-        "label": "Anker Nano Charger / Power Bank",
+        "id": "rule-b-critical-nano",
+        "label": "Anker Nano",
         "priority": "high",
         "includeKeywords": [
           "anker",
           "nano"
         ],
         "excludeKeywords": [
+          "case only",
           "cable only",
-          "case only"
+          "pouch only",
+          "headphones",
+          "earbuds",
+          "jump starter"
+        ]
+      },
+      {
+        "id": "rule-b-high-anker-powerbank",
+        "label": "Anker power bank",
+        "priority": "high",
+        "includeKeywords": [
+          "anker",
+          "powerbank*"
+        ],
+        "excludeKeywords": [
+          "case only",
+          "cable only",
+          "pouch only",
+          "headphones",
+          "earbuds",
+          "jump starter"
+        ]
+      },
+      {
+        "id": "rule-b-high-anker-power-bank",
+        "label": "Anker power bank",
+        "priority": "high",
+        "includeKeywords": [
+          "anker",
+          "power bank"
+        ],
+        "excludeKeywords": [
+          "case only",
+          "cable only",
+          "pouch only",
+          "headphones",
+          "earbuds",
+          "jump starter"
+        ]
+      },
+      {
+        "id": "rule-b-normal-anker-charger",
+        "label": "Anker charger (GaN / USB-C)",
+        "priority": "normal",
+        "includeKeywords": [
+          "anker",
+          "charger*"
+        ],
+        "excludeKeywords": [
+          "case only",
+          "cable only",
+          "pouch only",
+          "headphones",
+          "earbuds",
+          "jump starter"
+        ]
+      },
+      {
+        "id": "rule-b-normal-anker-gan",
+        "label": "Anker GaN charger",
+        "priority": "normal",
+        "includeKeywords": [
+          "anker",
+          "gan"
+        ],
+        "excludeKeywords": [
+          "case only",
+          "cable only",
+          "pouch only",
+          "headphones",
+          "earbuds",
+          "jump starter"
+        ]
+      },
+      {
+        "id": "rule-b-normal-anker-mah",
+        "label": "Anker battery pack (mAh)",
+        "priority": "normal",
+        "includeKeywords": [
+          "anker",
+          "*mah"
+        ],
+        "excludeKeywords": [
+          "case only",
+          "cable only",
+          "pouch only",
+          "headphones",
+          "earbuds",
+          "jump starter"
         ]
       }
     ]
@@ -686,13 +953,13 @@
   {
     "id": "src-b-baseus-blade",
     "site": "dollardealers",
-    "label": "Source B - Baseus Blade",
-    "path": "/?s=baseus+blade&post_type=product",
+    "label": "Source B - Baseus Power (chargers / power banks)",
+    "path": "/?s=baseus&post_type=product",
     "enabled": true,
     "rules": [
       {
-        "id": "rule-b-critical-baseus-blade",
-        "label": "Baseus Blade 100W Power Bank",
+        "id": "rule-b-critical-blade",
+        "label": "Baseus Blade",
         "priority": "critical",
         "includeKeywords": [
           "baseus",
@@ -700,7 +967,96 @@
         ],
         "excludeKeywords": [
           "case only",
-          "pouch only"
+          "cable only",
+          "pouch only",
+          "headphones",
+          "earbuds",
+          "jump starter"
+        ]
+      },
+      {
+        "id": "rule-b-high-baseus-powerbank",
+        "label": "Baseus power bank",
+        "priority": "high",
+        "includeKeywords": [
+          "baseus",
+          "powerbank*"
+        ],
+        "excludeKeywords": [
+          "case only",
+          "cable only",
+          "pouch only",
+          "headphones",
+          "earbuds",
+          "jump starter"
+        ]
+      },
+      {
+        "id": "rule-b-high-baseus-power-bank",
+        "label": "Baseus power bank",
+        "priority": "high",
+        "includeKeywords": [
+          "baseus",
+          "power bank"
+        ],
+        "excludeKeywords": [
+          "case only",
+          "cable only",
+          "pouch only",
+          "headphones",
+          "earbuds",
+          "jump starter"
+        ]
+      },
+      {
+        "id": "rule-b-normal-baseus-charger",
+        "label": "Baseus charger (GaN / USB-C)",
+        "priority": "normal",
+        "includeKeywords": [
+          "baseus",
+          "charger*"
+        ],
+        "excludeKeywords": [
+          "case only",
+          "cable only",
+          "pouch only",
+          "headphones",
+          "earbuds",
+          "jump starter"
+        ]
+      },
+      {
+        "id": "rule-b-normal-baseus-gan",
+        "label": "Baseus GaN charger",
+        "priority": "normal",
+        "includeKeywords": [
+          "baseus",
+          "gan"
+        ],
+        "excludeKeywords": [
+          "case only",
+          "cable only",
+          "pouch only",
+          "headphones",
+          "earbuds",
+          "jump starter"
+        ]
+      },
+      {
+        "id": "rule-b-normal-baseus-mah",
+        "label": "Baseus battery pack (mAh)",
+        "priority": "normal",
+        "includeKeywords": [
+          "baseus",
+          "*mah"
+        ],
+        "excludeKeywords": [
+          "case only",
+          "cable only",
+          "pouch only",
+          "headphones",
+          "earbuds",
+          "jump starter"
         ]
       }
     ]
