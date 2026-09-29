@@ -139,7 +139,8 @@ jobs:
           git commit -m "Update watcher status [skip ci]"
           for attempt in 1 2 3; do
             git fetch origin main
-            git rebase origin/main || { git rebase --abort; echo "Rebase failed"; exit 1; }
+            # Generated files: this run's copy always wins on conflict
+            git rebase -X theirs origin/main || { git rebase --abort; echo "Rebase failed"; exit 1; }
             git push origin HEAD:main && exit 0
             sleep $((attempt * 3))
           done
