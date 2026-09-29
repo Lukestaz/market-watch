@@ -1060,5 +1060,425 @@
         ]
       }
     ]
+  },
+  {
+    "id": "src-a-bluetti",
+    "site": "cashconverters",
+    "label": "Source A - Bluetti Power Stations",
+    "path": "/Browse?FullTextQuery=Bluetti&StatusFilter=active_only",
+    "enabled": true,
+    "rules": [
+      {
+        "id": "rule-a-high-bluetti-ac",
+        "label": "Bluetti AC power station",
+        "priority": "high",
+        "includeKeywords": [
+          "bluetti",
+          "ac*"
+        ],
+        "excludeKeywords": [
+          "cable only",
+          "case only",
+          "bag only",
+          "cover only"
+        ]
+      },
+      {
+        "id": "rule-a-high-bluetti-eb",
+        "label": "Bluetti EB power station",
+        "priority": "high",
+        "includeKeywords": [
+          "bluetti",
+          "eb*"
+        ],
+        "excludeKeywords": [
+          "cable only",
+          "case only",
+          "bag only",
+          "cover only"
+        ]
+      },
+      {
+        "id": "rule-a-high-bluetti-elite",
+        "label": "Bluetti Elite power station",
+        "priority": "high",
+        "includeKeywords": [
+          "bluetti",
+          "elite"
+        ],
+        "excludeKeywords": [
+          "cable only",
+          "case only",
+          "bag only",
+          "cover only"
+        ]
+      },
+      {
+        "id": "rule-a-high-bluetti-power-station",
+        "label": "Bluetti Power Station power station",
+        "priority": "high",
+        "includeKeywords": [
+          "bluetti",
+          "power station"
+        ],
+        "excludeKeywords": [
+          "cable only",
+          "case only",
+          "bag only",
+          "cover only"
+        ]
+      },
+      {
+        "id": "rule-a-high-bluetti-apex",
+        "label": "Bluetti Apex power station",
+        "priority": "high",
+        "includeKeywords": [
+          "bluetti",
+          "apex"
+        ],
+        "excludeKeywords": [
+          "cable only",
+          "case only",
+          "bag only",
+          "cover only"
+        ]
+      },
+      {
+        "id": "rule-a-normal-bluetti-any",
+        "label": "Any Bluetti item (solar panel, battery, accessory)",
+        "priority": "normal",
+        "includeKeywords": [
+          "bluetti"
+        ],
+        "excludeKeywords": [
+          "cable only",
+          "case only",
+          "bag only",
+          "cover only"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "src-b-bluetti",
+    "site": "dollardealers",
+    "label": "Source B - Bluetti Power Stations",
+    "path": "/?s=bluetti&post_type=product",
+    "enabled": true,
+    "rules": [
+      {
+        "id": "rule-b-high-bluetti-ac",
+        "label": "Bluetti AC power station",
+        "priority": "high",
+        "includeKeywords": [
+          "bluetti",
+          "ac*"
+        ],
+        "excludeKeywords": [
+          "cable only",
+          "case only",
+          "bag only",
+          "cover only"
+        ]
+      },
+      {
+        "id": "rule-b-high-bluetti-eb",
+        "label": "Bluetti EB power station",
+        "priority": "high",
+        "includeKeywords": [
+          "bluetti",
+          "eb*"
+        ],
+        "excludeKeywords": [
+          "cable only",
+          "case only",
+          "bag only",
+          "cover only"
+        ]
+      },
+      {
+        "id": "rule-b-high-bluetti-elite",
+        "label": "Bluetti Elite power station",
+        "priority": "high",
+        "includeKeywords": [
+          "bluetti",
+          "elite"
+        ],
+        "excludeKeywords": [
+          "cable only",
+          "case only",
+          "bag only",
+          "cover only"
+        ]
+      },
+      {
+        "id": "rule-b-high-bluetti-power-station",
+        "label": "Bluetti Power Station power station",
+        "priority": "high",
+        "includeKeywords": [
+          "bluetti",
+          "power station"
+        ],
+        "excludeKeywords": [
+          "cable only",
+          "case only",
+          "bag only",
+          "cover only"
+        ]
+      },
+      {
+        "id": "rule-b-high-bluetti-apex",
+        "label": "Bluetti Apex power station",
+        "priority": "high",
+        "includeKeywords": [
+          "bluetti",
+          "apex"
+        ],
+        "excludeKeywords": [
+          "cable only",
+          "case only",
+          "bag only",
+          "cover only"
+        ]
+      },
+      {
+        "id": "rule-b-normal-bluetti-any",
+        "label": "Any Bluetti item (solar panel, battery, accessory)",
+        "priority": "normal",
+        "includeKeywords": [
+          "bluetti"
+        ],
+        "excludeKeywords": [
+          "cable only",
+          "case only",
+          "bag only",
+          "cover only"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "src-a-ecoflow",
+    "site": "cashconverters",
+    "label": "Source A - EcoFlow Power Stations",
+    "path": "/Browse?FullTextQuery=EcoFlow&StatusFilter=active_only",
+    "enabled": true,
+    "rules": [
+      {
+        "id": "rule-a-high-ecoflow-river",
+        "label": "Ecoflow River power station",
+        "priority": "high",
+        "includeKeywords": [
+          "ecoflow",
+          "river"
+        ],
+        "excludeKeywords": [
+          "cable only",
+          "case only",
+          "bag only",
+          "cover only"
+        ]
+      },
+      {
+        "id": "rule-a-high-ecoflow-delta",
+        "label": "Ecoflow Delta power station",
+        "priority": "high",
+        "includeKeywords": [
+          "ecoflow",
+          "delta"
+        ],
+        "excludeKeywords": [
+          "cable only",
+          "case only",
+          "bag only",
+          "cover only"
+        ]
+      },
+      {
+        "id": "rule-a-high-ecoflow-trail",
+        "label": "Ecoflow Trail power station",
+        "priority": "high",
+        "includeKeywords": [
+          "ecoflow",
+          "trail"
+        ],
+        "excludeKeywords": [
+          "cable only",
+          "case only",
+          "bag only",
+          "cover only"
+        ]
+      },
+      {
+        "id": "rule-a-high-ecoflow-power-station",
+        "label": "Ecoflow Power Station power station",
+        "priority": "high",
+        "includeKeywords": [
+          "ecoflow",
+          "power station"
+        ],
+        "excludeKeywords": [
+          "cable only",
+          "case only",
+          "bag only",
+          "cover only"
+        ]
+      },
+      {
+        "id": "rule-a-high-ecoflow-glacier",
+        "label": "Ecoflow Glacier power station",
+        "priority": "high",
+        "includeKeywords": [
+          "ecoflow",
+          "glacier"
+        ],
+        "excludeKeywords": [
+          "cable only",
+          "case only",
+          "bag only",
+          "cover only"
+        ]
+      },
+      {
+        "id": "rule-a-normal-ecoflow-any",
+        "label": "Any Ecoflow item (solar panel, battery, accessory)",
+        "priority": "normal",
+        "includeKeywords": [
+          "ecoflow"
+        ],
+        "excludeKeywords": [
+          "cable only",
+          "case only",
+          "bag only",
+          "cover only"
+        ]
+      },
+      {
+        "id": "rule-a-normal-ecoflow-alias",
+        "label": "Any Ecoflow item",
+        "priority": "normal",
+        "includeKeywords": [
+          "eco flow"
+        ],
+        "excludeKeywords": [
+          "cable only",
+          "case only",
+          "bag only",
+          "cover only"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "src-b-ecoflow",
+    "site": "dollardealers",
+    "label": "Source B - EcoFlow Power Stations",
+    "path": "/?s=ecoflow&post_type=product",
+    "enabled": true,
+    "rules": [
+      {
+        "id": "rule-b-high-ecoflow-river",
+        "label": "Ecoflow River power station",
+        "priority": "high",
+        "includeKeywords": [
+          "ecoflow",
+          "river"
+        ],
+        "excludeKeywords": [
+          "cable only",
+          "case only",
+          "bag only",
+          "cover only"
+        ]
+      },
+      {
+        "id": "rule-b-high-ecoflow-delta",
+        "label": "Ecoflow Delta power station",
+        "priority": "high",
+        "includeKeywords": [
+          "ecoflow",
+          "delta"
+        ],
+        "excludeKeywords": [
+          "cable only",
+          "case only",
+          "bag only",
+          "cover only"
+        ]
+      },
+      {
+        "id": "rule-b-high-ecoflow-trail",
+        "label": "Ecoflow Trail power station",
+        "priority": "high",
+        "includeKeywords": [
+          "ecoflow",
+          "trail"
+        ],
+        "excludeKeywords": [
+          "cable only",
+          "case only",
+          "bag only",
+          "cover only"
+        ]
+      },
+      {
+        "id": "rule-b-high-ecoflow-power-station",
+        "label": "Ecoflow Power Station power station",
+        "priority": "high",
+        "includeKeywords": [
+          "ecoflow",
+          "power station"
+        ],
+        "excludeKeywords": [
+          "cable only",
+          "case only",
+          "bag only",
+          "cover only"
+        ]
+      },
+      {
+        "id": "rule-b-high-ecoflow-glacier",
+        "label": "Ecoflow Glacier power station",
+        "priority": "high",
+        "includeKeywords": [
+          "ecoflow",
+          "glacier"
+        ],
+        "excludeKeywords": [
+          "cable only",
+          "case only",
+          "bag only",
+          "cover only"
+        ]
+      },
+      {
+        "id": "rule-b-normal-ecoflow-any",
+        "label": "Any Ecoflow item (solar panel, battery, accessory)",
+        "priority": "normal",
+        "includeKeywords": [
+          "ecoflow"
+        ],
+        "excludeKeywords": [
+          "cable only",
+          "case only",
+          "bag only",
+          "cover only"
+        ]
+      },
+      {
+        "id": "rule-b-normal-ecoflow-alias",
+        "label": "Any Ecoflow item",
+        "priority": "normal",
+        "includeKeywords": [
+          "eco flow"
+        ],
+        "excludeKeywords": [
+          "cable only",
+          "case only",
+          "bag only",
+          "cover only"
+        ]
+      }
+    ]
   }
 ]
