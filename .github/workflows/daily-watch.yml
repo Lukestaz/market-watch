@@ -15,13 +15,14 @@ on:
 
 concurrency:
   group: market-watch-scrape
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   scrape-and-alert:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      issues: write
 
     steps:
       - name: Checkout repository
@@ -36,6 +37,49 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+
+      - name: Sync Source Snapshot for Assistant
+        if: always()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p /tmp/inspect
+          cat << 'EOF' > /tmp/inspect/bundle.sh
+          #!/usr/bin/env bash
+          echo "### Latest Repository Source Snapshot (\`$(git rev-parse --short HEAD)\`)" > /tmp/inspect/snapshot.md
+          echo "_Generated on $(date -u +'%Y-%m-%dT%H:%M:%SZ')_" >> /tmp/inspect/snapshot.md
+          
+          for file in \
+            config/targets.json \
+            config/searches.yaml \
+            config/sites.yaml \
+            src/models.ts \
+            src/index.ts \
+            src/normalise.ts \
+            src/matching.ts \
+            src/state.ts \
+            src/ai.ts \
+            src/alerts.ts \
+            src/ui.ts \
+            src/sites/base.ts \
+            src/sites/cashconverters.ts \
+            src/sites/dollardealers.ts; do
+            if [ -f "$file" ]; then
+              echo -e "\n#### \`$file\`\n\`\`\`ts" >> /tmp/inspect/snapshot.md
+              cat "$file" >> /tmp/inspect/snapshot.md
+              echo -e "\n\`\`\`" >> /tmp/inspect/snapshot.md
+            fi
+          done
+          EOF
+          chmod +x /tmp/inspect/bundle.sh
+          /tmp/inspect/bundle.sh
+
+          ISSUE_NUM=$(gh issue list --search "in:title [Snapshot] Latest Repository Source" --state open --json number -q '.[0].number')
+          if [ -z "$ISSUE_NUM" ]; then
+            gh issue create --title "[Snapshot] Latest Repository Source" --body-file /tmp/inspect/snapshot.md --label "documentation"
+          else
+            gh issue edit "$ISSUE_NUM" --body-file /tmp/inspect/snapshot.md
+          fi
 
       - name: Create fallback dashboard
         run: |
