@@ -7,6 +7,14 @@
     "enabled": true,
     "rules": [
       {
+        "id": "rule-a-high-oled-model",
+        "label": "LG OLED 65 model number (OLED65xx)",
+        "priority": "high",
+        "includeKeywords": [
+          "oled65*"
+        ]
+      },
+      {
         "id": "rule-a-critical-g6",
         "label": "Ref G6 3D OLED",
         "priority": "critical",
@@ -192,6 +200,33 @@
           "victa",
           "masport"
         ]
+      },
+      {
+        "id": "rule-a-high-trimmer",
+        "label": "Line Trimmer / Brushcutter",
+        "priority": "high",
+        "includeKeywords": [
+          "ego",
+          "trimmer"
+        ]
+      },
+      {
+        "id": "rule-a-normal-lawnmower",
+        "label": "Cordless Lawnmower",
+        "priority": "normal",
+        "includeKeywords": [
+          "ego",
+          "lawnmower"
+        ]
+      },
+      {
+        "id": "rule-a-normal-ego-56v",
+        "label": "Any EGO 56V item",
+        "priority": "normal",
+        "includeKeywords": [
+          "ego",
+          "56v"
+        ]
       }
     ]
   },
@@ -324,6 +359,14 @@
     "path": "/?s=lg+tv&post_type=product",
     "enabled": true,
     "rules": [
+      {
+        "id": "rule-b-high-oled-model",
+        "label": "LG OLED 65 model number (OLED65xx)",
+        "priority": "high",
+        "includeKeywords": [
+          "oled65*"
+        ]
+      },
       {
         "id": "rule-b-critical-g6",
         "label": "Ref G6 3D OLED",
@@ -509,6 +552,33 @@
           "makita",
           "victa",
           "masport"
+        ]
+      },
+      {
+        "id": "rule-b-high-trimmer",
+        "label": "Line Trimmer / Brushcutter",
+        "priority": "high",
+        "includeKeywords": [
+          "ego",
+          "trimmer"
+        ]
+      },
+      {
+        "id": "rule-b-normal-lawnmower",
+        "label": "Cordless Lawnmower",
+        "priority": "normal",
+        "includeKeywords": [
+          "ego",
+          "lawnmower"
+        ]
+      },
+      {
+        "id": "rule-b-normal-ego-56v",
+        "label": "Any EGO 56V item",
+        "priority": "normal",
+        "includeKeywords": [
+          "ego",
+          "56v"
         ]
       }
     ]

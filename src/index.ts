@@ -24,6 +24,7 @@ async function main(): Promise<void> {
   const state = await loadState();
 
   const context: SiteAdapterContext = {};
+  const scannedSites = new Set<string>();
   const allRawListings = new Map<string, { raw: RawListing; search: SearchConfig }>();
 
   for (const search of searches) {
@@ -44,8 +45,9 @@ async function main(): Promise<void> {
       if (result.diagnostics.error) {
         console.warn(`[${search.id}] Scrape error: ${result.diagnostics.error}`);
       }
+      if (!result.diagnostics.error) scannedSites.add(search.site);
       for (const raw of result.listings) {
-        const dedupeKey = `${search.site}:${raw.id}`;
+        const dedupeKey = `${search.site}:${raw.url.split(/[?#]/)[0].replace(/\/$/, "")}`;
         if (!allRawListings.has(dedupeKey)) {
           allRawListings.set(dedupeKey, { raw, search });
         }
@@ -114,8 +116,10 @@ async function main(): Promise<void> {
       .filter((r) => listing.matchedRules.includes(r.id))
       .map((r) => r.label)
       .join(", ") || "Target Item";
+    const searchLabel = searches.find((s) => listing.searchIds.includes(s.id))?.label.replace(/^Source [AB] - /, "") ?? "";
+    const targetContext = searchLabel ? `${searchLabel} (${matchedRuleLabels})` : matchedRuleLabels;
 
-    const aiResult = await evaluateListingWithGemini(listing, matchedRuleLabels);
+    const aiResult = await evaluateListingWithGemini(listing, targetContext);
     if (aiResult) {
       console.log(`[AI] "${listing.title}" -> ${aiResult.verdict} (score: ${aiResult.score}/10, valid: ${aiResult.isTruePositive})`);
       if (!aiResult.isTruePositive) {
@@ -129,7 +133,7 @@ async function main(): Promise<void> {
 
   console.log(`Listings verified after AI assessment: ${evaluatedListings.length}`);
 
-  const events = applyListings(state, evaluatedListings, now);
+  const events = applyListings(state, evaluatedListings, now, 1, scannedSites);
   await saveState(state);
 
   console.log(`Listing events detected: ${events.length}`);

@@ -40,6 +40,8 @@ Listing to evaluate:
 
 TASK:
 1. Determine if this item is a true positive match for the intended category ("${targetContext}").
+   - The item must genuinely BE the target product. A different brand or product type is NOT a match
+     (e.g. a Milwaukee or AEG tool is not an EGO tool; a soundbar is not a TV; a non-OLED TV is not an OLED TV).
    - Filter OUT accessories-only, phone cases, boxes, wall brackets, completely different categories (e.g. washing machines, jewelry, wristwatches, unrelated models).
 2. Rate the deal attractiveness on a scale of 1 to 10 (10 = incredible steal, 5 = average resale market price, 1 = overpriced or junk).
 3. Provide a short 1-line reason for the rating and valuation.
@@ -55,6 +57,7 @@ Respond ONLY with valid, raw JSON in this exact structure:
   const models = await resolveModels(apiKey);
   if (models.length === 0) return null;
 
+  let attempt = 0;
   for (const model of models) {
     const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
 
@@ -79,6 +82,11 @@ Respond ONLY with valid, raw JSON in this exact structure:
         const errText = await res.text();
         console.warn(`[AI Evaluator] Gemini (${model}) HTTP ${res.status}: ${errText.slice(0, 150)}`);
         if (res.status === 404 || res.status === 400) deadModels.add(model);
+        if ((res.status === 503 || res.status === 429) && attempt < 2) {
+          await new Promise((r) => setTimeout(r, 2000 * (attempt + 1)));
+          attempt++;
+          models.splice(models.indexOf(model) + 1, 0, model); // retry same model after backoff
+        }
         continue;
       }
 

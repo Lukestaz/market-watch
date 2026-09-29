@@ -82,6 +82,12 @@ export function wordBoundaryMatch(corpus: string, keyword: string): boolean {
   const clean = keyword.trim().toLowerCase();
   if (!clean) return false;
 
+  // Trailing * = prefix match (e.g. "oled65*" matches OLED65C56LA)
+  if (clean.endsWith("*")) {
+    const stem = escapeRegex(clean.slice(0, -1));
+    return new RegExp(`(?:^|[^a-zA-Z0-9])${stem}`, "i").test(corpus);
+  }
+
   // Handle specific screen size notations (prevent matching '650w', '65w', etc.)
   if (clean === "65") {
     const rx = /(?:^|[^a-zA-Z0-9])(?:65["”']?|65\s*(?:inch|in|-inch)|oled65|65oled)(?:[^a-zA-Z0-9]|$)/i;
@@ -117,16 +123,19 @@ export function matchRules(raw: RawListing, rules: SearchRule[]): MatchResult {
   const matchedRules: string[] = [];
   let priority: Priority = "normal";
 
-  const searchSubject = `${raw.title} ${raw.modelNumber || ""} ${raw.rawText || ""}`.toLowerCase();
+  // Include keywords must appear in the listing's own title/model (page chrome in rawText caused false matches);
+  // exclusions are checked against everything we know.
+  const identity = `${raw.title} ${raw.modelNumber || ""}`.toLowerCase();
+  const searchSubject = `${identity} ${raw.rawText || ""}`.toLowerCase();
 
   // 1. Check global exclusions (purge jewelry, watches, white goods, magnet fishing)
-  const isExcluded = GLOBAL_EXCLUDED_KEYWORDS.some((kw) => wordBoundaryMatch(searchSubject, kw));
+  const isExcluded = GLOBAL_EXCLUDED_KEYWORDS.some((kw) => wordBoundaryMatch(identity, kw));
   if (isExcluded) {
     return { priority: "ignore", matchedRules: [] };
   }
 
   for (const rule of rules) {
-    const included = rule.includeKeywords.every((kw) => wordBoundaryMatch(searchSubject, kw));
+    const included = rule.includeKeywords.every((kw) => wordBoundaryMatch(identity, kw));
     if (!included) continue;
 
     const excluded = (rule.excludeKeywords || []).some((kw) => wordBoundaryMatch(searchSubject, kw));
@@ -143,6 +152,7 @@ export function matchRules(raw: RawListing, rules: SearchRule[]): MatchResult {
     priority = highestPriority(priority, rule.priority);
   }
 
+  if (matchedRules.length === 0) return { priority: "ignore", matchedRules };
   return { priority, matchedRules };
 }
 
