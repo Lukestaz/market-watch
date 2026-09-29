@@ -1,58 +1,25 @@
-import { readFile, writeFile } from "node:fs/promises";
+import { readFileSync, existsSync } from "node:fs";
 import path from "node:path";
 import yaml from "yaml";
-import type { SearchConfig, SiteConfig, WatchConfig } from "./models.js";
+import type { SearchConfig } from "./models.js";
 
 const DEFAULT_CONFIG_DIR = "config";
 
-interface RawSitesFile {
-  defaults?: {
-    minimumDelayBetweenSearchesMs?: number;
-  };
-  sites: Record<string, SiteConfig>;
-}
+export function loadConfig(configDirectory = DEFAULT_CONFIG_DIR): SearchConfig[] {
+  const jsonPath = path.join(configDirectory, "searches.json");
+  const yamlPath = path.join(configDirectory, "searches.yaml");
 
-interface RawSearchesFile {
-  searches: SearchConfig[];
-}
+  if (existsSync(jsonPath)) {
+    const raw = readFileSync(jsonPath, "utf8");
+    const parsed = JSON.parse(raw);
+    return Array.isArray(parsed) ? parsed : (parsed.searches ?? []);
+  }
 
-export async function loadConfig(configDirectory = DEFAULT_CONFIG_DIR): Promise<WatchConfig> {
-  const sitesPath = path.join(configDirectory, "sites.yaml");
-  const searchesPath = path.join(configDirectory, "searches.yaml");
+  if (existsSync(yamlPath)) {
+    const raw = readFileSync(yamlPath, "utf8");
+    const parsed = yaml.parse(raw) as any;
+    return Array.isArray(parsed) ? parsed : (parsed?.searches ?? []);
+  }
 
-  const [sitesRaw, searchesRaw] = await Promise.all([
-    readFile(sitesPath, "utf8"),
-    readFile(searchesPath, "utf8")
-  ]);
-
-  const parsedSites = yaml.parse(sitesRaw) as RawSitesFile;
-  const parsedSearches = yaml.parse(searchesRaw) as RawSearchesFile;
-
-  return {
-    defaults: {
-      minimumDelayBetweenSearchesMs:
-        parsedSites.defaults?.minimumDelayBetweenSearchesMs ?? 1500
-    },
-    sites: parsedSites.sites ?? {},
-    searches: parsedSearches.searches ?? []
-  };
-}
-
-export async function saveConfig(config: WatchConfig, configDirectory = DEFAULT_CONFIG_DIR): Promise<void> {
-  const sitesPath = path.join(configDirectory, "sites.yaml");
-  const searchesPath = path.join(configDirectory, "searches.yaml");
-
-  const sitesFile: RawSitesFile = {
-    defaults: config.defaults,
-    sites: config.sites
-  };
-
-  const searchesFile: RawSearchesFile = {
-    searches: config.searches
-  };
-
-  await Promise.all([
-    writeFile(sitesPath, yaml.stringify(sitesFile), "utf8"),
-    writeFile(searchesPath, yaml.stringify(searchesFile), "utf8")
-  ]);
+  throw new Error(`Neither searches.json nor searches.yaml found in ${configDirectory}`);
 }
