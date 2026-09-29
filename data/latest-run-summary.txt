@@ -1,3 +1,5 @@
+[AI Evaluator] Gemini HTTP 404: {
+  "error": {
     "code": 404,
     "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemin
 [AI Evaluator] Gemini HTTP 404: {
@@ -94,7 +96,5 @@
     "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemin
 Listings verified after AI assessment: 44
 Listing events detected: 44
-Sending email alert for 44 event(s) to lucas.stone+marketwatch@gmail.com...
-Email alert sent successfully.
 [UI] Generated index.html and feed.json in /home/runner/work/market-watch/market-watch/dist
 Market Watch run complete.
