@@ -1,14 +1,16 @@
 {
-  "status": "success",
-  "failedSteps": [],
+  "status": "failed",
+  "failedSteps": [
+    "pipeline"
+  ],
   "steps": {
     "setup": "success",
     "install": "success",
     "typecheck": "success",
-    "pipeline": "success"
+    "pipeline": "cancelled"
   },
-  "commit": "ca065253a7758ed53b5ed9e6f0fde0e620b4a46e",
-  "runUrl": "https://github.com/Lukestaz/market-watch/actions/runs/36551855379",
-  "finishedAt": "2026-09-29T10:02:03.626Z",
-  "summary": "    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on t\n[AI] \"AEG IMPACT DRIVER\" -> Great Deal (score: 7/10, valid: true)\n[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on t\n[AI] \"OZITO DRILL\" -> Overpriced (score: 4/10, valid: true)\n[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on t\n[AI] \"OZITO DRILL\" -> Overpriced (score: 4/10, valid: true)\nListings verified after AI assessment: 64\nListing events detected: 64\nSending email alert for 26 event(s) to [REDACTED_EMAIL]...\nEmail alert sent successfully.\n[UI] Generated index.html and feed.json in ./dist\nMarket Watch run complete.\n"
+  "commit": "4bcc4efa57bfcb8737fe593063dce504c800e822",
+  "runUrl": "https://github.com/Lukestaz/market-watch/actions/runs/36553495605",
+  "finishedAt": "2026-09-29T10:10:55.832Z",
+  "summary": "    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on t\n[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on t\n[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on t\n[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a\n[AI] \"LG 65″ Smart TV\" -> Great Deal (score: 7/10, valid: true)\n[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on t\n"
 }

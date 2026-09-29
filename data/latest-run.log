@@ -33,89 +33,65 @@ Executing search: Source B - Anker Nano (dollardealers)
 Executing search: Source B - Baseus Blade (dollardealers)
 [DollarDealers] Fetching: https://dollardealers.co.nz/?s=baseus+blade&post_type=product
 [DollarDealers] Found 0 listings for /?s=baseus+blade&post_type=product
-Total raw listings collected: 72
+Total raw listings collected: 49
+[Details] Enriching high item: Lg Smart Tv **65Inch/Loose Base** OLED65C56LA
 [Details] Enriching high item: Lg 65 Inch Smart Oled Tv OLED65C36LA
-Candidate listings passing keyword rules: 70
+[Details] Enriching high item: Ego 56V Cordless Line Trimmer ST1400E- ST
+Candidate listings passing keyword rules: 9
 [AI Evaluator] Available flash models: gemini-flash-latest, gemini-2.5-flash, gemini-flash-lite-latest, gemini-3.8-flash
 [AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a
+[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
+[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
 [AI Evaluator] Gemini (gemini-2.5-flash) HTTP 404: {
   "error": {
     "code": 404,
     "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use
 [AI] "Lg Tv - 65 Inch 4K Uhd Smart Led 65UP7550PVG" -> Fair Price (score: 5/10, valid: true)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a
-[AI] "Lg Tv 50 Inch" -> Fair Price (score: 5/10, valid: true)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a
-[AI] "Lg Monitor / Smart Tv" -> Fair Price (score: 5/10, valid: true)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a
 [AI] "Lg Smart Tv **65Inch/Loose Base** OLED65C56LA" -> Fair Price (score: 5/10, valid: true)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {
+[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
+[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
+[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
 [AI] "Lg 65 Inch Smart Oled Tv OLED65C36LA" -> Great Deal (score: 8/10, valid: true)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a
-[AI] "Lg Tv" -> Fair Price (score: 5/10, valid: true)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a
-[AI] "Lg Smart Tv 55INCH" -> Fair Price (score: 5/10, valid: true)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a
-[AI] "Lg Tv SMART UHD UA73 A1 50UA7350PSB" -> Fair Price (score: 5/10, valid: true)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a
-[AI] "Lg 32 Inch Tv 32LF510B" -> Fair Price (score: 5/10, valid: true)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a
-[AI] "Lg Smart Tv 42LA6230 HK117" -> Fair Price (score: 5/10, valid: true)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a
-[AI] "Lg Tv 43 Inch 43LH511T-TE" -> Fair Price (score: 5/10, valid: true)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a
-[AI] "Lg Smart Tv 55INCH 55UH770T" -> Fair Price (score: 5/10, valid: true)
 [AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI] "Lg Tv 43 INCH AI 4K UHD UA8450" -> Fair Price (score: 6/10, valid: true)
 [AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI] "Lg Tv 50 Inch" -> Fair Price (score: 5/10, valid: true)
 [AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI] "Lg (52A) Tv TV 70 7OUP7550PVD" -> Fair Price (score: 5/10, valid: true)
+[AI] "Lg Smart Tv 65 Inch 4K Ultra Hd Led 65NANO86VNA" -> Not Relevant (score: 1/10, valid: false)
+[AI] Dropping false positive: Lg Smart Tv 65 Inch 4K Ultra Hd Led 65NANO86VNA (The listed item is an LG NanoCell LED TV, which is neither a generic 65-inch display nor an OLED TV as specified in the target search criteria.)
+[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
+[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
 [AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
   "error": {
     "code": 429,
@@ -132,22 +108,23 @@ Candidate listings passing keyword rules: 70
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI] "Lg Tv 55 Inch Smart 55QNED866QA" -> Fair Price (score: 6/10, valid: true)
 [AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI] "Lg Smart Tv 50 Inch 4K Ultra Hd Led 50UA8450PSA" -> Fair Price (score: 5/10, valid: true)
 [AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI] "Lg Tv 48 Inch Smart" -> Fair Price (score: 5/10, valid: true)
+[AI] "Ego 56V Cordless Line Trimmer ST1400E- ST" -> Great Deal (score: 7/10, valid: true)
 [AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI] "Lg Tv 32 Inch Lcd ***No Remote*** 32LG30R-TA ***NO REMOTE AND HDMI PORT NOT WORK" -> Overpriced (score: 1/10, valid: true)
+[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
 [AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
   "error": {
     "code": 429,
@@ -164,343 +141,16 @@ Candidate listings passing keyword rules: 70
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI] "Lg Tv 60 Inch Plasma ***No Remote*** 60PB6600-TE" -> Overpriced (score: 4/10, valid: true)
+[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
 [AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a
-[AI] "Lg Smart Tv 50 Inch 4K Uhd Led ***No Stand*** 50NAN080A6A" -> Overpriced (score: 4/10, valid: true)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a
-[AI] "Lg Tv #6 55 INCH QNED AI ENCHANCED SMART TV 2024 55QNED86T6A" -> Fair Price (score: 5/10, valid: true)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a
-[AI] "Ego Lawnmower (No Catcher) 56V 2018" -> Fair Price (score: 5/10, valid: true)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a
-[AI] "Ego 56V Cordless Line Trimmer ST1400E- ST" -> Fair Price (score: 5/10, valid: true)
-[AI] "LG 65 SMART TV" -> Fair Price (score: 5/10, valid: true)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a
-[AI] "LG 65 SMART TV" -> Great Deal (score: 7/10, valid: true)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a
-[AI] "LG 65″ Smart TV" -> Fair Price (score: 6/10, valid: true)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a
-[AI] "LG 65″ Smart TV" -> Fair Price (score: 6/10, valid: true)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a
-[AI] "Samsung 43″ Smart TV" -> Overpriced (score: 4/10, valid: true)
+[AI] "LG 65″ Smart TV" -> Great Deal (score: 7/10, valid: true)
 [AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI] "Samsung 43″ Smart TV" -> Overpriced (score: 4/10, valid: true)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI] "LG 50″ SMART TELEVISION" -> Overpriced (score: 3/10, valid: true)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI] "LG 50″ SMART TELEVISION" -> Overpriced (score: 3/10, valid: true)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI] "PANASONIC 65″ 4K SMART TV TH-65LX800Z" -> Great Deal (score: 7/10, valid: true)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI] "PANASONIC 65″ 4K SMART TV TH-65LX800Z" -> Great Deal (score: 7/10, valid: true)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI] "SAMSUNG SMART TV" -> Fair Price (score: 6/10, valid: true)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI] "SAMSUNG SMART TV" -> Fair Price (score: 6/10, valid: true)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI] "LG SOUNDBAR S70TY" -> Steal (score: 10/10, valid: true)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI] "LG SOUNDBAR S70TY" -> Steal (score: 10/10, valid: true)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI] "LG DVD WRITER" -> Not Relevant (score: 1/10, valid: false)
-[AI] Dropping false positive: LG DVD WRITER (The listing is for an optical DVD writer drive, which does not match the target item category.)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI] "LG DVD WRITER" -> Not Relevant (score: 1/10, valid: false)
-[AI] Dropping false positive: LG DVD WRITER (The listing is for a generic LG DVD writer peripheral, which does not match the target item category.)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI] "ONE FOR ALL UNIVERSAL REMOTE" -> Not Relevant (score: 1/10, valid: false)
-[AI] Dropping false positive: ONE FOR ALL UNIVERSAL REMOTE (This is a universal remote control which does not match the target item category.)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI] "ONE FOR ALL UNIVERSAL REMOTE" -> Not Relevant (score: 1/10, valid: false)
-[AI] Dropping false positive: ONE FOR ALL UNIVERSAL REMOTE (This is an unrelated universal remote control and does not match the target item category.)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI] "MILWAUKEE BATTERY M18 2.0AH" -> Great Deal (score: 8/10, valid: true)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI] "MILWAUKEE BATTERY M18 2.0AH" -> Great Deal (score: 8/10, valid: true)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI] "arlec EXTENSION CORD" -> Not Relevant (score: 1/10, valid: false)
-[AI] Dropping false positive: arlec EXTENSION CORD (The listing is for an Arlec extension cord which is completely unrelated to the target item.)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI] "arlec EXTENSION CORD" -> Not Relevant (score: 1/10, valid: false)
-[AI] Dropping false positive: arlec EXTENSION CORD (The listing is for an Arlec extension cord which is completely unrelated to the target item.)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI] "RUSSEL HOBBS MULTI COOKER RHMC20" -> Fair Price (score: 6/10, valid: true)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI Evaluator] Gemini (gemini-flash-lite-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI Evaluator] Gemini (gemini-3.8-flash) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI Evaluator] Gemini (gemini-flash-lite-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI Evaluator] Gemini (gemini-3.8-flash) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI Evaluator] Gemini (gemini-flash-lite-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI Evaluator] Gemini (gemini-3.8-flash) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI Evaluator] Gemini (gemini-flash-lite-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI Evaluator] Gemini (gemini-3.8-flash) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI Evaluator] Gemini (gemini-flash-lite-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI Evaluator] Gemini (gemini-3.8-flash) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI Evaluator] Gemini (gemini-flash-lite-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI Evaluator] Gemini (gemini-3.8-flash) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI Evaluator] Gemini (gemini-flash-lite-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI Evaluator] Gemini (gemini-3.8-flash) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI Evaluator] Gemini (gemini-flash-lite-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI Evaluator] Gemini (gemini-3.8-flash) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI Evaluator] Gemini (gemini-flash-lite-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI Evaluator] Gemini (gemini-3.8-flash) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI Evaluator] Gemini (gemini-flash-lite-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI Evaluator] Gemini (gemini-3.8-flash) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI Evaluator] Gemini (gemini-flash-lite-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI Evaluator] Gemini (gemini-3.8-flash) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI Evaluator] Gemini (gemini-flash-lite-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI Evaluator] Gemini (gemini-3.8-flash) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI Evaluator] Gemini (gemini-flash-lite-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI Evaluator] Gemini (gemini-3.8-flash) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI] "DEWALT CIRCULAR SAW" -> Fair Price (score: 5/10, valid: true)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI] "DEWALT CIRCULAR SAW" -> Fair Price (score: 5/10, valid: true)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI] "RYOBI IMPACT DRILL RID18" -> Great Deal (score: 7/10, valid: true)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI] "RYOBI IMPACT DRILL RID18" -> Great Deal (score: 7/10, valid: true)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI] "AEG IMPACT DRIVER" -> Great Deal (score: 7/10, valid: true)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI] "AEG IMPACT DRIVER" -> Great Deal (score: 7/10, valid: true)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI] "OZITO DRILL" -> Overpriced (score: 4/10, valid: true)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
-[AI] "OZITO DRILL" -> Overpriced (score: 4/10, valid: true)
-Listings verified after AI assessment: 64
-Listing events detected: 64
-Sending email alert for 26 event(s) to [REDACTED_EMAIL]...
-Email alert sent successfully.
-[UI] Generated index.html and feed.json in ./dist
-Market Watch run complete.
