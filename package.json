@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "watch": "NODE_EXTRA_CA_CERTS=certs/geotrust-tls-rsa-ca-g1.pem tsx src/index.ts"
+    "watch": "NODE_EXTRA_CA_CERTS=certs/geotrust-tls-rsa-ca-g1.pem tsx src/index.ts",
+    "typecheck": "tsc --noEmit -p ."
   },
   "dependencies": {
     "@google/generative-ai": "^0.21.0",

@@ -1,120 +1,149 @@
 # market-watch
 
-A generic, config-driven price and inventory monitoring engine running on GitHub Actions. It observes e-commerce product listings across configured storefronts, tracks historical price movements in Git, deep-scrapes product specifications, and delivers automated alerts whenever target criteria or price reductions occur.
+A config-driven second-hand market watcher for **Cash Converters NZ** (Source A) and **Dollar Dealers NZ** (Source B). It runs on GitHub Actions, searches both stores, filters listings with keyword rules, has Gemini verify and score each candidate, tracks price history in Git, publishes a dashboard, and emails alerts for new listings and price drops.
+
+**Dashboard:** [lukestaz.github.io/market-watch](https://lukestaz.github.io/market-watch)
 
 ---
 
-## Live Dashboard
+## For AI assistants (read this first)
 
-View the interactive web dashboard with filters, search, and specification breakdown:
-👉 **[lukestaz.github.io/market-watch](https://lukestaz.github.io/market-watch)**
+You do not need to clone the repo to see everything. Two equivalent entry points are refreshed on every run:
+
+1. **Index file (plain text over HTTPS):**
+   `https://raw.githubusercontent.com/Lukestaz/market-watch/main/data/AGENT_INDEX.md`
+   Lists every source file with a raw link pinned to the exact commit, plus links to the latest run status, full log and state.
+2. **GitHub Issue `[Snapshot] Assistant index`** (issue #8): same index plus the last 60 log lines, for tools that can read issues but not files.
+
+Any file can also be read directly as `https://raw.githubusercontent.com/Lukestaz/market-watch/main/<path>`, e.g. `.../main/src/ai.ts`.
+
+| What | Where |
+|---|---|
+| Latest run result (per-step outcome, run URL) | `data/run-status.json` |
+| Full redacted log of the latest run | `data/latest-run.log` |
+| Last 100 log lines | `data/latest-run-summary.txt` |
+| All tracked listings + AI verdicts | `data/state.json` |
+
+Secrets (Gemini key, emails, tokens) are redacted from all logs before they are committed.
 
 ---
 
-## Supported Source Connectors
+## How a run works
 
-| Source Identifier | Engine / Type | Capabilities |
+1. **Load searches** from `config/searches.json` and site settings from `config/sites.yaml`.
+2. **Fetch search pages** over plain HTTP (`fetch` + Cheerio, no browser). Cash Converters' server omits its intermediate TLS certificate, so the missing GeoTrust intermediate is bundled in `certs/` and loaded via `NODE_EXTRA_CA_CERTS` (set in the `watch` script).
+3. **Keyword rules** (`src/matching.ts`): a rule matches when all its `includeKeywords` appear in the listing's **title or model number** and none of its `excludeKeywords` appear. Listings matching no rule are ignored. Global exclusions drop jewellery, watches, white goods, etc.
+4. **Detail enrichment**: high/critical candidates have their product page fetched for model number, condition, accessories and branch.
+5. **Gemini check** (`src/ai.ts`): each candidate is judged against the search's target. False positives are dropped; the rest get a 1-10 score, verdict and reason. The model is auto-discovered from the API (no hardcoded model names), busy/rate-limited calls are retried, and verdicts are reused while the price is unchanged to conserve free-tier quota.
+6. **State** (`src/state.ts`): listings are deduplicated by URL, price changes are detected, and anything no longer listed is marked removed.
+7. **Outputs**: email alerts for new listings and price drops (`src/alerts.ts`), the dashboard with search/filters/last-updated time (`src/ui.ts`), and diagnostics committed back to `data/`.
+
+### Keyword syntax
+
+| Form | Meaning | Example |
 |---|---|---|
-| `source-a` | DOM Evaluation | Dynamic search catalog parsing, product specification and condition extraction. |
-| `source-b` | Headless Catalog Scraper | Category grid extraction, detail table deep parsing. |
+| `word` | whole-word match | `ego` does not match "lego" |
+| `word*` | prefix | `oled65*` matches `OLED65C36LA` |
+| `*word` | suffix | `*mah` matches `20100Mah` |
+| `65` | special-cased screen size | matches `65"`, `65 inch`, `oled65` |
 
 ---
 
-## Active Watch Profiles
+## Watch list
 
-### 1. Large-Format Displays & 3D OLED Panels
-- **Critical targets:** Top-tier passive 4K 3D OLED reference displays (G6, E6, C6 series).
-- **High targets:** Early 4K 3D OLED models (EF950 series) and modern OLED displays.
-- **Normal baseline:** Broad monitoring for generic 65" UHD and commercial display panels.
-
-### 2. High-Power Cordless Outdoor Equipment
-- **High targets:** Multi-tool power heads and modular attachments, commercial blowers, chainsaws, high-capacity lithium batteries (5.0Ah+), and bare tools.
-- **Normal baseline:** Self-propelled and standard cordless lawn care equipment.
-
-### 3. Rugged All-Weather Compact Cameras
-- **Critical targets:** Olympus Tough TG-6, OM System Tough TG-7.
-- **High targets:** OM System and Olympus Tough camera bodies (filters older TG-1 through TG-5 models).
-- **Exclusions:** Pure accessories (cases, underwater housings, batteries only).
-
----
-
-## How It Works
-
-1. **Trigger Modes:**
-   - **Automated CI Push:** Triggered on code/configuration pushes to validate type checks and test catalog parsers autonomously.
-   - **Scheduled Runs:** Runs twice daily via cron (`11:15 AM` and `6:15 PM`), capturing inventory updates throughout the day.
-   - **Manual Dispatch:** Run any individual query on demand via GitHub Actions UI (`all`, `src-a-display-65`, `src-a-power-tools`, `src-a-tough-cameras`, `src-b-display-65`, `src-b-power-tools`, `src-b-tough-cameras`).
-2. **Streamlined Sweep:** Executes consolidated queries covering target categories in under 45 seconds.
-3. **Selective Deep Scraping:** For candidate items matching target criteria, the engine visits individual listing pages to extract:
-   - **Model Number:** (e.g. `OLED65G6P`, `TG-6`, `TG-7`, `LM2135E-SP`)
-   - **Condition:** (e.g. `Like New`, `Very Good`, `Good`)
-   - **Accessories / Includes:** (e.g. `Remote + 3D glasses`, `Wrist strap + battery + charger`)
-   - **Location:** Branch / pickup depot.
-4. **State Persistence:** Normalises and deduplicates items into `data/state.json`, committed back into the repository to track first-seen dates, price drops, and rule matches.
-5. **Automated Alerts:** Dispatches HTML emails via Gmail SMTP for new listings and price drops with priority badges and direct links.
-6. **Continuous Run Logging & Self-Healing CI:** Every workflow execution streams output into `data/latest-run.log` and commits it to the repository. If a run fails, GitHub Actions creates a diagnostic issue with the last 80 lines of error logs for automated debugging without manual log retrieval.
-
----
-
-## Email Alerts Configuration
-
-To receive notifications, configure the following secrets in **Settings → Secrets and variables → Actions**:
-
-| Secret Name | Description | Example |
+| Search | Store queries | Priority highlights |
 |---|---|---|
-| `GMAIL_USER` | Your Gmail address | `user@gmail.com` |
-| `GMAIL_APP_PASSWORD` | 16-character Google App Password | `xxxx xxxx xxxx xxxx` |
-| `ALERT_TO_EMAIL` | Destination email address | `recipient@example.com` |
+| Displays 65" / OLED | `LG tv` | OLED model numbers high; generic 65" normal |
+| Cordless power equipment (EGO 56V) | `EGO 56V` | multi-tool, blower, chainsaw, battery, trimmer high; mower normal. All rules require "ego" |
+| Tough cameras | `Olympus Tough` | TG-7 / TG-6 critical |
+| Anker power | `Anker` | Nano, power banks high; chargers normal |
+| Baseus power | `Baseus` | Blade critical; power banks high; chargers normal |
+| Bluetti | `Bluetti` | AC/EB/Elite/Apex power stations high; any Bluetti normal |
+| EcoFlow | `EcoFlow` | River/Delta/Trail/Glacier high; any EcoFlow normal |
 
-*Note: Generate an App Password via Google Account Security.*
+Each search exists once per store (`src-a-*` = Cash Converters, `src-b-*` = Dollar Dealers).
+
+### Adding a search
+
+Append an entry to `config/searches.json`:
+
+```json
+{
+  "id": "src-a-example",
+  "site": "cashconverters",
+  "label": "Source A - Example Brand",
+  "path": "/Browse?FullTextQuery=Example&StatusFilter=active_only",
+  "enabled": true,
+  "rules": [
+    { "id": "rule-a-high-example", "label": "Example flagship", "priority": "high",
+      "includeKeywords": ["example", "pro"], "excludeKeywords": ["case only"] }
+  ]
+}
+```
+
+Dollar Dealers paths look like `/?s=example&post_type=product`. Priorities: `critical`, `high`, `normal`. Search broadly (brand only) and let rules + Gemini narrow it down; the stores' search engines are primitive.
 
 ---
 
-## Local Development
+## GitHub Actions workflow
+
+`.github/workflows/daily-watch.yml` runs at **09:00 and 21:00 NZ time** (08:00/20:00 UTC), on pushes to `main` that touch source/config, and on manual dispatch. Steps:
+
+1. `npm ci` from `package-lock.json` (npm cache enabled)
+2. `tsc --noEmit` typecheck gate
+3. `npm run watch`
+4. Diagnostics (always, even on failure): per-step outcomes to `data/run-status.json`, redacted full log to `data/latest-run.log`
+5. Assistant index + Issue #8 refresh
+6. Dashboard deploy to the `gh-pages` branch
+7. Commit `data/` back to `main` with `[skip ci]` (rebases with retries; generated files resolve in favour of the current run)
+
+`concurrency: cancel-in-progress` ensures only the newest run is ever writing state.
+
+### Secrets
+
+Set in **Settings → Secrets and variables → Actions** (not the "Agents" section, which Actions cannot read):
+
+| Secret | Purpose |
+|---|---|
+| `GEMINI_API_KEY` | AI verification and scoring (optional; without it keyword rules alone decide) |
+| `GMAIL_USER` | Gmail account that sends alerts |
+| `GMAIL_APP_PASSWORD` | 16-character Google App Password |
+| `ALERT_TO_EMAIL` | Recipient address |
+
+---
+
+## Local development
 
 ```bash
-# Install dependencies
-npm install
-
-# Install Playwright browser binaries
-npx playwright install --with-deps chromium
-
-# Typecheck
-npm test
-
-# Run all enabled searches
-npm run watch
-
-# Run with local email testing
-GMAIL_USER="you@gmail.com" GMAIL_APP_PASSWORD="app-password" ALERT_TO_EMAIL="you@gmail.com" npm run watch
+npm ci
+npm run typecheck
+cp .env.example .env   # optional: add keys
+npm run watch          # writes dist/ and updates data/state.json
 ```
+
+Revert `data/state.json` afterwards (`git checkout data/state.json`) if you don't want local runs committed.
 
 ---
 
-## Repository Structure
+## Repository layout
 
 ```
-├── .github/workflows/
-│   └── daily-watch.yml       # Scheduled runner, secrets injector, log commit & issue reporting
-├── config/
-│   ├── sites.yaml            # Storefront endpoints and rate limits
-│   └── searches.yaml         # Keyword rules, priorities, and paths
-├── data/
-│   ├── latest-run.log        # Automated execution log committed by CI runner
-│   └── state.json            # Tracked listings, price history, and timestamps
-├── src/
-│   ├── sites/
-│   │   ├── base.ts           # SiteAdapter interface
-│   │   ├── cashconverters.ts # Storefront A adapter with deep-scrape
-│   │   └── dollardealers.ts  # Storefront B adapter with deep-scrape
-│   ├── alerts.ts             # Gmail HTML alert formatting & dispatch
-│   ├── config.ts             # Config file loader
-│   ├── matching.ts           # Rule matching & priority calculation
-│   ├── models.ts             # TypeScript definitions
-│   ├── normalise.ts          # Price & title normalisation
-│   ├── state.ts              # State diffing & JSON persistence
-│   ├── ui.ts                 # GitHub Pages static dashboard compiler
-│   └── index.ts              # CLI entry point & crawler orchestrator
-├── package.json
-└── tsconfig.json
+.github/workflows/daily-watch.yml  Scheduled runner, diagnostics, Pages deploy, state commit
+certs/                             Bundled intermediate CA for Cash Converters' TLS chain
+config/searches.json               Searches and keyword rules
+config/sites.yaml                  Store base URLs and rate limits
+data/                              Committed by CI: state, run status, logs, AGENT_INDEX.md
+scripts/agent-index.sh             Builds data/AGENT_INDEX.md
+src/index.ts                       Orchestrator
+src/config.ts                      Config loader
+src/sites/base.ts                  SiteAdapter interface
+src/sites/cashconverters.ts        Cash Converters adapter (search + detail pages)
+src/sites/dollardealers.ts         Dollar Dealers adapter (search + detail pages)
+src/matching.ts                    Keyword rule engine
+src/normalise.ts                   Listing normalisation
+src/ai.ts                          Gemini evaluation with model discovery
+src/state.ts                       State diffing, dedupe, removal tracking
+src/alerts.ts                      Gmail HTML alerts
+src/ui.ts                          Dashboard generator
+src/generated/                     Run status baked into the dashboard (CI-generated)
 ```

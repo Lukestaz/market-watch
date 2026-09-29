@@ -26,6 +26,7 @@ jobs:
     timeout-minutes: 20
     permissions:
       contents: write
+      issues: write
 
     steps:
       - name: Checkout repository
@@ -119,6 +120,29 @@ jobs:
           '
           cp data/run-status.json dist/status.json
 
+      - name: Build assistant index + refresh Issue #8 (always)
+        if: always()
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SOURCE_SHA: ${{ github.sha }}
+        run: |
+          bash scripts/agent-index.sh
+          # Issue body = index + log tail, so assistants limited to GitHub Issues can still see everything.
+          {
+            cat data/AGENT_INDEX.md
+            echo; echo "## Log tail (last 60 lines)"; echo; echo '```text'
+            tail -n 60 data/latest-run.log | cut -c1-300
+            echo '```'
+          } | head -c 60000 > /tmp/issue-body.md
+          ISSUE_NUM=$(gh issue list --state open --search "[Snapshot] in:title" --json number,title \
+            -q '[.[] | select(.title | startswith("[Snapshot]"))][0].number')
+          if [ -n "$ISSUE_NUM" ]; then
+            gh issue edit "$ISSUE_NUM" --title "[Snapshot] Assistant index: source links + latest run" --body-file /tmp/issue-body.md
+          else
+            gh issue create --title "[Snapshot] Assistant index: source links + latest run" --body-file /tmp/issue-body.md
+          fi
+
       - name: Deploy dashboard to GitHub Pages
         if: always()
         uses: peaceiris/actions-gh-pages@v4
@@ -133,7 +157,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add -f data/run-status.json data/latest-run-summary.txt data/latest-run.log src/generated/latest-run-status.ts
+          git add -f data/run-status.json data/latest-run-summary.txt data/latest-run.log data/AGENT_INDEX.md src/generated/latest-run-status.ts
           git add -f data/state.json 2>/dev/null || true
           if git diff --staged --quiet; then echo "Nothing to commit."; exit 0; fi
           git commit -m "Update watcher status [skip ci]"
