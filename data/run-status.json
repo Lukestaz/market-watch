@@ -1,8 +1,14 @@
 {
   "status": "success",
-  "exitCode": 0,
-  "startedAt": "2026-09-29T09:05:52Z",
-  "finishedAt": "2026-09-29T09:06:10Z",
-  "command": "npm run watch",
-  "summary": "  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use\n[AI Evaluator] Gemini (gemini-1.5-flash) HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. \n[AI Evaluator] Gemini (gemini-2.5-flash) HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use\n[AI Evaluator] Gemini (gemini-1.5-flash) HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. \nListings verified after AI assessment: 44\nListing events detected: 44\n[UI] Generated index.html and feed.json in /home/runner/work/market-watch/market-watch/dist\nMarket Watch run complete.\n"
+  "failedSteps": [],
+  "steps": {
+    "setup": "success",
+    "install": "success",
+    "typecheck": "success",
+    "pipeline": "success"
+  },
+  "commit": "66923515c61fa92dfce058f10aa9afa7d1f04064",
+  "runUrl": "https://github.com/Lukestaz/market-watch/actions/runs/36551334718",
+  "finishedAt": "2026-09-29T09:47:15.128Z",
+  "summary": "  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use\n[AI Evaluator] Gemini (gemini-1.5-flash) HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. \n[AI Evaluator] Gemini (gemini-2.5-flash) HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use\n[AI Evaluator] Gemini (gemini-1.5-flash) HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. \nListings verified after AI assessment: 44\nListing events detected: 44\n[UI] Generated index.html and feed.json in ./dist\nMarket Watch run complete.\n"
 }

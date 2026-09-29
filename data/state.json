@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T09:06:00.978Z",
+  "updatedAt": "2026-09-29T09:46:56.797Z",
   "listings": {
     "dollardealers:dd-3481663": {
       "key": "dollardealers:dd-3481663",
@@ -17,10 +17,14 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-3481663",
+      "url": "https://dollardealers.co.nz/product/lg-65-smart-tv-2/",
+      "priceText": "$749.00 incl. GST",
+      "rawText": "TVs LG 65 SMART TV $749.00 incl. GST"
     },
     "dollardealers:dd-lg-65-smart-tv-2": {
       "key": "dollardealers:dd-lg-65-smart-tv-2",
@@ -38,10 +42,14 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-lg-65-smart-tv-2",
+      "url": "https://dollardealers.co.nz/product/lg-65-smart-tv-2/",
+      "priceText": "$749.00 incl. GST",
+      "rawText": "TVs LG 65 SMART TV $749.00 incl. GST"
     },
     "dollardealers:dd-3458094": {
       "key": "dollardealers:dd-3458094",
@@ -59,10 +67,14 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-3458094",
+      "url": "https://dollardealers.co.nz/product/lg-65-smart-tv/",
+      "priceText": "$749.00 incl. GST",
+      "rawText": "Electronics and gaming LG 65″ Smart TV $749.00 incl. GST"
     },
     "dollardealers:dd-lg-65-smart-tv": {
       "key": "dollardealers:dd-lg-65-smart-tv",
@@ -80,10 +92,14 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-lg-65-smart-tv",
+      "url": "https://dollardealers.co.nz/product/lg-65-smart-tv/",
+      "priceText": "$749.00 incl. GST",
+      "rawText": "Electronics and gaming LG 65″ Smart TV $749.00 incl. GST"
     },
     "dollardealers:dd-3486344": {
       "key": "dollardealers:dd-3486344",
@@ -99,10 +115,14 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-3486344",
+      "url": "https://dollardealers.co.nz/product/samsung-43-smart-tv-2/",
+      "priceText": "$599.00 incl. GST",
+      "rawText": "Electronics and gaming Samsung 43″ Smart TV $599.00 incl. GST"
     },
     "dollardealers:dd-samsung-43-smart-tv-2": {
       "key": "dollardealers:dd-samsung-43-smart-tv-2",
@@ -118,10 +138,14 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-samsung-43-smart-tv-2",
+      "url": "https://dollardealers.co.nz/product/samsung-43-smart-tv-2/",
+      "priceText": "$599.00 incl. GST",
+      "rawText": "Electronics and gaming Samsung 43″ Smart TV $599.00 incl. GST"
     },
     "dollardealers:dd-3472974": {
       "key": "dollardealers:dd-3472974",
@@ -137,10 +161,14 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-3472974",
+      "url": "https://dollardealers.co.nz/product/lg-50-smart-television/",
+      "priceText": "$699.00 incl. GST",
+      "rawText": "Electronics and gaming LG 50″ SMART TELEVISION $699.00 incl. GST"
     },
     "dollardealers:dd-lg-50-smart-television": {
       "key": "dollardealers:dd-lg-50-smart-television",
@@ -156,10 +184,14 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-lg-50-smart-television",
+      "url": "https://dollardealers.co.nz/product/lg-50-smart-television/",
+      "priceText": "$699.00 incl. GST",
+      "rawText": "Electronics and gaming LG 50″ SMART TELEVISION $699.00 incl. GST"
     },
     "dollardealers:dd-3431391": {
       "key": "dollardealers:dd-3431391",
@@ -177,10 +209,14 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-3431391",
+      "url": "https://dollardealers.co.nz/product/panasonic-65-4k-smart-tv-th-65lx800z/",
+      "priceText": "$999.00 incl. GST",
+      "rawText": "TVs PANASONIC 65″ 4K SMART TV TH-65LX800Z $999.00 incl. GST"
     },
     "dollardealers:dd-panasonic-65-4k-smart-tv-th-65lx800z": {
       "key": "dollardealers:dd-panasonic-65-4k-smart-tv-th-65lx800z",
@@ -198,10 +234,14 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-panasonic-65-4k-smart-tv-th-65lx800z",
+      "url": "https://dollardealers.co.nz/product/panasonic-65-4k-smart-tv-th-65lx800z/",
+      "priceText": "$999.00 incl. GST",
+      "rawText": "TVs PANASONIC 65″ 4K SMART TV TH-65LX800Z $999.00 incl. GST"
     },
     "dollardealers:dd-3424292": {
       "key": "dollardealers:dd-3424292",
@@ -217,10 +257,14 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-3424292",
+      "url": "https://dollardealers.co.nz/product/samsung-smart-tv/",
+      "priceText": "$250.00 incl. GST",
+      "rawText": "TVs SAMSUNG SMART TV $250.00 incl. GST"
     },
     "dollardealers:dd-samsung-smart-tv": {
       "key": "dollardealers:dd-samsung-smart-tv",
@@ -236,10 +280,14 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-samsung-smart-tv",
+      "url": "https://dollardealers.co.nz/product/samsung-smart-tv/",
+      "priceText": "$250.00 incl. GST",
+      "rawText": "TVs SAMSUNG SMART TV $250.00 incl. GST"
     },
     "dollardealers:dd-3274636": {
       "key": "dollardealers:dd-3274636",
@@ -255,10 +303,14 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-3274636",
+      "url": "https://dollardealers.co.nz/product/lg-soundbar-s70ty/",
+      "priceText": "$63.00 incl. GST",
+      "rawText": "Electronics and gaming LG SOUNDBAR S70TY $63.00 incl. GST"
     },
     "dollardealers:dd-lg-soundbar-s70ty": {
       "key": "dollardealers:dd-lg-soundbar-s70ty",
@@ -274,10 +326,14 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-lg-soundbar-s70ty",
+      "url": "https://dollardealers.co.nz/product/lg-soundbar-s70ty/",
+      "priceText": "$63.00 incl. GST",
+      "rawText": "Electronics and gaming LG SOUNDBAR S70TY $63.00 incl. GST"
     },
     "dollardealers:dd-3131399": {
       "key": "dollardealers:dd-3131399",
@@ -293,10 +349,14 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-3131399",
+      "url": "https://dollardealers.co.nz/product/lg-dvd-writer/",
+      "priceText": "$20.00 incl. GST",
+      "rawText": "Electronics and gaming LG DVD WRITER $20.00 incl. GST"
     },
     "dollardealers:dd-lg-dvd-writer": {
       "key": "dollardealers:dd-lg-dvd-writer",
@@ -312,10 +372,14 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-lg-dvd-writer",
+      "url": "https://dollardealers.co.nz/product/lg-dvd-writer/",
+      "priceText": "$20.00 incl. GST",
+      "rawText": "Electronics and gaming LG DVD WRITER $20.00 incl. GST"
     },
     "dollardealers:dd-3391770": {
       "key": "dollardealers:dd-3391770",
@@ -331,10 +395,14 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-3391770",
+      "url": "https://dollardealers.co.nz/product/one-for-all-universal-remote-3/",
+      "priceText": "$25.00 incl. GST",
+      "rawText": "Electronics and gaming ONE FOR ALL UNIVERSAL REMOTE $25.00 incl. GST"
     },
     "dollardealers:dd-one-for-all-universal-remote-3": {
       "key": "dollardealers:dd-one-for-all-universal-remote-3",
@@ -350,10 +418,14 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-one-for-all-universal-remote-3",
+      "url": "https://dollardealers.co.nz/product/one-for-all-universal-remote-3/",
+      "priceText": "$25.00 incl. GST",
+      "rawText": "Electronics and gaming ONE FOR ALL UNIVERSAL REMOTE $25.00 incl. GST"
     },
     "dollardealers:dd-3493762": {
       "key": "dollardealers:dd-3493762",
@@ -369,10 +441,14 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-3493762",
+      "url": "https://dollardealers.co.nz/product/milwaukee-battery-m18-2-0ah/",
+      "priceText": "$49.00 incl. GST",
+      "rawText": "Power tools MILWAUKEE BATTERY M18 2.0AH $49.00 incl. GST"
     },
     "dollardealers:dd-milwaukee-battery-m18-2-0ah": {
       "key": "dollardealers:dd-milwaukee-battery-m18-2-0ah",
@@ -388,10 +464,14 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-milwaukee-battery-m18-2-0ah",
+      "url": "https://dollardealers.co.nz/product/milwaukee-battery-m18-2-0ah/",
+      "priceText": "$49.00 incl. GST",
+      "rawText": "Power tools MILWAUKEE BATTERY M18 2.0AH $49.00 incl. GST"
     },
     "dollardealers:dd-3483419": {
       "key": "dollardealers:dd-3483419",
@@ -407,10 +487,14 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-3483419",
+      "url": "https://dollardealers.co.nz/product/arlec-extension-cord/",
+      "priceText": "$20.00 incl. GST",
+      "rawText": "Power Tools and Outdoor equipment arlec EXTENSION CORD $20.00 incl. GST"
     },
     "dollardealers:dd-arlec-extension-cord": {
       "key": "dollardealers:dd-arlec-extension-cord",
@@ -426,10 +510,14 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-arlec-extension-cord",
+      "url": "https://dollardealers.co.nz/product/arlec-extension-cord/",
+      "priceText": "$20.00 incl. GST",
+      "rawText": "Power Tools and Outdoor equipment arlec EXTENSION CORD $20.00 incl. GST"
     },
     "dollardealers:dd-3479570": {
       "key": "dollardealers:dd-3479570",
@@ -445,10 +533,14 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-3479570",
+      "url": "https://dollardealers.co.nz/product/russel-hobbs-multi-cooker-rhmc20/",
+      "priceText": "$99.00 incl. GST",
+      "rawText": "Kitchen Appliances RUSSEL HOBBS MULTI COOKER RHMC20 $99.00 incl. GST"
     },
     "dollardealers:dd-russel-hobbs-multi-cooker-rhmc20": {
       "key": "dollardealers:dd-russel-hobbs-multi-cooker-rhmc20",
@@ -464,10 +556,14 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-russel-hobbs-multi-cooker-rhmc20",
+      "url": "https://dollardealers.co.nz/product/russel-hobbs-multi-cooker-rhmc20/",
+      "priceText": "$99.00 incl. GST",
+      "rawText": "Kitchen Appliances RUSSEL HOBBS MULTI COOKER RHMC20 $99.00 incl. GST"
     },
     "dollardealers:dd-3465311": {
       "key": "dollardealers:dd-3465311",
@@ -483,10 +579,14 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-3465311",
+      "url": "https://dollardealers.co.nz/product/ryobi-drill-r18ddp2-and-battery/",
+      "priceText": "$79.00 incl. GST",
+      "rawText": "Power tools RYOBI DRILL R18DDP2 AND BATTERY $79.00 incl. GST"
     },
     "dollardealers:dd-ryobi-drill-r18ddp2-and-battery": {
       "key": "dollardealers:dd-ryobi-drill-r18ddp2-and-battery",
@@ -502,10 +602,14 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-ryobi-drill-r18ddp2-and-battery",
+      "url": "https://dollardealers.co.nz/product/ryobi-drill-r18ddp2-and-battery/",
+      "priceText": "$79.00 incl. GST",
+      "rawText": "Power tools RYOBI DRILL R18DDP2 AND BATTERY $79.00 incl. GST"
     },
     "dollardealers:dd-3395594": {
       "key": "dollardealers:dd-3395594",
@@ -521,10 +625,14 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-3395594",
+      "url": "https://dollardealers.co.nz/product/dyson-hair-airstraightener/",
+      "priceText": "$299.00 incl. GST",
+      "rawText": "Uncategorized DYSON HAIR AIRSTRAIGHTENER $299.00 incl. GST"
     },
     "dollardealers:dd-dyson-hair-airstraightener": {
       "key": "dollardealers:dd-dyson-hair-airstraightener",
@@ -540,10 +648,14 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-dyson-hair-airstraightener",
+      "url": "https://dollardealers.co.nz/product/dyson-hair-airstraightener/",
+      "priceText": "$299.00 incl. GST",
+      "rawText": "Uncategorized DYSON HAIR AIRSTRAIGHTENER $299.00 incl. GST"
     },
     "dollardealers:dd-3350760": {
       "key": "dollardealers:dd-3350760",
@@ -559,10 +671,14 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-3350760",
+      "url": "https://dollardealers.co.nz/product/aple-ipad-pro-11-256g/",
+      "priceText": "$899.00 incl. GST",
+      "rawText": "Computers & accessories APLE IPAD PRO 11” 256G $899.00 incl. GST"
     },
     "dollardealers:dd-aple-ipad-pro-11-256g": {
       "key": "dollardealers:dd-aple-ipad-pro-11-256g",
@@ -578,10 +694,14 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-aple-ipad-pro-11-256g",
+      "url": "https://dollardealers.co.nz/product/aple-ipad-pro-11-256g/",
+      "priceText": "$899.00 incl. GST",
+      "rawText": "Computers & accessories APLE IPAD PRO 11” 256G $899.00 incl. GST"
     },
     "dollardealers:dd-3102579": {
       "key": "dollardealers:dd-3102579",
@@ -600,10 +720,15 @@
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-3102579",
+      "url": "https://dollardealers.co.nz/product/aeg-drill-and-battery-a18idb3/",
+      "priceText": "$220.00 incl. GST",
+      "rawText": "Power tools AEG DRILL AND BATTERY A18IDB3 $220.00 incl. GST by DollarDealers Hamilton East View Store Details AEG Drill A18IDB3 with Battery – Powerful 18V cordless drill/driver designed for drilling and fastening in wood, metal, and plastic. Features a compact, ergonomic design with variable speed control for precision and comfort during use. Comes with a compatible AEG battery, making it ready for work on DIY or professional projects. This item comes with a 30 day warranty (excluding the battery) with an optional 120 day purchase protection plan that can be purchased for an additional 10% for extra cover and peace of mind. SKU:338896",
+      "modelNumber": "338896"
     },
     "dollardealers:dd-aeg-drill-and-battery-a18idb3": {
       "key": "dollardealers:dd-aeg-drill-and-battery-a18idb3",
@@ -622,10 +747,15 @@
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-aeg-drill-and-battery-a18idb3",
+      "url": "https://dollardealers.co.nz/product/aeg-drill-and-battery-a18idb3/",
+      "priceText": "$220.00 incl. GST",
+      "rawText": "Power tools AEG DRILL AND BATTERY A18IDB3 $220.00 incl. GST AEG Drill A18IDB3 with Battery – Powerful 18V cordless drill/driver designed for drilling and fastening in wood, metal, and plastic. Features a compact, ergonomic design with variable speed control for precision and comfort during use. Comes with a compatible AEG battery, making it ready for work on DIY or professional projects. This item comes with a 30 day warranty (excluding the battery) with an optional 120 day purchase protection plan that can be purchased for an additional 10% for extra cover and peace of mind. SKU:338896",
+      "modelNumber": "338896"
     },
     "dollardealers:dd-3124236": {
       "key": "dollardealers:dd-3124236",
@@ -643,10 +773,15 @@
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-3124236",
+      "url": "https://dollardealers.co.nz/product/milwaukee-circular-saw/",
+      "priceText": "$210.00 incl. GST",
+      "rawText": "Power tools MILWAUKEE CIRCULAR SAW $210.00 incl. GST by DollarDealers Papakura View Store Details Milwaukee circular saw skin only in good working condition, ideal for reliable cutting performance. Comes with a 30 day warranty, with optional 120 day purchase protection available for an additional 10 percent. Shipping can be arranged at the buyer’s expense.",
+      "modelNumber": "338361"
     },
     "dollardealers:dd-milwaukee-circular-saw": {
       "key": "dollardealers:dd-milwaukee-circular-saw",
@@ -664,10 +799,15 @@
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-milwaukee-circular-saw",
+      "url": "https://dollardealers.co.nz/product/milwaukee-circular-saw/",
+      "priceText": "$210.00 incl. GST",
+      "rawText": "Power tools MILWAUKEE CIRCULAR SAW $210.00 incl. GST Milwaukee circular saw skin only in good working condition, ideal for reliable cutting performance. Comes with a 30 day warranty, with optional 120 day purchase protection available for an additional 10 percent. Shipping can be arranged at the buyer’s expense.",
+      "modelNumber": "338361"
     },
     "dollardealers:dd-3163278": {
       "key": "dollardealers:dd-3163278",
@@ -685,10 +825,15 @@
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-3163278",
+      "url": "https://dollardealers.co.nz/product/milwaukee-m18-charger-radio/",
+      "priceText": "$249.00 incl. GST",
+      "rawText": "Power tools MILWAUKEE M18 CHARGER RADIO $249.00 incl. GST by DollarDealers New Lynn, Auckland View Store Details The Milwaukee M18 Charger Radio is a rugged jobsite speaker designed for tradies, combining a Bluetooth radio and battery charger in one unit. It delivers strong sound through a 40W amplifier, streams music wirelessly up to around 30m, and charges all M18 batteries while you work. Built with a reinforced roll cage and weather-sealed storage, it’s made to handle tough site conditions. **THIS ITEM IS AVAILABLE FOR PICKUP ONLY, WE CANNOT SHIP THIS** THIS ITEM COMES WITH A 30 DAY WARRANTY. 120 DAY PURCHASE PROTECTION PLAN CAN BE PURCHASED AT AN ADDITIONAL COST FOR EXTRA COVER AND PEACE OF MIND. THIS ITEM IS AVAILABLE TO VIEW AT NEW LYNN DOLLAR DEALERS. LOCATED AT 30 DELTA AVENUE. WE ARE OPEN 7 DAYS A WEEK FROM 9AM-5PM. STOCK NUMBER: 342488",
+      "modelNumber": "342488"
     },
     "dollardealers:dd-milwaukee-m18-charger-radio": {
       "key": "dollardealers:dd-milwaukee-m18-charger-radio",
@@ -706,10 +851,15 @@
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-milwaukee-m18-charger-radio",
+      "url": "https://dollardealers.co.nz/product/milwaukee-m18-charger-radio/",
+      "priceText": "$249.00 incl. GST",
+      "rawText": "Power tools MILWAUKEE M18 CHARGER RADIO $249.00 incl. GST The Milwaukee M18 Charger Radio is a rugged jobsite speaker designed for tradies, combining a Bluetooth radio and battery charger in one unit. It delivers strong sound through a 40W amplifier, streams music wirelessly up to around 30m, and charges all M18 batteries while you work. Built with a reinforced roll cage and weather-sealed storage, it’s made to handle tough site conditions. **THIS ITEM IS AVAILABLE FOR PICKUP ONLY, WE CANNOT SHIP THIS** THIS ITEM COMES WITH A 30 DAY WARRANTY. 120 DAY PURCHASE PROTECTION PLAN CAN BE PURCHASED AT AN ADDITIONAL COST FOR EXTRA COVER AND PEACE OF MIND. THIS ITEM IS AVAILABLE TO VIEW AT NEW LYNN DOLLAR DEALERS. LOCATED AT 30 DELTA AVENUE. WE ARE OPEN 7 DAYS A WEEK FROM 9AM-5PM. STOCK NUMBER: 342488",
+      "modelNumber": "342488"
     },
     "dollardealers:dd-2756700": {
       "key": "dollardealers:dd-2756700",
@@ -724,10 +874,14 @@
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-2756700",
+      "url": "https://dollardealers.co.nz/product/dewalt-circular-saw/",
+      "priceText": "",
+      "rawText": "Hand tools DEWALT CIRCULAR SAW"
     },
     "dollardealers:dd-dewalt-circular-saw": {
       "key": "dollardealers:dd-dewalt-circular-saw",
@@ -742,10 +896,14 @@
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-dewalt-circular-saw",
+      "url": "https://dollardealers.co.nz/product/dewalt-circular-saw/",
+      "priceText": "",
+      "rawText": "Hand tools DEWALT CIRCULAR SAW"
     },
     "dollardealers:dd-3173515": {
       "key": "dollardealers:dd-3173515",
@@ -761,10 +919,14 @@
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-3173515",
+      "url": "https://dollardealers.co.nz/product/ryobi-impact-drill-rid18-2/",
+      "priceText": "$85.00 incl. GST",
+      "rawText": "Power tools RYOBI IMPACT DRILL RID18 $85.00 incl. GST by DollarDealers Hamilton East View Store Details"
     },
     "dollardealers:dd-ryobi-impact-drill-rid18-2": {
       "key": "dollardealers:dd-ryobi-impact-drill-rid18-2",
@@ -780,10 +942,14 @@
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-ryobi-impact-drill-rid18-2",
+      "url": "https://dollardealers.co.nz/product/ryobi-impact-drill-rid18-2/",
+      "priceText": "$85.00 incl. GST",
+      "rawText": "Power tools RYOBI IMPACT DRILL RID18 $85.00 incl. GST"
     },
     "dollardealers:dd-3158669": {
       "key": "dollardealers:dd-3158669",
@@ -801,10 +967,15 @@
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-3158669",
+      "url": "https://dollardealers.co.nz/product/aeg-impact-driver-3/",
+      "priceText": "$60.00 incl. GST",
+      "rawText": "Power tools AEG IMPACT DRIVER $60.00 incl. GST by DollarDealers Rotorua View Store Details AEG IMPACT DRIVER Stock Number: 344152 THIS ITEM HAS BEEN DISCONTINUED This item comes with a 30-day warrantyA 120-day Purchase Protection Plans can be purchased at 10% of the cost for extra cover & peace of mind.",
+      "modelNumber": "344152"
     },
     "dollardealers:dd-aeg-impact-driver-3": {
       "key": "dollardealers:dd-aeg-impact-driver-3",
@@ -822,10 +993,15 @@
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-aeg-impact-driver-3",
+      "url": "https://dollardealers.co.nz/product/aeg-impact-driver-3/",
+      "priceText": "$60.00 incl. GST",
+      "rawText": "Power tools AEG IMPACT DRIVER $60.00 incl. GST AEG IMPACT DRIVER Stock Number: 344152 THIS ITEM HAS BEEN DISCONTINUED This item comes with a 30-day warrantyA 120-day Purchase Protection Plans can be purchased at 10% of the cost for extra cover & peace of mind.",
+      "modelNumber": "344152"
     },
     "dollardealers:dd-3105149": {
       "key": "dollardealers:dd-3105149",
@@ -837,16 +1013,22 @@
       "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/d8a701e2-33ac-4b6c-88bf-3dd30a946f28.jpeg?resize=247&w=247",
       "priority": "high",
       "matchedRules": [
-        "rule-b-high-bare"
+        "rule-b-high-bare",
+        "rule-b-high-battery"
       ],
       "searchIds": [
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-3105149",
+      "url": "https://dollardealers.co.nz/product/ozito-drill-2/",
+      "priceText": "$70.00 incl. GST",
+      "rawText": "Power tools OZITO DRILL $70.00 incl. GST by DollarDealers Papakura View Store Details OZITO DRILL PXDDS-180 S/N:2024/06/OZI-24-2621-AU IMEI:5XSFDOG good condition ozito pxdds-180 cordless drill with 2.5ah battery and charger. reliable and easy to use for drilling and fastening tasks around the home or workshop. tested and working well. We do offer a 30 Day warranty on this item. A Purchase Protection Plan with 120 days of warranty can be purchased for an additional 10% for extra coverage and peace of mind.",
+      "modelNumber": "339136"
     },
     "dollardealers:dd-ozito-drill-2": {
       "key": "dollardealers:dd-ozito-drill-2",
@@ -858,16 +1040,22 @@
       "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/d8a701e2-33ac-4b6c-88bf-3dd30a946f28.jpeg?resize=247&w=247",
       "priority": "high",
       "matchedRules": [
-        "rule-b-high-bare"
+        "rule-b-high-bare",
+        "rule-b-high-battery"
       ],
       "searchIds": [
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:06:00.978Z",
+      "lastSeenAt": "2026-09-29T09:46:56.797Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:06:00.978Z",
-      "lastSeen": "2026-09-29T09:06:00.978Z"
+      "firstSeen": "2026-09-29T09:46:56.797Z",
+      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "id": "dd-ozito-drill-2",
+      "url": "https://dollardealers.co.nz/product/ozito-drill-2/",
+      "priceText": "$70.00 incl. GST",
+      "rawText": "Power tools OZITO DRILL $70.00 incl. GST OZITO DRILL PXDDS-180 S/N:2024/06/OZI-24-2621-AU IMEI:5XSFDOG good condition ozito pxdds-180 cordless drill with 2.5ah battery and charger. reliable and easy to use for drilling and fastening tasks around the home or workshop. tested and working well. We do offer a 30 Day warranty on this item. A Purchase Protection Plan with 120 days of warranty can be purchased for an additional 10% for extra coverage and peace of mind.",
+      "modelNumber": "339136"
     }
   }
 }
