@@ -14,6 +14,10 @@ const ADAPTERS: Record<SearchConfig["site"], SiteAdapter> = {
   dollardealers: new DollarDealersAdapter()
 };
 
+function sleep(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
 async function main(): Promise<void> {
   console.log("Starting Market Watch run...");
   const searches = loadConfig();
@@ -57,7 +61,35 @@ async function main(): Promise<void> {
   const now = new Date().toISOString();
 
   for (const { raw, search } of allRawListings.values()) {
-    const normalised = toListing(search.site, search, raw, now);
+    let normalised = toListing(search.site, search, raw, now);
+
+    if (normalised.priority === "ignore") {
+      continue;
+    }
+
+    // Secondary Detail Scraping for candidate items (Critical & High priority)
+    if (normalised.priority === "critical" || normalised.priority === "high") {
+      const adapter = ADAPTERS[search.site] as any;
+      if (adapter && typeof adapter.fetchListingDetails === "function") {
+        try {
+          console.log(`[Details] Enriching ${normalised.priority} item: ${raw.title}`);
+          const details = await adapter.fetchListingDetails(raw.url);
+          const enrichedRaw: RawListing = {
+            ...raw,
+            modelNumber: details.modelNumber || raw.modelNumber,
+            condition: details.condition || raw.condition,
+            accessories: details.accessories || raw.accessories,
+            seller: details.seller || raw.seller,
+            rawText: `${raw.rawText || ""} ${details.rawText || ""}`.trim()
+          };
+
+          normalised = toListing(search.site, search, enrichedRaw, now);
+          await sleep(500); // polite detail fetch delay
+        } catch (detailErr) {
+          console.warn(`[Details] Could not fetch details for ${raw.url}:`, detailErr);
+        }
+      }
+    }
 
     if (normalised.priority === "ignore") {
       continue;
@@ -85,7 +117,7 @@ async function main(): Promise<void> {
 
     const aiResult = await evaluateListingWithGemini(listing, matchedRuleLabels);
     if (aiResult) {
-      console.log(`[AI] \"${listing.title}\" -> ${aiResult.verdict} (score: ${aiResult.score}/10, valid: ${aiResult.isTruePositive})`);
+      console.log(`[AI] "${listing.title}" -> ${aiResult.verdict} (score: ${aiResult.score}/10, valid: ${aiResult.isTruePositive})`);
       if (!aiResult.isTruePositive) {
         console.log(`[AI] Dropping false positive: ${listing.title} (${aiResult.reason})`);
         continue;

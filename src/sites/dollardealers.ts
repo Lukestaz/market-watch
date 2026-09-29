@@ -100,4 +100,41 @@ export class DollarDealersAdapter implements SiteAdapter {
       };
     }
   }
+
+  /**
+   * Secondary scraper for candidate items to extract full description, SKU/model, condition, and branch
+   */
+  async fetchListingDetails(url: string): Promise<Partial<RawListing>> {
+    try {
+      const res = await fetch(url, {
+        headers: {
+          "User-Agent":
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+          Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+        }
+      });
+      if (!res.ok) return {};
+
+      const html = await res.text();
+      const $ = cheerio.load(html);
+
+      const sku = $(".sku").first().text().trim();
+      const seller = $(".sold-by, .store-name, .vendor-name, .store-info").first().text().replace(/^by\s+/i, "").trim();
+      const condition = $(".woocommerce-product-attributes-item--attribute_pa_condition td, .condition").first().text().trim();
+      const description = $("#tab-description, .woocommerce-Tabs-panel--description, .product-short-description")
+        .first()
+        .text()
+        .replace(/\s+/g, " ")
+        .trim();
+
+      return {
+        modelNumber: sku || undefined,
+        seller: seller || undefined,
+        condition: condition || undefined,
+        rawText: description || undefined
+      };
+    } catch {
+      return {};
+    }
+  }
 }

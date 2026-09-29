@@ -51,7 +51,7 @@ export class CashConvertersAdapter implements SiteAdapter {
           if (!title) return;
 
           const href = titleLink.attr("href") || "";
-          const canonicalUrl = href.startsWith("http") ? href : `${BASE_URL}${href}`;
+          const canonicalUrl = href.startsWith("http") ? href : `${BASE_URL}${href}` ;
           const id = listingId ? `cc-${listingId}` : `cc-${Buffer.from(href).toString("base64url").slice(0, 16)}`;
 
           const priceText = $sec
@@ -121,6 +121,65 @@ export class CashConvertersAdapter implements SiteAdapter {
         diagnostics: { resultCount: 0, blocked: false, error: err.message },
         listings: []
       };
+    }
+  }
+
+  /**
+   * Secondary scraper for candidate items to extract model number, condition, accessories, and branch
+   */
+  async fetchListingDetails(url: string): Promise<Partial<RawListing>> {
+    try {
+      const res = await fetch(url, {
+        headers: {
+          "User-Agent":
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+          Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"
+        }
+      });
+      if (!res.ok) return {};
+
+      const html = await res.text();
+      const $ = cheerio.load(html);
+
+      const condition = $(".condition, .item-condition, [data-property='Condition'], th:contains('Condition') + td")
+        .first()
+        .text()
+        .trim();
+
+      const modelNumber = $(
+        ".model-number, [data-property='Model'], th:contains('Model') + td, th:contains('Model Number') + td"
+      )
+        .first()
+        .text()
+        .trim();
+
+      const accessories = $(
+        ".accessories, [data-property='Includes'], th:contains('Includes') + td, th:contains('Accessories') + td"
+      )
+        .first()
+        .text()
+        .trim();
+
+      const seller = $(".seller-info, .store-location, .branch, th:contains('Store') + td")
+        .first()
+        .text()
+        .trim();
+
+      const description = $(".description, #description, .product-description, .tab-pane")
+        .first()
+        .text()
+        .replace(/\s+/g, " ")
+        .trim();
+
+      return {
+        condition: condition || undefined,
+        modelNumber: modelNumber || undefined,
+        accessories: accessories || undefined,
+        seller: seller || undefined,
+        rawText: description || undefined
+      };
+    } catch {
+      return {};
     }
   }
 }
