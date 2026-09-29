@@ -10,48 +10,81 @@
         "id": "rule-a-critical-g6",
         "label": "Ref G6 3D OLED",
         "priority": "critical",
-        "includeKeywords": ["g6"],
-        "excludeKeywords": ["phone", "smartphone", "thinq"]
+        "includeKeywords": [
+          "g6"
+        ],
+        "excludeKeywords": [
+          "phone",
+          "smartphone",
+          "thinq"
+        ]
       },
       {
         "id": "rule-a-critical-e6",
         "label": "Ref E6 3D OLED",
         "priority": "critical",
-        "includeKeywords": ["e6"],
-        "excludeKeywords": ["phone", "smartphone"]
+        "includeKeywords": [
+          "e6"
+        ],
+        "excludeKeywords": [
+          "phone",
+          "smartphone"
+        ]
       },
       {
         "id": "rule-a-critical-c6",
         "label": "Ref C6 3D OLED",
         "priority": "critical",
-        "includeKeywords": ["c6"],
-        "excludeKeywords": ["phone", "smartphone"]
+        "includeKeywords": [
+          "c6"
+        ],
+        "excludeKeywords": [
+          "phone",
+          "smartphone"
+        ]
       },
       {
         "id": "rule-a-critical-3d",
         "label": "Ref 3D Display Panel",
         "priority": "critical",
-        "includeKeywords": ["3d"],
-        "excludeKeywords": ["glasses only", "phone", "monitor"]
+        "includeKeywords": [
+          "3d"
+        ],
+        "excludeKeywords": [
+          "glasses only",
+          "phone",
+          "monitor"
+        ]
       },
       {
         "id": "rule-a-high-ef950",
         "label": "Ref EF950 3D OLED",
         "priority": "high",
-        "includeKeywords": ["ef950"]
+        "includeKeywords": [
+          "ef950"
+        ]
       },
       {
         "id": "rule-a-high-oled",
         "label": "Ref 65\" OLED Panel",
         "priority": "high",
-        "includeKeywords": ["oled", "65"]
+        "includeKeywords": [
+          "oled",
+          "65"
+        ]
       },
       {
         "id": "rule-a-normal-65",
         "label": "Ref 65\" Display Generic",
         "priority": "normal",
-        "includeKeywords": ["65"],
-        "excludeKeywords": ["remote only", "stand only", "bracket"]
+        "includeKeywords": [
+          "65"
+        ],
+        "excludeKeywords": [
+          "remote only",
+          "stand only",
+          "bracket"
+        ]
       }
     ]
   },
@@ -66,43 +99,99 @@
         "id": "rule-a-high-multitool",
         "label": "Multi-Tool Modular Head",
         "priority": "high",
-        "includeKeywords": ["multi"],
-        "excludeKeywords": ["lego", "makita", "corded", "dewalt", "ryobi", "bosch", "fein"]
+        "includeKeywords": [
+          "ego",
+          "multi"
+        ],
+        "excludeKeywords": [
+          "lego",
+          "makita",
+          "corded",
+          "dewalt",
+          "ryobi",
+          "bosch",
+          "fein"
+        ]
       },
       {
         "id": "rule-a-high-blower",
         "label": "High-CFM Blower",
         "priority": "high",
-        "includeKeywords": ["blower"],
-        "excludeKeywords": ["lego", "makita", "dewalt", "ryobi", "bosch"]
+        "includeKeywords": [
+          "ego",
+          "blower"
+        ],
+        "excludeKeywords": [
+          "lego",
+          "makita",
+          "dewalt",
+          "ryobi",
+          "bosch"
+        ]
       },
       {
         "id": "rule-a-high-chainsaw",
         "label": "Chainsaw Equipment",
         "priority": "high",
-        "includeKeywords": ["chainsaw"],
-        "excludeKeywords": ["lego", "makita", "dewalt", "stihl", "husqvarna"]
+        "includeKeywords": [
+          "ego",
+          "chainsaw"
+        ],
+        "excludeKeywords": [
+          "lego",
+          "makita",
+          "dewalt",
+          "stihl",
+          "husqvarna"
+        ]
       },
       {
         "id": "rule-a-high-battery",
         "label": "Arc Lithium Battery Pack",
         "priority": "high",
-        "includeKeywords": ["battery"],
-        "excludeKeywords": ["lego", "makita", "dewalt", "ryobi", "milwaukee", "bosch"]
+        "includeKeywords": [
+          "ego",
+          "battery"
+        ],
+        "excludeKeywords": [
+          "lego",
+          "makita",
+          "dewalt",
+          "ryobi",
+          "milwaukee",
+          "bosch"
+        ]
       },
       {
         "id": "rule-a-high-bare",
         "label": "Power Equipment Bare Tool",
         "priority": "high",
-        "includeKeywords": ["power"],
-        "excludeKeywords": ["lego", "makita", "dewalt", "ryobi", "bosch"]
+        "includeKeywords": [
+          "ego",
+          "power"
+        ],
+        "excludeKeywords": [
+          "lego",
+          "makita",
+          "dewalt",
+          "ryobi",
+          "bosch"
+        ]
       },
       {
         "id": "rule-a-normal-mower",
         "label": "Cordless Mower",
         "priority": "normal",
-        "includeKeywords": ["mower"],
-        "excludeKeywords": ["lego", "makita", "victa", "masport"]
+        "includeKeywords": [
+          "ego",
+          "mower"
+        ],
+        "excludeKeywords": [
+          "lego",
+          "makita",
+          "victa",
+          "masport"
+        ]
       }
     ]
   },
@@ -117,29 +206,70 @@
         "id": "rule-a-critical-tg7",
         "label": "OM System Tough TG-7",
         "priority": "critical",
-        "includeKeywords": ["tg-7"],
-        "excludeKeywords": ["case only", "housing only", "battery only"]
+        "includeKeywords": [
+          "tg-7"
+        ],
+        "excludeKeywords": [
+          "case only",
+          "housing only",
+          "battery only"
+        ]
       },
       {
         "id": "rule-a-critical-tg6",
         "label": "Olympus Tough TG-6",
         "priority": "critical",
-        "includeKeywords": ["tg-6"],
-        "excludeKeywords": ["case only", "housing only", "battery only"]
+        "includeKeywords": [
+          "tg-6"
+        ],
+        "excludeKeywords": [
+          "case only",
+          "housing only",
+          "battery only"
+        ]
       },
       {
         "id": "rule-a-high-tough-om",
         "label": "OM System Tough Camera",
         "priority": "high",
-        "includeKeywords": ["om system", "tough"],
-        "excludeKeywords": ["case only", "housing only", "mirrorless", "e-m1", "e-m5", "e-m10", "om-1", "om-5"]
+        "includeKeywords": [
+          "om system",
+          "tough"
+        ],
+        "excludeKeywords": [
+          "case only",
+          "housing only",
+          "mirrorless",
+          "e-m1",
+          "e-m5",
+          "e-m10",
+          "om-1",
+          "om-5"
+        ]
       },
       {
         "id": "rule-a-high-tough-olympus",
         "label": "Olympus Tough Camera",
         "priority": "high",
-        "includeKeywords": ["olympus", "tough"],
-        "excludeKeywords": ["case only", "housing only", "tg-1", "tg-2", "tg-3", "tg-4", "tg-5", "mirrorless", "om-d", "e-m1", "e-m5", "e-m10", "pen"]
+        "includeKeywords": [
+          "olympus",
+          "tough"
+        ],
+        "excludeKeywords": [
+          "case only",
+          "housing only",
+          "tg-1",
+          "tg-2",
+          "tg-3",
+          "tg-4",
+          "tg-5",
+          "mirrorless",
+          "om-d",
+          "e-m1",
+          "e-m5",
+          "e-m10",
+          "pen"
+        ]
       }
     ]
   },
@@ -154,8 +284,14 @@
         "id": "rule-a-high-anker-nano",
         "label": "Anker Nano Charger / Power Bank",
         "priority": "high",
-        "includeKeywords": ["anker", "nano"],
-        "excludeKeywords": ["cable only", "case only"]
+        "includeKeywords": [
+          "anker",
+          "nano"
+        ],
+        "excludeKeywords": [
+          "cable only",
+          "case only"
+        ]
       }
     ]
   },
@@ -170,8 +306,14 @@
         "id": "rule-a-critical-baseus-blade",
         "label": "Baseus Blade 100W Power Bank",
         "priority": "critical",
-        "includeKeywords": ["baseus", "blade"],
-        "excludeKeywords": ["case only", "pouch only"]
+        "includeKeywords": [
+          "baseus",
+          "blade"
+        ],
+        "excludeKeywords": [
+          "case only",
+          "pouch only"
+        ]
       }
     ]
   },
@@ -186,48 +328,81 @@
         "id": "rule-b-critical-g6",
         "label": "Ref G6 3D OLED",
         "priority": "critical",
-        "includeKeywords": ["g6"],
-        "excludeKeywords": ["phone", "smartphone", "thinq"]
+        "includeKeywords": [
+          "g6"
+        ],
+        "excludeKeywords": [
+          "phone",
+          "smartphone",
+          "thinq"
+        ]
       },
       {
         "id": "rule-b-critical-e6",
         "label": "Ref E6 3D OLED",
         "priority": "critical",
-        "includeKeywords": ["e6"],
-        "excludeKeywords": ["phone", "smartphone"]
+        "includeKeywords": [
+          "e6"
+        ],
+        "excludeKeywords": [
+          "phone",
+          "smartphone"
+        ]
       },
       {
         "id": "rule-b-critical-c6",
         "label": "Ref C6 3D OLED",
         "priority": "critical",
-        "includeKeywords": ["c6"],
-        "excludeKeywords": ["phone", "smartphone"]
+        "includeKeywords": [
+          "c6"
+        ],
+        "excludeKeywords": [
+          "phone",
+          "smartphone"
+        ]
       },
       {
         "id": "rule-b-critical-3d",
         "label": "Ref 3D Display Panel",
         "priority": "critical",
-        "includeKeywords": ["3d"],
-        "excludeKeywords": ["glasses only", "phone", "monitor"]
+        "includeKeywords": [
+          "3d"
+        ],
+        "excludeKeywords": [
+          "glasses only",
+          "phone",
+          "monitor"
+        ]
       },
       {
         "id": "rule-b-high-ef950",
         "label": "Ref EF950 3D OLED",
         "priority": "high",
-        "includeKeywords": ["ef950"]
+        "includeKeywords": [
+          "ef950"
+        ]
       },
       {
         "id": "rule-b-high-oled",
         "label": "Ref 65\" OLED Panel",
         "priority": "high",
-        "includeKeywords": ["oled", "65"]
+        "includeKeywords": [
+          "oled",
+          "65"
+        ]
       },
       {
         "id": "rule-b-normal-65",
         "label": "Ref 65\" Display Generic",
         "priority": "normal",
-        "includeKeywords": ["65"],
-        "excludeKeywords": ["remote only", "stand only", "bracket"]
+        "includeKeywords": [
+          "65"
+        ],
+        "excludeKeywords": [
+          "remote only",
+          "stand only",
+          "bracket"
+        ]
       }
     ]
   },
@@ -242,43 +417,99 @@
         "id": "rule-b-high-multitool",
         "label": "Multi-Tool Modular Head",
         "priority": "high",
-        "includeKeywords": ["multi"],
-        "excludeKeywords": ["lego", "makita", "corded", "dewalt", "ryobi", "bosch", "fein"]
+        "includeKeywords": [
+          "ego",
+          "multi"
+        ],
+        "excludeKeywords": [
+          "lego",
+          "makita",
+          "corded",
+          "dewalt",
+          "ryobi",
+          "bosch",
+          "fein"
+        ]
       },
       {
         "id": "rule-b-high-blower",
         "label": "High-CFM Blower",
         "priority": "high",
-        "includeKeywords": ["blower"],
-        "excludeKeywords": ["lego", "makita", "dewalt", "ryobi", "bosch"]
+        "includeKeywords": [
+          "ego",
+          "blower"
+        ],
+        "excludeKeywords": [
+          "lego",
+          "makita",
+          "dewalt",
+          "ryobi",
+          "bosch"
+        ]
       },
       {
         "id": "rule-b-high-chainsaw",
         "label": "Chainsaw Equipment",
         "priority": "high",
-        "includeKeywords": ["chainsaw"],
-        "excludeKeywords": ["lego", "makita", "dewalt", "stihl", "husqvarna"]
+        "includeKeywords": [
+          "ego",
+          "chainsaw"
+        ],
+        "excludeKeywords": [
+          "lego",
+          "makita",
+          "dewalt",
+          "stihl",
+          "husqvarna"
+        ]
       },
       {
         "id": "rule-b-high-battery",
         "label": "Arc Lithium Battery Pack",
         "priority": "high",
-        "includeKeywords": ["battery"],
-        "excludeKeywords": ["lego", "makita", "dewalt", "ryobi", "milwaukee", "bosch"]
+        "includeKeywords": [
+          "ego",
+          "battery"
+        ],
+        "excludeKeywords": [
+          "lego",
+          "makita",
+          "dewalt",
+          "ryobi",
+          "milwaukee",
+          "bosch"
+        ]
       },
       {
         "id": "rule-b-high-bare",
         "label": "Power Equipment Bare Tool",
         "priority": "high",
-        "includeKeywords": ["power"],
-        "excludeKeywords": ["lego", "makita", "dewalt", "ryobi", "bosch"]
+        "includeKeywords": [
+          "ego",
+          "power"
+        ],
+        "excludeKeywords": [
+          "lego",
+          "makita",
+          "dewalt",
+          "ryobi",
+          "bosch"
+        ]
       },
       {
         "id": "rule-b-normal-mower",
         "label": "Cordless Mower",
         "priority": "normal",
-        "includeKeywords": ["mower"],
-        "excludeKeywords": ["lego", "makita", "victa", "masport"]
+        "includeKeywords": [
+          "ego",
+          "mower"
+        ],
+        "excludeKeywords": [
+          "lego",
+          "makita",
+          "victa",
+          "masport"
+        ]
       }
     ]
   },
@@ -293,29 +524,70 @@
         "id": "rule-b-critical-tg7",
         "label": "OM System Tough TG-7",
         "priority": "critical",
-        "includeKeywords": ["tg-7"],
-        "excludeKeywords": ["case only", "housing only", "battery only"]
+        "includeKeywords": [
+          "tg-7"
+        ],
+        "excludeKeywords": [
+          "case only",
+          "housing only",
+          "battery only"
+        ]
       },
       {
         "id": "rule-b-critical-tg6",
         "label": "Olympus Tough TG-6",
         "priority": "critical",
-        "includeKeywords": ["tg-6"],
-        "excludeKeywords": ["case only", "housing only", "battery only"]
+        "includeKeywords": [
+          "tg-6"
+        ],
+        "excludeKeywords": [
+          "case only",
+          "housing only",
+          "battery only"
+        ]
       },
       {
         "id": "rule-b-high-tough-om",
         "label": "OM System Tough Camera",
         "priority": "high",
-        "includeKeywords": ["om system", "tough"],
-        "excludeKeywords": ["case only", "housing only", "mirrorless", "e-m1", "e-m5", "e-m10", "om-1", "om-5"]
+        "includeKeywords": [
+          "om system",
+          "tough"
+        ],
+        "excludeKeywords": [
+          "case only",
+          "housing only",
+          "mirrorless",
+          "e-m1",
+          "e-m5",
+          "e-m10",
+          "om-1",
+          "om-5"
+        ]
       },
       {
         "id": "rule-b-high-tough-olympus",
         "label": "Olympus Tough Camera",
         "priority": "high",
-        "includeKeywords": ["olympus", "tough"],
-        "excludeKeywords": ["case only", "housing only", "tg-1", "tg-2", "tg-3", "tg-4", "tg-5", "mirrorless", "om-d", "e-m1", "e-m5", "e-m10", "pen"]
+        "includeKeywords": [
+          "olympus",
+          "tough"
+        ],
+        "excludeKeywords": [
+          "case only",
+          "housing only",
+          "tg-1",
+          "tg-2",
+          "tg-3",
+          "tg-4",
+          "tg-5",
+          "mirrorless",
+          "om-d",
+          "e-m1",
+          "e-m5",
+          "e-m10",
+          "pen"
+        ]
       }
     ]
   },
@@ -330,8 +602,14 @@
         "id": "rule-b-high-anker-nano",
         "label": "Anker Nano Charger / Power Bank",
         "priority": "high",
-        "includeKeywords": ["anker", "nano"],
-        "excludeKeywords": ["cable only", "case only"]
+        "includeKeywords": [
+          "anker",
+          "nano"
+        ],
+        "excludeKeywords": [
+          "cable only",
+          "case only"
+        ]
       }
     ]
   },
@@ -346,8 +624,14 @@
         "id": "rule-b-critical-baseus-blade",
         "label": "Baseus Blade 100W Power Bank",
         "priority": "critical",
-        "includeKeywords": ["baseus", "blade"],
-        "excludeKeywords": ["case only", "pouch only"]
+        "includeKeywords": [
+          "baseus",
+          "blade"
+        ],
+        "excludeKeywords": [
+          "case only",
+          "pouch only"
+        ]
       }
     ]
   }

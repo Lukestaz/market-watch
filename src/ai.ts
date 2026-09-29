@@ -52,7 +52,8 @@ Respond ONLY with valid, raw JSON in this exact structure:
   "reason": "1-sentence plain text summary of why it matches and if it's a good deal"
 }`;
 
-  const models = ["gemini-2.5-flash", "gemini-1.5-flash"];
+  const models = await resolveModels(apiKey);
+  if (models.length === 0) return null;
 
   for (const model of models) {
     const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
@@ -77,6 +78,7 @@ Respond ONLY with valid, raw JSON in this exact structure:
       if (!res.ok) {
         const errText = await res.text();
         console.warn(`[AI Evaluator] Gemini (${model}) HTTP ${res.status}: ${errText.slice(0, 150)}`);
+        if (res.status === 404 || res.status === 400) deadModels.add(model);
         continue;
       }
 
@@ -97,4 +99,52 @@ Respond ONLY with valid, raw JSON in this exact structure:
   }
 
   return null;
+}
+
+// ---- Model discovery: ask the API which models this key can use, instead of hardcoding slugs ----
+const PREFERRED = ["gemini-flash-latest", "gemini-3-flash", "gemini-2.5-flash", "gemini-2.0-flash", "gemini-flash-lite-latest"];
+const deadModels = new Set<string>();
+let discovered: Promise<string[]> | null = null;
+
+async function discoverModels(apiKey: string): Promise<string[]> {
+  try {
+    const names: string[] = [];
+    let pageToken = "";
+    do {
+      const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models?pageSize=1000&key=${apiKey}${pageToken ? `&pageToken=${pageToken}` : ""}`);
+      if (!res.ok) {
+        console.warn(`[AI Evaluator] Model list HTTP ${res.status}: ${(await res.text()).slice(0, 150)}`);
+        return PREFERRED;
+      }
+      const data = (await res.json()) as { models?: { name: string; supportedGenerationMethods?: string[] }[]; nextPageToken?: string };
+      for (const m of data.models ?? []) {
+        if (m.supportedGenerationMethods?.includes("generateContent")) names.push(m.name.replace(/^models\//, ""));
+      }
+      pageToken = data.nextPageToken ?? "";
+    } while (pageToken);
+
+    const flash = names.filter((n) => /flash/.test(n) && !/(image|tts|audio|live|embedding|thinking|exp)/.test(n));
+    const rank = (n: string) => {
+      const p = PREFERRED.indexOf(n);
+      if (p >= 0) return -100 + p;
+      const v = parseFloat(n.match(/gemini-(\d+(?:\.\d+)?)/)?.[1] ?? "0");
+      return -v + (/preview/.test(n) ? 0.5 : 0) + (/lite/.test(n) ? 0.2 : 0);
+    };
+    const ordered = [...new Set(flash)].sort((a, b) => rank(a) - rank(b)).slice(0, 4);
+    console.log(`[AI Evaluator] Available flash models: ${ordered.join(", ") || "none"}`);
+    return ordered.length ? ordered : PREFERRED;
+  } catch (err) {
+    console.warn("[AI Evaluator] Model discovery failed:", err);
+    return PREFERRED;
+  }
+}
+
+async function resolveModels(apiKey: string): Promise<string[]> {
+  discovered ??= discoverModels(apiKey);
+  const list = (await discovered).filter((m) => !deadModels.has(m));
+  if (list.length === 0 && deadModels.size > 0 && !(resolveModels as any).warned) {
+    (resolveModels as any).warned = true;
+    console.warn("[AI Evaluator] No working Gemini model; skipping AI for the rest of this run.");
+  }
+  return list;
 }
