@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T11:36:48.060Z",
+  "updatedAt": "2026-09-29T23:34:31.312Z",
   "listings": {
     "dollardealers:dd-samsung-43-smart-tv-2": {
       "key": "dollardealers:dd-samsung-43-smart-tv-2",
@@ -510,7 +510,7 @@
       "priceText": "",
       "rawText": "Lg Tv - 65 Inch 4K Uhd Smart Led 65UP7550PVG Seller: CCMountRoskill",
       "key": "cashconverters:cc-181586644",
-      "status": "removed",
+      "status": "active",
       "siteId": "cashconverters",
       "sourceListingId": "cc-181586644",
       "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/181586644/Lg-Tv-65-Inch-4K-Uhd-Smart-Led-65UP7550PVG",
@@ -522,15 +522,16 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-09-29T09:51:51.037Z",
-      "firstSeen": "2026-09-29T09:51:51.037Z",
-      "lastSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeenAt": "2026-09-29T23:34:31.312Z",
+      "firstSeen": "2026-09-29T23:34:31.312Z",
+      "lastSeen": "2026-09-29T23:34:31.312Z",
       "ai": {
         "isTruePositive": true,
         "score": 5,
         "verdict": "Fair Price",
-        "reason": "The listing is for a 65-inch LG 4K Smart LED TV matching the generic size criteria, though the lack of a listed price makes specific deal evaluation neutral."
-      }
+        "reason": "Matches the 65-inch TV category, but deal attractiveness cannot be determined without a listed price."
+      },
+      "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)"
     },
     "cashconverters:cc-176885402": {
       "id": "cc-176885402",
@@ -606,9 +607,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-09-29T11:36:48.060Z",
-      "firstSeen": "2026-09-29T11:36:48.060Z",
-      "lastSeen": "2026-09-29T11:36:48.060Z",
+      "lastSeenAt": "2026-09-29T23:34:31.312Z",
+      "firstSeen": "2026-09-29T23:34:31.312Z",
+      "lastSeen": "2026-09-29T23:34:31.312Z",
       "ai": {
         "isTruePositive": true,
         "score": 8,
@@ -638,9 +639,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-09-29T11:36:48.060Z",
-      "firstSeen": "2026-09-29T11:36:48.060Z",
-      "lastSeen": "2026-09-29T11:36:48.060Z",
+      "lastSeenAt": "2026-09-29T23:34:31.312Z",
+      "firstSeen": "2026-09-29T23:34:31.312Z",
+      "lastSeen": "2026-09-29T23:34:31.312Z",
       "ai": {
         "isTruePositive": true,
         "score": 8,
@@ -1055,7 +1056,7 @@
       "priceText": "",
       "rawText": "Lg Smart Tv 65 Inch 4K Ultra Hd Led 65NANO86VNA Seller: CCPapakura",
       "key": "cashconverters:cc-183411979",
-      "status": "removed",
+      "status": "active",
       "siteId": "cashconverters",
       "sourceListingId": "cc-183411979",
       "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/183411979/Lg-Smart-Tv-65-Inch-4K-Ultra-Hd-Led-65NANO86VNA",
@@ -1067,9 +1068,16 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-09-29T09:51:51.037Z",
-      "firstSeen": "2026-09-29T09:51:51.037Z",
-      "lastSeen": "2026-09-29T09:51:51.037Z"
+      "lastSeenAt": "2026-09-29T23:34:31.312Z",
+      "firstSeen": "2026-09-29T23:34:31.312Z",
+      "lastSeen": "2026-09-29T23:34:31.312Z",
+      "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
+      "ai": {
+        "isTruePositive": true,
+        "score": 5,
+        "verdict": "Fair Price",
+        "reason": "Matches the 65-inch display category with an LG NanoCell 4K TV, but deal attractiveness cannot be determined without a listed price."
+      }
     },
     "cashconverters:cc-183883468": {
       "id": "cc-183883468",
@@ -1172,9 +1180,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-09-29T11:36:48.060Z",
-      "firstSeen": "2026-09-29T11:36:48.060Z",
-      "lastSeen": "2026-09-29T11:36:48.060Z",
+      "lastSeenAt": "2026-09-29T23:34:31.312Z",
+      "firstSeen": "2026-09-29T23:34:31.312Z",
+      "lastSeen": "2026-09-29T23:34:31.312Z",
       "ai": {
         "isTruePositive": true,
         "score": 4,
@@ -1203,9 +1211,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-09-29T11:36:48.060Z",
-      "firstSeen": "2026-09-29T11:36:48.060Z",
-      "lastSeen": "2026-09-29T11:36:48.060Z",
+      "lastSeenAt": "2026-09-29T23:34:31.312Z",
+      "firstSeen": "2026-09-29T23:34:31.312Z",
+      "lastSeen": "2026-09-29T23:34:31.312Z",
       "ai": {
         "isTruePositive": true,
         "score": 7,
@@ -1230,10 +1238,10 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T11:36:48.060Z",
+      "lastSeenAt": "2026-09-29T23:34:31.312Z",
       "status": "active",
-      "firstSeen": "2026-09-29T11:36:48.060Z",
-      "lastSeen": "2026-09-29T11:36:48.060Z",
+      "firstSeen": "2026-09-29T23:34:31.312Z",
+      "lastSeen": "2026-09-29T23:34:31.312Z",
       "id": "dd-3481663",
       "url": "https://dollardealers.co.nz/product/lg-65-smart-tv-2/",
       "priceText": "$749.00 incl. GST",
@@ -1262,10 +1270,10 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T11:36:48.060Z",
+      "lastSeenAt": "2026-09-29T23:34:31.312Z",
       "status": "active",
-      "firstSeen": "2026-09-29T11:36:48.060Z",
-      "lastSeen": "2026-09-29T11:36:48.060Z",
+      "firstSeen": "2026-09-29T23:34:31.312Z",
+      "lastSeen": "2026-09-29T23:34:31.312Z",
       "id": "dd-3458094",
       "url": "https://dollardealers.co.nz/product/lg-65-smart-tv/",
       "priceText": "$749.00 incl. GST",
@@ -1294,10 +1302,10 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T11:36:48.060Z",
+      "lastSeenAt": "2026-09-29T23:34:31.312Z",
       "status": "active",
-      "firstSeen": "2026-09-29T11:36:48.060Z",
-      "lastSeen": "2026-09-29T11:36:48.060Z",
+      "firstSeen": "2026-09-29T23:34:31.312Z",
+      "lastSeen": "2026-09-29T23:34:31.312Z",
       "id": "dd-3431391",
       "url": "https://dollardealers.co.nz/product/panasonic-65-4k-smart-tv-th-65lx800z/",
       "priceText": "$999.00 incl. GST",
@@ -1330,9 +1338,9 @@
         "src-a-anker-nano"
       ],
       "firstSeenAt": "2026-09-29T10:25:23.530Z",
-      "lastSeenAt": "2026-09-29T11:36:48.060Z",
-      "firstSeen": "2026-09-29T11:36:48.060Z",
-      "lastSeen": "2026-09-29T11:36:48.060Z",
+      "lastSeenAt": "2026-09-29T23:34:31.312Z",
+      "firstSeen": "2026-09-29T23:34:31.312Z",
+      "lastSeen": "2026-09-29T23:34:31.312Z",
       "aiContext": "Anker Power (chargers / power banks) (Anker power bank, Anker battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1348,7 +1356,7 @@
       "priceText": "",
       "rawText": "Baseus 100Mah 45W Powerbank Picogo Seller: CCManukau Baseus 100Mah 45W Powerbank Model: Picogo Stock Needed! Bring your unwanted quality items for instant cash !!Valid ID is required WE ALSO PAWN ON CARS, BIKES, AND BOATS!For more information contact our stores and get in touch with one of our friendly staffStore ContactPhone: (09) 262 0783Address : 615 Great South Road Manukau 2104 Products must be paid within five days when auction is closedOnline payments only - we are not accepting in-store paymentsID is required upon collecting goods in-store P : 09 262 0783 | 615 Great South Road, Manukau 2104",
       "key": "cashconverters:cc-177354032",
-      "status": "active",
+      "status": "removed",
       "siteId": "cashconverters",
       "sourceListingId": "cc-177354032",
       "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/177354032/Baseus-100Mah-45W-Powerbank-Picogo",
@@ -1394,15 +1402,46 @@
         "src-b-baseus-blade"
       ],
       "firstSeenAt": "2026-09-29T10:25:23.530Z",
-      "lastSeenAt": "2026-09-29T11:36:48.060Z",
-      "firstSeen": "2026-09-29T11:36:48.060Z",
-      "lastSeen": "2026-09-29T11:36:48.060Z",
+      "lastSeenAt": "2026-09-29T23:34:31.312Z",
+      "firstSeen": "2026-09-29T23:34:31.312Z",
+      "lastSeen": "2026-09-29T23:34:31.312Z",
       "aiContext": "Baseus Power (chargers / power banks) (Baseus power bank)",
       "ai": {
         "isTruePositive": true,
         "score": 7,
         "verdict": "Great Deal",
         "reason": "This is a genuine Baseus power bank priced attractively below standard retail value for a secondary market find."
+      }
+    },
+    "cashconverters:cc-183965887": {
+      "id": "cc-183965887",
+      "title": "Ecoflow Battery Generator 1200W RIVER 3 PLUS",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/183965887/Ecoflow-Battery-Generator-1200W-RIVER-3-PLUS",
+      "priceText": "",
+      "rawText": "Ecoflow Battery Generator 1200W RIVER 3 PLUS Seller: CCManukau Ecoflow Battery Generator 1200W Model: RIVER 3 PLUS Stock Needed! Bring your unwanted quality items for instant cash !!Valid ID is required WE ALSO PAWN ON CARS, BIKES, AND BOATS!For more information contact our stores and get in touch with one of our friendly staffStore ContactPhone: (09) 262 0783Address : 615 Great South Road Manukau 2104 Products must be paid within five days when auction is closedOnline payments only - if you buy an item online then you will need to pay it online onlyID is required upon collecting goods in-store P : 09 262 0783 | 615 Great South Road, Manukau 2104",
+      "key": "cashconverters:cc-183965887",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-183965887",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/183965887/Ecoflow-Battery-Generator-1200W-RIVER-3-PLUS",
+      "priority": "high",
+      "matchedRules": [
+        "rule-a-high-ecoflow-river",
+        "rule-a-normal-ecoflow-any"
+      ],
+      "searchIds": [
+        "src-a-ecoflow"
+      ],
+      "firstSeenAt": "2026-09-29T23:34:31.312Z",
+      "lastSeenAt": "2026-09-29T23:34:31.312Z",
+      "firstSeen": "2026-09-29T23:34:31.312Z",
+      "lastSeen": "2026-09-29T23:34:31.312Z",
+      "aiContext": "EcoFlow Power Stations (Ecoflow River power station, Any Ecoflow item (solar panel, battery, accessory))",
+      "ai": {
+        "isTruePositive": true,
+        "score": 5,
+        "verdict": "Fair Price",
+        "reason": "Authentic EcoFlow River 3 Plus portable power station, but deal rating is neutral as no price is provided."
       }
     }
   }
