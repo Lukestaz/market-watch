@@ -1,100 +1,100 @@
-[AI Evaluator] Gemini (gemini-2.5-flash) HTTP 404: {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
+[AI Evaluator] Gemini (gemini-3.8-flash) HTTP 429: {
   "error": {
-    "code": 404,
-    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use
-[AI Evaluator] Gemini (gemini-1.5-flash) HTTP 404: {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
+[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
   "error": {
-    "code": 404,
-    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. 
-[AI Evaluator] Gemini (gemini-2.5-flash) HTTP 404: {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
+[AI Evaluator] Gemini (gemini-flash-lite-latest) HTTP 429: {
   "error": {
-    "code": 404,
-    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use
-[AI Evaluator] Gemini (gemini-1.5-flash) HTTP 404: {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
+[AI Evaluator] Gemini (gemini-3.8-flash) HTTP 429: {
   "error": {
-    "code": 404,
-    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. 
-[AI Evaluator] Gemini (gemini-2.5-flash) HTTP 404: {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
+[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
   "error": {
-    "code": 404,
-    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use
-[AI Evaluator] Gemini (gemini-1.5-flash) HTTP 404: {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
+[AI Evaluator] Gemini (gemini-flash-lite-latest) HTTP 429: {
   "error": {
-    "code": 404,
-    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. 
-[AI Evaluator] Gemini (gemini-2.5-flash) HTTP 404: {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
+[AI Evaluator] Gemini (gemini-3.8-flash) HTTP 429: {
   "error": {
-    "code": 404,
-    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use
-[AI Evaluator] Gemini (gemini-1.5-flash) HTTP 404: {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
+[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
   "error": {
-    "code": 404,
-    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. 
-[AI Evaluator] Gemini (gemini-2.5-flash) HTTP 404: {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
+[AI Evaluator] Gemini (gemini-flash-lite-latest) HTTP 429: {
   "error": {
-    "code": 404,
-    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use
-[AI Evaluator] Gemini (gemini-1.5-flash) HTTP 404: {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
+[AI Evaluator] Gemini (gemini-3.8-flash) HTTP 429: {
   "error": {
-    "code": 404,
-    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. 
-[AI Evaluator] Gemini (gemini-2.5-flash) HTTP 404: {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
+[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
   "error": {
-    "code": 404,
-    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use
-[AI Evaluator] Gemini (gemini-1.5-flash) HTTP 404: {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
+[AI Evaluator] Gemini (gemini-flash-lite-latest) HTTP 429: {
   "error": {
-    "code": 404,
-    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. 
-[AI Evaluator] Gemini (gemini-2.5-flash) HTTP 404: {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
+[AI Evaluator] Gemini (gemini-3.8-flash) HTTP 429: {
   "error": {
-    "code": 404,
-    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use
-[AI Evaluator] Gemini (gemini-1.5-flash) HTTP 404: {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
+[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
   "error": {
-    "code": 404,
-    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. 
-[AI Evaluator] Gemini (gemini-2.5-flash) HTTP 404: {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
+[AI] "DEWALT CIRCULAR SAW" -> Fair Price (score: 5/10, valid: true)
+[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
   "error": {
-    "code": 404,
-    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use
-[AI Evaluator] Gemini (gemini-1.5-flash) HTTP 404: {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
+[AI] "DEWALT CIRCULAR SAW" -> Fair Price (score: 5/10, valid: true)
+[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
   "error": {
-    "code": 404,
-    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. 
-[AI Evaluator] Gemini (gemini-2.5-flash) HTTP 404: {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
+[AI] "RYOBI IMPACT DRILL RID18" -> Great Deal (score: 7/10, valid: true)
+[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
   "error": {
-    "code": 404,
-    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use
-[AI Evaluator] Gemini (gemini-1.5-flash) HTTP 404: {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
+[AI] "RYOBI IMPACT DRILL RID18" -> Great Deal (score: 7/10, valid: true)
+[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
   "error": {
-    "code": 404,
-    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. 
-[AI Evaluator] Gemini (gemini-2.5-flash) HTTP 404: {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
+[AI] "AEG IMPACT DRIVER" -> Great Deal (score: 7/10, valid: true)
+[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
   "error": {
-    "code": 404,
-    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use
-[AI Evaluator] Gemini (gemini-1.5-flash) HTTP 404: {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
+[AI] "AEG IMPACT DRIVER" -> Great Deal (score: 7/10, valid: true)
+[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
   "error": {
-    "code": 404,
-    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. 
-[AI Evaluator] Gemini (gemini-2.5-flash) HTTP 404: {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
+[AI] "OZITO DRILL" -> Overpriced (score: 4/10, valid: true)
+[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {
   "error": {
-    "code": 404,
-    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use
-[AI Evaluator] Gemini (gemini-1.5-flash) HTTP 404: {
-  "error": {
-    "code": 404,
-    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. 
-[AI Evaluator] Gemini (gemini-2.5-flash) HTTP 404: {
-  "error": {
-    "code": 404,
-    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use
-[AI Evaluator] Gemini (gemini-1.5-flash) HTTP 404: {
-  "error": {
-    "code": 404,
-    "message": "models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. 
-Listings verified after AI assessment: 44
-Listing events detected: 44
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on t
+[AI] "OZITO DRILL" -> Overpriced (score: 4/10, valid: true)
+Listings verified after AI assessment: 64
+Listing events detected: 64
+Sending email alert for 26 event(s) to [REDACTED_EMAIL]...
+Email alert sent successfully.
 [UI] Generated index.html and feed.json in ./dist
 Market Watch run complete.

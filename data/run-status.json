@@ -7,8 +7,8 @@
     "typecheck": "success",
     "pipeline": "success"
   },
-  "commit": "66923515c61fa92dfce058f10aa9afa7d1f04064",
-  "runUrl": "https://github.com/Lukestaz/market-watch/actions/runs/36551334718",
-  "finishedAt": "2026-09-29T09:47:15.128Z",
-  "summary": "  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use\n[AI Evaluator] Gemini (gemini-1.5-flash) HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. \n[AI Evaluator] Gemini (gemini-2.5-flash) HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use\n[AI Evaluator] Gemini (gemini-1.5-flash) HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. \nListings verified after AI assessment: 44\nListing events detected: 44\n[UI] Generated index.html and feed.json in ./dist\nMarket Watch run complete.\n"
+  "commit": "ca065253a7758ed53b5ed9e6f0fde0e620b4a46e",
+  "runUrl": "https://github.com/Lukestaz/market-watch/actions/runs/36551855379",
+  "finishedAt": "2026-09-29T10:02:03.626Z",
+  "summary": "    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on t\n[AI] \"AEG IMPACT DRIVER\" -> Great Deal (score: 7/10, valid: true)\n[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on t\n[AI] \"OZITO DRILL\" -> Overpriced (score: 4/10, valid: true)\n[AI Evaluator] Gemini (gemini-flash-latest) HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on t\n[AI] \"OZITO DRILL\" -> Overpriced (score: 4/10, valid: true)\nListings verified after AI assessment: 64\nListing events detected: 64\nSending email alert for 26 event(s) to [REDACTED_EMAIL]...\nEmail alert sent successfully.\n[UI] Generated index.html and feed.json in ./dist\nMarket Watch run complete.\n"
 }

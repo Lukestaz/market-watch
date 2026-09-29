@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T09:46:56.797Z",
+  "updatedAt": "2026-09-29T09:51:51.037Z",
   "listings": {
     "dollardealers:dd-3481663": {
       "key": "dollardealers:dd-3481663",
@@ -17,14 +17,20 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:46:56.797Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:46:56.797Z",
-      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
       "id": "dd-3481663",
       "url": "https://dollardealers.co.nz/product/lg-65-smart-tv-2/",
       "priceText": "$749.00 incl. GST",
-      "rawText": "TVs LG 65 SMART TV $749.00 incl. GST"
+      "rawText": "TVs LG 65 SMART TV $749.00 incl. GST",
+      "ai": {
+        "isTruePositive": true,
+        "score": 5,
+        "verdict": "Fair Price",
+        "reason": "This is a genuine 65-inch LG Smart TV, but NZD $749 is around standard second-hand market value for an unspecified model."
+      }
     },
     "dollardealers:dd-lg-65-smart-tv-2": {
       "key": "dollardealers:dd-lg-65-smart-tv-2",
@@ -42,14 +48,20 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:46:56.797Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:46:56.797Z",
-      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
       "id": "dd-lg-65-smart-tv-2",
       "url": "https://dollardealers.co.nz/product/lg-65-smart-tv-2/",
       "priceText": "$749.00 incl. GST",
-      "rawText": "TVs LG 65 SMART TV $749.00 incl. GST"
+      "rawText": "TVs LG 65 SMART TV $749.00 incl. GST",
+      "ai": {
+        "isTruePositive": true,
+        "score": 7,
+        "verdict": "Great Deal",
+        "reason": "This is a true positive match for a 65-inch LG smart TV, and NZD $749 is a competitive price for a second-hand large-screen display in New Zealand."
+      }
     },
     "dollardealers:dd-3458094": {
       "key": "dollardealers:dd-3458094",
@@ -67,14 +79,20 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:46:56.797Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:46:56.797Z",
-      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
       "id": "dd-3458094",
       "url": "https://dollardealers.co.nz/product/lg-65-smart-tv/",
       "priceText": "$749.00 incl. GST",
-      "rawText": "Electronics and gaming LG 65″ Smart TV $749.00 incl. GST"
+      "rawText": "Electronics and gaming LG 65″ Smart TV $749.00 incl. GST",
+      "ai": {
+        "isTruePositive": true,
+        "score": 6,
+        "verdict": "Fair Price",
+        "reason": "It is a true positive match for a generic 65-inch TV, and NZD $749 is a fair average market price for a second-hand smart television of this size in New Zealand."
+      }
     },
     "dollardealers:dd-lg-65-smart-tv": {
       "key": "dollardealers:dd-lg-65-smart-tv",
@@ -92,14 +110,20 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:46:56.797Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:46:56.797Z",
-      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
       "id": "dd-lg-65-smart-tv",
       "url": "https://dollardealers.co.nz/product/lg-65-smart-tv/",
       "priceText": "$749.00 incl. GST",
-      "rawText": "Electronics and gaming LG 65″ Smart TV $749.00 incl. GST"
+      "rawText": "Electronics and gaming LG 65″ Smart TV $749.00 incl. GST",
+      "ai": {
+        "isTruePositive": true,
+        "score": 6,
+        "verdict": "Fair Price",
+        "reason": "This is a true positive match for a generic 65-inch TV, and NZD $749 is a fair second-hand market price for a working 65-inch smart display in New Zealand."
+      }
     },
     "dollardealers:dd-3486344": {
       "key": "dollardealers:dd-3486344",
@@ -115,14 +139,20 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:46:56.797Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:46:56.797Z",
-      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
       "id": "dd-3486344",
       "url": "https://dollardealers.co.nz/product/samsung-43-smart-tv-2/",
       "priceText": "$599.00 incl. GST",
-      "rawText": "Electronics and gaming Samsung 43″ Smart TV $599.00 incl. GST"
+      "rawText": "Electronics and gaming Samsung 43″ Smart TV $599.00 incl. GST",
+      "ai": {
+        "isTruePositive": true,
+        "score": 4,
+        "verdict": "Overpriced",
+        "reason": "It matches a 43-inch Samsung smart TV, but at $599 NZD it is significantly overpriced for second-hand compared to brand-new retail options available in New Zealand."
+      }
     },
     "dollardealers:dd-samsung-43-smart-tv-2": {
       "key": "dollardealers:dd-samsung-43-smart-tv-2",
@@ -138,14 +168,20 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:46:56.797Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:46:56.797Z",
-      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
       "id": "dd-samsung-43-smart-tv-2",
       "url": "https://dollardealers.co.nz/product/samsung-43-smart-tv-2/",
       "priceText": "$599.00 incl. GST",
-      "rawText": "Electronics and gaming Samsung 43″ Smart TV $599.00 incl. GST"
+      "rawText": "Electronics and gaming Samsung 43″ Smart TV $599.00 incl. GST",
+      "ai": {
+        "isTruePositive": true,
+        "score": 4,
+        "verdict": "Overpriced",
+        "reason": "At $599 NZD, this 43-inch Samsung smart TV is significantly overpriced for second-hand retail, as brand new equivalent models can often be found for a similar price."
+      }
     },
     "dollardealers:dd-3472974": {
       "key": "dollardealers:dd-3472974",
@@ -161,14 +197,20 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:46:56.797Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:46:56.797Z",
-      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
       "id": "dd-3472974",
       "url": "https://dollardealers.co.nz/product/lg-50-smart-television/",
       "priceText": "$699.00 incl. GST",
-      "rawText": "Electronics and gaming LG 50″ SMART TELEVISION $699.00 incl. GST"
+      "rawText": "Electronics and gaming LG 50″ SMART TELEVISION $699.00 incl. GST",
+      "ai": {
+        "isTruePositive": true,
+        "score": 3,
+        "verdict": "Overpriced",
+        "reason": "At $699 NZD, this 50-inch LG smart TV is significantly overpriced for a second-hand unit, given that brand new 50-inch 4K smart TVs can often be purchased retail for a similar or lower price."
+      }
     },
     "dollardealers:dd-lg-50-smart-television": {
       "key": "dollardealers:dd-lg-50-smart-television",
@@ -184,14 +226,20 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:46:56.797Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:46:56.797Z",
-      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
       "id": "dd-lg-50-smart-television",
       "url": "https://dollardealers.co.nz/product/lg-50-smart-television/",
       "priceText": "$699.00 incl. GST",
-      "rawText": "Electronics and gaming LG 50″ SMART TELEVISION $699.00 incl. GST"
+      "rawText": "Electronics and gaming LG 50″ SMART TELEVISION $699.00 incl. GST",
+      "ai": {
+        "isTruePositive": true,
+        "score": 3,
+        "verdict": "Overpriced",
+        "reason": "It matches the TV category, but $699 NZD for an unknown 50-inch LG smart TV model without condition details is significantly overpriced compared to new retail alternatives."
+      }
     },
     "dollardealers:dd-3431391": {
       "key": "dollardealers:dd-3431391",
@@ -209,14 +257,20 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:46:56.797Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:46:56.797Z",
-      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
       "id": "dd-3431391",
       "url": "https://dollardealers.co.nz/product/panasonic-65-4k-smart-tv-th-65lx800z/",
       "priceText": "$999.00 incl. GST",
-      "rawText": "TVs PANASONIC 65″ 4K SMART TV TH-65LX800Z $999.00 incl. GST"
+      "rawText": "TVs PANASONIC 65″ 4K SMART TV TH-65LX800Z $999.00 incl. GST",
+      "ai": {
+        "isTruePositive": true,
+        "score": 7,
+        "verdict": "Great Deal",
+        "reason": "This is a genuine 65-inch Panasonic 4K Smart TV priced competitively for the New Zealand second-hand market."
+      }
     },
     "dollardealers:dd-panasonic-65-4k-smart-tv-th-65lx800z": {
       "key": "dollardealers:dd-panasonic-65-4k-smart-tv-th-65lx800z",
@@ -234,14 +288,20 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:46:56.797Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:46:56.797Z",
-      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
       "id": "dd-panasonic-65-4k-smart-tv-th-65lx800z",
       "url": "https://dollardealers.co.nz/product/panasonic-65-4k-smart-tv-th-65lx800z/",
       "priceText": "$999.00 incl. GST",
-      "rawText": "TVs PANASONIC 65″ 4K SMART TV TH-65LX800Z $999.00 incl. GST"
+      "rawText": "TVs PANASONIC 65″ 4K SMART TV TH-65LX800Z $999.00 incl. GST",
+      "ai": {
+        "isTruePositive": true,
+        "score": 7,
+        "verdict": "Great Deal",
+        "reason": "This is a genuine 65-inch Panasonic 4K Smart TV at a competitive second-hand price point for the New Zealand market."
+      }
     },
     "dollardealers:dd-3424292": {
       "key": "dollardealers:dd-3424292",
@@ -257,14 +317,20 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:46:56.797Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:46:56.797Z",
-      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
       "id": "dd-3424292",
       "url": "https://dollardealers.co.nz/product/samsung-smart-tv/",
       "priceText": "$250.00 incl. GST",
-      "rawText": "TVs SAMSUNG SMART TV $250.00 incl. GST"
+      "rawText": "TVs SAMSUNG SMART TV $250.00 incl. GST",
+      "ai": {
+        "isTruePositive": true,
+        "score": 6,
+        "verdict": "Fair Price",
+        "reason": "The listing is for a Samsung Smart TV at NZD $250, which is a reasonable average market price for a used second-hand television."
+      }
     },
     "dollardealers:dd-samsung-smart-tv": {
       "key": "dollardealers:dd-samsung-smart-tv",
@@ -280,14 +346,20 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:46:56.797Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:46:56.797Z",
-      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
       "id": "dd-samsung-smart-tv",
       "url": "https://dollardealers.co.nz/product/samsung-smart-tv/",
       "priceText": "$250.00 incl. GST",
-      "rawText": "TVs SAMSUNG SMART TV $250.00 incl. GST"
+      "rawText": "TVs SAMSUNG SMART TV $250.00 incl. GST",
+      "ai": {
+        "isTruePositive": true,
+        "score": 6,
+        "verdict": "Fair Price",
+        "reason": "The listing is a Samsung Smart TV priced at $250 NZD, which represents a fair market price for a used standard television despite missing model and condition details."
+      }
     },
     "dollardealers:dd-3274636": {
       "key": "dollardealers:dd-3274636",
@@ -303,14 +375,20 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:46:56.797Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:46:56.797Z",
-      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
       "id": "dd-3274636",
       "url": "https://dollardealers.co.nz/product/lg-soundbar-s70ty/",
       "priceText": "$63.00 incl. GST",
-      "rawText": "Electronics and gaming LG SOUNDBAR S70TY $63.00 incl. GST"
+      "rawText": "Electronics and gaming LG SOUNDBAR S70TY $63.00 incl. GST",
+      "ai": {
+        "isTruePositive": true,
+        "score": 10,
+        "verdict": "Steal",
+        "reason": "This is a true positive match for the LG S70TY soundbar, and at NZD $63 it represents an incredible steal well below typical market value."
+      }
     },
     "dollardealers:dd-lg-soundbar-s70ty": {
       "key": "dollardealers:dd-lg-soundbar-s70ty",
@@ -326,14 +404,20 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:46:56.797Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:46:56.797Z",
-      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
       "id": "dd-lg-soundbar-s70ty",
       "url": "https://dollardealers.co.nz/product/lg-soundbar-s70ty/",
       "priceText": "$63.00 incl. GST",
-      "rawText": "Electronics and gaming LG SOUNDBAR S70TY $63.00 incl. GST"
+      "rawText": "Electronics and gaming LG SOUNDBAR S70TY $63.00 incl. GST",
+      "ai": {
+        "isTruePositive": true,
+        "score": 10,
+        "verdict": "Steal",
+        "reason": "The LG S70TY soundbar for NZD $63 is an incredible steal well below typical market value."
+      }
     },
     "dollardealers:dd-3131399": {
       "key": "dollardealers:dd-3131399",
@@ -441,14 +525,20 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:46:56.797Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:46:56.797Z",
-      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
       "id": "dd-3493762",
       "url": "https://dollardealers.co.nz/product/milwaukee-battery-m18-2-0ah/",
       "priceText": "$49.00 incl. GST",
-      "rawText": "Power tools MILWAUKEE BATTERY M18 2.0AH $49.00 incl. GST"
+      "rawText": "Power tools MILWAUKEE BATTERY M18 2.0AH $49.00 incl. GST",
+      "ai": {
+        "isTruePositive": true,
+        "score": 8,
+        "verdict": "Great Deal",
+        "reason": "This is a genuine Milwaukee M18 2.0Ah battery priced at $49 NZD, which is well below typical second-hand retail value."
+      }
     },
     "dollardealers:dd-milwaukee-battery-m18-2-0ah": {
       "key": "dollardealers:dd-milwaukee-battery-m18-2-0ah",
@@ -464,14 +554,20 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:46:56.797Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:46:56.797Z",
-      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
       "id": "dd-milwaukee-battery-m18-2-0ah",
       "url": "https://dollardealers.co.nz/product/milwaukee-battery-m18-2-0ah/",
       "priceText": "$49.00 incl. GST",
-      "rawText": "Power tools MILWAUKEE BATTERY M18 2.0AH $49.00 incl. GST"
+      "rawText": "Power tools MILWAUKEE BATTERY M18 2.0AH $49.00 incl. GST",
+      "ai": {
+        "isTruePositive": true,
+        "score": 8,
+        "verdict": "Great Deal",
+        "reason": "This is a genuine Milwaukee M18 2.0Ah battery priced significantly below typical second-hand retail value in New Zealand."
+      }
     },
     "dollardealers:dd-3483419": {
       "key": "dollardealers:dd-3483419",
@@ -533,14 +629,20 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:46:56.797Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:46:56.797Z",
-      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
       "id": "dd-3479570",
       "url": "https://dollardealers.co.nz/product/russel-hobbs-multi-cooker-rhmc20/",
       "priceText": "$99.00 incl. GST",
-      "rawText": "Kitchen Appliances RUSSEL HOBBS MULTI COOKER RHMC20 $99.00 incl. GST"
+      "rawText": "Kitchen Appliances RUSSEL HOBBS MULTI COOKER RHMC20 $99.00 incl. GST",
+      "ai": {
+        "isTruePositive": true,
+        "score": 6,
+        "verdict": "Fair Price",
+        "reason": "It is a true positive match for the Russell Hobbs multi-cooker, and $99 NZD is a fair second-hand market price."
+      }
     },
     "dollardealers:dd-russel-hobbs-multi-cooker-rhmc20": {
       "key": "dollardealers:dd-russel-hobbs-multi-cooker-rhmc20",
@@ -556,10 +658,10 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:46:56.797Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:46:56.797Z",
-      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
       "id": "dd-russel-hobbs-multi-cooker-rhmc20",
       "url": "https://dollardealers.co.nz/product/russel-hobbs-multi-cooker-rhmc20/",
       "priceText": "$99.00 incl. GST",
@@ -579,10 +681,10 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:46:56.797Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:46:56.797Z",
-      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
       "id": "dd-3465311",
       "url": "https://dollardealers.co.nz/product/ryobi-drill-r18ddp2-and-battery/",
       "priceText": "$79.00 incl. GST",
@@ -602,10 +704,10 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:46:56.797Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:46:56.797Z",
-      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
       "id": "dd-ryobi-drill-r18ddp2-and-battery",
       "url": "https://dollardealers.co.nz/product/ryobi-drill-r18ddp2-and-battery/",
       "priceText": "$79.00 incl. GST",
@@ -625,10 +727,10 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:46:56.797Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:46:56.797Z",
-      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
       "id": "dd-3395594",
       "url": "https://dollardealers.co.nz/product/dyson-hair-airstraightener/",
       "priceText": "$299.00 incl. GST",
@@ -648,10 +750,10 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:46:56.797Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:46:56.797Z",
-      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
       "id": "dd-dyson-hair-airstraightener",
       "url": "https://dollardealers.co.nz/product/dyson-hair-airstraightener/",
       "priceText": "$299.00 incl. GST",
@@ -671,10 +773,10 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:46:56.797Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:46:56.797Z",
-      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
       "id": "dd-3350760",
       "url": "https://dollardealers.co.nz/product/aple-ipad-pro-11-256g/",
       "priceText": "$899.00 incl. GST",
@@ -694,10 +796,10 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:46:56.797Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:46:56.797Z",
-      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
       "id": "dd-aple-ipad-pro-11-256g",
       "url": "https://dollardealers.co.nz/product/aple-ipad-pro-11-256g/",
       "priceText": "$899.00 incl. GST",
@@ -720,15 +822,14 @@
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:46:56.797Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:46:56.797Z",
-      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
       "id": "dd-3102579",
       "url": "https://dollardealers.co.nz/product/aeg-drill-and-battery-a18idb3/",
       "priceText": "$220.00 incl. GST",
-      "rawText": "Power tools AEG DRILL AND BATTERY A18IDB3 $220.00 incl. GST by DollarDealers Hamilton East View Store Details AEG Drill A18IDB3 with Battery – Powerful 18V cordless drill/driver designed for drilling and fastening in wood, metal, and plastic. Features a compact, ergonomic design with variable speed control for precision and comfort during use. Comes with a compatible AEG battery, making it ready for work on DIY or professional projects. This item comes with a 30 day warranty (excluding the battery) with an optional 120 day purchase protection plan that can be purchased for an additional 10% for extra cover and peace of mind. SKU:338896",
-      "modelNumber": "338896"
+      "rawText": "Power tools AEG DRILL AND BATTERY A18IDB3 $220.00 incl. GST by DollarDealers Hamilton East View Store Details"
     },
     "dollardealers:dd-aeg-drill-and-battery-a18idb3": {
       "key": "dollardealers:dd-aeg-drill-and-battery-a18idb3",
@@ -747,15 +848,14 @@
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:46:56.797Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:46:56.797Z",
-      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
       "id": "dd-aeg-drill-and-battery-a18idb3",
       "url": "https://dollardealers.co.nz/product/aeg-drill-and-battery-a18idb3/",
       "priceText": "$220.00 incl. GST",
-      "rawText": "Power tools AEG DRILL AND BATTERY A18IDB3 $220.00 incl. GST AEG Drill A18IDB3 with Battery – Powerful 18V cordless drill/driver designed for drilling and fastening in wood, metal, and plastic. Features a compact, ergonomic design with variable speed control for precision and comfort during use. Comes with a compatible AEG battery, making it ready for work on DIY or professional projects. This item comes with a 30 day warranty (excluding the battery) with an optional 120 day purchase protection plan that can be purchased for an additional 10% for extra cover and peace of mind. SKU:338896",
-      "modelNumber": "338896"
+      "rawText": "Power tools AEG DRILL AND BATTERY A18IDB3 $220.00 incl. GST"
     },
     "dollardealers:dd-3124236": {
       "key": "dollardealers:dd-3124236",
@@ -773,15 +873,14 @@
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:46:56.797Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:46:56.797Z",
-      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
       "id": "dd-3124236",
       "url": "https://dollardealers.co.nz/product/milwaukee-circular-saw/",
       "priceText": "$210.00 incl. GST",
-      "rawText": "Power tools MILWAUKEE CIRCULAR SAW $210.00 incl. GST by DollarDealers Papakura View Store Details Milwaukee circular saw skin only in good working condition, ideal for reliable cutting performance. Comes with a 30 day warranty, with optional 120 day purchase protection available for an additional 10 percent. Shipping can be arranged at the buyer’s expense.",
-      "modelNumber": "338361"
+      "rawText": "Power tools MILWAUKEE CIRCULAR SAW $210.00 incl. GST by DollarDealers Papakura View Store Details"
     },
     "dollardealers:dd-milwaukee-circular-saw": {
       "key": "dollardealers:dd-milwaukee-circular-saw",
@@ -799,15 +898,14 @@
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:46:56.797Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:46:56.797Z",
-      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
       "id": "dd-milwaukee-circular-saw",
       "url": "https://dollardealers.co.nz/product/milwaukee-circular-saw/",
       "priceText": "$210.00 incl. GST",
-      "rawText": "Power tools MILWAUKEE CIRCULAR SAW $210.00 incl. GST Milwaukee circular saw skin only in good working condition, ideal for reliable cutting performance. Comes with a 30 day warranty, with optional 120 day purchase protection available for an additional 10 percent. Shipping can be arranged at the buyer’s expense.",
-      "modelNumber": "338361"
+      "rawText": "Power tools MILWAUKEE CIRCULAR SAW $210.00 incl. GST"
     },
     "dollardealers:dd-3163278": {
       "key": "dollardealers:dd-3163278",
@@ -825,15 +923,14 @@
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:46:56.797Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:46:56.797Z",
-      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
       "id": "dd-3163278",
       "url": "https://dollardealers.co.nz/product/milwaukee-m18-charger-radio/",
       "priceText": "$249.00 incl. GST",
-      "rawText": "Power tools MILWAUKEE M18 CHARGER RADIO $249.00 incl. GST by DollarDealers New Lynn, Auckland View Store Details The Milwaukee M18 Charger Radio is a rugged jobsite speaker designed for tradies, combining a Bluetooth radio and battery charger in one unit. It delivers strong sound through a 40W amplifier, streams music wirelessly up to around 30m, and charges all M18 batteries while you work. Built with a reinforced roll cage and weather-sealed storage, it’s made to handle tough site conditions. **THIS ITEM IS AVAILABLE FOR PICKUP ONLY, WE CANNOT SHIP THIS** THIS ITEM COMES WITH A 30 DAY WARRANTY. 120 DAY PURCHASE PROTECTION PLAN CAN BE PURCHASED AT AN ADDITIONAL COST FOR EXTRA COVER AND PEACE OF MIND. THIS ITEM IS AVAILABLE TO VIEW AT NEW LYNN DOLLAR DEALERS. LOCATED AT 30 DELTA AVENUE. WE ARE OPEN 7 DAYS A WEEK FROM 9AM-5PM. STOCK NUMBER: 342488",
-      "modelNumber": "342488"
+      "rawText": "Power tools MILWAUKEE M18 CHARGER RADIO $249.00 incl. GST by DollarDealers New Lynn, Auckland View Store Details"
     },
     "dollardealers:dd-milwaukee-m18-charger-radio": {
       "key": "dollardealers:dd-milwaukee-m18-charger-radio",
@@ -851,15 +948,14 @@
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:46:56.797Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:46:56.797Z",
-      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
       "id": "dd-milwaukee-m18-charger-radio",
       "url": "https://dollardealers.co.nz/product/milwaukee-m18-charger-radio/",
       "priceText": "$249.00 incl. GST",
-      "rawText": "Power tools MILWAUKEE M18 CHARGER RADIO $249.00 incl. GST The Milwaukee M18 Charger Radio is a rugged jobsite speaker designed for tradies, combining a Bluetooth radio and battery charger in one unit. It delivers strong sound through a 40W amplifier, streams music wirelessly up to around 30m, and charges all M18 batteries while you work. Built with a reinforced roll cage and weather-sealed storage, it’s made to handle tough site conditions. **THIS ITEM IS AVAILABLE FOR PICKUP ONLY, WE CANNOT SHIP THIS** THIS ITEM COMES WITH A 30 DAY WARRANTY. 120 DAY PURCHASE PROTECTION PLAN CAN BE PURCHASED AT AN ADDITIONAL COST FOR EXTRA COVER AND PEACE OF MIND. THIS ITEM IS AVAILABLE TO VIEW AT NEW LYNN DOLLAR DEALERS. LOCATED AT 30 DELTA AVENUE. WE ARE OPEN 7 DAYS A WEEK FROM 9AM-5PM. STOCK NUMBER: 342488",
-      "modelNumber": "342488"
+      "rawText": "Power tools MILWAUKEE M18 CHARGER RADIO $249.00 incl. GST"
     },
     "dollardealers:dd-2756700": {
       "key": "dollardealers:dd-2756700",
@@ -874,14 +970,20 @@
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:46:56.797Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:46:56.797Z",
-      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
       "id": "dd-2756700",
       "url": "https://dollardealers.co.nz/product/dewalt-circular-saw/",
       "priceText": "",
-      "rawText": "Hand tools DEWALT CIRCULAR SAW"
+      "rawText": "Hand tools DEWALT CIRCULAR SAW",
+      "ai": {
+        "isTruePositive": true,
+        "score": 5,
+        "verdict": "Fair Price",
+        "reason": "The item is a genuine DEWALT circular saw, but lacking a price or model number makes a definitive deal assessment impossible."
+      }
     },
     "dollardealers:dd-dewalt-circular-saw": {
       "key": "dollardealers:dd-dewalt-circular-saw",
@@ -896,14 +998,20 @@
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:46:56.797Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:46:56.797Z",
-      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
       "id": "dd-dewalt-circular-saw",
       "url": "https://dollardealers.co.nz/product/dewalt-circular-saw/",
       "priceText": "",
-      "rawText": "Hand tools DEWALT CIRCULAR SAW"
+      "rawText": "Hand tools DEWALT CIRCULAR SAW",
+      "ai": {
+        "isTruePositive": true,
+        "score": 5,
+        "verdict": "Fair Price",
+        "reason": "The listing is a valid Dewalt circular saw match, but without a price or model number, the deal value cannot be accurately assessed."
+      }
     },
     "dollardealers:dd-3173515": {
       "key": "dollardealers:dd-3173515",
@@ -919,14 +1027,20 @@
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:46:56.797Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:46:56.797Z",
-      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
       "id": "dd-3173515",
       "url": "https://dollardealers.co.nz/product/ryobi-impact-drill-rid18-2/",
       "priceText": "$85.00 incl. GST",
-      "rawText": "Power tools RYOBI IMPACT DRILL RID18 $85.00 incl. GST by DollarDealers Hamilton East View Store Details"
+      "rawText": "Power tools RYOBI IMPACT DRILL RID18 $85.00 incl. GST by DollarDealers Hamilton East View Store Details",
+      "ai": {
+        "isTruePositive": true,
+        "score": 7,
+        "verdict": "Great Deal",
+        "reason": "This is a legitimate Ryobi 18V impact driver offered at a solid below-market price for the tool-only unit."
+      }
     },
     "dollardealers:dd-ryobi-impact-drill-rid18-2": {
       "key": "dollardealers:dd-ryobi-impact-drill-rid18-2",
@@ -942,14 +1056,20 @@
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:46:56.797Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:46:56.797Z",
-      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
       "id": "dd-ryobi-impact-drill-rid18-2",
       "url": "https://dollardealers.co.nz/product/ryobi-impact-drill-rid18-2/",
       "priceText": "$85.00 incl. GST",
-      "rawText": "Power tools RYOBI IMPACT DRILL RID18 $85.00 incl. GST"
+      "rawText": "Power tools RYOBI IMPACT DRILL RID18 $85.00 incl. GST",
+      "ai": {
+        "isTruePositive": true,
+        "score": 7,
+        "verdict": "Great Deal",
+        "reason": "Ryobi 18V impact drills generally command higher resale value in New Zealand, making $85 a solid bargain if skin-only or with battery."
+      }
     },
     "dollardealers:dd-3158669": {
       "key": "dollardealers:dd-3158669",
@@ -967,15 +1087,20 @@
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:46:56.797Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:46:56.797Z",
-      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
       "id": "dd-3158669",
       "url": "https://dollardealers.co.nz/product/aeg-impact-driver-3/",
       "priceText": "$60.00 incl. GST",
-      "rawText": "Power tools AEG IMPACT DRIVER $60.00 incl. GST by DollarDealers Rotorua View Store Details AEG IMPACT DRIVER Stock Number: 344152 THIS ITEM HAS BEEN DISCONTINUED This item comes with a 30-day warrantyA 120-day Purchase Protection Plans can be purchased at 10% of the cost for extra cover & peace of mind.",
-      "modelNumber": "344152"
+      "rawText": "Power tools AEG IMPACT DRIVER $60.00 incl. GST by DollarDealers Rotorua View Store Details",
+      "ai": {
+        "isTruePositive": true,
+        "score": 7,
+        "verdict": "Great Deal",
+        "reason": "This is a genuine AEG impact driver offered at a competitive second-hand price of NZD $60, making it a solid bargain for a bare tool."
+      }
     },
     "dollardealers:dd-aeg-impact-driver-3": {
       "key": "dollardealers:dd-aeg-impact-driver-3",
@@ -993,15 +1118,20 @@
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:46:56.797Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:46:56.797Z",
-      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
       "id": "dd-aeg-impact-driver-3",
       "url": "https://dollardealers.co.nz/product/aeg-impact-driver-3/",
       "priceText": "$60.00 incl. GST",
-      "rawText": "Power tools AEG IMPACT DRIVER $60.00 incl. GST AEG IMPACT DRIVER Stock Number: 344152 THIS ITEM HAS BEEN DISCONTINUED This item comes with a 30-day warrantyA 120-day Purchase Protection Plans can be purchased at 10% of the cost for extra cover & peace of mind.",
-      "modelNumber": "344152"
+      "rawText": "Power tools AEG IMPACT DRIVER $60.00 incl. GST",
+      "ai": {
+        "isTruePositive": true,
+        "score": 7,
+        "verdict": "Great Deal",
+        "reason": "This is a genuine cordless power tool from a reputable brand priced affordably for quick sale, offering good value assuming battery and charger are functional."
+      }
     },
     "dollardealers:dd-3105149": {
       "key": "dollardealers:dd-3105149",
@@ -1020,15 +1150,20 @@
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:46:56.797Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:46:56.797Z",
-      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
       "id": "dd-3105149",
       "url": "https://dollardealers.co.nz/product/ozito-drill-2/",
       "priceText": "$70.00 incl. GST",
-      "rawText": "Power tools OZITO DRILL $70.00 incl. GST by DollarDealers Papakura View Store Details OZITO DRILL PXDDS-180 S/N:2024/06/OZI-24-2621-AU IMEI:5XSFDOG good condition ozito pxdds-180 cordless drill with 2.5ah battery and charger. reliable and easy to use for drilling and fastening tasks around the home or workshop. tested and working well. We do offer a 30 Day warranty on this item. A Purchase Protection Plan with 120 days of warranty can be purchased for an additional 10% for extra coverage and peace of mind.",
-      "modelNumber": "339136"
+      "rawText": "Power tools OZITO DRILL $70.00 incl. GST by DollarDealers Papakura View Store Details",
+      "ai": {
+        "isTruePositive": true,
+        "score": 4,
+        "verdict": "Overpriced",
+        "reason": "It matches the category of a power drill, but $70 for a used entry-level Ozito with no model specified or condition provided is too close to retail price for a second-hand item."
+      }
     },
     "dollardealers:dd-ozito-drill-2": {
       "key": "dollardealers:dd-ozito-drill-2",
@@ -1047,15 +1182,719 @@
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T09:46:56.797Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
       "status": "active",
-      "firstSeen": "2026-09-29T09:46:56.797Z",
-      "lastSeen": "2026-09-29T09:46:56.797Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
       "id": "dd-ozito-drill-2",
       "url": "https://dollardealers.co.nz/product/ozito-drill-2/",
       "priceText": "$70.00 incl. GST",
-      "rawText": "Power tools OZITO DRILL $70.00 incl. GST OZITO DRILL PXDDS-180 S/N:2024/06/OZI-24-2621-AU IMEI:5XSFDOG good condition ozito pxdds-180 cordless drill with 2.5ah battery and charger. reliable and easy to use for drilling and fastening tasks around the home or workshop. tested and working well. We do offer a 30 Day warranty on this item. A Purchase Protection Plan with 120 days of warranty can be purchased for an additional 10% for extra coverage and peace of mind.",
-      "modelNumber": "339136"
+      "rawText": "Power tools OZITO DRILL $70.00 incl. GST",
+      "ai": {
+        "isTruePositive": true,
+        "score": 4,
+        "verdict": "Overpriced",
+        "reason": "It is a cordless Ozito drill, but $70 is too close to the price of a brand new one with a warranty from Bunnings."
+      }
+    },
+    "cashconverters:cc-181586644": {
+      "id": "cc-181586644",
+      "title": "Lg Tv - 65 Inch 4K Uhd Smart Led 65UP7550PVG",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/181586644/Lg-Tv-65-Inch-4K-Uhd-Smart-Led-65UP7550PVG",
+      "priceText": "",
+      "rawText": "Lg Tv - 65 Inch 4K Uhd Smart Led 65UP7550PVG Seller: CCMountRoskill",
+      "key": "cashconverters:cc-181586644",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-181586644",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/181586644/Lg-Tv-65-Inch-4K-Uhd-Smart-Led-65UP7550PVG",
+      "priority": "normal",
+      "matchedRules": [
+        "rule-a-normal-65"
+      ],
+      "searchIds": [
+        "src-a-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T09:51:51.037Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
+      "ai": {
+        "isTruePositive": true,
+        "score": 5,
+        "verdict": "Fair Price",
+        "reason": "The listing is for a 65-inch LG 4K Smart LED TV matching the generic size criteria, though the lack of a listed price makes specific deal evaluation neutral."
+      }
+    },
+    "cashconverters:cc-176885402": {
+      "id": "cc-176885402",
+      "title": "Lg Tv 50 Inch",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/176885402/Lg-Tv-50-Inch",
+      "priceText": "",
+      "rawText": "Lg Tv 50 Inch Seller: CCOtahuhu",
+      "key": "cashconverters:cc-176885402",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-176885402",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/176885402/Lg-Tv-50-Inch",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T09:51:51.037Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
+      "ai": {
+        "isTruePositive": true,
+        "score": 5,
+        "verdict": "Fair Price",
+        "reason": "The listing is for a 50-inch LG TV which matches the target item, but the price is unknown making it impossible to determine deal attractiveness."
+      }
+    },
+    "cashconverters:cc-175723774": {
+      "id": "cc-175723774",
+      "title": "Lg Monitor / Smart Tv",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/175723774/Lg-Monitor-Smart-Tv",
+      "priceText": "",
+      "rawText": "Lg Monitor / Smart Tv Seller: CCOtahuhu",
+      "key": "cashconverters:cc-175723774",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-175723774",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/175723774/Lg-Monitor-Smart-Tv",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T09:51:51.037Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
+      "ai": {
+        "isTruePositive": true,
+        "score": 5,
+        "verdict": "Fair Price",
+        "reason": "The listing is for an LG monitor or smart TV, but the price is unknown, making a valuation assessment neutral."
+      }
+    },
+    "cashconverters:cc-177596871": {
+      "id": "cc-177596871",
+      "title": "Lg Smart Tv **65Inch/Loose Base** OLED65C56LA",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/177596871/Lg-Smart-Tv-65InchLoose-Base-OLED65C56LA",
+      "priceText": "",
+      "rawText": "Lg Smart Tv **65Inch/Loose Base** OLED65C56LA Seller: CCHenderson",
+      "key": "cashconverters:cc-177596871",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-177596871",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/177596871/Lg-Smart-Tv-65InchLoose-Base-OLED65C56LA",
+      "priority": "normal",
+      "matchedRules": [
+        "rule-a-normal-65"
+      ],
+      "searchIds": [
+        "src-a-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T09:51:51.037Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
+      "ai": {
+        "isTruePositive": true,
+        "score": 5,
+        "verdict": "Fair Price",
+        "reason": "It is a true positive match for a 65-inch LG OLED TV, though the price is unknown and it features a loose base."
+      }
+    },
+    "cashconverters:cc-177692227": {
+      "id": "cc-177692227",
+      "title": "Lg 65 Inch Smart Oled Tv OLED65C36LA",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/177692227/Lg-65-Inch-Smart-Oled-Tv-OLED65C36LA",
+      "priceText": "",
+      "rawText": "Lg 65 Inch Smart Oled Tv OLED65C36LA Seller: CCGlenInnes Lg 65 Inch Smart Oled Tv Model: OLED65C36LA With remote *** Want to get rid of your old items/ unwanted presents or thinking to upgrade *** We can help with that *** Bring your good quality goods for instant cash on the spot! All you need is your item, mobile phone, and a valid photo ID. *** Looking to buy presents for friends and family with affordable prices *** We got everyone covered at Cash Converters Glen Innes Please come and visit us in our Glen Innes store for a wide range of products 7 days a week or alternatively you can shop online. If you need any help, please chat with one of our friendly staff. Goods are offered for sale under the following conditions: Goods must be paid for within 5 working days of the auction finishing. Goods have a 90-days warranty or longer as required by the Consumer Guarantees Act ID Required upon pick up. Online payments only - Credit and debit cards (MasterCard and Visa) and direct deposit. No instore payments accepted. Store Contact Address: 231 Taniwha Street, Glen Innes, Auckland 1072 Phone: 09-973 4268",
+      "key": "cashconverters:cc-177692227",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-177692227",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/177692227/Lg-65-Inch-Smart-Oled-Tv-OLED65C36LA",
+      "priority": "high",
+      "matchedRules": [
+        "rule-a-high-oled",
+        "rule-a-normal-65"
+      ],
+      "searchIds": [
+        "src-a-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T09:51:51.037Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
+      "ai": {
+        "isTruePositive": true,
+        "score": 8,
+        "verdict": "Great Deal",
+        "reason": "The item is a 65-inch LG OLED TV which matches the target panel category, and modern C3-series OLEDs typically offer strong second-hand value when priced reasonably."
+      }
+    },
+    "cashconverters:cc-178806529": {
+      "id": "cc-178806529",
+      "title": "Lg Tv",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/178806529/Lg-Tv",
+      "priceText": "",
+      "rawText": "Lg Tv B3437131-1 Seller: CCHastings",
+      "key": "cashconverters:cc-178806529",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-178806529",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/178806529/Lg-Tv",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T09:51:51.037Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
+      "ai": {
+        "isTruePositive": true,
+        "score": 5,
+        "verdict": "Fair Price",
+        "reason": "The listing is for a generic LG TV with unknown price and condition, making it a baseline fair market consideration pending further details."
+      }
+    },
+    "cashconverters:cc-178481039": {
+      "id": "cc-178481039",
+      "title": "Lg Smart Tv 55INCH",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/178481039/Lg-Smart-Tv-55INCH",
+      "priceText": "",
+      "rawText": "Lg Smart Tv 55INCH Seller: CCTakanini",
+      "key": "cashconverters:cc-178481039",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-178481039",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/178481039/Lg-Smart-Tv-55INCH",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T09:51:51.037Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
+      "ai": {
+        "isTruePositive": true,
+        "score": 5,
+        "verdict": "Fair Price",
+        "reason": "The listing is a valid 55-inch LG Smart TV, but with an unknown price and missing model number, it represents average market value potential."
+      }
+    },
+    "cashconverters:cc-176718695": {
+      "id": "cc-176718695",
+      "title": "Lg Tv SMART UHD UA73 A1 50UA7350PSB",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/176718695/Lg-Tv-SMART-UHD-UA73-A1-50UA7350PSB",
+      "priceText": "",
+      "rawText": "Lg Tv SMART UHD UA73 A1 50UA7350PSB Seller: CCWhangarei",
+      "key": "cashconverters:cc-176718695",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-176718695",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/176718695/Lg-Tv-SMART-UHD-UA73-A1-50UA7350PSB",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T09:51:51.037Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
+      "ai": {
+        "isTruePositive": true,
+        "score": 5,
+        "verdict": "Fair Price",
+        "reason": "The listing correctly matches the LG 50-inch Smart UHD TV model, but lacks a specified price for a definitive valuation."
+      }
+    },
+    "cashconverters:cc-183865694": {
+      "id": "cc-183865694",
+      "title": "Lg 32 Inch Tv 32LF510B",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/183865694/Lg-32-Inch-Tv-32LF510B",
+      "priceText": "",
+      "rawText": "Lg 32 Inch Tv 32LF510B Seller: CCHenderson",
+      "key": "cashconverters:cc-183865694",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-183865694",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/183865694/Lg-32-Inch-Tv-32LF510B",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T09:51:51.037Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
+      "ai": {
+        "isTruePositive": true,
+        "score": 5,
+        "verdict": "Fair Price",
+        "reason": "It is a genuine LG 32-inch TV, but without a listed price or condition, it sits at a neutral baseline market value."
+      }
+    },
+    "cashconverters:cc-183885802": {
+      "id": "cc-183885802",
+      "title": "Lg Smart Tv 42LA6230 HK117",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/183885802/Lg-Smart-Tv-42LA6230-HK117",
+      "priceText": "",
+      "rawText": "Lg Smart Tv 42LA6230 HK117 Seller: CCOtara",
+      "key": "cashconverters:cc-183885802",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-183885802",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/183885802/Lg-Smart-Tv-42LA6230-HK117",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T09:51:51.037Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
+      "ai": {
+        "isTruePositive": true,
+        "score": 5,
+        "verdict": "Fair Price",
+        "reason": "This is a true positive match for an LG Smart TV model 42LA6230, but valuation cannot be determined without a listed price."
+      }
+    },
+    "cashconverters:cc-182773400": {
+      "id": "cc-182773400",
+      "title": "Lg Tv 43 Inch 43LH511T-TE",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/182773400/Lg-Tv-43-Inch-43LH511TTE",
+      "priceText": "",
+      "rawText": "Lg Tv 43 Inch 43LH511T-TE Seller: CCManukau",
+      "key": "cashconverters:cc-182773400",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-182773400",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/182773400/Lg-Tv-43-Inch-43LH511TTE",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T09:51:51.037Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
+      "ai": {
+        "isTruePositive": true,
+        "score": 5,
+        "verdict": "Fair Price",
+        "reason": "The item is a true positive 43-inch LG TV, but without a listed price, it defaults to a fair market evaluation pending cost details."
+      }
+    },
+    "cashconverters:cc-183913079": {
+      "id": "cc-183913079",
+      "title": "Lg Smart Tv 55INCH 55UH770T",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/183913079/Lg-Smart-Tv-55INCH-55UH770T",
+      "priceText": "",
+      "rawText": "Lg Smart Tv 55INCH 55UH770T Seller: CCDunedin",
+      "key": "cashconverters:cc-183913079",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-183913079",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/183913079/Lg-Smart-Tv-55INCH-55UH770T",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T09:51:51.037Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
+      "ai": {
+        "isTruePositive": true,
+        "score": 5,
+        "verdict": "Fair Price",
+        "reason": "The listing is for a 55-inch LG Smart TV (55UH770T), which is a relevant electronics item, though price is unknown."
+      }
+    },
+    "cashconverters:cc-176383491": {
+      "id": "cc-176383491",
+      "title": "Lg Tv 43 INCH AI 4K UHD UA8450",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/176383491/Lg-Tv-43-INCH-AI-4K-UHD-UA8450",
+      "priceText": "",
+      "rawText": "Lg Tv 43 INCH AI 4K UHD UA8450 Seller: CCWanganui",
+      "key": "cashconverters:cc-176383491",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-176383491",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/176383491/Lg-Tv-43-INCH-AI-4K-UHD-UA8450",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T09:51:51.037Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
+      "ai": {
+        "isTruePositive": true,
+        "score": 6,
+        "verdict": "Fair Price",
+        "reason": "It is a valid match for a 43-inch LG 4K UHD smart TV, but the price is currently unknown to evaluate further."
+      }
+    },
+    "cashconverters:cc-174908497": {
+      "id": "cc-174908497",
+      "title": "Lg Tv 50 Inch",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/174908497/Lg-Tv-50-Inch",
+      "priceText": "",
+      "rawText": "Lg Tv 50 Inch Seller: CCOtahuhu",
+      "key": "cashconverters:cc-174908497",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-174908497",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/174908497/Lg-Tv-50-Inch",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T09:51:51.037Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
+      "ai": {
+        "isTruePositive": true,
+        "score": 5,
+        "verdict": "Fair Price",
+        "reason": "The listing is a valid 50-inch LG TV match, but the unknown price prevents a definitive deal assessment."
+      }
+    },
+    "cashconverters:cc-176753154": {
+      "id": "cc-176753154",
+      "title": "Lg (52A) Tv TV 70 7OUP7550PVD",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/176753154/Lg-52A-Tv-TV-70-7OUP7550PVD",
+      "priceText": "",
+      "rawText": "Lg (52A) Tv TV 70 7OUP7550PVD Seller: CCHastings",
+      "key": "cashconverters:cc-176753154",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-176753154",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/176753154/Lg-52A-Tv-TV-70-7OUP7550PVD",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T09:51:51.037Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
+      "ai": {
+        "isTruePositive": true,
+        "score": 5,
+        "verdict": "Fair Price",
+        "reason": "The listing is for an LG 70-inch 4K Smart TV, but since the price is unknown, it defaults to a fair market evaluation pending a price update."
+      }
+    },
+    "cashconverters:cc-177903224": {
+      "id": "cc-177903224",
+      "title": "Lg Tv 49 Inch***SCRATCH ON THE SCREEN***",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/177903224/Lg-Tv-49-InchSCRATCH-ON-THE-SCREEN",
+      "priceText": "",
+      "rawText": "Lg Tv 49 Inch***SCRATCH ON THE SCREEN*** Seller: CCOtahuhu",
+      "key": "cashconverters:cc-177903224",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-177903224",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/177903224/Lg-Tv-49-InchSCRATCH-ON-THE-SCREEN",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T09:51:51.037Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z"
+    },
+    "cashconverters:cc-177950962": {
+      "id": "cc-177950962",
+      "title": "Lg Tv 55 Inch Smart 55QNED866QA",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/177950962/Lg-Tv-55-Inch-Smart-55QNED866QA",
+      "priceText": "",
+      "rawText": "Lg Tv 55 Inch Smart 55QNED866QA Seller: CCOtara",
+      "key": "cashconverters:cc-177950962",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-177950962",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/177950962/Lg-Tv-55-Inch-Smart-55QNED866QA",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T09:51:51.037Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
+      "ai": {
+        "isTruePositive": true,
+        "score": 6,
+        "verdict": "Fair Price",
+        "reason": "This is a legitimate 55-inch LG QNED smart TV, but without a listed price, valuation is assumed around standard second-hand market value."
+      }
+    },
+    "cashconverters:cc-178481835": {
+      "id": "cc-178481835",
+      "title": "Lg Smart Tv 50 Inch 4K Ultra Hd Led 50UA8450PSA",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/178481835/Lg-Smart-Tv-50-Inch-4K-Ultra-Hd-Led-50UA8450PSA",
+      "priceText": "",
+      "rawText": "Lg Smart Tv 50 Inch 4K Ultra Hd Led 50UA8450PSA Seller: CCPapakura",
+      "key": "cashconverters:cc-178481835",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-178481835",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/178481835/Lg-Smart-Tv-50-Inch-4K-Ultra-Hd-Led-50UA8450PSA",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T09:51:51.037Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
+      "ai": {
+        "isTruePositive": true,
+        "score": 5,
+        "verdict": "Fair Price",
+        "reason": "The item is a true positive 50-inch LG 4K Smart TV, but the price is unknown making it impossible to rate as a steal."
+      }
+    },
+    "cashconverters:cc-178966897": {
+      "id": "cc-178966897",
+      "title": "Lg Tv 48 Inch Smart",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/178966897/Lg-Tv-48-Inch-Smart",
+      "priceText": "",
+      "rawText": "Lg Tv 48 Inch Smart Seller: CCOtahuhu",
+      "key": "cashconverters:cc-178966897",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-178966897",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/178966897/Lg-Tv-48-Inch-Smart",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T09:51:51.037Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
+      "ai": {
+        "isTruePositive": true,
+        "score": 5,
+        "verdict": "Fair Price",
+        "reason": "The listing is a valid 48-inch LG Smart TV, but with an unknown price, it is assessed at a neutral market average."
+      }
+    },
+    "cashconverters:cc-183376642": {
+      "id": "cc-183376642",
+      "title": "Lg Tv 32 Inch Lcd ***No Remote*** 32LG30R-TA ***NO REMOTE AND HDMI PORT NOT WORK",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/183376642/Lg-Tv-32-Inch-Lcd-No-Remote-32LG30RTA-NO-REMOTE-AND-HDMI-PORT-NOT-WORK",
+      "priceText": "",
+      "rawText": "Lg Tv 32 Inch Lcd ***No Remote*** 32LG30R-TA ***NO REMOTE AND HDMI PORT NOT WORK Seller: CCPapakura",
+      "key": "cashconverters:cc-183376642",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-183376642",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/183376642/Lg-Tv-32-Inch-Lcd-No-Remote-32LG30RTA-NO-REMOTE-AND-HDMI-PORT-NOT-WORK",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T09:51:51.037Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
+      "ai": {
+        "isTruePositive": true,
+        "score": 1,
+        "verdict": "Overpriced",
+        "reason": "It is an outdated 32-inch LCD TV with no remote and a broken HDMI port, making it virtually useless even at a low price."
+      }
+    },
+    "cashconverters:cc-183411979": {
+      "id": "cc-183411979",
+      "title": "Lg Smart Tv 65 Inch 4K Ultra Hd Led 65NANO86VNA",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/183411979/Lg-Smart-Tv-65-Inch-4K-Ultra-Hd-Led-65NANO86VNA",
+      "priceText": "",
+      "rawText": "Lg Smart Tv 65 Inch 4K Ultra Hd Led 65NANO86VNA Seller: CCPapakura",
+      "key": "cashconverters:cc-183411979",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-183411979",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/183411979/Lg-Smart-Tv-65-Inch-4K-Ultra-Hd-Led-65NANO86VNA",
+      "priority": "normal",
+      "matchedRules": [
+        "rule-a-normal-65"
+      ],
+      "searchIds": [
+        "src-a-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T09:51:51.037Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z"
+    },
+    "cashconverters:cc-183883468": {
+      "id": "cc-183883468",
+      "title": "Lg Tv 60 Inch Plasma ***No Remote*** 60PB6600-TE",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/183883468/Lg-Tv-60-Inch-Plasma-No-Remote-60PB6600TE",
+      "priceText": "",
+      "rawText": "Lg Tv 60 Inch Plasma ***No Remote*** 60PB6600-TE Seller: CCPapakura",
+      "key": "cashconverters:cc-183883468",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-183883468",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/183883468/Lg-Tv-60-Inch-Plasma-No-Remote-60PB6600TE",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T09:51:51.037Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
+      "ai": {
+        "isTruePositive": true,
+        "score": 4,
+        "verdict": "Overpriced",
+        "reason": "It is a true positive LG 60-inch plasma TV, but lack of a remote and the outdated, power-hungry plasma technology limit its value despite an unknown price."
+      }
+    },
+    "cashconverters:cc-183932187": {
+      "id": "cc-183932187",
+      "title": "Lg Smart Tv 50 Inch 4K Uhd Led ***No Stand*** 50NAN080A6A",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/183932187/Lg-Smart-Tv-50-Inch-4K-Uhd-Led-No-Stand-50NAN080A6A",
+      "priceText": "",
+      "rawText": "Lg Smart Tv 50 Inch 4K Uhd Led ***No Stand*** 50NAN080A6A Seller: CCPapakura",
+      "key": "cashconverters:cc-183932187",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-183932187",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/183932187/Lg-Smart-Tv-50-Inch-4K-Uhd-Led-No-Stand-50NAN080A6A",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T09:51:51.037Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
+      "ai": {
+        "isTruePositive": true,
+        "score": 4,
+        "verdict": "Overpriced",
+        "reason": "It is a valid 50-inch 4K LG TV, but missing the stand and priced with no listed value makes it a risky buy below average market value."
+      }
+    },
+    "cashconverters:cc-176514753": {
+      "id": "cc-176514753",
+      "title": "Lg Tv #6 55 INCH QNED AI ENCHANCED SMART TV 2024 55QNED86T6A",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/176514753/Lg-Tv-6-55-INCH-QNED-AI-ENCHANCED-SMART-TV-2024-55QNED86T6A",
+      "priceText": "",
+      "rawText": "Lg Tv #6 55 INCH QNED AI ENCHANCED SMART TV 2024 55QNED86T6A Seller: CCHamiltonCentral",
+      "key": "cashconverters:cc-176514753",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-176514753",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/176514753/Lg-Tv-6-55-INCH-QNED-AI-ENCHANCED-SMART-TV-2024-55QNED86T6A",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T09:51:51.037Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
+      "ai": {
+        "isTruePositive": true,
+        "score": 5,
+        "verdict": "Fair Price",
+        "reason": "This is a 2024 LG 55-inch QNED AI Enhanced Smart TV, but since the price is unknown, it defaults to a fair market baseline pending pricing details."
+      }
+    },
+    "cashconverters:cc-183656553": {
+      "id": "cc-183656553",
+      "title": "Ego Lawnmower (No Catcher) 56V 2018",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/183656553/Ego-Lawnmower-No-Catcher-56V-2018",
+      "priceText": "",
+      "rawText": "Ego Lawnmower (No Catcher) 56V 2018 Seller: CCWanganui",
+      "key": "cashconverters:cc-183656553",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-183656553",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/183656553/Ego-Lawnmower-No-Catcher-56V-2018",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-power-tools"
+      ],
+      "firstSeenAt": "2026-09-29T09:51:51.037Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
+      "ai": {
+        "isTruePositive": true,
+        "score": 5,
+        "verdict": "Fair Price",
+        "reason": "It is a valid Ego cordless lawnmower match, but missing the catcher and priced without a known value, making it an average risk purchase."
+      }
+    },
+    "cashconverters:cc-183578577": {
+      "id": "cc-183578577",
+      "title": "Ego 56V Cordless Line Trimmer ST1400E- ST",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/183578577/Ego-56V-Cordless-Line-Trimmer-ST1400E-ST",
+      "priceText": "",
+      "rawText": "Ego 56V Cordless Line Trimmer ST1400E- ST Seller: CCLinwood",
+      "key": "cashconverters:cc-183578577",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-183578577",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/183578577/Ego-56V-Cordless-Line-Trimmer-ST1400E-ST",
+      "priority": "normal",
+      "matchedRules": [],
+      "searchIds": [
+        "src-a-power-tools"
+      ],
+      "firstSeenAt": "2026-09-29T09:51:51.037Z",
+      "lastSeenAt": "2026-09-29T09:51:51.037Z",
+      "firstSeen": "2026-09-29T09:51:51.037Z",
+      "lastSeen": "2026-09-29T09:51:51.037Z",
+      "ai": {
+        "isTruePositive": true,
+        "score": 5,
+        "verdict": "Fair Price",
+        "reason": "It is a valid Ego 56V cordless line trimmer match, but the price is unknown so market average is assumed."
+      }
     }
   }
 }
