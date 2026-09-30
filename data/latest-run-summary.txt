@@ -5,10 +5,10 @@
 Starting Market Watch run...
 Executing search: Source A - Displays 65" / OLED (cashconverters)
 [CashConverters] Fetching: https://shop.cashconverters.co.nz/Browse?FullTextQuery=LG%20tv
-[CashConverters] Found 25 listings for /Browse?FullTextQuery=LG%20tv
+[CashConverters] Found 24 listings for /Browse?FullTextQuery=LG%20tv
 Executing search: Source A - Cordless Power Equipment (cashconverters)
 [CashConverters] Fetching: https://shop.cashconverters.co.nz/Browse?FullTextQuery=EGO%2056V
-[CashConverters] Found 1 listings for /Browse?FullTextQuery=EGO%2056V
+[CashConverters] Found 2 listings for /Browse?FullTextQuery=EGO%2056V
 Executing search: Source A - Tough Cameras (TG-6 / TG-7) (cashconverters)
 [CashConverters] Fetching: https://shop.cashconverters.co.nz/Browse?FullTextQuery=Olympus%20Tough
 [CashConverters] Found 0 listings for /Browse?FullTextQuery=Olympus%20Tough
@@ -20,7 +20,7 @@ Executing search: Source A - Baseus Power (chargers / power banks) (cashconverte
 [CashConverters] Found 0 listings for /Browse?FullTextQuery=Baseus&StatusFilter=active_only
 Executing search: Source B - Displays 65" / OLED (dollardealers)
 [DollarDealers] Fetching: https://dollardealers.co.nz/?s=lg+tv&post_type=product
-[DollarDealers] Found 28 listings for /?s=lg+tv&post_type=product
+[DollarDealers] Found 26 listings for /?s=lg+tv&post_type=product
 Executing search: Source B - Cordless Power Equipment (dollardealers)
 [DollarDealers] Fetching: https://dollardealers.co.nz/?s=ego+56v&post_type=product
 [DollarDealers] Found 16 listings for /?s=ego+56v&post_type=product
@@ -44,29 +44,32 @@ Executing search: Source A - EcoFlow Power Stations (cashconverters)
 [CashConverters] Found 1 listings for /Browse?FullTextQuery=EcoFlow&StatusFilter=active_only
 Executing search: Source B - EcoFlow Power Stations (dollardealers)
 [DollarDealers] Fetching: https://dollardealers.co.nz/?s=ecoflow&post_type=product
-[DollarDealers] Found 0 listings for /?s=ecoflow&post_type=product
-Total raw listings collected: 61
+[DollarDealers] HTTP 504 for https://dollardealers.co.nz/?s=ecoflow&post_type=product
+[src-b-ecoflow] Scrape error: HTTP 504
+Total raw listings collected: 60
 [Details] Enriching high item: Lg Smart Tv **65Inch/Loose Base** OLED65C56LA
 [Details] Enriching high item: Lg 65 Inch Smart Oled Tv OLED65C36LA
 [Details] Enriching high item: Ego 56V Cordless Line Trimmer ST1400E- ST
+[Details] Enriching high item: Ego Battery 56V 2.5Ah BA1400
 [Details] Enriching high item: Anker Powerbank 20100Mah A1271
 [Details] Enriching high item: BASEUS PPTSZ10 POWERBANK
 [Details] Enriching high item: Ecoflow Battery Generator 1200W RIVER 3 PLUS
-Candidate listings passing keyword rules: 11
+Candidate listings passing keyword rules: 12
 [AI] "Lg Smart Tv **65Inch/Loose Base** OLED65C56LA" -> Great Deal (score: 8/10, valid: true)
 [AI] "Lg 65 Inch Smart Oled Tv OLED65C36LA" -> Great Deal (score: 8/10, valid: true)
-[AI Evaluator] Available flash models: gemini-flash-latest, gemini-2.5-flash, gemini-flash-lite-latest, gemini-3.8-flash
 [AI] "Lg Tv (Smart) 65 INCH LED LCD 65UA8450PSA" -> Fair Price (score: 5/10, valid: true)
 [AI] "Lg Tv - 65 Inch 4K Uhd Smart Led 65UP7550PVG" -> Fair Price (score: 5/10, valid: true)
 [AI] "Lg Smart Tv 65 Inch 4K Ultra Hd Led 65NANO86VNA" -> Fair Price (score: 5/10, valid: true)
 [AI] "Ego 56V Cordless Line Trimmer ST1400E- ST" -> Great Deal (score: 7/10, valid: true)
+[AI Evaluator] Available flash models: gemini-flash-latest, gemini-2.5-flash, gemini-flash-lite-latest, gemini-3.8-flash
+[AI] "Ego Battery 56V 2.5Ah BA1400" -> Fair Price (score: 5/10, valid: true)
 [AI] "Anker Powerbank 20100Mah A1271" -> Fair Price (score: 6/10, valid: true)
 [AI] "LG 65 SMART TV" -> Great Deal (score: 7/10, valid: true)
 [AI] "PANASONIC 65″ 4K SMART TV TH-65LX800Z" -> Fair Price (score: 6/10, valid: true)
 [AI] "BASEUS PPTSZ10 POWERBANK" -> Great Deal (score: 7/10, valid: true)
 [AI] "Ecoflow Battery Generator 1200W RIVER 3 PLUS" -> Fair Price (score: 5/10, valid: true)
-Listings verified after AI assessment: 11
-Listing events detected: 11
+Listings verified after AI assessment: 12
+Listing events detected: 12
 Sending email alert for 1 event(s) to [REDACTED_EMAIL]...
 Email alert sent successfully.
 [UI] Generated index.html and feed.json in ./dist
