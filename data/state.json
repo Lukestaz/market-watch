@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T23:34:31.312Z",
+  "updatedAt": "2026-09-30T14:17:31.640Z",
   "listings": {
     "dollardealers:dd-samsung-43-smart-tv-2": {
       "key": "dollardealers:dd-samsung-43-smart-tv-2",
@@ -522,9 +522,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-09-29T23:34:31.312Z",
-      "firstSeen": "2026-09-29T23:34:31.312Z",
-      "lastSeen": "2026-09-29T23:34:31.312Z",
+      "lastSeenAt": "2026-09-30T14:17:31.640Z",
+      "firstSeen": "2026-09-30T14:17:31.640Z",
+      "lastSeen": "2026-09-30T14:17:31.640Z",
       "ai": {
         "isTruePositive": true,
         "score": 5,
@@ -607,9 +607,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-09-29T23:34:31.312Z",
-      "firstSeen": "2026-09-29T23:34:31.312Z",
-      "lastSeen": "2026-09-29T23:34:31.312Z",
+      "lastSeenAt": "2026-09-30T14:17:31.640Z",
+      "firstSeen": "2026-09-30T14:17:31.640Z",
+      "lastSeen": "2026-09-30T14:17:31.640Z",
       "ai": {
         "isTruePositive": true,
         "score": 8,
@@ -639,9 +639,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-09-29T23:34:31.312Z",
-      "firstSeen": "2026-09-29T23:34:31.312Z",
-      "lastSeen": "2026-09-29T23:34:31.312Z",
+      "lastSeenAt": "2026-09-30T14:17:31.640Z",
+      "firstSeen": "2026-09-30T14:17:31.640Z",
+      "lastSeen": "2026-09-30T14:17:31.640Z",
       "ai": {
         "isTruePositive": true,
         "score": 8,
@@ -1068,9 +1068,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-09-29T23:34:31.312Z",
-      "firstSeen": "2026-09-29T23:34:31.312Z",
-      "lastSeen": "2026-09-29T23:34:31.312Z",
+      "lastSeenAt": "2026-09-30T14:17:31.640Z",
+      "firstSeen": "2026-09-30T14:17:31.640Z",
+      "lastSeen": "2026-09-30T14:17:31.640Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -1167,7 +1167,7 @@
       "priceText": "",
       "rawText": "Ego Lawnmower (No Catcher) 56V 2018 Seller: CCWanganui",
       "key": "cashconverters:cc-183656553",
-      "status": "active",
+      "status": "removed",
       "siteId": "cashconverters",
       "sourceListingId": "cc-183656553",
       "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/183656553/Ego-Lawnmower-No-Catcher-56V-2018",
@@ -1211,9 +1211,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-09-29T23:34:31.312Z",
-      "firstSeen": "2026-09-29T23:34:31.312Z",
-      "lastSeen": "2026-09-29T23:34:31.312Z",
+      "lastSeenAt": "2026-09-30T14:17:31.640Z",
+      "firstSeen": "2026-09-30T14:17:31.640Z",
+      "lastSeen": "2026-09-30T14:17:31.640Z",
       "ai": {
         "isTruePositive": true,
         "score": 7,
@@ -1238,10 +1238,10 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T23:34:31.312Z",
+      "lastSeenAt": "2026-09-30T14:17:31.640Z",
       "status": "active",
-      "firstSeen": "2026-09-29T23:34:31.312Z",
-      "lastSeen": "2026-09-29T23:34:31.312Z",
+      "firstSeen": "2026-09-30T14:17:31.640Z",
+      "lastSeen": "2026-09-30T14:17:31.640Z",
       "id": "dd-3481663",
       "url": "https://dollardealers.co.nz/product/lg-65-smart-tv-2/",
       "priceText": "$749.00 incl. GST",
@@ -1271,7 +1271,7 @@
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
       "lastSeenAt": "2026-09-29T23:34:31.312Z",
-      "status": "active",
+      "status": "removed",
       "firstSeen": "2026-09-29T23:34:31.312Z",
       "lastSeen": "2026-09-29T23:34:31.312Z",
       "id": "dd-3458094",
@@ -1302,10 +1302,10 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-29T23:34:31.312Z",
+      "lastSeenAt": "2026-09-30T14:17:31.640Z",
       "status": "active",
-      "firstSeen": "2026-09-29T23:34:31.312Z",
-      "lastSeen": "2026-09-29T23:34:31.312Z",
+      "firstSeen": "2026-09-30T14:17:31.640Z",
+      "lastSeen": "2026-09-30T14:17:31.640Z",
       "id": "dd-3431391",
       "url": "https://dollardealers.co.nz/product/panasonic-65-4k-smart-tv-th-65lx800z/",
       "priceText": "$999.00 incl. GST",
@@ -1338,9 +1338,9 @@
         "src-a-anker-nano"
       ],
       "firstSeenAt": "2026-09-29T10:25:23.530Z",
-      "lastSeenAt": "2026-09-29T23:34:31.312Z",
-      "firstSeen": "2026-09-29T23:34:31.312Z",
-      "lastSeen": "2026-09-29T23:34:31.312Z",
+      "lastSeenAt": "2026-09-30T14:17:31.640Z",
+      "firstSeen": "2026-09-30T14:17:31.640Z",
+      "lastSeen": "2026-09-30T14:17:31.640Z",
       "aiContext": "Anker Power (chargers / power banks) (Anker power bank, Anker battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1402,9 +1402,9 @@
         "src-b-baseus-blade"
       ],
       "firstSeenAt": "2026-09-29T10:25:23.530Z",
-      "lastSeenAt": "2026-09-29T23:34:31.312Z",
-      "firstSeen": "2026-09-29T23:34:31.312Z",
-      "lastSeen": "2026-09-29T23:34:31.312Z",
+      "lastSeenAt": "2026-09-30T14:17:31.640Z",
+      "firstSeen": "2026-09-30T14:17:31.640Z",
+      "lastSeen": "2026-09-30T14:17:31.640Z",
       "aiContext": "Baseus Power (chargers / power banks) (Baseus power bank)",
       "ai": {
         "isTruePositive": true,
@@ -1433,15 +1433,45 @@
         "src-a-ecoflow"
       ],
       "firstSeenAt": "2026-09-29T23:34:31.312Z",
-      "lastSeenAt": "2026-09-29T23:34:31.312Z",
-      "firstSeen": "2026-09-29T23:34:31.312Z",
-      "lastSeen": "2026-09-29T23:34:31.312Z",
+      "lastSeenAt": "2026-09-30T14:17:31.640Z",
+      "firstSeen": "2026-09-30T14:17:31.640Z",
+      "lastSeen": "2026-09-30T14:17:31.640Z",
       "aiContext": "EcoFlow Power Stations (Ecoflow River power station, Any Ecoflow item (solar panel, battery, accessory))",
       "ai": {
         "isTruePositive": true,
         "score": 5,
         "verdict": "Fair Price",
         "reason": "Authentic EcoFlow River 3 Plus portable power station, but deal rating is neutral as no price is provided."
+      }
+    },
+    "cashconverters:cc-183968879": {
+      "id": "cc-183968879",
+      "title": "Lg Tv (Smart) 65 INCH LED LCD 65UA8450PSA",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/183968879/Lg-Tv-Smart-65-INCH-LED-LCD-65UA8450PSA",
+      "priceText": "",
+      "rawText": "Lg Tv (Smart) 65 INCH LED LCD 65UA8450PSA Seller: CCWanganui",
+      "key": "cashconverters:cc-183968879",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-183968879",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/183968879/Lg-Tv-Smart-65-INCH-LED-LCD-65UA8450PSA",
+      "priority": "normal",
+      "matchedRules": [
+        "rule-a-normal-65"
+      ],
+      "searchIds": [
+        "src-a-display-65"
+      ],
+      "firstSeenAt": "2026-09-30T14:17:31.640Z",
+      "lastSeenAt": "2026-09-30T14:17:31.640Z",
+      "firstSeen": "2026-09-30T14:17:31.640Z",
+      "lastSeen": "2026-09-30T14:17:31.640Z",
+      "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
+      "ai": {
+        "isTruePositive": true,
+        "score": 5,
+        "verdict": "Fair Price",
+        "reason": "Matches the 65-inch TV target, but deal attractiveness cannot be determined without a listed price."
       }
     }
   }
