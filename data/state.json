@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T23:50:12.583Z",
+  "updatedAt": "2026-10-01T14:51:41.941Z",
   "listings": {
     "dollardealers:dd-samsung-43-smart-tv-2": {
       "key": "dollardealers:dd-samsung-43-smart-tv-2",
@@ -522,9 +522,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-09-30T23:50:12.583Z",
-      "firstSeen": "2026-09-30T23:50:12.583Z",
-      "lastSeen": "2026-09-30T23:50:12.583Z",
+      "lastSeenAt": "2026-10-01T14:51:41.941Z",
+      "firstSeen": "2026-10-01T14:51:41.941Z",
+      "lastSeen": "2026-10-01T14:51:41.941Z",
       "ai": {
         "isTruePositive": true,
         "score": 5,
@@ -607,9 +607,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-09-30T23:50:12.583Z",
-      "firstSeen": "2026-09-30T23:50:12.583Z",
-      "lastSeen": "2026-09-30T23:50:12.583Z",
+      "lastSeenAt": "2026-10-01T14:51:41.941Z",
+      "firstSeen": "2026-10-01T14:51:41.941Z",
+      "lastSeen": "2026-10-01T14:51:41.941Z",
       "ai": {
         "isTruePositive": true,
         "score": 8,
@@ -625,7 +625,7 @@
       "priceText": "",
       "rawText": "Lg 65 Inch Smart Oled Tv OLED65C36LA Seller: CCGlenInnes Lg 65 Inch Smart Oled Tv Model: OLED65C36LA With remote *** Want to get rid of your old items/ unwanted presents or thinking to upgrade *** We can help with that *** Bring your good quality goods for instant cash on the spot! All you need is your item, mobile phone, and a valid photo ID. *** Looking to buy presents for friends and family with affordable prices *** We got everyone covered at Cash Converters Glen Innes Please come and visit us in our Glen Innes store for a wide range of products 7 days a week or alternatively you can shop online. If you need any help, please chat with one of our friendly staff. Goods are offered for sale under the following conditions: Goods must be paid for within 5 working days of the auction finishing. Goods have a 90-days warranty or longer as required by the Consumer Guarantees Act ID Required upon pick up. Online payments only - Credit and debit cards (MasterCard and Visa) and direct deposit. No instore payments accepted. Store Contact Address: 231 Taniwha Street, Glen Innes, Auckland 1072 Phone: 09-973 4268",
       "key": "cashconverters:cc-177692227",
-      "status": "active",
+      "status": "removed",
       "siteId": "cashconverters",
       "sourceListingId": "cc-177692227",
       "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/177692227/Lg-65-Inch-Smart-Oled-Tv-OLED65C36LA",
@@ -1068,9 +1068,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-09-30T23:50:12.583Z",
-      "firstSeen": "2026-09-30T23:50:12.583Z",
-      "lastSeen": "2026-09-30T23:50:12.583Z",
+      "lastSeenAt": "2026-10-01T14:51:41.941Z",
+      "firstSeen": "2026-10-01T14:51:41.941Z",
+      "lastSeen": "2026-10-01T14:51:41.941Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -1211,9 +1211,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-09-30T23:50:12.583Z",
-      "firstSeen": "2026-09-30T23:50:12.583Z",
-      "lastSeen": "2026-09-30T23:50:12.583Z",
+      "lastSeenAt": "2026-10-01T14:51:41.941Z",
+      "firstSeen": "2026-10-01T14:51:41.941Z",
+      "lastSeen": "2026-10-01T14:51:41.941Z",
       "ai": {
         "isTruePositive": true,
         "score": 7,
@@ -1238,10 +1238,10 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-30T23:50:12.583Z",
+      "lastSeenAt": "2026-10-01T14:51:41.941Z",
       "status": "active",
-      "firstSeen": "2026-09-30T23:50:12.583Z",
-      "lastSeen": "2026-09-30T23:50:12.583Z",
+      "firstSeen": "2026-10-01T14:51:41.941Z",
+      "lastSeen": "2026-10-01T14:51:41.941Z",
       "id": "dd-3481663",
       "url": "https://dollardealers.co.nz/product/lg-65-smart-tv-2/",
       "priceText": "$749.00 incl. GST",
@@ -1302,10 +1302,10 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-09-30T23:50:12.583Z",
+      "lastSeenAt": "2026-10-01T14:51:41.941Z",
       "status": "active",
-      "firstSeen": "2026-09-30T23:50:12.583Z",
-      "lastSeen": "2026-09-30T23:50:12.583Z",
+      "firstSeen": "2026-10-01T14:51:41.941Z",
+      "lastSeen": "2026-10-01T14:51:41.941Z",
       "id": "dd-3431391",
       "url": "https://dollardealers.co.nz/product/panasonic-65-4k-smart-tv-th-65lx800z/",
       "priceText": "$999.00 incl. GST",
@@ -1338,9 +1338,9 @@
         "src-a-anker-nano"
       ],
       "firstSeenAt": "2026-09-29T10:25:23.530Z",
-      "lastSeenAt": "2026-09-30T23:50:12.583Z",
-      "firstSeen": "2026-09-30T23:50:12.583Z",
-      "lastSeen": "2026-09-30T23:50:12.583Z",
+      "lastSeenAt": "2026-10-01T14:51:41.941Z",
+      "firstSeen": "2026-10-01T14:51:41.941Z",
+      "lastSeen": "2026-10-01T14:51:41.941Z",
       "aiContext": "Anker Power (chargers / power banks) (Anker power bank, Anker battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1402,9 +1402,9 @@
         "src-b-baseus-blade"
       ],
       "firstSeenAt": "2026-09-29T10:25:23.530Z",
-      "lastSeenAt": "2026-09-30T23:50:12.583Z",
-      "firstSeen": "2026-09-30T23:50:12.583Z",
-      "lastSeen": "2026-09-30T23:50:12.583Z",
+      "lastSeenAt": "2026-10-01T14:51:41.941Z",
+      "firstSeen": "2026-10-01T14:51:41.941Z",
+      "lastSeen": "2026-10-01T14:51:41.941Z",
       "aiContext": "Baseus Power (chargers / power banks) (Baseus power bank)",
       "ai": {
         "isTruePositive": true,
@@ -1433,9 +1433,9 @@
         "src-a-ecoflow"
       ],
       "firstSeenAt": "2026-09-29T23:34:31.312Z",
-      "lastSeenAt": "2026-09-30T23:50:12.583Z",
-      "firstSeen": "2026-09-30T23:50:12.583Z",
-      "lastSeen": "2026-09-30T23:50:12.583Z",
+      "lastSeenAt": "2026-10-01T14:51:41.941Z",
+      "firstSeen": "2026-10-01T14:51:41.941Z",
+      "lastSeen": "2026-10-01T14:51:41.941Z",
       "aiContext": "EcoFlow Power Stations (Ecoflow River power station, Any Ecoflow item (solar panel, battery, accessory))",
       "ai": {
         "isTruePositive": true,
@@ -1463,9 +1463,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-30T14:17:31.640Z",
-      "lastSeenAt": "2026-09-30T23:50:12.583Z",
-      "firstSeen": "2026-09-30T23:50:12.583Z",
-      "lastSeen": "2026-09-30T23:50:12.583Z",
+      "lastSeenAt": "2026-10-01T14:51:41.941Z",
+      "firstSeen": "2026-10-01T14:51:41.941Z",
+      "lastSeen": "2026-10-01T14:51:41.941Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -1494,9 +1494,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-09-30T23:50:12.583Z",
-      "lastSeenAt": "2026-09-30T23:50:12.583Z",
-      "firstSeen": "2026-09-30T23:50:12.583Z",
-      "lastSeen": "2026-09-30T23:50:12.583Z",
+      "lastSeenAt": "2026-10-01T14:51:41.941Z",
+      "firstSeen": "2026-10-01T14:51:41.941Z",
+      "lastSeen": "2026-10-01T14:51:41.941Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
