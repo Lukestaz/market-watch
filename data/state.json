@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T14:51:41.941Z",
+  "updatedAt": "2026-10-01T23:47:50.819Z",
   "listings": {
     "dollardealers:dd-samsung-43-smart-tv-2": {
       "key": "dollardealers:dd-samsung-43-smart-tv-2",
@@ -522,9 +522,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-10-01T14:51:41.941Z",
-      "firstSeen": "2026-10-01T14:51:41.941Z",
-      "lastSeen": "2026-10-01T14:51:41.941Z",
+      "lastSeenAt": "2026-10-01T23:47:50.819Z",
+      "firstSeen": "2026-10-01T23:47:50.819Z",
+      "lastSeen": "2026-10-01T23:47:50.819Z",
       "ai": {
         "isTruePositive": true,
         "score": 5,
@@ -607,9 +607,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-10-01T14:51:41.941Z",
-      "firstSeen": "2026-10-01T14:51:41.941Z",
-      "lastSeen": "2026-10-01T14:51:41.941Z",
+      "lastSeenAt": "2026-10-01T23:47:50.819Z",
+      "firstSeen": "2026-10-01T23:47:50.819Z",
+      "lastSeen": "2026-10-01T23:47:50.819Z",
       "ai": {
         "isTruePositive": true,
         "score": 8,
@@ -1068,9 +1068,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-10-01T14:51:41.941Z",
-      "firstSeen": "2026-10-01T14:51:41.941Z",
-      "lastSeen": "2026-10-01T14:51:41.941Z",
+      "lastSeenAt": "2026-10-01T23:47:50.819Z",
+      "firstSeen": "2026-10-01T23:47:50.819Z",
+      "lastSeen": "2026-10-01T23:47:50.819Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -1211,9 +1211,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-10-01T14:51:41.941Z",
-      "firstSeen": "2026-10-01T14:51:41.941Z",
-      "lastSeen": "2026-10-01T14:51:41.941Z",
+      "lastSeenAt": "2026-10-01T23:47:50.819Z",
+      "firstSeen": "2026-10-01T23:47:50.819Z",
+      "lastSeen": "2026-10-01T23:47:50.819Z",
       "ai": {
         "isTruePositive": true,
         "score": 7,
@@ -1238,10 +1238,10 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-10-01T14:51:41.941Z",
+      "lastSeenAt": "2026-10-01T23:47:50.819Z",
       "status": "active",
-      "firstSeen": "2026-10-01T14:51:41.941Z",
-      "lastSeen": "2026-10-01T14:51:41.941Z",
+      "firstSeen": "2026-10-01T23:47:50.819Z",
+      "lastSeen": "2026-10-01T23:47:50.819Z",
       "id": "dd-3481663",
       "url": "https://dollardealers.co.nz/product/lg-65-smart-tv-2/",
       "priceText": "$749.00 incl. GST",
@@ -1302,10 +1302,10 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-10-01T14:51:41.941Z",
+      "lastSeenAt": "2026-10-01T23:47:50.819Z",
       "status": "active",
-      "firstSeen": "2026-10-01T14:51:41.941Z",
-      "lastSeen": "2026-10-01T14:51:41.941Z",
+      "firstSeen": "2026-10-01T23:47:50.819Z",
+      "lastSeen": "2026-10-01T23:47:50.819Z",
       "id": "dd-3431391",
       "url": "https://dollardealers.co.nz/product/panasonic-65-4k-smart-tv-th-65lx800z/",
       "priceText": "$999.00 incl. GST",
@@ -1338,9 +1338,9 @@
         "src-a-anker-nano"
       ],
       "firstSeenAt": "2026-09-29T10:25:23.530Z",
-      "lastSeenAt": "2026-10-01T14:51:41.941Z",
-      "firstSeen": "2026-10-01T14:51:41.941Z",
-      "lastSeen": "2026-10-01T14:51:41.941Z",
+      "lastSeenAt": "2026-10-01T23:47:50.819Z",
+      "firstSeen": "2026-10-01T23:47:50.819Z",
+      "lastSeen": "2026-10-01T23:47:50.819Z",
       "aiContext": "Anker Power (chargers / power banks) (Anker power bank, Anker battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1402,9 +1402,9 @@
         "src-b-baseus-blade"
       ],
       "firstSeenAt": "2026-09-29T10:25:23.530Z",
-      "lastSeenAt": "2026-10-01T14:51:41.941Z",
-      "firstSeen": "2026-10-01T14:51:41.941Z",
-      "lastSeen": "2026-10-01T14:51:41.941Z",
+      "lastSeenAt": "2026-10-01T23:47:50.819Z",
+      "firstSeen": "2026-10-01T23:47:50.819Z",
+      "lastSeen": "2026-10-01T23:47:50.819Z",
       "aiContext": "Baseus Power (chargers / power banks) (Baseus power bank)",
       "ai": {
         "isTruePositive": true,
@@ -1433,9 +1433,9 @@
         "src-a-ecoflow"
       ],
       "firstSeenAt": "2026-09-29T23:34:31.312Z",
-      "lastSeenAt": "2026-10-01T14:51:41.941Z",
-      "firstSeen": "2026-10-01T14:51:41.941Z",
-      "lastSeen": "2026-10-01T14:51:41.941Z",
+      "lastSeenAt": "2026-10-01T23:47:50.819Z",
+      "firstSeen": "2026-10-01T23:47:50.819Z",
+      "lastSeen": "2026-10-01T23:47:50.819Z",
       "aiContext": "EcoFlow Power Stations (Ecoflow River power station, Any Ecoflow item (solar panel, battery, accessory))",
       "ai": {
         "isTruePositive": true,
@@ -1463,9 +1463,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-30T14:17:31.640Z",
-      "lastSeenAt": "2026-10-01T14:51:41.941Z",
-      "firstSeen": "2026-10-01T14:51:41.941Z",
-      "lastSeen": "2026-10-01T14:51:41.941Z",
+      "lastSeenAt": "2026-10-01T23:47:50.819Z",
+      "firstSeen": "2026-10-01T23:47:50.819Z",
+      "lastSeen": "2026-10-01T23:47:50.819Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -1494,9 +1494,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-09-30T23:50:12.583Z",
-      "lastSeenAt": "2026-10-01T14:51:41.941Z",
-      "firstSeen": "2026-10-01T14:51:41.941Z",
-      "lastSeen": "2026-10-01T14:51:41.941Z",
+      "lastSeenAt": "2026-10-01T23:47:50.819Z",
+      "firstSeen": "2026-10-01T23:47:50.819Z",
+      "lastSeen": "2026-10-01T23:47:50.819Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
