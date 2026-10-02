@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T14:11:43.146Z",
+  "updatedAt": "2026-10-02T23:38:21.060Z",
   "listings": {
     "dollardealers:dd-samsung-43-smart-tv-2": {
       "key": "dollardealers:dd-samsung-43-smart-tv-2",
@@ -522,9 +522,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-10-02T14:11:43.146Z",
-      "firstSeen": "2026-10-02T14:11:43.146Z",
-      "lastSeen": "2026-10-02T14:11:43.146Z",
+      "lastSeenAt": "2026-10-02T23:38:21.060Z",
+      "firstSeen": "2026-10-02T23:38:21.060Z",
+      "lastSeen": "2026-10-02T23:38:21.060Z",
       "ai": {
         "isTruePositive": true,
         "score": 5,
@@ -607,9 +607,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-10-02T14:11:43.146Z",
-      "firstSeen": "2026-10-02T14:11:43.146Z",
-      "lastSeen": "2026-10-02T14:11:43.146Z",
+      "lastSeenAt": "2026-10-02T23:38:21.060Z",
+      "firstSeen": "2026-10-02T23:38:21.060Z",
+      "lastSeen": "2026-10-02T23:38:21.060Z",
       "ai": {
         "isTruePositive": true,
         "score": 8,
@@ -1068,9 +1068,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-10-02T14:11:43.146Z",
-      "firstSeen": "2026-10-02T14:11:43.146Z",
-      "lastSeen": "2026-10-02T14:11:43.146Z",
+      "lastSeenAt": "2026-10-02T23:38:21.060Z",
+      "firstSeen": "2026-10-02T23:38:21.060Z",
+      "lastSeen": "2026-10-02T23:38:21.060Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -1211,9 +1211,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-10-02T14:11:43.146Z",
-      "firstSeen": "2026-10-02T14:11:43.146Z",
-      "lastSeen": "2026-10-02T14:11:43.146Z",
+      "lastSeenAt": "2026-10-02T23:38:21.060Z",
+      "firstSeen": "2026-10-02T23:38:21.060Z",
+      "lastSeen": "2026-10-02T23:38:21.060Z",
       "ai": {
         "isTruePositive": true,
         "score": 7,
@@ -1238,10 +1238,10 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-10-02T14:11:43.146Z",
+      "lastSeenAt": "2026-10-02T23:38:21.060Z",
       "status": "active",
-      "firstSeen": "2026-10-02T14:11:43.146Z",
-      "lastSeen": "2026-10-02T14:11:43.146Z",
+      "firstSeen": "2026-10-02T23:38:21.060Z",
+      "lastSeen": "2026-10-02T23:38:21.060Z",
       "id": "dd-3481663",
       "url": "https://dollardealers.co.nz/product/lg-65-smart-tv-2/",
       "priceText": "$749.00 incl. GST",
@@ -1302,10 +1302,10 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-10-02T14:11:43.146Z",
+      "lastSeenAt": "2026-10-02T23:38:21.060Z",
       "status": "active",
-      "firstSeen": "2026-10-02T14:11:43.146Z",
-      "lastSeen": "2026-10-02T14:11:43.146Z",
+      "firstSeen": "2026-10-02T23:38:21.060Z",
+      "lastSeen": "2026-10-02T23:38:21.060Z",
       "id": "dd-3431391",
       "url": "https://dollardealers.co.nz/product/panasonic-65-4k-smart-tv-th-65lx800z/",
       "priceText": "$999.00 incl. GST",
@@ -1338,9 +1338,9 @@
         "src-a-anker-nano"
       ],
       "firstSeenAt": "2026-09-29T10:25:23.530Z",
-      "lastSeenAt": "2026-10-02T14:11:43.146Z",
-      "firstSeen": "2026-10-02T14:11:43.146Z",
-      "lastSeen": "2026-10-02T14:11:43.146Z",
+      "lastSeenAt": "2026-10-02T23:38:21.060Z",
+      "firstSeen": "2026-10-02T23:38:21.060Z",
+      "lastSeen": "2026-10-02T23:38:21.060Z",
       "aiContext": "Anker Power (chargers / power banks) (Anker power bank, Anker battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1402,9 +1402,9 @@
         "src-b-baseus-blade"
       ],
       "firstSeenAt": "2026-09-29T10:25:23.530Z",
-      "lastSeenAt": "2026-10-02T14:11:43.146Z",
-      "firstSeen": "2026-10-02T14:11:43.146Z",
-      "lastSeen": "2026-10-02T14:11:43.146Z",
+      "lastSeenAt": "2026-10-02T23:38:21.060Z",
+      "firstSeen": "2026-10-02T23:38:21.060Z",
+      "lastSeen": "2026-10-02T23:38:21.060Z",
       "aiContext": "Baseus Power (chargers / power banks) (Baseus power bank)",
       "ai": {
         "isTruePositive": true,
@@ -1463,9 +1463,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-30T14:17:31.640Z",
-      "lastSeenAt": "2026-10-02T14:11:43.146Z",
-      "firstSeen": "2026-10-02T14:11:43.146Z",
-      "lastSeen": "2026-10-02T14:11:43.146Z",
+      "lastSeenAt": "2026-10-02T23:38:21.060Z",
+      "firstSeen": "2026-10-02T23:38:21.060Z",
+      "lastSeen": "2026-10-02T23:38:21.060Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -1494,9 +1494,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-09-30T23:50:12.583Z",
-      "lastSeenAt": "2026-10-02T14:11:43.146Z",
-      "firstSeen": "2026-10-02T14:11:43.146Z",
-      "lastSeen": "2026-10-02T14:11:43.146Z",
+      "lastSeenAt": "2026-10-02T23:38:21.060Z",
+      "firstSeen": "2026-10-02T23:38:21.060Z",
+      "lastSeen": "2026-10-02T23:38:21.060Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -1512,7 +1512,7 @@
       "priceText": "",
       "rawText": "Anker Powerbank POWERCORE 10400 Seller: CCOtahuhu Anker Powerbank POWERCORE 10400 Model: A1214 Stock Code: A4892872-2 Stock Needed! Bring your unwanted quality items for instant cash!! Valid ID is required Store Contact Phone: (09) 973 4265 Address: 225 Great South Road Otahuhu 1062 Products must be paid within five days when auction is closed Online payments only - we are not accepting in-store payments ID is required upon collecting goods in-store For more information contact our stores and get in touch with one of our friendly staff",
       "key": "cashconverters:cc-184094985",
-      "status": "active",
+      "status": "removed",
       "siteId": "cashconverters",
       "sourceListingId": "cc-184094985",
       "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/184094985/Anker-Powerbank-POWERCORE-10400",
