@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T12:47:15.951Z",
+  "updatedAt": "2026-10-03T22:49:02.272Z",
   "listings": {
     "dollardealers:dd-samsung-43-smart-tv-2": {
       "key": "dollardealers:dd-samsung-43-smart-tv-2",
@@ -522,9 +522,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-10-03T12:47:15.951Z",
-      "firstSeen": "2026-10-03T12:47:15.951Z",
-      "lastSeen": "2026-10-03T12:47:15.951Z",
+      "lastSeenAt": "2026-10-03T22:49:02.272Z",
+      "firstSeen": "2026-10-03T22:49:02.272Z",
+      "lastSeen": "2026-10-03T22:49:02.272Z",
       "ai": {
         "isTruePositive": true,
         "score": 5,
@@ -607,9 +607,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-10-03T12:47:15.951Z",
-      "firstSeen": "2026-10-03T12:47:15.951Z",
-      "lastSeen": "2026-10-03T12:47:15.951Z",
+      "lastSeenAt": "2026-10-03T22:49:02.272Z",
+      "firstSeen": "2026-10-03T22:49:02.272Z",
+      "lastSeen": "2026-10-03T22:49:02.272Z",
       "ai": {
         "isTruePositive": true,
         "score": 8,
@@ -1068,9 +1068,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-10-03T12:47:15.951Z",
-      "firstSeen": "2026-10-03T12:47:15.951Z",
-      "lastSeen": "2026-10-03T12:47:15.951Z",
+      "lastSeenAt": "2026-10-03T22:49:02.272Z",
+      "firstSeen": "2026-10-03T22:49:02.272Z",
+      "lastSeen": "2026-10-03T22:49:02.272Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -1211,9 +1211,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-10-03T12:47:15.951Z",
-      "firstSeen": "2026-10-03T12:47:15.951Z",
-      "lastSeen": "2026-10-03T12:47:15.951Z",
+      "lastSeenAt": "2026-10-03T22:49:02.272Z",
+      "firstSeen": "2026-10-03T22:49:02.272Z",
+      "lastSeen": "2026-10-03T22:49:02.272Z",
       "ai": {
         "isTruePositive": true,
         "score": 7,
@@ -1238,10 +1238,10 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-10-03T12:47:15.951Z",
+      "lastSeenAt": "2026-10-03T22:49:02.272Z",
       "status": "active",
-      "firstSeen": "2026-10-03T12:47:15.951Z",
-      "lastSeen": "2026-10-03T12:47:15.951Z",
+      "firstSeen": "2026-10-03T22:49:02.272Z",
+      "lastSeen": "2026-10-03T22:49:02.272Z",
       "id": "dd-3481663",
       "url": "https://dollardealers.co.nz/product/lg-65-smart-tv-2/",
       "priceText": "$749.00 incl. GST",
@@ -1292,7 +1292,7 @@
       "sourceListingId": "dd-3431391",
       "title": "PANASONIC 65″ 4K SMART TV TH-65LX800Z",
       "canonicalUrl": "https://dollardealers.co.nz/product/panasonic-65-4k-smart-tv-th-65lx800z/",
-      "price": 999,
+      "price": 899,
       "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/88a3e2a7-2622-4e83-b76e-dba190701698.jpeg?resize=247&w=247",
       "priority": "normal",
       "matchedRules": [
@@ -1302,19 +1302,19 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-10-03T12:47:15.951Z",
+      "lastSeenAt": "2026-10-03T22:49:02.272Z",
       "status": "active",
-      "firstSeen": "2026-10-03T12:47:15.951Z",
-      "lastSeen": "2026-10-03T12:47:15.951Z",
+      "firstSeen": "2026-10-03T22:49:02.272Z",
+      "lastSeen": "2026-10-03T22:49:02.272Z",
       "id": "dd-3431391",
       "url": "https://dollardealers.co.nz/product/panasonic-65-4k-smart-tv-th-65lx800z/",
-      "priceText": "$999.00 incl. GST",
-      "rawText": "TVs PANASONIC 65″ 4K SMART TV TH-65LX800Z $999.00 incl. GST",
+      "priceText": "$899.00 incl. GST",
+      "rawText": "TVs PANASONIC 65″ 4K SMART TV TH-65LX800Z $899.00 incl. GST",
       "ai": {
         "isTruePositive": true,
         "score": 6,
         "verdict": "Fair Price",
-        "reason": "It is a genuine 65-inch 4K smart TV from Panasonic, and at $999 NZD it sits at a fair second-hand market rate for a large screen of this tier."
+        "reason": "The item is a true 65-inch 4K smart TV, but being an LED (LX800Z) rather than an OLED makes $899 a fair rather than discounted second-hand market price."
       },
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)"
     },
@@ -1338,9 +1338,9 @@
         "src-a-anker-nano"
       ],
       "firstSeenAt": "2026-09-29T10:25:23.530Z",
-      "lastSeenAt": "2026-10-03T12:47:15.951Z",
-      "firstSeen": "2026-10-03T12:47:15.951Z",
-      "lastSeen": "2026-10-03T12:47:15.951Z",
+      "lastSeenAt": "2026-10-03T22:49:02.272Z",
+      "firstSeen": "2026-10-03T22:49:02.272Z",
+      "lastSeen": "2026-10-03T22:49:02.272Z",
       "aiContext": "Anker Power (chargers / power banks) (Anker power bank, Anker battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1402,9 +1402,9 @@
         "src-b-baseus-blade"
       ],
       "firstSeenAt": "2026-09-29T10:25:23.530Z",
-      "lastSeenAt": "2026-10-03T12:47:15.951Z",
-      "firstSeen": "2026-10-03T12:47:15.951Z",
-      "lastSeen": "2026-10-03T12:47:15.951Z",
+      "lastSeenAt": "2026-10-03T22:49:02.272Z",
+      "firstSeen": "2026-10-03T22:49:02.272Z",
+      "lastSeen": "2026-10-03T22:49:02.272Z",
       "aiContext": "Baseus Power (chargers / power banks) (Baseus power bank)",
       "ai": {
         "isTruePositive": true,
@@ -1463,9 +1463,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-30T14:17:31.640Z",
-      "lastSeenAt": "2026-10-03T12:47:15.951Z",
-      "firstSeen": "2026-10-03T12:47:15.951Z",
-      "lastSeen": "2026-10-03T12:47:15.951Z",
+      "lastSeenAt": "2026-10-03T22:49:02.272Z",
+      "firstSeen": "2026-10-03T22:49:02.272Z",
+      "lastSeen": "2026-10-03T22:49:02.272Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -1494,9 +1494,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-09-30T23:50:12.583Z",
-      "lastSeenAt": "2026-10-03T12:47:15.951Z",
-      "firstSeen": "2026-10-03T12:47:15.951Z",
-      "lastSeen": "2026-10-03T12:47:15.951Z",
+      "lastSeenAt": "2026-10-03T22:49:02.272Z",
+      "firstSeen": "2026-10-03T22:49:02.272Z",
+      "lastSeen": "2026-10-03T22:49:02.272Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
