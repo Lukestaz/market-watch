@@ -20,7 +20,7 @@ Executing search: Source A - Baseus Power (chargers / power banks) (cashconverte
 [CashConverters] Found 0 listings for /Browse?FullTextQuery=Baseus&StatusFilter=active_only
 Executing search: Source B - Displays 65" / OLED (dollardealers)
 [DollarDealers] Fetching: https://dollardealers.co.nz/?s=lg+tv&post_type=product
-[DollarDealers] Found 28 listings for /?s=lg+tv&post_type=product
+[DollarDealers] Found 30 listings for /?s=lg+tv&post_type=product
 Executing search: Source B - Cordless Power Equipment (dollardealers)
 [DollarDealers] Fetching: https://dollardealers.co.nz/?s=ego+56v&post_type=product
 [DollarDealers] Found 16 listings for /?s=ego+56v&post_type=product
@@ -45,7 +45,7 @@ Executing search: Source A - EcoFlow Power Stations (cashconverters)
 Executing search: Source B - EcoFlow Power Stations (dollardealers)
 [DollarDealers] Fetching: https://dollardealers.co.nz/?s=ecoflow&post_type=product
 [DollarDealers] Found 0 listings for /?s=ecoflow&post_type=product
-Total raw listings collected: 65
+Total raw listings collected: 66
 [Details] Enriching high item: Lg Smart Tv **65Inch/Loose Base** OLED65C56LA
 [Details] Enriching high item: Ego Battery 56V 2.5Ah BA1400
 [Details] Enriching high item: Ego Charger Power+ Standard Charger CH2100E
@@ -59,6 +59,10 @@ Candidate listings passing keyword rules: 11
 [AI] "Lg Smart Tv **65Inch/Loose Base** OLED65C56LA" -> Great Deal (score: 8/10, valid: true)
 [AI] "Ego Battery 56V 2.5Ah BA1400" -> Fair Price (score: 5/10, valid: true)
 [AI Evaluator] Available flash models: gemini-flash-latest, gemini-2.5-flash, gemini-flash-lite-latest, gemini-3.8-flash
+[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a
 [AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {
   "error": {
     "code": 503,
