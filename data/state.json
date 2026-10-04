@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T13:30:45.027Z",
+  "updatedAt": "2026-10-04T23:05:33.933Z",
   "listings": {
     "dollardealers:dd-samsung-43-smart-tv-2": {
       "key": "dollardealers:dd-samsung-43-smart-tv-2",
@@ -522,9 +522,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-10-04T13:30:45.027Z",
-      "firstSeen": "2026-10-04T13:30:45.027Z",
-      "lastSeen": "2026-10-04T13:30:45.027Z",
+      "lastSeenAt": "2026-10-04T23:05:33.933Z",
+      "firstSeen": "2026-10-04T23:05:33.933Z",
+      "lastSeen": "2026-10-04T23:05:33.933Z",
       "ai": {
         "isTruePositive": true,
         "score": 5,
@@ -607,9 +607,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-10-04T13:30:45.027Z",
-      "firstSeen": "2026-10-04T13:30:45.027Z",
-      "lastSeen": "2026-10-04T13:30:45.027Z",
+      "lastSeenAt": "2026-10-04T23:05:33.933Z",
+      "firstSeen": "2026-10-04T23:05:33.933Z",
+      "lastSeen": "2026-10-04T23:05:33.933Z",
       "ai": {
         "isTruePositive": true,
         "score": 8,
@@ -1056,7 +1056,7 @@
       "priceText": "",
       "rawText": "Lg Smart Tv 65 Inch 4K Ultra Hd Led 65NANO86VNA Seller: CCPapakura",
       "key": "cashconverters:cc-183411979",
-      "status": "active",
+      "status": "removed",
       "siteId": "cashconverters",
       "sourceListingId": "cc-183411979",
       "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/183411979/Lg-Smart-Tv-65-Inch-4K-Ultra-Hd-Led-65NANO86VNA",
@@ -1211,9 +1211,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-10-04T13:30:45.027Z",
-      "firstSeen": "2026-10-04T13:30:45.027Z",
-      "lastSeen": "2026-10-04T13:30:45.027Z",
+      "lastSeenAt": "2026-10-04T23:05:33.933Z",
+      "firstSeen": "2026-10-04T23:05:33.933Z",
+      "lastSeen": "2026-10-04T23:05:33.933Z",
       "ai": {
         "isTruePositive": true,
         "score": 7,
@@ -1239,7 +1239,7 @@
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
       "lastSeenAt": "2026-10-04T13:30:45.027Z",
-      "status": "active",
+      "status": "removed",
       "firstSeen": "2026-10-04T13:30:45.027Z",
       "lastSeen": "2026-10-04T13:30:45.027Z",
       "id": "dd-3481663",
@@ -1303,7 +1303,7 @@
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
       "lastSeenAt": "2026-10-04T13:30:45.027Z",
-      "status": "active",
+      "status": "removed",
       "firstSeen": "2026-10-04T13:30:45.027Z",
       "lastSeen": "2026-10-04T13:30:45.027Z",
       "id": "dd-3431391",
@@ -1338,9 +1338,9 @@
         "src-a-anker-nano"
       ],
       "firstSeenAt": "2026-09-29T10:25:23.530Z",
-      "lastSeenAt": "2026-10-04T13:30:45.027Z",
-      "firstSeen": "2026-10-04T13:30:45.027Z",
-      "lastSeen": "2026-10-04T13:30:45.027Z",
+      "lastSeenAt": "2026-10-04T23:05:33.933Z",
+      "firstSeen": "2026-10-04T23:05:33.933Z",
+      "lastSeen": "2026-10-04T23:05:33.933Z",
       "aiContext": "Anker Power (chargers / power banks) (Anker power bank, Anker battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1402,9 +1402,9 @@
         "src-b-baseus-blade"
       ],
       "firstSeenAt": "2026-09-29T10:25:23.530Z",
-      "lastSeenAt": "2026-10-04T13:30:45.027Z",
-      "firstSeen": "2026-10-04T13:30:45.027Z",
-      "lastSeen": "2026-10-04T13:30:45.027Z",
+      "lastSeenAt": "2026-10-04T23:05:33.933Z",
+      "firstSeen": "2026-10-04T23:05:33.933Z",
+      "lastSeen": "2026-10-04T23:05:33.933Z",
       "aiContext": "Baseus Power (chargers / power banks) (Baseus power bank)",
       "ai": {
         "isTruePositive": true,
@@ -1463,9 +1463,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-30T14:17:31.640Z",
-      "lastSeenAt": "2026-10-04T13:30:45.027Z",
-      "firstSeen": "2026-10-04T13:30:45.027Z",
-      "lastSeen": "2026-10-04T13:30:45.027Z",
+      "lastSeenAt": "2026-10-04T23:05:33.933Z",
+      "firstSeen": "2026-10-04T23:05:33.933Z",
+      "lastSeen": "2026-10-04T23:05:33.933Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -1494,9 +1494,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-09-30T23:50:12.583Z",
-      "lastSeenAt": "2026-10-04T13:30:45.027Z",
-      "firstSeen": "2026-10-04T13:30:45.027Z",
-      "lastSeen": "2026-10-04T13:30:45.027Z",
+      "lastSeenAt": "2026-10-04T23:05:33.933Z",
+      "firstSeen": "2026-10-04T23:05:33.933Z",
+      "lastSeen": "2026-10-04T23:05:33.933Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -1533,6 +1533,36 @@
         "score": 5,
         "verdict": "Fair Price",
         "reason": "This is a genuine Anker PowerCore 10400 power bank matching the target category, but the lack of listed price prevents a precise deal assessment."
+      }
+    },
+    "cashconverters:cc-184178169": {
+      "id": "cc-184178169",
+      "title": "Lg Smart Tv 65 Inch 4K Ultra Hd Led 65NANO86VNA",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/184178169/Lg-Smart-Tv-65-Inch-4K-Ultra-Hd-Led-65NANO86VNA",
+      "priceText": "",
+      "rawText": "Lg Smart Tv 65 Inch 4K Ultra Hd Led 65NANO86VNA Seller: CCPapakura",
+      "key": "cashconverters:cc-184178169",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-184178169",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/184178169/Lg-Smart-Tv-65-Inch-4K-Ultra-Hd-Led-65NANO86VNA",
+      "priority": "normal",
+      "matchedRules": [
+        "rule-a-normal-65"
+      ],
+      "searchIds": [
+        "src-a-display-65"
+      ],
+      "firstSeenAt": "2026-10-04T23:05:33.933Z",
+      "lastSeenAt": "2026-10-04T23:05:33.933Z",
+      "firstSeen": "2026-10-04T23:05:33.933Z",
+      "lastSeen": "2026-10-04T23:05:33.933Z",
+      "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
+      "ai": {
+        "isTruePositive": true,
+        "score": 5,
+        "verdict": "Fair Price",
+        "reason": "Matches the 65-inch display category as an LG NanoCell 4K TV, but cannot accurately evaluate deal attractiveness without price."
       }
     }
   }
