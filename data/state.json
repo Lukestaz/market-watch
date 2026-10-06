@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05T16:27:55.631Z",
+  "updatedAt": "2026-10-06T01:13:27.461Z",
   "listings": {
     "dollardealers:dd-samsung-43-smart-tv-2": {
       "key": "dollardealers:dd-samsung-43-smart-tv-2",
@@ -522,9 +522,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-10-05T16:27:55.631Z",
-      "firstSeen": "2026-10-05T16:27:55.631Z",
-      "lastSeen": "2026-10-05T16:27:55.631Z",
+      "lastSeenAt": "2026-10-06T01:13:27.461Z",
+      "firstSeen": "2026-10-06T01:13:27.461Z",
+      "lastSeen": "2026-10-06T01:13:27.461Z",
       "ai": {
         "isTruePositive": true,
         "score": 5,
@@ -607,9 +607,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-10-05T16:27:55.631Z",
-      "firstSeen": "2026-10-05T16:27:55.631Z",
-      "lastSeen": "2026-10-05T16:27:55.631Z",
+      "lastSeenAt": "2026-10-06T01:13:27.461Z",
+      "firstSeen": "2026-10-06T01:13:27.461Z",
+      "lastSeen": "2026-10-06T01:13:27.461Z",
       "ai": {
         "isTruePositive": true,
         "score": 8,
@@ -1211,9 +1211,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-10-05T16:27:55.631Z",
-      "firstSeen": "2026-10-05T16:27:55.631Z",
-      "lastSeen": "2026-10-05T16:27:55.631Z",
+      "lastSeenAt": "2026-10-06T01:13:27.461Z",
+      "firstSeen": "2026-10-06T01:13:27.461Z",
+      "lastSeen": "2026-10-06T01:13:27.461Z",
       "ai": {
         "isTruePositive": true,
         "score": 7,
@@ -1238,10 +1238,10 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-10-05T16:27:55.631Z",
+      "lastSeenAt": "2026-10-06T01:13:27.461Z",
       "status": "active",
-      "firstSeen": "2026-10-05T16:27:55.631Z",
-      "lastSeen": "2026-10-05T16:27:55.631Z",
+      "firstSeen": "2026-10-06T01:13:27.461Z",
+      "lastSeen": "2026-10-06T01:13:27.461Z",
       "id": "dd-3481663",
       "url": "https://dollardealers.co.nz/product/lg-65-smart-tv-2/",
       "priceText": "$749.00 incl. GST",
@@ -1302,10 +1302,10 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-10-05T16:27:55.631Z",
+      "lastSeenAt": "2026-10-06T01:13:27.461Z",
       "status": "active",
-      "firstSeen": "2026-10-05T16:27:55.631Z",
-      "lastSeen": "2026-10-05T16:27:55.631Z",
+      "firstSeen": "2026-10-06T01:13:27.461Z",
+      "lastSeen": "2026-10-06T01:13:27.461Z",
       "id": "dd-3431391",
       "url": "https://dollardealers.co.nz/product/panasonic-65-4k-smart-tv-th-65lx800z/",
       "priceText": "$899.00 incl. GST",
@@ -1338,9 +1338,9 @@
         "src-a-anker-nano"
       ],
       "firstSeenAt": "2026-09-29T10:25:23.530Z",
-      "lastSeenAt": "2026-10-05T16:27:55.631Z",
-      "firstSeen": "2026-10-05T16:27:55.631Z",
-      "lastSeen": "2026-10-05T16:27:55.631Z",
+      "lastSeenAt": "2026-10-06T01:13:27.461Z",
+      "firstSeen": "2026-10-06T01:13:27.461Z",
+      "lastSeen": "2026-10-06T01:13:27.461Z",
       "aiContext": "Anker Power (chargers / power banks) (Anker power bank, Anker battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1390,7 +1390,7 @@
       "rawText": "Mobile Phones & accessories BASEUS PPTSZ10 POWERBANK $49.00 incl. GST The Baseus PPTSZ10 is a compact 10,000mAh power bank with up to 22.5W fast charging, making it convenient for charging smartphones and other USB devices while travelling or on the go. It features USB-C and USB-A outputs and has a portable design that is easy to carry. THIS ITEM HAS A 30 DAY WARRANTY EXCLUDING BATTERY. 120 DAY PURCHASE PROTECTION PLAN CAN BE PURCHASED AT AN ADDITIONAL COST FOR EXTRA COVER AND PEACE OF MIND. THIS ITEM CAN BE VIEWED AT NEW LYNN DOLLAR DEALERS, OPEN FROM 9AM-5PM. STOCK NUMBER: 373421",
       "modelNumber": "373421",
       "key": "dollardealers:dd-3496109",
-      "status": "active",
+      "status": "removed",
       "siteId": "dollardealers",
       "sourceListingId": "dd-3496109",
       "canonicalUrl": "https://dollardealers.co.nz/product/baseus-pptsz10-powerbank/",
@@ -1463,9 +1463,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-30T14:17:31.640Z",
-      "lastSeenAt": "2026-10-05T16:27:55.631Z",
-      "firstSeen": "2026-10-05T16:27:55.631Z",
-      "lastSeen": "2026-10-05T16:27:55.631Z",
+      "lastSeenAt": "2026-10-06T01:13:27.461Z",
+      "firstSeen": "2026-10-06T01:13:27.461Z",
+      "lastSeen": "2026-10-06T01:13:27.461Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -1494,9 +1494,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-09-30T23:50:12.583Z",
-      "lastSeenAt": "2026-10-05T16:27:55.631Z",
-      "firstSeen": "2026-10-05T16:27:55.631Z",
-      "lastSeen": "2026-10-05T16:27:55.631Z",
+      "lastSeenAt": "2026-10-06T01:13:27.461Z",
+      "firstSeen": "2026-10-06T01:13:27.461Z",
+      "lastSeen": "2026-10-06T01:13:27.461Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -1554,15 +1554,46 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-10-04T23:05:33.933Z",
-      "lastSeenAt": "2026-10-05T16:27:55.631Z",
-      "firstSeen": "2026-10-05T16:27:55.631Z",
-      "lastSeen": "2026-10-05T16:27:55.631Z",
+      "lastSeenAt": "2026-10-06T01:13:27.461Z",
+      "firstSeen": "2026-10-06T01:13:27.461Z",
+      "lastSeen": "2026-10-06T01:13:27.461Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
         "score": 5,
         "verdict": "Fair Price",
         "reason": "Matches the 65-inch display category as an LG NanoCell 4K TV, but cannot accurately evaluate deal attractiveness without price."
+      }
+    },
+    "cashconverters:cc-184233413": {
+      "id": "cc-184233413",
+      "title": "Baseus Wireless Charger 5000 MAH",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/184233413/Baseus-Wireless-Charger-5000-MAH",
+      "priceText": "",
+      "rawText": "Baseus Wireless Charger 5000 MAH Seller: CCWanganui",
+      "key": "cashconverters:cc-184233413",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-184233413",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/184233413/Baseus-Wireless-Charger-5000-MAH",
+      "priority": "normal",
+      "matchedRules": [
+        "rule-a-normal-baseus-charger",
+        "rule-a-normal-baseus-mah"
+      ],
+      "searchIds": [
+        "src-a-baseus-blade"
+      ],
+      "firstSeenAt": "2026-10-06T01:13:27.461Z",
+      "lastSeenAt": "2026-10-06T01:13:27.461Z",
+      "firstSeen": "2026-10-06T01:13:27.461Z",
+      "lastSeen": "2026-10-06T01:13:27.461Z",
+      "aiContext": "Baseus Power (chargers / power banks) (Baseus charger (GaN / USB-C), Baseus battery pack (mAh))",
+      "ai": {
+        "isTruePositive": true,
+        "score": 5,
+        "verdict": "Fair Price",
+        "reason": "This is a genuine Baseus wireless power bank, but with an unknown price, it represents a standard market evaluation."
       }
     }
   }
