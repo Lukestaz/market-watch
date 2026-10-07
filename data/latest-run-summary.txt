@@ -5,7 +5,7 @@
 Starting Market Watch run...
 Executing search: Source A - Displays 65" / OLED (cashconverters)
 [CashConverters] Fetching: https://shop.cashconverters.co.nz/Browse?FullTextQuery=LG%20tv
-[CashConverters] Found 26 listings for /Browse?FullTextQuery=LG%20tv
+[CashConverters] Found 27 listings for /Browse?FullTextQuery=LG%20tv
 Executing search: Source A - Cordless Power Equipment (cashconverters)
 [CashConverters] Fetching: https://shop.cashconverters.co.nz/Browse?FullTextQuery=EGO%2056V
 [CashConverters] Found 3 listings for /Browse?FullTextQuery=EGO%2056V
@@ -20,7 +20,7 @@ Executing search: Source A - Baseus Power (chargers / power banks) (cashconverte
 [CashConverters] Found 1 listings for /Browse?FullTextQuery=Baseus&StatusFilter=active_only
 Executing search: Source B - Displays 65" / OLED (dollardealers)
 [DollarDealers] Fetching: https://dollardealers.co.nz/?s=lg+tv&post_type=product
-[DollarDealers] Found 38 listings for /?s=lg+tv&post_type=product
+[DollarDealers] Found 36 listings for /?s=lg+tv&post_type=product
 Executing search: Source B - Cordless Power Equipment (dollardealers)
 [DollarDealers] Fetching: https://dollardealers.co.nz/?s=ego+56v&post_type=product
 [DollarDealers] Found 16 listings for /?s=ego+56v&post_type=product
@@ -52,18 +52,30 @@ Total raw listings collected: 82
 [Details] Enriching high item: Ego 56V Cordless Line Trimmer ST1400E- ST
 [Details] Enriching high item: Anker Powerbank 20100Mah A1271
 Candidate listings passing keyword rules: 11
-[AI] "Lg Tv (Smart) 65 INCH LED LCD 65UA8450PSA" -> Fair Price (score: 5/10, valid: true)
 [AI] "Lg Tv - 65 Inch 4K Uhd Smart Led 65UP7550PVG" -> Fair Price (score: 5/10, valid: true)
 [AI] "Lg Smart Tv **65Inch/Loose Base** OLED65C56LA" -> Great Deal (score: 8/10, valid: true)
+[AI] "Lg Tv (Smart) 65 INCH LED LCD 65UA8450PSA" -> Fair Price (score: 5/10, valid: true)
 [AI] "Lg Smart Tv 65 Inch 4K Ultra Hd Led 65NANO86VNA" -> Fair Price (score: 5/10, valid: true)
 [AI] "Ego Battery 56V 2.5Ah BA1400" -> Fair Price (score: 5/10, valid: true)
 [AI Evaluator] Available flash models: gemini-flash-latest, gemini-2.5-flash, gemini-flash-lite-latest, gemini-3.8-flash
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {
+[AI Evaluator] Error evaluating "Ego Charger Power+ Standard Charger CH2100E" with gemini-flash-latest: TypeError: fetch failed
+    at node:internal/deps/undici/undici:14976:13
+    at async evaluateListingWithGemini (/home/runner/work/market-watch/market-watch/src/ai.ts:65:19)
+    at async main (/home/runner/work/market-watch/market-watch/src/index.ts:125:33) {
+  [cause]: HeadersTimeoutError: Headers Timeout Error
+      at FastTimer.onParserTimeout [as _onTimeout] (/home/runner/work/market-watch/market-watch/node_modules/undici/lib/dispatcher/client-h1.js:811:28)
+      at Timeout.onTick [as _onTimeout] (/home/runner/work/market-watch/market-watch/node_modules/undici/lib/util/timers.js:162:13)
+      at listOnTimeout (node:internal/timers:581:17)
+      at process.processTimers (node:internal/timers:519:7) {
+    code: 'UND_ERR_HEADERS_TIMEOUT'
+  }
+}
+[AI Evaluator] Gemini (gemini-2.5-flash) HTTP 404: {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a
+    "code": 404,
+    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use
 [AI] "Ego Charger Power+ Standard Charger CH2100E" -> Not Relevant (score: 1/10, valid: false)
-[AI] Dropping false positive: Ego Charger Power+ Standard Charger CH2100E (This item is a standalone battery charger accessory rather than a cordless power equipment bare tool.)
+[AI] Dropping false positive: Ego Charger Power+ Standard Charger CH2100E (This listing is for a battery charger, not a cordless power equipment bare tool as required by the search criteria.)
 [AI] "Ego 56V Cordless Line Trimmer ST1400E- ST" -> Great Deal (score: 7/10, valid: true)
 [AI] "Anker Powerbank 20100Mah A1271" -> Fair Price (score: 6/10, valid: true)
 [AI] "Baseus Wireless Charger 5000 MAH" -> Fair Price (score: 5/10, valid: true)
