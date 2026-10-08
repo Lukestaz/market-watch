@@ -1,0 +1,1 @@
+{"name":"market-watch-sync","main":"src/worker.js","compatibility_date":"2026-10-01","d1_databases":[{"binding":"DB","database_name":"market-watch-decisions","database_id":"REPLACE_BEFORE_DEPLOY","migrations_dir":"migrations"}],"vars":{"ACCESS_ISSUER":"","ACCESS_AUD":"","DASHBOARD_ORIGIN":""}}
