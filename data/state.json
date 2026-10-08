@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T14:48:03.740Z",
+  "updatedAt": "2026-10-08T00:04:48.100Z",
   "listings": {
     "dollardealers:dd-samsung-43-smart-tv-2": {
       "key": "dollardealers:dd-samsung-43-smart-tv-2",
@@ -522,9 +522,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-10-07T14:48:03.740Z",
-      "firstSeen": "2026-10-07T14:48:03.740Z",
-      "lastSeen": "2026-10-07T14:48:03.740Z",
+      "lastSeenAt": "2026-10-08T00:04:48.100Z",
+      "firstSeen": "2026-10-08T00:04:48.100Z",
+      "lastSeen": "2026-10-08T00:04:48.100Z",
       "ai": {
         "isTruePositive": true,
         "score": 5,
@@ -607,9 +607,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-10-07T14:48:03.740Z",
-      "firstSeen": "2026-10-07T14:48:03.740Z",
-      "lastSeen": "2026-10-07T14:48:03.740Z",
+      "lastSeenAt": "2026-10-08T00:04:48.100Z",
+      "firstSeen": "2026-10-08T00:04:48.100Z",
+      "lastSeen": "2026-10-08T00:04:48.100Z",
       "ai": {
         "isTruePositive": true,
         "score": 8,
@@ -1211,9 +1211,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-10-07T14:48:03.740Z",
-      "firstSeen": "2026-10-07T14:48:03.740Z",
-      "lastSeen": "2026-10-07T14:48:03.740Z",
+      "lastSeenAt": "2026-10-08T00:04:48.100Z",
+      "firstSeen": "2026-10-08T00:04:48.100Z",
+      "lastSeen": "2026-10-08T00:04:48.100Z",
       "ai": {
         "isTruePositive": true,
         "score": 7,
@@ -1238,10 +1238,10 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-10-07T14:48:03.740Z",
+      "lastSeenAt": "2026-10-08T00:04:48.100Z",
       "status": "active",
-      "firstSeen": "2026-10-07T14:48:03.740Z",
-      "lastSeen": "2026-10-07T14:48:03.740Z",
+      "firstSeen": "2026-10-08T00:04:48.100Z",
+      "lastSeen": "2026-10-08T00:04:48.100Z",
       "id": "dd-3481663",
       "url": "https://dollardealers.co.nz/product/lg-65-smart-tv-2/",
       "priceText": "$749.00 incl. GST",
@@ -1302,10 +1302,10 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-10-07T14:48:03.740Z",
+      "lastSeenAt": "2026-10-08T00:04:48.100Z",
       "status": "active",
-      "firstSeen": "2026-10-07T14:48:03.740Z",
-      "lastSeen": "2026-10-07T14:48:03.740Z",
+      "firstSeen": "2026-10-08T00:04:48.100Z",
+      "lastSeen": "2026-10-08T00:04:48.100Z",
       "id": "dd-3431391",
       "url": "https://dollardealers.co.nz/product/panasonic-65-4k-smart-tv-th-65lx800z/",
       "priceText": "$899.00 incl. GST",
@@ -1338,9 +1338,9 @@
         "src-a-anker-nano"
       ],
       "firstSeenAt": "2026-09-29T10:25:23.530Z",
-      "lastSeenAt": "2026-10-07T14:48:03.740Z",
-      "firstSeen": "2026-10-07T14:48:03.740Z",
-      "lastSeen": "2026-10-07T14:48:03.740Z",
+      "lastSeenAt": "2026-10-08T00:04:48.100Z",
+      "firstSeen": "2026-10-08T00:04:48.100Z",
+      "lastSeen": "2026-10-08T00:04:48.100Z",
       "aiContext": "Anker Power (chargers / power banks) (Anker power bank, Anker battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1463,9 +1463,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-30T14:17:31.640Z",
-      "lastSeenAt": "2026-10-07T14:48:03.740Z",
-      "firstSeen": "2026-10-07T14:48:03.740Z",
-      "lastSeen": "2026-10-07T14:48:03.740Z",
+      "lastSeenAt": "2026-10-08T00:04:48.100Z",
+      "firstSeen": "2026-10-08T00:04:48.100Z",
+      "lastSeen": "2026-10-08T00:04:48.100Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -1494,9 +1494,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-09-30T23:50:12.583Z",
-      "lastSeenAt": "2026-10-07T14:48:03.740Z",
-      "firstSeen": "2026-10-07T14:48:03.740Z",
-      "lastSeen": "2026-10-07T14:48:03.740Z",
+      "lastSeenAt": "2026-10-08T00:04:48.100Z",
+      "firstSeen": "2026-10-08T00:04:48.100Z",
+      "lastSeen": "2026-10-08T00:04:48.100Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -1554,9 +1554,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-10-04T23:05:33.933Z",
-      "lastSeenAt": "2026-10-07T14:48:03.740Z",
-      "firstSeen": "2026-10-07T14:48:03.740Z",
-      "lastSeen": "2026-10-07T14:48:03.740Z",
+      "lastSeenAt": "2026-10-08T00:04:48.100Z",
+      "firstSeen": "2026-10-08T00:04:48.100Z",
+      "lastSeen": "2026-10-08T00:04:48.100Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -1585,15 +1585,49 @@
         "src-a-baseus-blade"
       ],
       "firstSeenAt": "2026-10-06T01:13:27.461Z",
-      "lastSeenAt": "2026-10-07T14:48:03.740Z",
-      "firstSeen": "2026-10-07T14:48:03.740Z",
-      "lastSeen": "2026-10-07T14:48:03.740Z",
+      "lastSeenAt": "2026-10-08T00:04:48.100Z",
+      "firstSeen": "2026-10-08T00:04:48.100Z",
+      "lastSeen": "2026-10-08T00:04:48.100Z",
       "aiContext": "Baseus Power (chargers / power banks) (Baseus charger (GaN / USB-C), Baseus battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
         "score": 5,
         "verdict": "Fair Price",
         "reason": "This is a genuine Baseus wireless power bank, but with an unknown price, it represents a standard market evaluation."
+      }
+    },
+    "dollardealers:dd-3532010": {
+      "id": "dd-3532010",
+      "title": "ANKER POWER BANK 10000MAH 22.5W – New in Box",
+      "url": "https://dollardealers.co.nz/product/anker-power-bank-10000mah-22-5w-new-in-box/",
+      "priceText": "$39.00 incl. GST",
+      "price": 39,
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/bc86264e-b08d-40b3-bf71-654b9976b630.jpg?resize=247&w=247",
+      "rawText": "Electronics and gaming ANKER POWER BANK 10000MAH 22.5W – New in Box $39.00 incl. GST Stock no. 372911 The Anker Power Bank provides portable power for charging compatible devices while on the go. With a 10,000mAh capacity and 22.5W output, it is a convenient option for keeping smartphones and other compatible devices charged when away from a power outlet. CONDITIONNew in box. The item has been opened to verify the contents and accessories, as well as for photo listings. The item has not been tampered with. WARRANTY & PURCHASE PROTECTION THIS ITEM DOES NOT COME WITH WARRANTY 120 DAY PURCHASE PROTECTION PLAN CAN BE PURCHASED AT AN ADDITIONAL COST FOR EXTRA COVER FOR PEACE OF MIND AT 10% OF ITEM COST. (UP TO $50) Item is available for viewing at our Birkenhead branch.",
+      "modelNumber": "372911",
+      "key": "dollardealers:dd-3532010",
+      "status": "active",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-3532010",
+      "canonicalUrl": "https://dollardealers.co.nz/product/anker-power-bank-10000mah-22-5w-new-in-box/",
+      "priority": "high",
+      "matchedRules": [
+        "rule-b-high-anker-power-bank",
+        "rule-b-normal-anker-mah"
+      ],
+      "searchIds": [
+        "src-b-anker-nano"
+      ],
+      "firstSeenAt": "2026-10-08T00:04:48.100Z",
+      "lastSeenAt": "2026-10-08T00:04:48.100Z",
+      "firstSeen": "2026-10-08T00:04:48.100Z",
+      "lastSeen": "2026-10-08T00:04:48.100Z",
+      "aiContext": "Anker Power (chargers / power banks) (Anker power bank, Anker battery pack (mAh))",
+      "ai": {
+        "isTruePositive": true,
+        "score": 8,
+        "verdict": "Great Deal",
+        "reason": "Brand new in box Anker 10000mAh 22.5W power bank for $39 NZD represents a strong discount compared to retail prices."
       }
     }
   }
