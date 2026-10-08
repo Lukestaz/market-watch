@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T00:04:48.100Z",
+  "updatedAt": "2026-10-08T14:59:20.791Z",
   "listings": {
     "dollardealers:dd-samsung-43-smart-tv-2": {
       "key": "dollardealers:dd-samsung-43-smart-tv-2",
@@ -522,9 +522,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-10-08T00:04:48.100Z",
-      "firstSeen": "2026-10-08T00:04:48.100Z",
-      "lastSeen": "2026-10-08T00:04:48.100Z",
+      "lastSeenAt": "2026-10-08T14:59:20.791Z",
+      "firstSeen": "2026-10-08T14:59:20.791Z",
+      "lastSeen": "2026-10-08T14:59:20.791Z",
       "ai": {
         "isTruePositive": true,
         "score": 5,
@@ -607,9 +607,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-10-08T00:04:48.100Z",
-      "firstSeen": "2026-10-08T00:04:48.100Z",
-      "lastSeen": "2026-10-08T00:04:48.100Z",
+      "lastSeenAt": "2026-10-08T14:59:20.791Z",
+      "firstSeen": "2026-10-08T14:59:20.791Z",
+      "lastSeen": "2026-10-08T14:59:20.791Z",
       "ai": {
         "isTruePositive": true,
         "score": 8,
@@ -1198,7 +1198,7 @@
       "priceText": "",
       "rawText": "Ego 56V Cordless Line Trimmer ST1400E- ST Seller: CCLinwood Ego 56V Cordless Line Trimmer ST1400E- ST Shipping: Not AvailablePlease Contact Store To Arrange Shipping",
       "key": "cashconverters:cc-183578577",
-      "status": "active",
+      "status": "removed",
       "siteId": "cashconverters",
       "sourceListingId": "cc-183578577",
       "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/183578577/Ego-56V-Cordless-Line-Trimmer-ST1400E-ST",
@@ -1238,10 +1238,10 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-10-08T00:04:48.100Z",
+      "lastSeenAt": "2026-10-08T14:59:20.791Z",
       "status": "active",
-      "firstSeen": "2026-10-08T00:04:48.100Z",
-      "lastSeen": "2026-10-08T00:04:48.100Z",
+      "firstSeen": "2026-10-08T14:59:20.791Z",
+      "lastSeen": "2026-10-08T14:59:20.791Z",
       "id": "dd-3481663",
       "url": "https://dollardealers.co.nz/product/lg-65-smart-tv-2/",
       "priceText": "$749.00 incl. GST",
@@ -1302,10 +1302,10 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-10-08T00:04:48.100Z",
+      "lastSeenAt": "2026-10-08T14:59:20.791Z",
       "status": "active",
-      "firstSeen": "2026-10-08T00:04:48.100Z",
-      "lastSeen": "2026-10-08T00:04:48.100Z",
+      "firstSeen": "2026-10-08T14:59:20.791Z",
+      "lastSeen": "2026-10-08T14:59:20.791Z",
       "id": "dd-3431391",
       "url": "https://dollardealers.co.nz/product/panasonic-65-4k-smart-tv-th-65lx800z/",
       "priceText": "$899.00 incl. GST",
@@ -1338,9 +1338,9 @@
         "src-a-anker-nano"
       ],
       "firstSeenAt": "2026-09-29T10:25:23.530Z",
-      "lastSeenAt": "2026-10-08T00:04:48.100Z",
-      "firstSeen": "2026-10-08T00:04:48.100Z",
-      "lastSeen": "2026-10-08T00:04:48.100Z",
+      "lastSeenAt": "2026-10-08T14:59:20.791Z",
+      "firstSeen": "2026-10-08T14:59:20.791Z",
+      "lastSeen": "2026-10-08T14:59:20.791Z",
       "aiContext": "Anker Power (chargers / power banks) (Anker power bank, Anker battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1463,9 +1463,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-30T14:17:31.640Z",
-      "lastSeenAt": "2026-10-08T00:04:48.100Z",
-      "firstSeen": "2026-10-08T00:04:48.100Z",
-      "lastSeen": "2026-10-08T00:04:48.100Z",
+      "lastSeenAt": "2026-10-08T14:59:20.791Z",
+      "firstSeen": "2026-10-08T14:59:20.791Z",
+      "lastSeen": "2026-10-08T14:59:20.791Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -1494,9 +1494,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-09-30T23:50:12.583Z",
-      "lastSeenAt": "2026-10-08T00:04:48.100Z",
-      "firstSeen": "2026-10-08T00:04:48.100Z",
-      "lastSeen": "2026-10-08T00:04:48.100Z",
+      "lastSeenAt": "2026-10-08T14:59:20.791Z",
+      "firstSeen": "2026-10-08T14:59:20.791Z",
+      "lastSeen": "2026-10-08T14:59:20.791Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -1554,9 +1554,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-10-04T23:05:33.933Z",
-      "lastSeenAt": "2026-10-08T00:04:48.100Z",
-      "firstSeen": "2026-10-08T00:04:48.100Z",
-      "lastSeen": "2026-10-08T00:04:48.100Z",
+      "lastSeenAt": "2026-10-08T14:59:20.791Z",
+      "firstSeen": "2026-10-08T14:59:20.791Z",
+      "lastSeen": "2026-10-08T14:59:20.791Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -1585,9 +1585,9 @@
         "src-a-baseus-blade"
       ],
       "firstSeenAt": "2026-10-06T01:13:27.461Z",
-      "lastSeenAt": "2026-10-08T00:04:48.100Z",
-      "firstSeen": "2026-10-08T00:04:48.100Z",
-      "lastSeen": "2026-10-08T00:04:48.100Z",
+      "lastSeenAt": "2026-10-08T14:59:20.791Z",
+      "firstSeen": "2026-10-08T14:59:20.791Z",
+      "lastSeen": "2026-10-08T14:59:20.791Z",
       "aiContext": "Baseus Power (chargers / power banks) (Baseus charger (GaN / USB-C), Baseus battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1619,15 +1619,46 @@
         "src-b-anker-nano"
       ],
       "firstSeenAt": "2026-10-08T00:04:48.100Z",
-      "lastSeenAt": "2026-10-08T00:04:48.100Z",
-      "firstSeen": "2026-10-08T00:04:48.100Z",
-      "lastSeen": "2026-10-08T00:04:48.100Z",
+      "lastSeenAt": "2026-10-08T14:59:20.791Z",
+      "firstSeen": "2026-10-08T14:59:20.791Z",
+      "lastSeen": "2026-10-08T14:59:20.791Z",
       "aiContext": "Anker Power (chargers / power banks) (Anker power bank, Anker battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
         "score": 8,
         "verdict": "Great Deal",
         "reason": "Brand new in box Anker 10000mAh 22.5W power bank for $39 NZD represents a strong discount compared to retail prices."
+      }
+    },
+    "cashconverters:cc-184373267": {
+      "id": "cc-184373267",
+      "title": "Ego 56V Cordless Line Trimmer ST1400E- ST",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/184373267/Ego-56V-Cordless-Line-Trimmer-ST1400E-ST",
+      "priceText": "",
+      "rawText": "Ego 56V Cordless Line Trimmer ST1400E- ST Seller: CCLinwood Ego 56V Cordless Line Trimmer ST1400E- ST Shipping: Not AvailablePlease Contact Store To Arrange Shipping",
+      "key": "cashconverters:cc-184373267",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-184373267",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/184373267/Ego-56V-Cordless-Line-Trimmer-ST1400E-ST",
+      "priority": "high",
+      "matchedRules": [
+        "rule-a-high-trimmer",
+        "rule-a-normal-ego-56v"
+      ],
+      "searchIds": [
+        "src-a-power-tools"
+      ],
+      "firstSeenAt": "2026-10-08T14:59:20.791Z",
+      "lastSeenAt": "2026-10-08T14:59:20.791Z",
+      "firstSeen": "2026-10-08T14:59:20.791Z",
+      "lastSeen": "2026-10-08T14:59:20.791Z",
+      "aiContext": "Cordless Power Equipment (Line Trimmer / Brushcutter, Any EGO 56V item)",
+      "ai": {
+        "isTruePositive": true,
+        "score": 5,
+        "verdict": "Fair Price",
+        "reason": "Exact match for an EGO 56V line trimmer (ST1400E-ST), but attractiveness cannot be determined without a listed price."
       }
     }
   }

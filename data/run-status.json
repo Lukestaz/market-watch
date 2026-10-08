@@ -7,8 +7,8 @@
     "typecheck": "success",
     "pipeline": "success"
   },
-  "commit": "e38039e9c93086c7af12d4c0d3ea3e9f9bf82d9a",
-  "runUrl": "https://github.com/Lukestaz/market-watch/actions/runs/37705754060",
-  "finishedAt": "2026-10-08T00:05:40.331Z",
-  "summary": "[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a\n[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a\n[AI Evaluator] Gemini (gemini-2.5-flash) HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use\n[AI] \"ANKER POWER BANK 10000MAH 22.5W – New in Box\" -> Great Deal (score: 8/10, valid: true)\nListings verified after AI assessment: 11\nListing events detected: 11\nSending email alert for 1 event(s) to [REDACTED_EMAIL]...\nEmail alert sent successfully.\n[UI] Generated index.html and feed.json in ./dist\nMarket Watch run complete.\n"
+  "commit": "0dc6def2c1877ea6b1ba44218daf90472c5864f4",
+  "runUrl": "https://github.com/Lukestaz/market-watch/actions/runs/37796919230",
+  "finishedAt": "2026-10-08T15:00:15.582Z",
+  "summary": "  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a\n[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a\n[AI] \"Ego 56V Cordless Line Trimmer ST1400E- ST\" -> Fair Price (score: 5/10, valid: true)\n[AI] \"Anker Powerbank 20100Mah A1271\" -> Fair Price (score: 6/10, valid: true)\n[AI] \"Baseus Wireless Charger 5000 MAH\" -> Fair Price (score: 5/10, valid: true)\n[AI] \"LG 65 SMART TV\" -> Great Deal (score: 7/10, valid: true)\n[AI] \"PANASONIC 65″ 4K SMART TV TH-65LX800Z\" -> Fair Price (score: 6/10, valid: true)\n[AI] \"ANKER POWER BANK 10000MAH 22.5W – New in Box\" -> Great Deal (score: 8/10, valid: true)\nListings verified after AI assessment: 11\nListing events detected: 11\nSending email alert for 1 event(s) to [REDACTED_EMAIL]...\nEmail alert sent successfully.\n[UI] Generated index.html and feed.json in ./dist\nMarket Watch run complete.\n"
 }

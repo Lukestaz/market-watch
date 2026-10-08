@@ -53,43 +53,27 @@ Total raw listings collected: 77
 [Details] Enriching high item: Anker Powerbank 20100Mah A1271
 [Details] Enriching high item: ANKER POWER BANK 10000MAH 22.5W – New in Box
 Candidate listings passing keyword rules: 12
-[AI] "Lg Tv - 65 Inch 4K Uhd Smart Led 65UP7550PVG" -> Fair Price (score: 5/10, valid: true)
 [AI] "Lg Smart Tv **65Inch/Loose Base** OLED65C56LA" -> Great Deal (score: 8/10, valid: true)
 [AI] "Lg Tv (Smart) 65 INCH LED LCD 65UA8450PSA" -> Fair Price (score: 5/10, valid: true)
 [AI] "Lg Smart Tv 65 Inch 4K Ultra Hd Led 65NANO86VNA" -> Fair Price (score: 5/10, valid: true)
+[AI] "Lg Tv - 65 Inch 4K Uhd Smart Led 65UP7550PVG" -> Fair Price (score: 5/10, valid: true)
 [AI] "Ego Battery 56V 2.5Ah BA1400" -> Fair Price (score: 5/10, valid: true)
 [AI Evaluator] Available flash models: gemini-flash-latest, gemini-2.5-flash, gemini-flash-lite-latest, gemini-3.8-flash
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a
 [AI] "Ego Charger Power+ Standard Charger CH2100E" -> Not Relevant (score: 1/10, valid: false)
-[AI] Dropping false positive: Ego Charger Power+ Standard Charger CH2100E (This is a standalone battery charger accessory rather than a cordless power equipment bare tool.)
-[AI] "Ego 56V Cordless Line Trimmer ST1400E- ST" -> Great Deal (score: 7/10, valid: true)
+[AI] Dropping false positive: Ego Charger Power+ Standard Charger CH2100E (This listing is for a standalone battery charger rather than an actual cordless bare power tool.)
+[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a
+[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a
+[AI] "Ego 56V Cordless Line Trimmer ST1400E- ST" -> Fair Price (score: 5/10, valid: true)
 [AI] "Anker Powerbank 20100Mah A1271" -> Fair Price (score: 6/10, valid: true)
 [AI] "Baseus Wireless Charger 5000 MAH" -> Fair Price (score: 5/10, valid: true)
 [AI] "LG 65 SMART TV" -> Great Deal (score: 7/10, valid: true)
 [AI] "PANASONIC 65″ 4K SMART TV TH-65LX800Z" -> Fair Price (score: 6/10, valid: true)
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a
-[AI Evaluator] Gemini (gemini-2.5-flash) HTTP 404: {
-  "error": {
-    "code": 404,
-    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use
 [AI] "ANKER POWER BANK 10000MAH 22.5W – New in Box" -> Great Deal (score: 8/10, valid: true)
 Listings verified after AI assessment: 11
 Listing events detected: 11
