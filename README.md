@@ -1,6 +1,6 @@
 # market-watch
 
-A config-driven second-hand market watcher for **Cash Converters NZ** (Source A) and **Dollar Dealers NZ** (Source B). It runs on GitHub Actions, searches both stores, filters listings with keyword rules, has Gemini verify and score each candidate, tracks price history in Git, publishes a dashboard, and emails alerts for new listings and price drops.
+A config-driven second-hand market watcher for ? stores. It runs on GitHub Actions, searches both stores, filters listings with keyword rules, has Gemini verify and score each candidate, tracks price history in Git, publishes a dashboard, and emails alerts for new listings and price drops.
 
 **Dashboard:** [lukestaz.github.io/market-watch](https://lukestaz.github.io/market-watch)
 
