@@ -1,6 +1,6 @@
 # market-watch: assistant index
 
-Source commit: `0dc6def` · generated 2026-10-08T15:00:15Z
+Source commit: `3ab8c29` · generated 2026-10-09T00:14:15Z
 
 Fetch any link below to read the file as plain text. Pinned links (@sha) never go stale;
 `main` links always point at the newest version (may lag ~5 min due to CDN caching).
@@ -22,9 +22,9 @@ Fetch any link below to read the file as plain text. Pinned links (@sha) never g
     "typecheck": "success",
     "pipeline": "success"
   },
-  "commit": "0dc6def2c1877ea6b1ba44218daf90472c5864f4",
-  "runUrl": "https://github.com/Lukestaz/market-watch/actions/runs/37796919230",
-  "finishedAt": "2026-10-08T15:00:15.582Z"
+  "commit": "3ab8c299d84930eec3aa1b4b43e97ee618f2fe7a",
+  "runUrl": "https://github.com/Lukestaz/market-watch/actions/runs/37863553859",
+  "finishedAt": "2026-10-09T00:14:15.122Z"
 }
 ```
 
@@ -32,24 +32,24 @@ Fetch any link below to read the file as plain text. Pinned links (@sha) never g
 
 | File | Lines | Pinned | Latest |
 |---|---|---|---|
-| `.env.example` | 5 | [@0dc6def](https://raw.githubusercontent.com/Lukestaz/market-watch/0dc6def2c1877ea6b1ba44218daf90472c5864f4/.env.example) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/.env.example) |
-| `.github/workflows/daily-watch.yml` | 171 | [@0dc6def](https://raw.githubusercontent.com/Lukestaz/market-watch/0dc6def2c1877ea6b1ba44218daf90472c5864f4/.github/workflows/daily-watch.yml) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/.github/workflows/daily-watch.yml) |
-| `.gitignore` | 11 | [@0dc6def](https://raw.githubusercontent.com/Lukestaz/market-watch/0dc6def2c1877ea6b1ba44218daf90472c5864f4/.gitignore) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/.gitignore) |
-| `README.md` | 149 | [@0dc6def](https://raw.githubusercontent.com/Lukestaz/market-watch/0dc6def2c1877ea6b1ba44218daf90472c5864f4/README.md) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/README.md) |
-| `config/searches.json` | 1484 | [@0dc6def](https://raw.githubusercontent.com/Lukestaz/market-watch/0dc6def2c1877ea6b1ba44218daf90472c5864f4/config/searches.json) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/config/searches.json) |
-| `config/sites.yaml` | 15 | [@0dc6def](https://raw.githubusercontent.com/Lukestaz/market-watch/0dc6def2c1877ea6b1ba44218daf90472c5864f4/config/sites.yaml) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/config/sites.yaml) |
-| `package.json` | 23 | [@0dc6def](https://raw.githubusercontent.com/Lukestaz/market-watch/0dc6def2c1877ea6b1ba44218daf90472c5864f4/package.json) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/package.json) |
-| `scripts/agent-index.sh` | 41 | [@0dc6def](https://raw.githubusercontent.com/Lukestaz/market-watch/0dc6def2c1877ea6b1ba44218daf90472c5864f4/scripts/agent-index.sh) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/scripts/agent-index.sh) |
-| `src/ai.ts` | 158 | [@0dc6def](https://raw.githubusercontent.com/Lukestaz/market-watch/0dc6def2c1877ea6b1ba44218daf90472c5864f4/src/ai.ts) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/src/ai.ts) |
-| `src/alerts.ts` | 155 | [@0dc6def](https://raw.githubusercontent.com/Lukestaz/market-watch/0dc6def2c1877ea6b1ba44218daf90472c5864f4/src/alerts.ts) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/src/alerts.ts) |
-| `src/config.ts` | 25 | [@0dc6def](https://raw.githubusercontent.com/Lukestaz/market-watch/0dc6def2c1877ea6b1ba44218daf90472c5864f4/src/config.ts) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/src/config.ts) |
-| `src/index.ts` | 155 | [@0dc6def](https://raw.githubusercontent.com/Lukestaz/market-watch/0dc6def2c1877ea6b1ba44218daf90472c5864f4/src/index.ts) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/src/index.ts) |
-| `src/matching.ts` | 180 | [@0dc6def](https://raw.githubusercontent.com/Lukestaz/market-watch/0dc6def2c1877ea6b1ba44218daf90472c5864f4/src/matching.ts) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/src/matching.ts) |
-| `src/models.ts` | 87 | [@0dc6def](https://raw.githubusercontent.com/Lukestaz/market-watch/0dc6def2c1877ea6b1ba44218daf90472c5864f4/src/models.ts) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/src/models.ts) |
-| `src/normalise.ts` | 56 | [@0dc6def](https://raw.githubusercontent.com/Lukestaz/market-watch/0dc6def2c1877ea6b1ba44218daf90472c5864f4/src/normalise.ts) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/src/normalise.ts) |
-| `src/sites/base.ts` | 10 | [@0dc6def](https://raw.githubusercontent.com/Lukestaz/market-watch/0dc6def2c1877ea6b1ba44218daf90472c5864f4/src/sites/base.ts) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/src/sites/base.ts) |
-| `src/sites/cashconverters.ts` | 185 | [@0dc6def](https://raw.githubusercontent.com/Lukestaz/market-watch/0dc6def2c1877ea6b1ba44218daf90472c5864f4/src/sites/cashconverters.ts) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/src/sites/cashconverters.ts) |
-| `src/sites/dollardealers.ts` | 140 | [@0dc6def](https://raw.githubusercontent.com/Lukestaz/market-watch/0dc6def2c1877ea6b1ba44218daf90472c5864f4/src/sites/dollardealers.ts) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/src/sites/dollardealers.ts) |
-| `src/state.ts` | 106 | [@0dc6def](https://raw.githubusercontent.com/Lukestaz/market-watch/0dc6def2c1877ea6b1ba44218daf90472c5864f4/src/state.ts) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/src/state.ts) |
-| `src/ui.ts` | 575 | [@0dc6def](https://raw.githubusercontent.com/Lukestaz/market-watch/0dc6def2c1877ea6b1ba44218daf90472c5864f4/src/ui.ts) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/src/ui.ts) |
-| `tsconfig.json` | 14 | [@0dc6def](https://raw.githubusercontent.com/Lukestaz/market-watch/0dc6def2c1877ea6b1ba44218daf90472c5864f4/tsconfig.json) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/tsconfig.json) |
+| `.env.example` | 5 | [@3ab8c29](https://raw.githubusercontent.com/Lukestaz/market-watch/3ab8c299d84930eec3aa1b4b43e97ee618f2fe7a/.env.example) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/.env.example) |
+| `.github/workflows/daily-watch.yml` | 171 | [@3ab8c29](https://raw.githubusercontent.com/Lukestaz/market-watch/3ab8c299d84930eec3aa1b4b43e97ee618f2fe7a/.github/workflows/daily-watch.yml) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/.github/workflows/daily-watch.yml) |
+| `.gitignore` | 11 | [@3ab8c29](https://raw.githubusercontent.com/Lukestaz/market-watch/3ab8c299d84930eec3aa1b4b43e97ee618f2fe7a/.gitignore) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/.gitignore) |
+| `README.md` | 149 | [@3ab8c29](https://raw.githubusercontent.com/Lukestaz/market-watch/3ab8c299d84930eec3aa1b4b43e97ee618f2fe7a/README.md) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/README.md) |
+| `config/searches.json` | 1484 | [@3ab8c29](https://raw.githubusercontent.com/Lukestaz/market-watch/3ab8c299d84930eec3aa1b4b43e97ee618f2fe7a/config/searches.json) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/config/searches.json) |
+| `config/sites.yaml` | 15 | [@3ab8c29](https://raw.githubusercontent.com/Lukestaz/market-watch/3ab8c299d84930eec3aa1b4b43e97ee618f2fe7a/config/sites.yaml) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/config/sites.yaml) |
+| `package.json` | 23 | [@3ab8c29](https://raw.githubusercontent.com/Lukestaz/market-watch/3ab8c299d84930eec3aa1b4b43e97ee618f2fe7a/package.json) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/package.json) |
+| `scripts/agent-index.sh` | 41 | [@3ab8c29](https://raw.githubusercontent.com/Lukestaz/market-watch/3ab8c299d84930eec3aa1b4b43e97ee618f2fe7a/scripts/agent-index.sh) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/scripts/agent-index.sh) |
+| `src/ai.ts` | 158 | [@3ab8c29](https://raw.githubusercontent.com/Lukestaz/market-watch/3ab8c299d84930eec3aa1b4b43e97ee618f2fe7a/src/ai.ts) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/src/ai.ts) |
+| `src/alerts.ts` | 155 | [@3ab8c29](https://raw.githubusercontent.com/Lukestaz/market-watch/3ab8c299d84930eec3aa1b4b43e97ee618f2fe7a/src/alerts.ts) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/src/alerts.ts) |
+| `src/config.ts` | 25 | [@3ab8c29](https://raw.githubusercontent.com/Lukestaz/market-watch/3ab8c299d84930eec3aa1b4b43e97ee618f2fe7a/src/config.ts) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/src/config.ts) |
+| `src/index.ts` | 155 | [@3ab8c29](https://raw.githubusercontent.com/Lukestaz/market-watch/3ab8c299d84930eec3aa1b4b43e97ee618f2fe7a/src/index.ts) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/src/index.ts) |
+| `src/matching.ts` | 180 | [@3ab8c29](https://raw.githubusercontent.com/Lukestaz/market-watch/3ab8c299d84930eec3aa1b4b43e97ee618f2fe7a/src/matching.ts) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/src/matching.ts) |
+| `src/models.ts` | 87 | [@3ab8c29](https://raw.githubusercontent.com/Lukestaz/market-watch/3ab8c299d84930eec3aa1b4b43e97ee618f2fe7a/src/models.ts) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/src/models.ts) |
+| `src/normalise.ts` | 56 | [@3ab8c29](https://raw.githubusercontent.com/Lukestaz/market-watch/3ab8c299d84930eec3aa1b4b43e97ee618f2fe7a/src/normalise.ts) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/src/normalise.ts) |
+| `src/sites/base.ts` | 10 | [@3ab8c29](https://raw.githubusercontent.com/Lukestaz/market-watch/3ab8c299d84930eec3aa1b4b43e97ee618f2fe7a/src/sites/base.ts) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/src/sites/base.ts) |
+| `src/sites/cashconverters.ts` | 185 | [@3ab8c29](https://raw.githubusercontent.com/Lukestaz/market-watch/3ab8c299d84930eec3aa1b4b43e97ee618f2fe7a/src/sites/cashconverters.ts) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/src/sites/cashconverters.ts) |
+| `src/sites/dollardealers.ts` | 140 | [@3ab8c29](https://raw.githubusercontent.com/Lukestaz/market-watch/3ab8c299d84930eec3aa1b4b43e97ee618f2fe7a/src/sites/dollardealers.ts) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/src/sites/dollardealers.ts) |
+| `src/state.ts` | 106 | [@3ab8c29](https://raw.githubusercontent.com/Lukestaz/market-watch/3ab8c299d84930eec3aa1b4b43e97ee618f2fe7a/src/state.ts) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/src/state.ts) |
+| `src/ui.ts` | 575 | [@3ab8c29](https://raw.githubusercontent.com/Lukestaz/market-watch/3ab8c299d84930eec3aa1b4b43e97ee618f2fe7a/src/ui.ts) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/src/ui.ts) |
+| `tsconfig.json` | 14 | [@3ab8c29](https://raw.githubusercontent.com/Lukestaz/market-watch/3ab8c299d84930eec3aa1b4b43e97ee618f2fe7a/tsconfig.json) | [main](https://raw.githubusercontent.com/Lukestaz/market-watch/main/tsconfig.json) |
