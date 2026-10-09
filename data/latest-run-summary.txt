@@ -59,24 +59,8 @@ Candidate listings passing keyword rules: 12
 [AI] "Lg Smart Tv 65 Inch 4K Ultra Hd Led 65NANO86VNA" -> Fair Price (score: 5/10, valid: true)
 [AI] "Ego Battery 56V 2.5Ah BA1400" -> Fair Price (score: 5/10, valid: true)
 [AI Evaluator] Available flash models: gemini-flash-latest, gemini-2.5-flash, gemini-flash-lite-latest, gemini-3.8-flash
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a
-[AI Evaluator] Gemini (gemini-2.5-flash) HTTP 404: {
-  "error": {
-    "code": 404,
-    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use
 [AI] "Ego Charger Power+ Standard Charger CH2100E" -> Not Relevant (score: 1/10, valid: false)
-[AI] Dropping false positive: Ego Charger Power+ Standard Charger CH2100E (This listing is for a battery charger, not a cordless power equipment bare tool.)
+[AI] Dropping false positive: Ego Charger Power+ Standard Charger CH2100E (This listing is for a standard battery charger rather than an actual cordless power equipment bare tool.)
 [AI] "Ego 56V Cordless Line Trimmer ST1400E- ST" -> Fair Price (score: 5/10, valid: true)
 [AI] "Anker Powerbank 20100Mah A1271" -> Fair Price (score: 6/10, valid: true)
 [AI] "Baseus Wireless Charger 5000 MAH" -> Fair Price (score: 5/10, valid: true)
