@@ -1,0 +1,348 @@
+{
+  "updatedAt": "2026-10-10T23:21:20.970Z",
+  "listings": [
+    {
+      "id": "cc-177596871",
+      "title": "Lg Smart Tv **65Inch/Loose Base** OLED65C56LA",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/177596871/Lg-Smart-Tv-65InchLoose-Base-OLED65C56LA",
+      "priceText": "",
+      "rawText": "Lg Smart Tv **65Inch/Loose Base** OLED65C56LA Seller: CCHenderson Lg Smart Tv **65Inch/Loose Base** OLED65C56LA No remote Goods are available for viewing at our store during our trading hours 7 days per week Goods are offered for sale under the following conditions: Goods must be paid for within 5 working days of the auction finishing Goods have a 90 days warranty or longer as required by the Consumer Guarantees Act ID Required upon pick up. Online payments only - Credit and debit cards (MasterCard and Visa) and direct deposit. No instore payments accepted. WE PAWN CARS, MOTOR BIKES & BOATS!! ***Stock Wanted*** We are looking for more stock for our shop floor! Bring your good quality second hand goods for cash on the spot! All you need is your item and a valid ID",
+      "key": "cashconverters:cc-177596871",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-177596871",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/177596871/Lg-Smart-Tv-65InchLoose-Base-OLED65C56LA",
+      "priority": "high",
+      "matchedRules": [
+        "rule-a-high-oled-model",
+        "rule-a-normal-65"
+      ],
+      "searchIds": [
+        "src-a-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T09:51:51.037Z",
+      "lastSeenAt": "2026-10-10T23:21:02.291Z",
+      "firstSeen": "2026-10-10T23:21:02.291Z",
+      "lastSeen": "2026-10-10T23:21:02.291Z",
+      "ai": {
+        "isTruePositive": true,
+        "score": 8,
+        "verdict": "Great Deal",
+        "reason": "This is a true positive match for a 65-inch LG OLED TV, and despite the loose base, 65-inch C-series OLEDs typically represent high value if priced reasonably."
+      },
+      "aiContext": "Displays 65\" / OLED (LG OLED 65 model number (OLED65xx), Ref 65\" Display Generic)"
+    },
+    {
+      "id": "cc-177302410",
+      "title": "Anker Powerbank 20100Mah A1271",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/177302410/Anker-Powerbank-20100Mah-A1271",
+      "priceText": "",
+      "rawText": "Anker Powerbank 20100Mah A1271 Seller: CCPapakura Anker Powerbank 20100Mah Model: A1271 ********************************************************************************************************Goods are available for viewing at our store during our trading hours 7 days per week -Goods are offered for sale under the following conditions:-Goods must be paid for within 5 working days of the auction finishing-Goods have a 90 days warranty or longer as required by the Consumer Guarantees Act-ID Required upon pick up.-Online payments only - Credit and debit cards (MasterCard and Visa) and direct deposit.-In-store payments accepted. ***Stock Wanted***We are looking for more stock for our shop floor!Bring your good quality second hand goods for cash on the spot! All you need is your item and a valid ID Come and have a chat with one of our friendly staff at: Cash converters Papakura6-10 Railway Street West09 973 4266",
+      "key": "cashconverters:cc-177302410",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-177302410",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/177302410/Anker-Powerbank-20100Mah-A1271",
+      "priority": "high",
+      "matchedRules": [
+        "rule-a-high-anker-powerbank",
+        "rule-a-normal-anker-mah"
+      ],
+      "searchIds": [
+        "src-a-anker-nano"
+      ],
+      "firstSeenAt": "2026-09-29T10:25:23.530Z",
+      "lastSeenAt": "2026-10-10T23:21:02.291Z",
+      "firstSeen": "2026-10-10T23:21:02.291Z",
+      "lastSeen": "2026-10-10T23:21:02.291Z",
+      "aiContext": "Anker Power (chargers / power banks) (Anker power bank, Anker battery pack (mAh))",
+      "ai": {
+        "isTruePositive": true,
+        "score": 6,
+        "verdict": "Fair Price",
+        "reason": "This is a genuine Anker 20100mAh power bank (A1271) matching the target category, offering solid high-capacity utility at a typical second-hand market value."
+      }
+    },
+    {
+      "id": "cc-184002413",
+      "title": "Ego Battery 56V 2.5Ah BA1400",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/184002413/Ego-Battery-56V-25Ah-BA1400",
+      "priceText": "",
+      "rawText": "Ego Battery 56V 2.5Ah BA1400 Seller: CCPapakura Ego Battery 56V 2.5Ah Model: BA1400 ********************************************************************************************************Goods are available for viewing at our store during our trading hours 7 days per week -Goods are offered for sale under the following conditions:-Goods must be paid for within 5 working days of the auction finishing-Goods have a 90 days warranty or longer as required by the Consumer Guarantees Act-ID Required upon pick up.-Online payments only - Credit and debit cards (MasterCard and Visa) and direct deposit.-In-store payments accepted. WE PAWN CARS, MOTOR BIKES & BOATS!! ***Stock Wanted***We are looking for more stock for our shop floor!Bring your good quality second hand goods for cash on the spot! All you need is your item and a valid ID Come and have a chat with one of our friendly staff at: Cash converters Papakura6-10 Railway Street West09 973 4266",
+      "key": "cashconverters:cc-184002413",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-184002413",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/184002413/Ego-Battery-56V-25Ah-BA1400",
+      "priority": "high",
+      "matchedRules": [
+        "rule-a-high-battery",
+        "rule-a-normal-ego-56v"
+      ],
+      "searchIds": [
+        "src-a-power-tools"
+      ],
+      "firstSeenAt": "2026-09-30T23:50:12.583Z",
+      "lastSeenAt": "2026-10-10T23:21:02.291Z",
+      "firstSeen": "2026-10-10T23:21:02.291Z",
+      "lastSeen": "2026-10-10T23:21:02.291Z",
+      "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Any EGO 56V item)",
+      "ai": {
+        "isTruePositive": true,
+        "score": 5,
+        "verdict": "Fair Price",
+        "reason": "Authentic EGO Power+ 56V 2.5Ah Arc Lithium battery (BA1400), but deal attractiveness cannot be fully assessed without price information."
+      }
+    },
+    {
+      "id": "dd-3532010",
+      "title": "ANKER POWER BANK 10000MAH 22.5W – New in Box",
+      "url": "https://dollardealers.co.nz/product/anker-power-bank-10000mah-22-5w-new-in-box/",
+      "priceText": "$39.00 incl. GST",
+      "price": 39,
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/bc86264e-b08d-40b3-bf71-654b9976b630.jpg?resize=247&w=247",
+      "rawText": "Electronics and gaming ANKER POWER BANK 10000MAH 22.5W – New in Box $39.00 incl. GST Stock no. 372911 The Anker Power Bank provides portable power for charging compatible devices while on the go. With a 10,000mAh capacity and 22.5W output, it is a convenient option for keeping smartphones and other compatible devices charged when away from a power outlet. CONDITIONNew in box. The item has been opened to verify the contents and accessories, as well as for photo listings. The item has not been tampered with. WARRANTY & PURCHASE PROTECTION THIS ITEM DOES NOT COME WITH WARRANTY 120 DAY PURCHASE PROTECTION PLAN CAN BE PURCHASED AT AN ADDITIONAL COST FOR EXTRA COVER FOR PEACE OF MIND AT 10% OF ITEM COST. (UP TO $50) Item is available for viewing at our Birkenhead branch.",
+      "modelNumber": "372911",
+      "key": "dollardealers:dd-3532010",
+      "status": "active",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-3532010",
+      "canonicalUrl": "https://dollardealers.co.nz/product/anker-power-bank-10000mah-22-5w-new-in-box/",
+      "priority": "high",
+      "matchedRules": [
+        "rule-b-high-anker-power-bank",
+        "rule-b-normal-anker-mah"
+      ],
+      "searchIds": [
+        "src-b-anker-nano"
+      ],
+      "firstSeenAt": "2026-10-08T00:04:48.100Z",
+      "lastSeenAt": "2026-10-10T23:21:02.291Z",
+      "firstSeen": "2026-10-10T23:21:02.291Z",
+      "lastSeen": "2026-10-10T23:21:02.291Z",
+      "aiContext": "Anker Power (chargers / power banks) (Anker power bank, Anker battery pack (mAh))",
+      "ai": {
+        "isTruePositive": true,
+        "score": 8,
+        "verdict": "Great Deal",
+        "reason": "Brand new in box Anker 10000mAh 22.5W power bank for $39 NZD represents a strong discount compared to retail prices."
+      }
+    },
+    {
+      "id": "cc-184373267",
+      "title": "Ego 56V Cordless Line Trimmer ST1400E- ST",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/184373267/Ego-56V-Cordless-Line-Trimmer-ST1400E-ST",
+      "priceText": "",
+      "rawText": "Ego 56V Cordless Line Trimmer ST1400E- ST Seller: CCLinwood Ego 56V Cordless Line Trimmer ST1400E- ST Shipping: Not AvailablePlease Contact Store To Arrange Shipping",
+      "key": "cashconverters:cc-184373267",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-184373267",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/184373267/Ego-56V-Cordless-Line-Trimmer-ST1400E-ST",
+      "priority": "high",
+      "matchedRules": [
+        "rule-a-high-trimmer",
+        "rule-a-normal-ego-56v"
+      ],
+      "searchIds": [
+        "src-a-power-tools"
+      ],
+      "firstSeenAt": "2026-10-08T14:59:20.791Z",
+      "lastSeenAt": "2026-10-10T23:21:02.291Z",
+      "firstSeen": "2026-10-10T23:21:02.291Z",
+      "lastSeen": "2026-10-10T23:21:02.291Z",
+      "aiContext": "Cordless Power Equipment (Line Trimmer / Brushcutter, Any EGO 56V item)",
+      "ai": {
+        "isTruePositive": true,
+        "score": 5,
+        "verdict": "Fair Price",
+        "reason": "Exact match for an EGO 56V line trimmer (ST1400E-ST), but attractiveness cannot be determined without a listed price."
+      }
+    },
+    {
+      "id": "cc-181586644",
+      "title": "Lg Tv - 65 Inch 4K Uhd Smart Led 65UP7550PVG",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/181586644/Lg-Tv-65-Inch-4K-Uhd-Smart-Led-65UP7550PVG",
+      "priceText": "",
+      "rawText": "Lg Tv - 65 Inch 4K Uhd Smart Led 65UP7550PVG Seller: CCMountRoskill",
+      "key": "cashconverters:cc-181586644",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-181586644",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/181586644/Lg-Tv-65-Inch-4K-Uhd-Smart-Led-65UP7550PVG",
+      "priority": "normal",
+      "matchedRules": [
+        "rule-a-normal-65"
+      ],
+      "searchIds": [
+        "src-a-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T09:51:51.037Z",
+      "lastSeenAt": "2026-10-10T23:21:02.291Z",
+      "firstSeen": "2026-10-10T23:21:02.291Z",
+      "lastSeen": "2026-10-10T23:21:02.291Z",
+      "ai": {
+        "isTruePositive": true,
+        "score": 5,
+        "verdict": "Fair Price",
+        "reason": "Matches the 65-inch TV category, but deal attractiveness cannot be determined without a listed price."
+      },
+      "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)"
+    },
+    {
+      "key": "dollardealers:dd-3481663",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-3481663",
+      "title": "LG 65 SMART TV",
+      "canonicalUrl": "https://dollardealers.co.nz/product/lg-65-smart-tv-2/",
+      "price": 749,
+      "imageUrl": "https://i2.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/fe5a3f5a-0c17-4164-85fd-4d0b0d8ad079.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [
+        "rule-b-normal-65"
+      ],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-10-10T23:21:02.291Z",
+      "status": "active",
+      "firstSeen": "2026-10-10T23:21:02.291Z",
+      "lastSeen": "2026-10-10T23:21:02.291Z",
+      "id": "dd-3481663",
+      "url": "https://dollardealers.co.nz/product/lg-65-smart-tv-2/",
+      "priceText": "$749.00 incl. GST",
+      "rawText": "TVs LG 65 SMART TV $749.00 incl. GST",
+      "ai": {
+        "isTruePositive": true,
+        "score": 7,
+        "verdict": "Great Deal",
+        "reason": "It is a 65-inch LG smart TV priced at $749 NZD, which represents solid value for a large-screen television in the second-hand market."
+      },
+      "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)"
+    },
+    {
+      "key": "dollardealers:dd-3431391",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-3431391",
+      "title": "PANASONIC 65″ 4K SMART TV TH-65LX800Z",
+      "canonicalUrl": "https://dollardealers.co.nz/product/panasonic-65-4k-smart-tv-th-65lx800z/",
+      "price": 899,
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/88a3e2a7-2622-4e83-b76e-dba190701698.jpeg?resize=247&w=247",
+      "priority": "normal",
+      "matchedRules": [
+        "rule-b-normal-65"
+      ],
+      "searchIds": [
+        "src-b-display-65"
+      ],
+      "firstSeenAt": "2026-09-29T08:57:07.874Z",
+      "lastSeenAt": "2026-10-10T23:21:02.291Z",
+      "status": "active",
+      "firstSeen": "2026-10-10T23:21:02.291Z",
+      "lastSeen": "2026-10-10T23:21:02.291Z",
+      "id": "dd-3431391",
+      "url": "https://dollardealers.co.nz/product/panasonic-65-4k-smart-tv-th-65lx800z/",
+      "priceText": "$899.00 incl. GST",
+      "rawText": "TVs PANASONIC 65″ 4K SMART TV TH-65LX800Z $899.00 incl. GST",
+      "ai": {
+        "isTruePositive": true,
+        "score": 6,
+        "verdict": "Fair Price",
+        "reason": "The item is a true 65-inch 4K smart TV, but being an LED (LX800Z) rather than an OLED makes $899 a fair rather than discounted second-hand market price."
+      },
+      "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)"
+    },
+    {
+      "id": "cc-183968879",
+      "title": "Lg Tv (Smart) 65 INCH LED LCD 65UA8450PSA",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/183968879/Lg-Tv-Smart-65-INCH-LED-LCD-65UA8450PSA",
+      "priceText": "",
+      "rawText": "Lg Tv (Smart) 65 INCH LED LCD 65UA8450PSA Seller: CCWanganui",
+      "key": "cashconverters:cc-183968879",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-183968879",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/183968879/Lg-Tv-Smart-65-INCH-LED-LCD-65UA8450PSA",
+      "priority": "normal",
+      "matchedRules": [
+        "rule-a-normal-65"
+      ],
+      "searchIds": [
+        "src-a-display-65"
+      ],
+      "firstSeenAt": "2026-09-30T14:17:31.640Z",
+      "lastSeenAt": "2026-10-10T23:21:02.291Z",
+      "firstSeen": "2026-10-10T23:21:02.291Z",
+      "lastSeen": "2026-10-10T23:21:02.291Z",
+      "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
+      "ai": {
+        "isTruePositive": true,
+        "score": 5,
+        "verdict": "Fair Price",
+        "reason": "Matches the 65-inch TV target, but deal attractiveness cannot be determined without a listed price."
+      }
+    },
+    {
+      "id": "cc-184233413",
+      "title": "Baseus Wireless Charger 5000 MAH",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/184233413/Baseus-Wireless-Charger-5000-MAH",
+      "priceText": "",
+      "rawText": "Baseus Wireless Charger 5000 MAH Seller: CCWanganui",
+      "key": "cashconverters:cc-184233413",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-184233413",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/184233413/Baseus-Wireless-Charger-5000-MAH",
+      "priority": "normal",
+      "matchedRules": [
+        "rule-a-normal-baseus-charger",
+        "rule-a-normal-baseus-mah"
+      ],
+      "searchIds": [
+        "src-a-baseus-blade"
+      ],
+      "firstSeenAt": "2026-10-06T01:13:27.461Z",
+      "lastSeenAt": "2026-10-10T23:21:02.291Z",
+      "firstSeen": "2026-10-10T23:21:02.291Z",
+      "lastSeen": "2026-10-10T23:21:02.291Z",
+      "aiContext": "Baseus Power (chargers / power banks) (Baseus charger (GaN / USB-C), Baseus battery pack (mAh))",
+      "ai": {
+        "isTruePositive": true,
+        "score": 5,
+        "verdict": "Fair Price",
+        "reason": "This is a genuine Baseus wireless power bank, but with an unknown price, it represents a standard market evaluation."
+      }
+    },
+    {
+      "id": "cc-184410547",
+      "title": "Lg Smart Tv 65 Inch 4K Ultra Hd Led 65NANO86VNA",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/184410547/Lg-Smart-Tv-65-Inch-4K-Ultra-Hd-Led-65NANO86VNA",
+      "priceText": "",
+      "rawText": "Lg Smart Tv 65 Inch 4K Ultra Hd Led 65NANO86VNA Seller: CCPapakura",
+      "key": "cashconverters:cc-184410547",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-184410547",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/184410547/Lg-Smart-Tv-65-Inch-4K-Ultra-Hd-Led-65NANO86VNA",
+      "priority": "normal",
+      "matchedRules": [
+        "rule-a-normal-65"
+      ],
+      "searchIds": [
+        "src-a-display-65"
+      ],
+      "firstSeenAt": "2026-10-09T00:13:05.507Z",
+      "lastSeenAt": "2026-10-10T23:21:02.291Z",
+      "firstSeen": "2026-10-10T23:21:02.291Z",
+      "lastSeen": "2026-10-10T23:21:02.291Z",
+      "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
+      "ai": {
+        "isTruePositive": true,
+        "score": 5,
+        "verdict": "Fair Price",
+        "reason": "The item is a 65-inch LG 4K TV fitting the generic display category, but pricing is unknown so a neutral score is given."
+      }
+    }
+  ]
+}

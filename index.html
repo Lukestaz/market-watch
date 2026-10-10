@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Market Watcher Dashboard</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --accent: #3b82f6;
+      --accent-hover: #2563eb;
+      --border: #334155;
+      --critical: #ef4444;
+      --high: #f97316;
+      --normal: #64748b;
+      --green: #22c55e;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      padding: 24px;
+    }
+
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 20px;
+      margin-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .title-group h1 {
+      font-size: 26px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+    }
+
+    .last-updated {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 6px;
+      background: rgba(59, 130, 246, 0.1);
+      border: 1px solid rgba(59, 130, 246, 0.25);
+      padding: 4px 10px;
+      border-radius: 6px;
+      color: #93c5fd;
+      font-size: 13px;
+      font-weight: 500;
+    }
+
+    .pulse-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #22c55e;
+      display: inline-block;
+      box-shadow: 0 0 6px #22c55e;
+    }
+
+    .stats {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .stat-box {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      padding: 8px 14px;
+      border-radius: 8px;
+      text-align: center;
+      min-width: 85px;
+    }
+
+    .stat-val {
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--text);
+    }
+    .stat-box.crit .stat-val { color: var(--critical); }
+    .stat-box.high .stat-val { color: var(--high); }
+
+    .stat-label {
+      font-size: 11px;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      font-weight: 600;
+    }
+
+    /* Controls Bar */
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      align-items: center;
+      margin-bottom: 24px;
+      background: var(--card-bg);
+      padding: 12px 16px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+    }
+
+    .search-input {
+      flex: 1;
+      min-width: 260px;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 10px 14px;
+      border-radius: 8px;
+      font-size: 14px;
+      outline: none;
+    }
+
+    .search-input:focus {
+      border-color: var(--accent);
+    }
+
+    .filter-group {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .filter-btn {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      padding: 8px 14px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+
+    .filter-btn:hover {
+      color: var(--text);
+      border-color: #64748b;
+    }
+
+    .filter-btn.active {
+      background: var(--accent);
+      color: white;
+      border-color: var(--accent);
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      overflow: hidden;
+      transition: transform 0.15s ease, border-color 0.15s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-2px);
+      border-color: #475569;
+    }
+
+    .card.priority-critical { border-left: 4px solid var(--critical); }
+    .card.priority-high { border-left: 4px solid var(--high); }
+    .card.priority-normal { border-left: 4px solid var(--normal); }
+
+    .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+
+    .badges {
+      display: flex;
+      gap: 6px;
+    }
+
+    .badge {
+      font-size: 10px;
+      font-weight: 700;
+      padding: 2px 6px;
+      border-radius: 4px;
+      text-transform: uppercase;
+    }
+
+    .badge-critical { background: var(--critical); color: white; }
+    .badge-high { background: var(--high); color: white; }
+    .badge-normal { background: var(--normal); color: white; }
+    .badge-store { background: #334155; color: #cbd5e1; }
+
+    .price {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--green);
+    }
+
+    .card-title {
+      font-size: 16px;
+      line-height: 1.35;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+
+    .card-title a {
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .card-title a:hover {
+      color: var(--accent);
+    }
+
+    .meta {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-bottom: 12px;
+      flex-grow: 1;
+    }
+
+    .meta-row {
+      margin-bottom: 4px;
+    }
+
+    .meta-row strong {
+      color: #cbd5e1;
+    }
+
+    .rules {
+      font-size: 11px;
+      color: #64748b;
+    }
+
+    .ai-box {
+      background: rgba(34, 197, 94, 0.1);
+      border: 1px solid rgba(34, 197, 94, 0.25);
+      border-radius: 6px;
+      padding: 8px 10px;
+      margin-bottom: 12px;
+      font-size: 12px;
+    }
+
+    .ai-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2px;
+    }
+
+    .ai-title {
+      color: #4ade80;
+    }
+
+    .ai-reason {
+      color: #86efac;
+      font-size: 11px;
+    }
+
+    .card-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-top: 1px solid var(--border);
+      padding-top: 12px;
+      margin-top: auto;
+    }
+
+    .btn {
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background 0.15s ease;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background: var(--accent-hover);
+    }
+
+    .btn-downvote {
+      color: #f87171;
+      font-size: 11px;
+    }
+
+    .btn-downvote:hover {
+      text-decoration: underline;
+    }
+
+    .empty-state {
+      grid-column: 1 / -1;
+      text-align: center;
+      padding: 40px;
+      background: var(--card-bg);
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+    }
+
+    footer {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="title-group">
+        <h1>Market Watcher Dashboard</h1>
+        <div class="last-updated">
+          <span class="pulse-dot"></span>
+          <span>Last updated: <strong>Sunday, 11 October 2026 at 12:21:20 pm</strong></span>
+        </div>
+      </div>
+      <div class="stats">
+        <div class="stat-box">
+          <div class="stat-val" id="countTotal">11</div>
+          <div class="stat-label">Active</div>
+        </div>
+        <div class="stat-box crit">
+          <div class="stat-val">0</div>
+          <div class="stat-label">Critical</div>
+        </div>
+        <div class="stat-box high">
+          <div class="stat-val">5</div>
+          <div class="stat-label">Priority</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-val">11</div>
+          <div class="stat-label">Events</div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Interactive Filtering & Search Bar -->
+    <div class="controls">
+      <input type="text" 
+             id="searchInput" 
+             class="search-input" 
+             placeholder="Search items, models (e.g. TG-7, 65, Blade), branch, or keywords..." 
+             oninput="applyFilters()">
+      <div class="filter-group">
+        <button class="filter-btn active" data-filter="priority" data-value="all" onclick="setPriorityFilter('all', this)">All</button>
+        <button class="filter-btn" data-filter="priority" data-value="critical" onclick="setPriorityFilter('critical', this)">🚨 Critical (0)</button>
+        <button class="filter-btn" data-filter="priority" data-value="high" onclick="setPriorityFilter('high', this)">⭐ Priority (5)</button>
+        <button class="filter-btn" data-filter="priority" data-value="normal" onclick="setPriorityFilter('normal', this)">Normal (6)</button>
+        <button class="filter-btn" data-filter="store" data-value="cashconverters" onclick="setStoreFilter('cashconverters', this)">Store A (8)</button>
+        <button class="filter-btn" data-filter="store" data-value="dollardealers" onclick="setStoreFilter('dollardealers', this)">Store B (3)</button>
+      </div>
+    </div>
+
+    <div class="grid" id="itemsGrid">
+      
+    <div class="card priority-high" 
+         data-priority="high" 
+         data-store="cashconverters"
+         data-search="lg smart tv **65inch/loose base** oled65c56la   cashconverters  rule-a-high-oled-model rule-a-normal-65">
+      <div class="card-header">
+        <div class="badges">
+          <span class="badge badge-high">HIGH</span>
+          <span class="badge badge-store">Store A</span>
+        </div>
+        <span class="price">Price on request</span>
+      </div>
+      <h3 class="card-title">
+        <a href="https://shop.cashconverters.co.nz/Listing/Details/177596871/Lg-Smart-Tv-65InchLoose-Base-OLED65C56LA" target="_blank" rel="noopener noreferrer">Lg Smart Tv **65Inch/Loose Base** OLED65C56LA</a>
+      </h3>
+      <div class="meta">
+        
+        
+        
+        
+        <p class="meta-row rules"><strong>Rules:</strong> rule-a-high-oled-model, rule-a-normal-65</p>
+      </div>
+      
+      <div class="ai-box">
+        <div class="ai-header">
+          <span class="ai-title">🤖 AI Deal Score: <strong>8/10</strong> &bull; Great Deal</span>
+        </div>
+        <p class="ai-reason">This is a true positive match for a 65-inch LG OLED TV, and despite the loose base, 65-inch C-series OLEDs typically represent high value if priced reasonably.</p>
+      </div>
+    
+      <div class="card-footer">
+        <a href="https://shop.cashconverters.co.nz/Listing/Details/177596871/Lg-Smart-Tv-65InchLoose-Base-OLED65C56LA" target="_blank" rel="noopener noreferrer" class="btn btn-primary">View Listing &rarr;</a>
+        <a href="https://github.com/Lukestaz/market-watch/issues/new?title=%5BFalse%20Positive%5D%20Lg%20Smart%20Tv%20**65Inch%2FLoose%20Base**%20OLED65C56LA&body=%23%23%23%20False%20Positive%20Report%0A-%20**Item%3A**%20Lg%20Smart%20Tv%20**65Inch%2FLoose%20Base**%20OLED65C56LA%0A-%20**URL%3A**%20https%3A%2F%2Fshop.cashconverters.co.nz%2FListing%2FDetails%2F177596871%2FLg-Smart-Tv-65InchLoose-Base-OLED65C56LA%0A-%20**Matched%20Rules%3A**%20rule-a-high-oled-model%2C%20rule-a-normal-65%0A%0APlease%20tune%20keywords%20to%20exclude%20this%20item.&labels=feedback" target="_blank" rel="noopener noreferrer" class="btn btn-downvote">👎 False Positive</a>
+      </div>
+    </div>
+  
+
+    <div class="card priority-high" 
+         data-priority="high" 
+         data-store="cashconverters"
+         data-search="anker powerbank 20100mah a1271   cashconverters  rule-a-high-anker-powerbank rule-a-normal-anker-mah">
+      <div class="card-header">
+        <div class="badges">
+          <span class="badge badge-high">HIGH</span>
+          <span class="badge badge-store">Store A</span>
+        </div>
+        <span class="price">Price on request</span>
+      </div>
+      <h3 class="card-title">
+        <a href="https://shop.cashconverters.co.nz/Listing/Details/177302410/Anker-Powerbank-20100Mah-A1271" target="_blank" rel="noopener noreferrer">Anker Powerbank 20100Mah A1271</a>
+      </h3>
+      <div class="meta">
+        
+        
+        
+        
+        <p class="meta-row rules"><strong>Rules:</strong> rule-a-high-anker-powerbank, rule-a-normal-anker-mah</p>
+      </div>
+      
+      <div class="ai-box">
+        <div class="ai-header">
+          <span class="ai-title">🤖 AI Deal Score: <strong>6/10</strong> &bull; Fair Price</span>
+        </div>
+        <p class="ai-reason">This is a genuine Anker 20100mAh power bank (A1271) matching the target category, offering solid high-capacity utility at a typical second-hand market value.</p>
+      </div>
+    
+      <div class="card-footer">
+        <a href="https://shop.cashconverters.co.nz/Listing/Details/177302410/Anker-Powerbank-20100Mah-A1271" target="_blank" rel="noopener noreferrer" class="btn btn-primary">View Listing &rarr;</a>
+        <a href="https://github.com/Lukestaz/market-watch/issues/new?title=%5BFalse%20Positive%5D%20Anker%20Powerbank%2020100Mah%20A1271&body=%23%23%23%20False%20Positive%20Report%0A-%20**Item%3A**%20Anker%20Powerbank%2020100Mah%20A1271%0A-%20**URL%3A**%20https%3A%2F%2Fshop.cashconverters.co.nz%2FListing%2FDetails%2F177302410%2FAnker-Powerbank-20100Mah-A1271%0A-%20**Matched%20Rules%3A**%20rule-a-high-anker-powerbank%2C%20rule-a-normal-anker-mah%0A%0APlease%20tune%20keywords%20to%20exclude%20this%20item.&labels=feedback" target="_blank" rel="noopener noreferrer" class="btn btn-downvote">👎 False Positive</a>
+      </div>
+    </div>
+  
+
+    <div class="card priority-high" 
+         data-priority="high" 
+         data-store="cashconverters"
+         data-search="ego battery 56v 2.5ah ba1400   cashconverters  rule-a-high-battery rule-a-normal-ego-56v">
+      <div class="card-header">
+        <div class="badges">
+          <span class="badge badge-high">HIGH</span>
+          <span class="badge badge-store">Store A</span>
+        </div>
+        <span class="price">Price on request</span>
+      </div>
+      <h3 class="card-title">
+        <a href="https://shop.cashconverters.co.nz/Listing/Details/184002413/Ego-Battery-56V-25Ah-BA1400" target="_blank" rel="noopener noreferrer">Ego Battery 56V 2.5Ah BA1400</a>
+      </h3>
+      <div class="meta">
+        
+        
+        
+        
+        <p class="meta-row rules"><strong>Rules:</strong> rule-a-high-battery, rule-a-normal-ego-56v</p>
+      </div>
+      
+      <div class="ai-box">
+        <div class="ai-header">
+          <span class="ai-title">🤖 AI Deal Score: <strong>5/10</strong> &bull; Fair Price</span>
+        </div>
+        <p class="ai-reason">Authentic EGO Power+ 56V 2.5Ah Arc Lithium battery (BA1400), but deal attractiveness cannot be fully assessed without price information.</p>
+      </div>
+    
+      <div class="card-footer">
+        <a href="https://shop.cashconverters.co.nz/Listing/Details/184002413/Ego-Battery-56V-25Ah-BA1400" target="_blank" rel="noopener noreferrer" class="btn btn-primary">View Listing &rarr;</a>
+        <a href="https://github.com/Lukestaz/market-watch/issues/new?title=%5BFalse%20Positive%5D%20Ego%20Battery%2056V%202.5Ah%20BA1400&body=%23%23%23%20False%20Positive%20Report%0A-%20**Item%3A**%20Ego%20Battery%2056V%202.5Ah%20BA1400%0A-%20**URL%3A**%20https%3A%2F%2Fshop.cashconverters.co.nz%2FListing%2FDetails%2F184002413%2FEgo-Battery-56V-25Ah-BA1400%0A-%20**Matched%20Rules%3A**%20rule-a-high-battery%2C%20rule-a-normal-ego-56v%0A%0APlease%20tune%20keywords%20to%20exclude%20this%20item.&labels=feedback" target="_blank" rel="noopener noreferrer" class="btn btn-downvote">👎 False Positive</a>
+      </div>
+    </div>
+  
+
+    <div class="card priority-high" 
+         data-priority="high" 
+         data-store="dollardealers"
+         data-search="anker power bank 10000mah 22.5w – new in box 372911  dollardealers  rule-b-high-anker-power-bank rule-b-normal-anker-mah">
+      <div class="card-header">
+        <div class="badges">
+          <span class="badge badge-high">HIGH</span>
+          <span class="badge badge-store">Store B</span>
+        </div>
+        <span class="price">$39.00</span>
+      </div>
+      <h3 class="card-title">
+        <a href="https://dollardealers.co.nz/product/anker-power-bank-10000mah-22-5w-new-in-box/" target="_blank" rel="noopener noreferrer">ANKER POWER BANK 10000MAH 22.5W – New in Box</a>
+      </h3>
+      <div class="meta">
+        <p class="meta-row"><strong>Model:</strong> 372911</p>
+        
+        
+        
+        <p class="meta-row rules"><strong>Rules:</strong> rule-b-high-anker-power-bank, rule-b-normal-anker-mah</p>
+      </div>
+      
+      <div class="ai-box">
+        <div class="ai-header">
+          <span class="ai-title">🤖 AI Deal Score: <strong>8/10</strong> &bull; Great Deal</span>
+        </div>
+        <p class="ai-reason">Brand new in box Anker 10000mAh 22.5W power bank for $39 NZD represents a strong discount compared to retail prices.</p>
+      </div>
+    
+      <div class="card-footer">
+        <a href="https://dollardealers.co.nz/product/anker-power-bank-10000mah-22-5w-new-in-box/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">View Listing &rarr;</a>
+        <a href="https://github.com/Lukestaz/market-watch/issues/new?title=%5BFalse%20Positive%5D%20ANKER%20POWER%20BANK%2010000MAH%2022.5W%20%E2%80%93%20New%20in%20Box&body=%23%23%23%20False%20Positive%20Report%0A-%20**Item%3A**%20ANKER%20POWER%20BANK%2010000MAH%2022.5W%20%E2%80%93%20New%20in%20Box%0A-%20**URL%3A**%20https%3A%2F%2Fdollardealers.co.nz%2Fproduct%2Fanker-power-bank-10000mah-22-5w-new-in-box%2F%0A-%20**Matched%20Rules%3A**%20rule-b-high-anker-power-bank%2C%20rule-b-normal-anker-mah%0A%0APlease%20tune%20keywords%20to%20exclude%20this%20item.&labels=feedback" target="_blank" rel="noopener noreferrer" class="btn btn-downvote">👎 False Positive</a>
+      </div>
+    </div>
+  
+
+    <div class="card priority-high" 
+         data-priority="high" 
+         data-store="cashconverters"
+         data-search="ego 56v cordless line trimmer st1400e- st   cashconverters  rule-a-high-trimmer rule-a-normal-ego-56v">
+      <div class="card-header">
+        <div class="badges">
+          <span class="badge badge-high">HIGH</span>
+          <span class="badge badge-store">Store A</span>
+        </div>
+        <span class="price">Price on request</span>
+      </div>
+      <h3 class="card-title">
+        <a href="https://shop.cashconverters.co.nz/Listing/Details/184373267/Ego-56V-Cordless-Line-Trimmer-ST1400E-ST" target="_blank" rel="noopener noreferrer">Ego 56V Cordless Line Trimmer ST1400E- ST</a>
+      </h3>
+      <div class="meta">
+        
+        
+        
+        
+        <p class="meta-row rules"><strong>Rules:</strong> rule-a-high-trimmer, rule-a-normal-ego-56v</p>
+      </div>
+      
+      <div class="ai-box">
+        <div class="ai-header">
+          <span class="ai-title">🤖 AI Deal Score: <strong>5/10</strong> &bull; Fair Price</span>
+        </div>
+        <p class="ai-reason">Exact match for an EGO 56V line trimmer (ST1400E-ST), but attractiveness cannot be determined without a listed price.</p>
+      </div>
+    
+      <div class="card-footer">
+        <a href="https://shop.cashconverters.co.nz/Listing/Details/184373267/Ego-56V-Cordless-Line-Trimmer-ST1400E-ST" target="_blank" rel="noopener noreferrer" class="btn btn-primary">View Listing &rarr;</a>
+        <a href="https://github.com/Lukestaz/market-watch/issues/new?title=%5BFalse%20Positive%5D%20Ego%2056V%20Cordless%20Line%20Trimmer%20ST1400E-%20ST&body=%23%23%23%20False%20Positive%20Report%0A-%20**Item%3A**%20Ego%2056V%20Cordless%20Line%20Trimmer%20ST1400E-%20ST%0A-%20**URL%3A**%20https%3A%2F%2Fshop.cashconverters.co.nz%2FListing%2FDetails%2F184373267%2FEgo-56V-Cordless-Line-Trimmer-ST1400E-ST%0A-%20**Matched%20Rules%3A**%20rule-a-high-trimmer%2C%20rule-a-normal-ego-56v%0A%0APlease%20tune%20keywords%20to%20exclude%20this%20item.&labels=feedback" target="_blank" rel="noopener noreferrer" class="btn btn-downvote">👎 False Positive</a>
+      </div>
+    </div>
+  
+
+    <div class="card priority-normal" 
+         data-priority="normal" 
+         data-store="cashconverters"
+         data-search="lg tv - 65 inch 4k uhd smart led 65up7550pvg   cashconverters  rule-a-normal-65">
+      <div class="card-header">
+        <div class="badges">
+          <span class="badge badge-normal">NORMAL</span>
+          <span class="badge badge-store">Store A</span>
+        </div>
+        <span class="price">Price on request</span>
+      </div>
+      <h3 class="card-title">
+        <a href="https://shop.cashconverters.co.nz/Listing/Details/181586644/Lg-Tv-65-Inch-4K-Uhd-Smart-Led-65UP7550PVG" target="_blank" rel="noopener noreferrer">Lg Tv - 65 Inch 4K Uhd Smart Led 65UP7550PVG</a>
+      </h3>
+      <div class="meta">
+        
+        
+        
+        
+        <p class="meta-row rules"><strong>Rules:</strong> rule-a-normal-65</p>
+      </div>
+      
+      <div class="ai-box">
+        <div class="ai-header">
+          <span class="ai-title">🤖 AI Deal Score: <strong>5/10</strong> &bull; Fair Price</span>
+        </div>
+        <p class="ai-reason">Matches the 65-inch TV category, but deal attractiveness cannot be determined without a listed price.</p>
+      </div>
+    
+      <div class="card-footer">
+        <a href="https://shop.cashconverters.co.nz/Listing/Details/181586644/Lg-Tv-65-Inch-4K-Uhd-Smart-Led-65UP7550PVG" target="_blank" rel="noopener noreferrer" class="btn btn-primary">View Listing &rarr;</a>
+        <a href="https://github.com/Lukestaz/market-watch/issues/new?title=%5BFalse%20Positive%5D%20Lg%20Tv%20-%2065%20Inch%204K%20Uhd%20Smart%20Led%2065UP7550PVG&body=%23%23%23%20False%20Positive%20Report%0A-%20**Item%3A**%20Lg%20Tv%20-%2065%20Inch%204K%20Uhd%20Smart%20Led%2065UP7550PVG%0A-%20**URL%3A**%20https%3A%2F%2Fshop.cashconverters.co.nz%2FListing%2FDetails%2F181586644%2FLg-Tv-65-Inch-4K-Uhd-Smart-Led-65UP7550PVG%0A-%20**Matched%20Rules%3A**%20rule-a-normal-65%0A%0APlease%20tune%20keywords%20to%20exclude%20this%20item.&labels=feedback" target="_blank" rel="noopener noreferrer" class="btn btn-downvote">👎 False Positive</a>
+      </div>
+    </div>
+  
+
+    <div class="card priority-normal" 
+         data-priority="normal" 
+         data-store="dollardealers"
+         data-search="lg 65 smart tv   dollardealers  rule-b-normal-65">
+      <div class="card-header">
+        <div class="badges">
+          <span class="badge badge-normal">NORMAL</span>
+          <span class="badge badge-store">Store B</span>
+        </div>
+        <span class="price">$749.00</span>
+      </div>
+      <h3 class="card-title">
+        <a href="https://dollardealers.co.nz/product/lg-65-smart-tv-2/" target="_blank" rel="noopener noreferrer">LG 65 SMART TV</a>
+      </h3>
+      <div class="meta">
+        
+        
+        
+        
+        <p class="meta-row rules"><strong>Rules:</strong> rule-b-normal-65</p>
+      </div>
+      
+      <div class="ai-box">
+        <div class="ai-header">
+          <span class="ai-title">🤖 AI Deal Score: <strong>7/10</strong> &bull; Great Deal</span>
+        </div>
+        <p class="ai-reason">It is a 65-inch LG smart TV priced at $749 NZD, which represents solid value for a large-screen television in the second-hand market.</p>
+      </div>
+    
+      <div class="card-footer">
+        <a href="https://dollardealers.co.nz/product/lg-65-smart-tv-2/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">View Listing &rarr;</a>
+        <a href="https://github.com/Lukestaz/market-watch/issues/new?title=%5BFalse%20Positive%5D%20LG%2065%20SMART%20TV&body=%23%23%23%20False%20Positive%20Report%0A-%20**Item%3A**%20LG%2065%20SMART%20TV%0A-%20**URL%3A**%20https%3A%2F%2Fdollardealers.co.nz%2Fproduct%2Flg-65-smart-tv-2%2F%0A-%20**Matched%20Rules%3A**%20rule-b-normal-65%0A%0APlease%20tune%20keywords%20to%20exclude%20this%20item.&labels=feedback" target="_blank" rel="noopener noreferrer" class="btn btn-downvote">👎 False Positive</a>
+      </div>
+    </div>
+  
+
+    <div class="card priority-normal" 
+         data-priority="normal" 
+         data-store="dollardealers"
+         data-search="panasonic 65″ 4k smart tv th-65lx800z   dollardealers  rule-b-normal-65">
+      <div class="card-header">
+        <div class="badges">
+          <span class="badge badge-normal">NORMAL</span>
+          <span class="badge badge-store">Store B</span>
+        </div>
+        <span class="price">$899.00</span>
+      </div>
+      <h3 class="card-title">
+        <a href="https://dollardealers.co.nz/product/panasonic-65-4k-smart-tv-th-65lx800z/" target="_blank" rel="noopener noreferrer">PANASONIC 65″ 4K SMART TV TH-65LX800Z</a>
+      </h3>
+      <div class="meta">
+        
+        
+        
+        
+        <p class="meta-row rules"><strong>Rules:</strong> rule-b-normal-65</p>
+      </div>
+      
+      <div class="ai-box">
+        <div class="ai-header">
+          <span class="ai-title">🤖 AI Deal Score: <strong>6/10</strong> &bull; Fair Price</span>
+        </div>
+        <p class="ai-reason">The item is a true 65-inch 4K smart TV, but being an LED (LX800Z) rather than an OLED makes $899 a fair rather than discounted second-hand market price.</p>
+      </div>
+    
+      <div class="card-footer">
+        <a href="https://dollardealers.co.nz/product/panasonic-65-4k-smart-tv-th-65lx800z/" target="_blank" rel="noopener noreferrer" class="btn btn-primary">View Listing &rarr;</a>
+        <a href="https://github.com/Lukestaz/market-watch/issues/new?title=%5BFalse%20Positive%5D%20PANASONIC%2065%E2%80%B3%204K%20SMART%20TV%20TH-65LX800Z&body=%23%23%23%20False%20Positive%20Report%0A-%20**Item%3A**%20PANASONIC%2065%E2%80%B3%204K%20SMART%20TV%20TH-65LX800Z%0A-%20**URL%3A**%20https%3A%2F%2Fdollardealers.co.nz%2Fproduct%2Fpanasonic-65-4k-smart-tv-th-65lx800z%2F%0A-%20**Matched%20Rules%3A**%20rule-b-normal-65%0A%0APlease%20tune%20keywords%20to%20exclude%20this%20item.&labels=feedback" target="_blank" rel="noopener noreferrer" class="btn btn-downvote">👎 False Positive</a>
+      </div>
+    </div>
+  
+
+    <div class="card priority-normal" 
+         data-priority="normal" 
+         data-store="cashconverters"
+         data-search="lg tv (smart) 65 inch led lcd 65ua8450psa   cashconverters  rule-a-normal-65">
+      <div class="card-header">
+        <div class="badges">
+          <span class="badge badge-normal">NORMAL</span>
+          <span class="badge badge-store">Store A</span>
+        </div>
+        <span class="price">Price on request</span>
+      </div>
+      <h3 class="card-title">
+        <a href="https://shop.cashconverters.co.nz/Listing/Details/183968879/Lg-Tv-Smart-65-INCH-LED-LCD-65UA8450PSA" target="_blank" rel="noopener noreferrer">Lg Tv (Smart) 65 INCH LED LCD 65UA8450PSA</a>
+      </h3>
+      <div class="meta">
+        
+        
+        
+        
+        <p class="meta-row rules"><strong>Rules:</strong> rule-a-normal-65</p>
+      </div>
+      
+      <div class="ai-box">
+        <div class="ai-header">
+          <span class="ai-title">🤖 AI Deal Score: <strong>5/10</strong> &bull; Fair Price</span>
+        </div>
+        <p class="ai-reason">Matches the 65-inch TV target, but deal attractiveness cannot be determined without a listed price.</p>
+      </div>
+    
+      <div class="card-footer">
+        <a href="https://shop.cashconverters.co.nz/Listing/Details/183968879/Lg-Tv-Smart-65-INCH-LED-LCD-65UA8450PSA" target="_blank" rel="noopener noreferrer" class="btn btn-primary">View Listing &rarr;</a>
+        <a href="https://github.com/Lukestaz/market-watch/issues/new?title=%5BFalse%20Positive%5D%20Lg%20Tv%20(Smart)%2065%20INCH%20LED%20LCD%2065UA8450PSA&body=%23%23%23%20False%20Positive%20Report%0A-%20**Item%3A**%20Lg%20Tv%20(Smart)%2065%20INCH%20LED%20LCD%2065UA8450PSA%0A-%20**URL%3A**%20https%3A%2F%2Fshop.cashconverters.co.nz%2FListing%2FDetails%2F183968879%2FLg-Tv-Smart-65-INCH-LED-LCD-65UA8450PSA%0A-%20**Matched%20Rules%3A**%20rule-a-normal-65%0A%0APlease%20tune%20keywords%20to%20exclude%20this%20item.&labels=feedback" target="_blank" rel="noopener noreferrer" class="btn btn-downvote">👎 False Positive</a>
+      </div>
+    </div>
+  
+
+    <div class="card priority-normal" 
+         data-priority="normal" 
+         data-store="cashconverters"
+         data-search="baseus wireless charger 5000 mah   cashconverters  rule-a-normal-baseus-charger rule-a-normal-baseus-mah">
+      <div class="card-header">
+        <div class="badges">
+          <span class="badge badge-normal">NORMAL</span>
+          <span class="badge badge-store">Store A</span>
+        </div>
+        <span class="price">Price on request</span>
+      </div>
+      <h3 class="card-title">
+        <a href="https://shop.cashconverters.co.nz/Listing/Details/184233413/Baseus-Wireless-Charger-5000-MAH" target="_blank" rel="noopener noreferrer">Baseus Wireless Charger 5000 MAH</a>
+      </h3>
+      <div class="meta">
+        
+        
+        
+        
+        <p class="meta-row rules"><strong>Rules:</strong> rule-a-normal-baseus-charger, rule-a-normal-baseus-mah</p>
+      </div>
+      
+      <div class="ai-box">
+        <div class="ai-header">
+          <span class="ai-title">🤖 AI Deal Score: <strong>5/10</strong> &bull; Fair Price</span>
+        </div>
+        <p class="ai-reason">This is a genuine Baseus wireless power bank, but with an unknown price, it represents a standard market evaluation.</p>
+      </div>
+    
+      <div class="card-footer">
+        <a href="https://shop.cashconverters.co.nz/Listing/Details/184233413/Baseus-Wireless-Charger-5000-MAH" target="_blank" rel="noopener noreferrer" class="btn btn-primary">View Listing &rarr;</a>
+        <a href="https://github.com/Lukestaz/market-watch/issues/new?title=%5BFalse%20Positive%5D%20Baseus%20Wireless%20Charger%205000%20MAH&body=%23%23%23%20False%20Positive%20Report%0A-%20**Item%3A**%20Baseus%20Wireless%20Charger%205000%20MAH%0A-%20**URL%3A**%20https%3A%2F%2Fshop.cashconverters.co.nz%2FListing%2FDetails%2F184233413%2FBaseus-Wireless-Charger-5000-MAH%0A-%20**Matched%20Rules%3A**%20rule-a-normal-baseus-charger%2C%20rule-a-normal-baseus-mah%0A%0APlease%20tune%20keywords%20to%20exclude%20this%20item.&labels=feedback" target="_blank" rel="noopener noreferrer" class="btn btn-downvote">👎 False Positive</a>
+      </div>
+    </div>
+  
+
+    <div class="card priority-normal" 
+         data-priority="normal" 
+         data-store="cashconverters"
+         data-search="lg smart tv 65 inch 4k ultra hd led 65nano86vna   cashconverters  rule-a-normal-65">
+      <div class="card-header">
+        <div class="badges">
+          <span class="badge badge-normal">NORMAL</span>
+          <span class="badge badge-store">Store A</span>
+        </div>
+        <span class="price">Price on request</span>
+      </div>
+      <h3 class="card-title">
+        <a href="https://shop.cashconverters.co.nz/Listing/Details/184410547/Lg-Smart-Tv-65-Inch-4K-Ultra-Hd-Led-65NANO86VNA" target="_blank" rel="noopener noreferrer">Lg Smart Tv 65 Inch 4K Ultra Hd Led 65NANO86VNA</a>
+      </h3>
+      <div class="meta">
+        
+        
+        
+        
+        <p class="meta-row rules"><strong>Rules:</strong> rule-a-normal-65</p>
+      </div>
+      
+      <div class="ai-box">
+        <div class="ai-header">
+          <span class="ai-title">🤖 AI Deal Score: <strong>5/10</strong> &bull; Fair Price</span>
+        </div>
+        <p class="ai-reason">The item is a 65-inch LG 4K TV fitting the generic display category, but pricing is unknown so a neutral score is given.</p>
+      </div>
+    
+      <div class="card-footer">
+        <a href="https://shop.cashconverters.co.nz/Listing/Details/184410547/Lg-Smart-Tv-65-Inch-4K-Ultra-Hd-Led-65NANO86VNA" target="_blank" rel="noopener noreferrer" class="btn btn-primary">View Listing &rarr;</a>
+        <a href="https://github.com/Lukestaz/market-watch/issues/new?title=%5BFalse%20Positive%5D%20Lg%20Smart%20Tv%2065%20Inch%204K%20Ultra%20Hd%20Led%2065NANO86VNA&body=%23%23%23%20False%20Positive%20Report%0A-%20**Item%3A**%20Lg%20Smart%20Tv%2065%20Inch%204K%20Ultra%20Hd%20Led%2065NANO86VNA%0A-%20**URL%3A**%20https%3A%2F%2Fshop.cashconverters.co.nz%2FListing%2FDetails%2F184410547%2FLg-Smart-Tv-65-Inch-4K-Ultra-Hd-Led-65NANO86VNA%0A-%20**Matched%20Rules%3A**%20rule-a-normal-65%0A%0APlease%20tune%20keywords%20to%20exclude%20this%20item.&labels=feedback" target="_blank" rel="noopener noreferrer" class="btn btn-downvote">👎 False Positive</a>
+      </div>
+    </div>
+  
+    </div>
+
+    <footer>
+      <p>Automated market alerts running via GitHub Actions &bull; <a href="https://github.com/Lukestaz/market-watch" target="_blank" rel="noopener noreferrer" style="color: var(--accent); text-decoration: none;">View Repository</a></p>
+    </footer>
+  </div>
+
+  <script>
+    let activePriority = 'all';
+    let activeStore = 'all';
+
+    function setPriorityFilter(priority, btn) {
+      if (activePriority === priority) {
+        activePriority = 'all';
+        btn.classList.remove('active');
+        document.querySelector('[data-filter="priority"][data-value="all"]').classList.add('active');
+      } else {
+        activePriority = priority;
+        document.querySelectorAll('[data-filter="priority"]').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+      }
+      applyFilters();
+    }
+
+    function setStoreFilter(store, btn) {
+      if (activeStore === store) {
+        activeStore = 'all';
+        btn.classList.remove('active');
+        document.querySelector('[data-filter="store"]').classList.add('active');
+      } else {
+        activeStore = store;
+        document.querySelectorAll('[data-filter="store"]').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+      }
+      applyFilters();
+    }
+
+    function applyFilters() {
+      const query = document.getElementById('searchInput').value.toLowerCase().trim();
+      const cards = document.querySelectorAll('.card');
+      let visibleCount = 0;
+
+      cards.forEach(card => {
+        const p = card.getAttribute('data-priority');
+        const s = card.getAttribute('data-store');
+        const text = card.getAttribute('data-search') || '';
+
+        const matchesQuery = !query || text.includes(query);
+        const matchesPriority = (activePriority === 'all' || p === activePriority);
+        const matchesStore = (activeStore === 'all' || s === activeStore);
+
+        if (matchesQuery && matchesPriority && matchesStore) {
+          card.style.display = 'flex';
+          visibleCount++;
+        } else {
+          card.style.display = 'none';
+        }
+      });
+
+      const totalLabel = document.getElementById('countTotal');
+      if (totalLabel) totalLabel.innerText = visibleCount;
+    }
+  </script>
+</body>
+</html>
