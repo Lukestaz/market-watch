@@ -8,8 +8,8 @@ export const latestRun = {
     "typecheck": "success",
     "pipeline": "success"
   },
-  "commit": "c2a927db706975f06dd4b934812af58179148f8a",
-  "runUrl": "https://github.com/Lukestaz/market-watch/actions/runs/38569211069",
-  "finishedAt": "2026-10-14T13:08:38.123Z",
+  "commit": "8b5e9c1bd455745fdc1801e0ef3b28307b24e8e8",
+  "runUrl": "https://github.com/Lukestaz/market-watch/actions/runs/38631814023",
+  "finishedAt": "2026-10-14T20:26:26.883Z",
   "summary": "[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a\n[AI Evaluator] Gemini (gemini-2.5-flash) HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use\n[AI] \"Ego Charger Power+ Standard Charger CH2100E\" -> Not Relevant (score: 1/10, valid: false)\n[AI] Dropping false positive: Ego Charger Power+ Standard Charger CH2100E (The item is a battery charger rather than a cordless power equipment bare tool.)\n[AI] \"Anker Powerbank 20100Mah A1271\" -> Fair Price (score: 6/10, valid: true)\n[AI] \"Baseus Wireless Charger 5000 MAH\" -> Fair Price (score: 5/10, valid: true)\n[AI] \"PANASONIC 65″ 4K SMART TV TH-65LX800Z\" -> Fair Price (score: 6/10, valid: true)\n[AI] \"ANKER POWER BANK 10000MAH 22.5W – New in Box\" -> Great Deal (score: 8/10, valid: true)\n[AI] \"Ecoflow Inverter 245WH EFR705\" -> Fair Price (score: 5/10, valid: true)\nListings verified after AI assessment: 10\nListing events detected: 10\n[UI] Generated index.html and feed.json in ./dist\nMarket Watch run complete.\n"
 } as const;

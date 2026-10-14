@@ -5,7 +5,7 @@
 Starting Market Watch run...
 Executing search: Source A - Displays 65" / OLED (cashconverters)
 [CashConverters] Fetching: https://shop.cashconverters.co.nz/Browse?FullTextQuery=LG%20tv
-[CashConverters] Found 26 listings for /Browse?FullTextQuery=LG%20tv
+[CashConverters] Found 27 listings for /Browse?FullTextQuery=LG%20tv
 Executing search: Source A - Cordless Power Equipment (cashconverters)
 [CashConverters] Fetching: https://shop.cashconverters.co.nz/Browse?FullTextQuery=EGO%2056V
 [CashConverters] Found 3 listings for /Browse?FullTextQuery=EGO%2056V
@@ -45,13 +45,22 @@ Executing search: Source A - EcoFlow Power Stations (cashconverters)
 Executing search: Source B - EcoFlow Power Stations (dollardealers)
 [DollarDealers] Fetching: https://dollardealers.co.nz/?s=ecoflow&post_type=product
 [DollarDealers] Found 0 listings for /?s=ecoflow&post_type=product
-Total raw listings collected: 65
+Total raw listings collected: 66
+[Auction] Detail HTTP 403
+[Auction] Detail HTTP 403
+[Auction] Detail HTTP 403
 [Details] Enriching high item: Lg Smart Tv **65Inch/Loose Base** OLED65C56LA
+[Auction] Detail HTTP 403
 [Details] Enriching high item: Ego 56V Cordless Line Trimmer ST1400E- ST
+[Auction] Detail HTTP 403
 [Details] Enriching high item: Ego Battery 56V 2.5Ah BA1400
+[Auction] Detail HTTP 403
 [Details] Enriching high item: Ego Charger Power+ Standard Charger CH2100E
+[Auction] Detail HTTP 403
 [Details] Enriching high item: Anker Powerbank 20100Mah A1271
+[Auction] Detail HTTP 403
 [Details] Enriching high item: ANKER POWER BANK 10000MAH 22.5W – New in Box
+[Auction] Detail HTTP 403
 Candidate listings passing keyword rules: 11
 [AI] "Lg Tv (Smart) 65 INCH LED LCD 65UA8450PSA" -> Fair Price (score: 5/10, valid: true)
 [AI] "Lg Tv - 65 Inch 4K Uhd Smart Led 65UP7550PVG" -> Fair Price (score: 5/10, valid: true)
