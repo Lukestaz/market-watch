@@ -32,7 +32,25 @@ export default {
     if (origin && origin !== env.DASHBOARD_ORIGIN) return reply({ error: 'Origin denied' }, 403);
     if (req.method === 'OPTIONS') return new Response(null, { status: 204, headers });
     if (!await authorized(req, env)) return reply({ error: 'Authentication required' }, 401);
-    if (new URL(req.url).pathname !== '/api/decisions') return reply({ error: 'Not found' }, 404);
+    const pathname = new URL(req.url).pathname;
+    if (req.method === 'GET' && (pathname === '/' || pathname === '/index.html')) {
+      const asset = await env.ASSETS.fetch(req);
+      const response = new Response(asset.body, asset);
+      response.headers.set('Cache-Control', 'no-store');
+      response.headers.set('X-Content-Type-Options', 'nosniff');
+      response.headers.set('Referrer-Policy', 'no-referrer');
+      return response;
+    }
+    if (req.method === 'GET' && pathname === '/api/feed') {
+      try {
+        const upstream = await fetch('https://lukestaz.github.io/market-watch/feed.json', { signal: AbortSignal.timeout(10000), cache: 'no-store' });
+        if (!upstream.ok) return reply({ error: 'Listings feed unavailable' }, 502);
+        const feed = await upstream.json();
+        if (!Array.isArray(feed.listings)) return reply({ error: 'Invalid listings feed' }, 502);
+        return reply(feed);
+      } catch { return reply({ error: 'Listings feed unavailable' }, 502); }
+    }
+    if (pathname !== '/api/decisions') return reply({ error: 'Not found' }, 404);
     if (req.method === 'GET') {
       const rows = await env.DB.prepare('SELECT identity,decision,version,updated_at FROM decisions ORDER BY identity').all();
       return reply({ decisions: rows.results });
