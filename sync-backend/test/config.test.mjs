@@ -1,6 +1,5 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
 import { validateConfig } from '../scripts/validate-config.mjs';
 
 const valid = () => ({
@@ -10,8 +9,10 @@ const valid = () => ({
 });
 
 test('accepts structurally configured values', () => assert.deepEqual(validateConfig(valid()), []));
-test('rejects checked-in deployment placeholders', () => {
-  const config = JSON.parse(readFileSync(new URL('../wrangler.jsonc', import.meta.url), 'utf8'));
+test('rejects deployment placeholders in an isolated fixture', () => {
+  const config = valid();
+  config.d1_databases[0].database_id = 'REPLACE_BEFORE_DEPLOY';
+  config.vars = { ACCESS_ISSUER: '', ACCESS_AUD: '', DASHBOARD_ORIGIN: '' };
   assert.ok(validateConfig(config).length >= 4);
 });
 test('rejects invalid database identifier', () => {
