@@ -4,21 +4,22 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Market Watch — Watch / Hide</title>
 <style>
-:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;background:#0f172a;color:#f8fafc;font:16px/1.5 system-ui,sans-serif}main{max-width:1200px;margin:auto;padding:24px}h1{margin:0}p{color:#cbd5e1}header,.controls,.actions{display:flex;gap:10px;flex-wrap:wrap;align-items:center}.controls{margin:20px 0}input,select,button,.link{font:inherit;padding:9px 12px;border-radius:8px;border:1px solid #475569;background:#1e293b;color:#f8fafc}input{flex:1;min-width:180px}button,.link{cursor:pointer}button:disabled{opacity:.45;cursor:wait}a{color:#93c5fd}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,320px),1fr));gap:16px}.card{padding:18px;border:1px solid #334155;border-radius:12px;background:#1e293b;display:flex;flex-direction:column;gap:10px}.card h2{font-size:18px;margin:0}.card p{margin:0}.card[data-decision=watch]{border-color:#fbbf24}.card[data-decision=hide]{border-style:dashed}.actions{margin-top:auto}.price{color:#4ade80;font-weight:700}.muted{font-size:13px;color:#94a3b8}#status{padding:10px 0;min-height:44px}#status[data-error=true]{color:#fca5a5}.active-choice{background:#854d0e}.empty{grid-column:1/-1;padding:30px;text-align:center}footer{margin-top:25px;color:#94a3b8;font-size:13px}
+:root{color-scheme:dark;--critical:#ef4444;--high:#f97316;--normal:#64748b}*{box-sizing:border-box}body{margin:0;background:#0f172a;color:#f8fafc;font:16px/1.5 system-ui,sans-serif}main{max-width:1280px;margin:auto;padding:24px}h1{margin:0;font-size:28px}p{color:#cbd5e1}header,.controls,.actions,.badges,.card-header,.stats{display:flex;gap:10px;flex-wrap:wrap;align-items:center}header{justify-content:space-between;border-bottom:1px solid #334155;padding-bottom:18px}.controls{margin:20px 0;padding:14px;background:#1e293b;border:1px solid #334155;border-radius:10px}input,select,button,.link{font:inherit;padding:9px 12px;border-radius:8px;border:1px solid #475569;background:#1e293b;color:#f8fafc}input{flex:1;min-width:180px}select{max-width:100%}button,.link{cursor:pointer}button:disabled{opacity:.45;cursor:wait}a{color:#93c5fd}.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,320px),1fr));gap:20px}.card{padding:18px;border:1px solid #334155;border-left:4px solid var(--normal);border-radius:10px;background:#1e293b;display:flex;flex-direction:column;gap:12px;min-width:0;overflow-wrap:anywhere}.card[data-priority=critical]{border-left-color:var(--critical)}.card[data-priority=high]{border-left-color:var(--high)}.card h2{font-size:17px;line-height:1.35;margin:0}.card h2 a{color:#f8fafc;text-decoration:none}.card h2 a:hover{color:#93c5fd}.card p{margin:0}.card[data-decision=watch]{box-shadow:0 0 0 1px #fbbf24}.card[data-decision=hide]{border-style:dashed}.card-header{justify-content:space-between}.badges{gap:6px}.badge{font-size:11px;font-weight:700;padding:3px 7px;border-radius:4px;background:#334155}.badge-critical{background:var(--critical)}.badge-high{background:var(--high)}.badge-normal{background:var(--normal)}.badge-watch{background:#854d0e;color:#fde68a}.badge-hide{color:#cbd5e1}.actions{margin-top:auto;border-top:1px solid #334155;padding-top:12px}.actions button,.actions .link{font-size:13px}.link{text-decoration:none;display:inline-block}.primary{background:#2563eb;border-color:#3b82f6;color:white}.feedback{color:#fca5a5;font-size:12px}.price{color:#4ade80;font-weight:700;font-size:19px}.muted{font-size:13px;color:#94a3b8}.meta{font-size:13px;color:#94a3b8}.meta p{margin-bottom:4px;color:#94a3b8}.meta strong{color:#cbd5e1}.rules{font-size:11px}.ai-box{background:rgba(34,197,94,.1);border:1px solid rgba(34,197,94,.25);border-radius:6px;padding:10px;font-size:12px}.ai-box p{color:#86efac}.ai-box .ai-title{color:#4ade80;font-weight:600;margin-bottom:4px}.updated{display:inline-block;margin-top:8px;padding:4px 10px;border-radius:6px;background:rgba(59,130,246,.1);border:1px solid rgba(59,130,246,.25);color:#93c5fd;font-size:13px}.stats{margin-top:18px}.stat{background:#1e293b;border:1px solid #334155;border-radius:8px;padding:8px 14px;text-align:center;min-width:85px}.stat strong{display:block;font-size:20px}.stat span{font-size:11px;color:#94a3b8;text-transform:uppercase}.stat.critical strong{color:var(--critical)}.stat.high strong{color:var(--high)}.stat.watch strong{color:#fbbf24}#status{padding:10px 0;min-height:44px}#status[data-error=true]{color:#fca5a5}.active-choice{background:#854d0e}.empty{grid-column:1/-1;padding:30px;text-align:center}footer{margin-top:25px;color:#94a3b8;font-size:13px}@media(max-width:480px){main{padding:14px}.controls>*{width:100%}.card-header{align-items:flex-start}}
 </style>
 </head>
 <body><main>
-<header><h1>Market Watch</h1><button id="refresh">Refresh</button><button id="undo" disabled>Undo last change</button></header>
-<p>Private Watch/Hide view. Decisions sync through D1. Hide does not suppress email alerts yet.</p>
+<header><div><h1>Market Watch</h1><div id="updated" class="updated">Feed updated: loading…</div></div><div class="actions"><button id="refresh">Refresh</button><button id="undo" disabled>Undo last change</button></div></header>
+<p class="muted">Private Watch/Hide view. Decisions sync across devices. Hide does not suppress email alerts yet.</p>
+<div id="stats" class="stats" aria-label="Active listing totals"></div>
 <div id="status" role="status" aria-live="polite">Loading…</div>
 <div class="controls">
-<input id="search" type="search" placeholder="Search title, model, branch…" aria-label="Search listings">
+<input id="search" type="search" placeholder="Search title, model, branch, rules…" aria-label="Search listings">
 <select id="view" aria-label="Decision filter"><option value="all">All (except hidden)</option><option value="watch">Watching</option><option value="hide">Hidden</option></select>
 <select id="priority" aria-label="Priority filter"><option value="all">All priorities</option><option value="critical">Critical</option><option value="high">High</option><option value="normal">Normal</option></select>
 <select id="store" aria-label="Store filter"><option value="all">Both stores</option><option value="cashconverters">Cash Converters</option><option value="dollardealers">Dollar Dealers</option></select>
 </div>
 <p id="summary" class="muted"></p><section id="items" class="grid" aria-label="Listings"></section>
-<footer>Listings come from the existing scheduled scraper. <a href="https://lukestaz.github.io/market-watch/" target="_blank" rel="noopener noreferrer">Original dashboard</a>. Refresh or reopen this page to load changes from another device.</footer>
+<footer>Totals count all active listings, including hidden items; “shown” reflects your filters. Listings come from the existing scheduled scraper. <a href="https://lukestaz.github.io/market-watch/" target="_blank" rel="noopener noreferrer">Original dashboard</a>. Refresh or reopen this page to load changes from another device.</footer>
 </main>
 <script>
 'use strict';
@@ -38,6 +39,8 @@ function element(tag, text, className) {
   if (className) node.className = className;
   return node;
 }
+function externalLink(text, href, className) { const link = element('a', text, className); link.href = href; link.target = '_blank'; link.rel = 'noopener noreferrer'; return link; }
+function metadata(parent, label, value, className) { if (value === undefined || value === null || value === '') return; const line = element('p', undefined, className); line.append(element('strong', label + ': '), document.createTextNode(String(value))); parent.append(line); }
 function record(id) { return decisions.get(id) || { identity: id, decision: 'normal', version: 0 }; }
 function validRow(row) { return row && canonical(row.identity) === row.identity && ['normal','watch','hide'].includes(row.decision) && Number.isSafeInteger(row.version) && row.version > 0; }
 async function jsonRequest(path, options = {}) {
@@ -50,6 +53,15 @@ async function jsonRequest(path, options = {}) {
 function render() {
   $('refresh').disabled = busy;
   $('undo').disabled = busy || !loaded || !lastChange;
+  const counts = { critical: 0, high: 0, normal: 0, watch: 0, hide: 0, cashconverters: 0, dollardealers: 0 };
+  for (const listing of listings) { if (['critical','high','normal'].includes(listing.priority)) counts[listing.priority]++; if (['cashconverters','dollardealers'].includes(listing.siteId)) counts[listing.siteId]++; const decision = record(canonical(listing.canonicalUrl || listing.url)).decision; if (decision === 'watch' || decision === 'hide') counts[decision]++; }
+  const stats = document.createDocumentFragment();
+  for (const [label, count, className] of [['Active', listings.length, ''], ['Critical', counts.critical, 'critical'], ['High priority', counts.high, 'high'], ['Watching', counts.watch, 'watch'], ['Hidden', counts.hide, '']]) { const box = element('div', undefined, 'stat ' + className); box.append(element('strong', loaded ? count : '—'), element('span', label)); stats.append(box); }
+  $('stats').replaceChildren(stats);
+  for (const value of ['critical','high','normal']) $('priority').querySelector('option[value="' + value + '"]').textContent = ({critical:'Critical',high:'High',normal:'Normal'})[value] + (loaded ? ' (' + counts[value] + ')' : '');
+  for (const [value, label] of [['cashconverters','Cash Converters'],['dollardealers','Dollar Dealers']]) $('store').querySelector('option[value="' + value + '"]').textContent = label + (loaded ? ' (' + counts[value] + ')' : '');
+  const timestamp = new Date(updatedAt);
+  $('updated').textContent = 'Feed updated: ' + (updatedAt && Number.isFinite(timestamp.getTime()) ? timestamp.toLocaleString('en-NZ', {timeZone:'Pacific/Auckland'}) + ' NZ time' : 'unknown');
   const query = $('search').value.toLowerCase().trim(), view = $('view').value;
   const visible = listings.filter(listing => {
     const id = canonical(listing.canonicalUrl || listing.url); if (!id) return false;
@@ -57,34 +69,43 @@ function render() {
     return (view === 'all' ? decision !== 'hide' : decision === view)
       && ($('priority').value === 'all' || listing.priority === $('priority').value)
       && ($('store').value === 'all' || listing.siteId === $('store').value)
-      && (!query || [listing.title, listing.modelNumber, listing.seller, listing.condition].join(' ').toLowerCase().includes(query));
-  });
+      && (!query || [listing.title, listing.modelNumber, listing.seller, listing.condition, listing.accessories, listing.siteId, ...(Array.isArray(listing.matchedRules) ? listing.matchedRules : [])].join(' ').toLowerCase().includes(query));
+  }).sort((a,b) => ({critical:0,high:1,normal:2}[a.priority] ?? 9) - ({critical:0,high:1,normal:2}[b.priority] ?? 9));
+  const money = value => new Intl.NumberFormat('en-NZ', {style:'currency',currency:'NZD'}).format(value);
   const fragment = document.createDocumentFragment();
   for (const listing of visible) {
     const id = canonical(listing.canonicalUrl || listing.url), row = record(id);
-    const card = element('article', undefined, 'card'); card.dataset.decision = row.decision;
-    card.append(element('div', [listing.siteId === 'cashconverters' ? 'Cash Converters' : 'Dollar Dealers', listing.priority, row.decision].join(' · '), 'muted'));
-    const heading = element('h2'), link = element('a', listing.title || 'Listing'); link.href = id; link.target = '_blank'; link.rel = 'noopener noreferrer'; heading.append(link); card.append(heading);
-    card.append(element('div', typeof listing.price === 'number' && Number.isFinite(listing.price) ? new Intl.NumberFormat('en-NZ', { style: 'currency', currency: 'NZD' }).format(listing.price) : listing.priceText || 'Price on request', 'price'));
-    if (listing.modelNumber || listing.seller) card.append(element('p', [listing.modelNumber, listing.seller].filter(Boolean).join(' · '), 'muted'));
-    if (listing.condition) card.append(element('p', listing.condition, 'muted'));
-    if (listing.ai) card.append(element('p', 'AI ' + listing.ai.score + '/10 · ' + listing.ai.verdict + ' — ' + (listing.ai.reason || ''), 'muted'));
+    const card = element('article', undefined, 'card'); card.dataset.decision = row.decision; card.dataset.priority = listing.priority;
+    const cardHeader = element('div', undefined, 'card-header'), badges = element('div', undefined, 'badges');
+    const priority = ['critical','high','normal'].includes(listing.priority) ? listing.priority : 'normal';
+    badges.append(element('span', priority.toUpperCase(), 'badge badge-' + priority), element('span', listing.siteId === 'cashconverters' ? 'Cash Converters' : 'Dollar Dealers', 'badge'));
+    if (row.decision !== 'normal') badges.append(element('span', row.decision === 'watch' ? '★ Watching' : 'Hidden', 'badge badge-' + row.decision));
+    cardHeader.append(badges, element('div', typeof listing.price === 'number' && Number.isFinite(listing.price) ? money(listing.price) : listing.priceText || 'Price on request', 'price')); card.append(cardHeader);
+    const heading = element('h2'); heading.append(externalLink(listing.title || 'Listing', id)); card.append(heading);
+    const meta = element('div', undefined, 'meta');
+    metadata(meta, 'Model', listing.modelNumber); metadata(meta, 'Condition', listing.condition); metadata(meta, 'Includes', listing.accessories); metadata(meta, 'Branch', listing.seller);
+    if (Array.isArray(listing.matchedRules) && listing.matchedRules.length) metadata(meta, 'Rules', listing.matchedRules.join(', '), 'rules');
+    if (listing.siteId === 'cashconverters') { if (Number.isSafeInteger(listing.bidCount) && listing.bidCount >= 0) metadata(meta, 'Recorded auction actions', listing.bidCount); if (Number.isSafeInteger(listing.bidIncrease) && listing.bidIncrease > 0) metadata(meta, 'Activity since last observation', '+' + listing.bidIncrease); if (typeof listing.minimumBid === 'number' && Number.isFinite(listing.minimumBid)) metadata(meta, 'Quick Bid', money(listing.minimumBid)); if (listing.bidCount !== undefined || listing.minimumBid !== undefined) meta.append(element('p', 'Sampled auction data, not live or a count of distinct bidders.', 'rules')); }
+    card.append(meta);
+    if (listing.ai) { const ai = element('div', undefined, 'ai-box'); ai.append(element('p', 'AI Deal Score: ' + listing.ai.score + '/10 · ' + listing.ai.verdict, 'ai-title'), element('p', listing.ai.reason || '')); card.append(ai); }
     const actions = element('div', undefined, 'actions');
     const watch = element('button', row.decision === 'watch' ? 'Unwatch' : 'Watch'); watch.disabled = busy || !loaded; if (row.decision === 'watch') watch.className = 'active-choice';
     watch.addEventListener('click', () => save(id, row.decision === 'watch' ? 'normal' : 'watch'));
     const hide = element('button', row.decision === 'hide' ? 'Unhide' : 'Hide'); hide.disabled = busy || !loaded; hide.addEventListener('click', () => save(id, row.decision === 'hide' ? 'normal' : 'hide'));
-    actions.append(watch, hide); card.append(actions); fragment.append(card);
+    actions.append(externalLink('View Listing →', id, 'link primary'), watch, hide); card.append(actions);
+    const report = new URL('https://github.com/Lukestaz/market-watch/issues/new'); report.searchParams.set('title', '[False Positive] ' + (listing.title || 'Listing')); report.searchParams.set('body', '### False Positive Report\n- Item: ' + (listing.title || '') + '\n- URL: ' + id + '\n- Matched Rules: ' + (Array.isArray(listing.matchedRules) ? listing.matchedRules.join(', ') : '') + '\n\nPlease tune keywords to exclude this item.'); report.searchParams.set('labels', 'feedback'); card.append(externalLink('👎 False Positive', report.toString(), 'feedback'));
+    fragment.append(card);
   }
-  if (!visible.length) fragment.append(element('p', 'No listings match this view.', 'empty'));
+  if (!visible.length) fragment.append(element('p', loaded ? 'No listings match this view.' : 'Listings unavailable until Refresh succeeds.', 'empty'));
   $('items').replaceChildren(fragment);
-  $('summary').textContent = visible.length + ' shown · ' + listings.length + ' active listings · Feed updated: ' + (updatedAt ? new Date(updatedAt).toLocaleString() : 'unknown');
+  $('summary').textContent = visible.length + ' shown · ' + listings.length + ' active listings' + (!loaded ? ' · Not synced; displayed data may be stale' : '');
 }
 async function load() {
   if (busy) return; busy = true; loaded = false; render(); status('Loading listings and shared decisions…');
   try {
     const [feed, state] = await Promise.all([jsonRequest('/api/feed'), jsonRequest('/api/decisions')]);
     if (!Array.isArray(feed.listings) || !Array.isArray(state.decisions) || !state.decisions.every(validRow)) throw new Error('Invalid API response.');
-    listings = feed.listings.filter(listing => listing && listing.status === 'active' && listing.priority !== 'ignore');
+    listings = feed.listings.filter(listing => listing && listing.status === 'active' && listing.priority !== 'ignore' && canonical(listing.canonicalUrl || listing.url));
     decisions = new Map(state.decisions.map(row => [row.identity, row])); updatedAt = feed.updatedAt || ''; loaded = true;
     if (lastChange && record(lastChange.identity).version !== lastChange.version) lastChange = null;
     status('Synced. Watch/Hide changes are saved across devices.');
