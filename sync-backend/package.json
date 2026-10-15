@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "validate:config": "node scripts/validate-config.mjs",
+    "deploy": "wrangler deploy"
+  },
+  "dependencies": { "jose": "^6.0.0" },
+  "devDependencies": { "wrangler": "^4.0.0" }
+}

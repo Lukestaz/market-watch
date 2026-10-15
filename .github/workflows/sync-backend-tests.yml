@@ -1,0 +1,49 @@
+name: Sync backend tests and lockfile
+
+on:
+  push:
+    branches: [feature/synced-watch-hide]
+    paths:
+      - 'sync-backend/**'
+      - '.github/workflows/sync-backend-tests.yml'
+  pull_request:
+    paths:
+      - 'sync-backend/**'
+      - '.github/workflows/sync-backend-tests.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: sync-backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Generate npm lockfile if missing
+        run: |
+          if [ ! -f package-lock.json ]; then
+            npm install --package-lock-only --ignore-scripts --no-audit --no-fund
+          fi
+      - name: Upload genuine npm lockfile for review
+        uses: actions/upload-artifact@v4
+        with:
+          name: sync-backend-lockfile
+          path: sync-backend/package-lock.json
+          if-no-files-found: error
+          retention-days: 14
+      - name: Install locked dependencies
+        run: npm ci --no-audit --no-fund
+      - name: Check JavaScript syntax
+        run: |
+          node --check src/worker.js
+          node --check scripts/validate-config.mjs
+      - name: Run automated tests
+        run: npm test
