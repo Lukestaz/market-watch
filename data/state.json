@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T23:04:21.305Z",
+  "updatedAt": "2026-10-15T04:40:27.841Z",
   "listings": {
     "dollardealers:dd-samsung-43-smart-tv-2": {
       "key": "dollardealers:dd-samsung-43-smart-tv-2",
@@ -507,8 +507,8 @@
       "id": "cc-181586644",
       "title": "Lg Tv - 65 Inch 4K Uhd Smart Led 65UP7550PVG",
       "url": "https://shop.cashconverters.co.nz/Listing/Details/181586644/Lg-Tv-65-Inch-4K-Uhd-Smart-Led-65UP7550PVG",
-      "priceText": "",
-      "rawText": "Lg Tv - 65 Inch 4K Uhd Smart Led 65UP7550PVG Seller: CCMountRoskill",
+      "priceText": "449.50",
+      "rawText": "Ended Auction Lg Tv - 65 Inch 4K Uhd Smart Led 65UP7550PVG Seller: CCMountRoskill Lg Tv - 65 Inch 4K Uhd Smart Led 65UP7550PVG (181586644) $449.50 Quick Bid $449.50 remaining Sold $449.50 $449.50 0 Bid(s) View Details",
       "key": "cashconverters:cc-181586644",
       "status": "active",
       "siteId": "cashconverters",
@@ -522,16 +522,18 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-10-14T23:04:21.305Z",
-      "firstSeen": "2026-10-14T23:04:21.305Z",
-      "lastSeen": "2026-10-14T23:04:21.305Z",
+      "lastSeenAt": "2026-10-15T04:40:27.841Z",
+      "firstSeen": "2026-10-15T04:40:27.841Z",
+      "lastSeen": "2026-10-15T04:40:27.841Z",
       "ai": {
         "isTruePositive": true,
-        "score": 5,
-        "verdict": "Fair Price",
-        "reason": "Matches the 65-inch TV category, but deal attractiveness cannot be determined without a listed price."
+        "score": 7,
+        "verdict": "Great Deal",
+        "reason": "At $449.50, this 65-inch LG 4K Smart TV is competitively priced well below typical second-hand market rates for modern 65-inch displays."
       },
-      "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)"
+      "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
+      "price": 449.5,
+      "seller": "Seller: CCMountRoskill"
     },
     "cashconverters:cc-176885402": {
       "id": "cc-176885402",
@@ -591,8 +593,8 @@
       "id": "cc-177596871",
       "title": "Lg Smart Tv **65Inch/Loose Base** OLED65C56LA",
       "url": "https://shop.cashconverters.co.nz/Listing/Details/177596871/Lg-Smart-Tv-65InchLoose-Base-OLED65C56LA",
-      "priceText": "",
-      "rawText": "Lg Smart Tv **65Inch/Loose Base** OLED65C56LA Seller: CCHenderson Lg Smart Tv **65Inch/Loose Base** OLED65C56LA No remote Goods are available for viewing at our store during our trading hours 7 days per week Goods are offered for sale under the following conditions: Goods must be paid for within 5 working days of the auction finishing Goods have a 90 days warranty or longer as required by the Consumer Guarantees Act ID Required upon pick up. Online payments only - Credit and debit cards (MasterCard and Visa) and direct deposit. No instore payments accepted. WE PAWN CARS, MOTOR BIKES & BOATS!! ***Stock Wanted*** We are looking for more stock for our shop floor! Bring your good quality second hand goods for cash on the spot! All you need is your item and a valid ID",
+      "priceText": "1,249.50",
+      "rawText": "Ended Auction Lg Smart Tv **65Inch/Loose Base** OLED65C56LA Seller: CCHenderson Lg Smart Tv **65Inch/Loose Base** OLED65C56LA (177596871) $1,249.50 Quick Bid $1,249.50 remaining Sold $1,249.50 $1,249.50 0 Bid(s) View Details Lg Smart Tv **65Inch/Loose Base** OLED65C56LA No remote Goods are available for viewing at our store during our trading hours 7 days per week Goods are offered for sale under the following conditions: Goods must be paid for within 5 working days of the auction finishing Goods have a 90 days warranty or longer as required by the Consumer Guarantees Act ID Required upon pick up. Online payments only - Credit and debit cards (MasterCard and Visa) and direct deposit. No instore payments accepted. WE PAWN CARS, MOTOR BIKES & BOATS!! ***Stock Wanted*** We are looking for more stock for our shop floor! Bring your good quality second hand goods for cash on the spot! All you need is your item and a valid ID",
       "key": "cashconverters:cc-177596871",
       "status": "active",
       "siteId": "cashconverters",
@@ -607,16 +609,18 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-10-14T23:04:21.305Z",
-      "firstSeen": "2026-10-14T23:04:21.305Z",
-      "lastSeen": "2026-10-14T23:04:21.305Z",
+      "lastSeenAt": "2026-10-15T04:40:27.841Z",
+      "firstSeen": "2026-10-15T04:40:27.841Z",
+      "lastSeen": "2026-10-15T04:40:27.841Z",
       "ai": {
         "isTruePositive": true,
-        "score": 8,
+        "score": 7,
         "verdict": "Great Deal",
-        "reason": "This is a true positive match for a 65-inch LG OLED TV, and despite the loose base, 65-inch C-series OLEDs typically represent high value if priced reasonably."
+        "reason": "Genuine 65-inch LG OLED TV (likely CS6LA model) at an attractive sub-$1,300 price, though the loose base may require minor repair or wall mounting."
       },
-      "aiContext": "Displays 65\" / OLED (LG OLED 65 model number (OLED65xx), Ref 65\" Display Generic)"
+      "aiContext": "Displays 65\" / OLED (LG OLED 65 model number (OLED65xx), Ref 65\" Display Generic)",
+      "price": 1249.5,
+      "seller": "Seller: CCHenderson"
     },
     "cashconverters:cc-177692227": {
       "id": "cc-177692227",
@@ -1302,10 +1306,10 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-10-14T23:04:21.305Z",
+      "lastSeenAt": "2026-10-15T04:40:27.841Z",
       "status": "active",
-      "firstSeen": "2026-10-14T23:04:21.305Z",
-      "lastSeen": "2026-10-14T23:04:21.305Z",
+      "firstSeen": "2026-10-15T04:40:27.841Z",
+      "lastSeen": "2026-10-15T04:40:27.841Z",
       "id": "dd-3431391",
       "url": "https://dollardealers.co.nz/product/panasonic-65-4k-smart-tv-th-65lx800z/",
       "priceText": "$899.00 incl. GST",
@@ -1322,8 +1326,8 @@
       "id": "cc-177302410",
       "title": "Anker Powerbank 20100Mah A1271",
       "url": "https://shop.cashconverters.co.nz/Listing/Details/177302410/Anker-Powerbank-20100Mah-A1271",
-      "priceText": "",
-      "rawText": "Anker Powerbank 20100Mah A1271 Seller: CCPapakura Anker Powerbank 20100Mah Model: A1271 ********************************************************************************************************Goods are available for viewing at our store during our trading hours 7 days per week -Goods are offered for sale under the following conditions:-Goods must be paid for within 5 working days of the auction finishing-Goods have a 90 days warranty or longer as required by the Consumer Guarantees Act-ID Required upon pick up.-Online payments only - Credit and debit cards (MasterCard and Visa) and direct deposit.-In-store payments accepted. ***Stock Wanted***We are looking for more stock for our shop floor!Bring your good quality second hand goods for cash on the spot! All you need is your item and a valid ID Come and have a chat with one of our friendly staff at: Cash converters Papakura6-10 Railway Street West09 973 4266",
+      "priceText": "14.50",
+      "rawText": "Ended Auction Anker Powerbank 20100Mah A1271 Seller: CCPapakura Anker Powerbank 20100Mah A1271 (177302410) $14.50 Quick Bid $14.50 remaining Sold $14.50 $14.50 0 Bid(s) View Details Anker Powerbank 20100Mah Model: A1271 ********************************************************************************************************Goods are available for viewing at our store during our trading hours 7 days per week -Goods are offered for sale under the following conditions:-Goods must be paid for within 5 working days of the auction finishing-Goods have a 90 days warranty or longer as required by the Consumer Guarantees Act-ID Required upon pick up.-Online payments only - Credit and debit cards (MasterCard and Visa) and direct deposit.-In-store payments accepted. ***Stock Wanted***We are looking for more stock for our shop floor!Bring your good quality second hand goods for cash on the spot! All you need is your item and a valid ID Come and have a chat with one of our friendly staff at: Cash converters Papakura6-10 Railway Street West09 973 4266",
       "key": "cashconverters:cc-177302410",
       "status": "active",
       "siteId": "cashconverters",
@@ -1338,16 +1342,18 @@
         "src-a-anker-nano"
       ],
       "firstSeenAt": "2026-09-29T10:25:23.530Z",
-      "lastSeenAt": "2026-10-14T23:04:21.305Z",
-      "firstSeen": "2026-10-14T23:04:21.305Z",
-      "lastSeen": "2026-10-14T23:04:21.305Z",
+      "lastSeenAt": "2026-10-15T04:40:27.841Z",
+      "firstSeen": "2026-10-15T04:40:27.841Z",
+      "lastSeen": "2026-10-15T04:40:27.841Z",
       "aiContext": "Anker Power (chargers / power banks) (Anker power bank, Anker battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
-        "score": 6,
-        "verdict": "Fair Price",
-        "reason": "This is a genuine Anker 20100mAh power bank (A1271) matching the target category, offering solid high-capacity utility at a typical second-hand market value."
-      }
+        "score": 9,
+        "verdict": "Steal",
+        "reason": "An authentic 20,100mAh Anker power bank priced at just $14.50 is an exceptional bargain compared to typical second-hand market values."
+      },
+      "price": 14.5,
+      "seller": "Seller: CCPapakura"
     },
     "cashconverters:cc-177354032": {
       "id": "cc-177354032",
@@ -1448,8 +1454,8 @@
       "id": "cc-183968879",
       "title": "Lg Tv (Smart) 65 INCH LED LCD 65UA8450PSA",
       "url": "https://shop.cashconverters.co.nz/Listing/Details/183968879/Lg-Tv-Smart-65-INCH-LED-LCD-65UA8450PSA",
-      "priceText": "",
-      "rawText": "Lg Tv (Smart) 65 INCH LED LCD 65UA8450PSA Seller: CCWanganui",
+      "priceText": "800.00",
+      "rawText": "Ended Auction Lg Tv (Smart) 65 INCH LED LCD 65UA8450PSA Seller: CCWanganui Lg Tv (Smart) 65 INCH LED LCD 65UA8450PSA (183968879) $800.00 Quick Bid $800.00 remaining Sold $800.00 $800.00 0 Bid(s) View Details",
       "key": "cashconverters:cc-183968879",
       "status": "active",
       "siteId": "cashconverters",
@@ -1463,23 +1469,25 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-30T14:17:31.640Z",
-      "lastSeenAt": "2026-10-14T23:04:21.305Z",
-      "firstSeen": "2026-10-14T23:04:21.305Z",
-      "lastSeen": "2026-10-14T23:04:21.305Z",
+      "lastSeenAt": "2026-10-15T04:40:27.841Z",
+      "firstSeen": "2026-10-15T04:40:27.841Z",
+      "lastSeen": "2026-10-15T04:40:27.841Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
-        "score": 5,
-        "verdict": "Fair Price",
-        "reason": "Matches the 65-inch TV target, but deal attractiveness cannot be determined without a listed price."
-      }
+        "score": 3,
+        "verdict": "Overpriced",
+        "reason": "This is a standard 65-inch LED LCD TV rather than an OLED, and NZD $800 is overpriced for an older second-hand LED TV when brand new 65-inch 4K sets start around $800-$900."
+      },
+      "price": 800,
+      "seller": "Seller: CCWanganui"
     },
     "cashconverters:cc-184002413": {
       "id": "cc-184002413",
       "title": "Ego Battery 56V 2.5Ah BA1400",
       "url": "https://shop.cashconverters.co.nz/Listing/Details/184002413/Ego-Battery-56V-25Ah-BA1400",
-      "priceText": "",
-      "rawText": "Ego Battery 56V 2.5Ah BA1400 Seller: CCPapakura Ego Battery 56V 2.5Ah Model: BA1400 ********************************************************************************************************Goods are available for viewing at our store during our trading hours 7 days per week -Goods are offered for sale under the following conditions:-Goods must be paid for within 5 working days of the auction finishing-Goods have a 90 days warranty or longer as required by the Consumer Guarantees Act-ID Required upon pick up.-Online payments only - Credit and debit cards (MasterCard and Visa) and direct deposit.-In-store payments accepted. WE PAWN CARS, MOTOR BIKES & BOATS!! ***Stock Wanted***We are looking for more stock for our shop floor!Bring your good quality second hand goods for cash on the spot! All you need is your item and a valid ID Come and have a chat with one of our friendly staff at: Cash converters Papakura6-10 Railway Street West09 973 4266",
+      "priceText": "50.50",
+      "rawText": "Ended Auction Ego Battery 56V 2.5Ah BA1400 Seller: CCPapakura Ego Battery 56V 2.5Ah BA1400 (184002413) $50.50 Quick Bid $50.50 remaining Sold $49.50 $49.50 1 Bid(s) View Details Ego Battery 56V 2.5Ah Model: BA1400 ********************************************************************************************************Goods are available for viewing at our store during our trading hours 7 days per week -Goods are offered for sale under the following conditions:-Goods must be paid for within 5 working days of the auction finishing-Goods have a 90 days warranty or longer as required by the Consumer Guarantees Act-ID Required upon pick up.-Online payments only - Credit and debit cards (MasterCard and Visa) and direct deposit.-In-store payments accepted. WE PAWN CARS, MOTOR BIKES & BOATS!! ***Stock Wanted***We are looking for more stock for our shop floor!Bring your good quality second hand goods for cash on the spot! All you need is your item and a valid ID Come and have a chat with one of our friendly staff at: Cash converters Papakura6-10 Railway Street West09 973 4266",
       "key": "cashconverters:cc-184002413",
       "status": "active",
       "siteId": "cashconverters",
@@ -1494,16 +1502,18 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-09-30T23:50:12.583Z",
-      "lastSeenAt": "2026-10-14T23:04:21.305Z",
-      "firstSeen": "2026-10-14T23:04:21.305Z",
-      "lastSeen": "2026-10-14T23:04:21.305Z",
+      "lastSeenAt": "2026-10-15T04:40:27.841Z",
+      "firstSeen": "2026-10-15T04:40:27.841Z",
+      "lastSeen": "2026-10-15T04:40:27.841Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
-        "score": 5,
-        "verdict": "Fair Price",
-        "reason": "Authentic EGO Power+ 56V 2.5Ah Arc Lithium battery (BA1400), but deal attractiveness cannot be fully assessed without price information."
-      }
+        "score": 9,
+        "verdict": "Steal",
+        "reason": "An authentic EGO 56V 2.5Ah Arc Lithium battery typically retails over $180 NZD, making $50.50 an exceptional bargain."
+      },
+      "price": 50.5,
+      "seller": "Seller: CCPapakura"
     },
     "cashconverters:cc-184094985": {
       "id": "cc-184094985",
@@ -1569,8 +1579,8 @@
       "id": "cc-184233413",
       "title": "Baseus Wireless Charger 5000 MAH",
       "url": "https://shop.cashconverters.co.nz/Listing/Details/184233413/Baseus-Wireless-Charger-5000-MAH",
-      "priceText": "",
-      "rawText": "Baseus Wireless Charger 5000 MAH Seller: CCWanganui",
+      "priceText": "30.00",
+      "rawText": "Ended Auction Baseus Wireless Charger 5000 MAH Seller: CCWanganui Baseus Wireless Charger 5000 MAH (184233413) $30.00 Quick Bid $30.00 remaining Sold $30.00 $30.00 0 Bid(s) View Details",
       "key": "cashconverters:cc-184233413",
       "status": "active",
       "siteId": "cashconverters",
@@ -1585,16 +1595,18 @@
         "src-a-baseus-blade"
       ],
       "firstSeenAt": "2026-10-06T01:13:27.461Z",
-      "lastSeenAt": "2026-10-14T23:04:21.305Z",
-      "firstSeen": "2026-10-14T23:04:21.305Z",
-      "lastSeen": "2026-10-14T23:04:21.305Z",
+      "lastSeenAt": "2026-10-15T04:40:27.841Z",
+      "firstSeen": "2026-10-15T04:40:27.841Z",
+      "lastSeen": "2026-10-15T04:40:27.841Z",
       "aiContext": "Baseus Power (chargers / power banks) (Baseus charger (GaN / USB-C), Baseus battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
         "score": 5,
         "verdict": "Fair Price",
-        "reason": "This is a genuine Baseus wireless power bank, but with an unknown price, it represents a standard market evaluation."
-      }
+        "reason": "This is a genuine Baseus 5000mAh wireless power bank, but $30 NZD is close to retail sale pricing for this capacity."
+      },
+      "price": 30,
+      "seller": "Seller: CCWanganui"
     },
     "dollardealers:dd-3532010": {
       "id": "dd-3532010",
@@ -1619,9 +1631,9 @@
         "src-b-anker-nano"
       ],
       "firstSeenAt": "2026-10-08T00:04:48.100Z",
-      "lastSeenAt": "2026-10-14T23:04:21.305Z",
-      "firstSeen": "2026-10-14T23:04:21.305Z",
-      "lastSeen": "2026-10-14T23:04:21.305Z",
+      "lastSeenAt": "2026-10-15T04:40:27.841Z",
+      "firstSeen": "2026-10-15T04:40:27.841Z",
+      "lastSeen": "2026-10-15T04:40:27.841Z",
       "aiContext": "Anker Power (chargers / power banks) (Anker power bank, Anker battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1634,8 +1646,8 @@
       "id": "cc-184373267",
       "title": "Ego 56V Cordless Line Trimmer ST1400E- ST",
       "url": "https://shop.cashconverters.co.nz/Listing/Details/184373267/Ego-56V-Cordless-Line-Trimmer-ST1400E-ST",
-      "priceText": "",
-      "rawText": "Ego 56V Cordless Line Trimmer ST1400E- ST Seller: CCLinwood Ego 56V Cordless Line Trimmer ST1400E- ST Shipping: Not AvailablePlease Contact Store To Arrange Shipping",
+      "priceText": "49.50",
+      "rawText": "Ended Auction Ego 56V Cordless Line Trimmer ST1400E- ST Seller: CCLinwood Ego 56V Cordless Line Trimmer ST1400E- ST (184373267) $49.50 Quick Bid $49.50 remaining Sold $49.50 $49.50 0 Bid(s) View Details Ego 56V Cordless Line Trimmer ST1400E- ST Shipping: Not AvailablePlease Contact Store To Arrange Shipping",
       "key": "cashconverters:cc-184373267",
       "status": "active",
       "siteId": "cashconverters",
@@ -1650,16 +1662,18 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-10-08T14:59:20.791Z",
-      "lastSeenAt": "2026-10-14T23:04:21.305Z",
-      "firstSeen": "2026-10-14T23:04:21.305Z",
-      "lastSeen": "2026-10-14T23:04:21.305Z",
+      "lastSeenAt": "2026-10-15T04:40:27.841Z",
+      "firstSeen": "2026-10-15T04:40:27.841Z",
+      "lastSeen": "2026-10-15T04:40:27.841Z",
       "aiContext": "Cordless Power Equipment (Line Trimmer / Brushcutter, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
-        "score": 5,
-        "verdict": "Fair Price",
-        "reason": "Exact match for an EGO 56V line trimmer (ST1400E-ST), but attractiveness cannot be determined without a listed price."
-      }
+        "score": 10,
+        "verdict": "Steal",
+        "reason": "An authentic EGO 56V line trimmer at under $50 NZD is an exceptional bargain well below standard second-hand bare tool market value."
+      },
+      "price": 49.5,
+      "seller": "Seller: CCLinwood"
     },
     "cashconverters:cc-184410547": {
       "id": "cc-184410547",
@@ -1695,8 +1709,8 @@
       "id": "cc-184579774",
       "title": "Ecoflow Inverter 245WH EFR705",
       "url": "https://shop.cashconverters.co.nz/Listing/Details/184579774/Ecoflow-Inverter-245WH-EFR705",
-      "priceText": "",
-      "rawText": "Ecoflow Inverter 245WH EFR705 Seller: CCPalmerstonNorth",
+      "priceText": "270.00",
+      "rawText": "Ended Auction Ecoflow Inverter 245WH EFR705 Seller: CCPalmerstonNorth Ecoflow Inverter 245WH EFR705 (184579774) $270.00 Quick Bid $270.00 remaining Sold $270.00 $270.00 0 Bid(s) View Details",
       "key": "cashconverters:cc-184579774",
       "status": "active",
       "siteId": "cashconverters",
@@ -1710,15 +1724,50 @@
         "src-a-ecoflow"
       ],
       "firstSeenAt": "2026-10-13T01:54:51.010Z",
-      "lastSeenAt": "2026-10-14T23:04:21.305Z",
-      "firstSeen": "2026-10-14T23:04:21.305Z",
-      "lastSeen": "2026-10-14T23:04:21.305Z",
+      "lastSeenAt": "2026-10-15T04:40:27.841Z",
+      "firstSeen": "2026-10-15T04:40:27.841Z",
+      "lastSeen": "2026-10-15T04:40:27.841Z",
       "aiContext": "EcoFlow Power Stations (Any Ecoflow item (solar panel, battery, accessory))",
       "ai": {
         "isTruePositive": true,
         "score": 5,
         "verdict": "Fair Price",
-        "reason": "This is a genuine EcoFlow River Mini portable power station, but the deal attractiveness cannot be determined without a listed price."
+        "reason": "This is an EcoFlow River 2 (256Wh) portable power station, priced reasonably against its retail price of roughly $350-$400 NZD."
+      },
+      "price": 270,
+      "seller": "Seller: CCPalmerstonNorth"
+    },
+    "cashconverters:cc-184694924": {
+      "id": "cc-184694924",
+      "title": "Ego Chainsaw CS1400E 400MM 56V SKIN ONLY 2021",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/184694924/Ego-Chainsaw-CS1400E-400MM-56V-SKIN-ONLY-2021",
+      "price": 149,
+      "priceText": "149.00",
+      "seller": "Seller: CCLowerHutt",
+      "rawText": "Ended Auction Ego Chainsaw CS1400E 400MM 56V SKIN ONLY 2021 Seller: CCLowerHutt Ego Chainsaw CS1400E 400MM 56V SKIN ONLY 2021 (184694924) $149.00 Quick Bid $149.00 remaining Sold $149.00 $149.00 0 Bid(s) View Details Ego Chainsaw CS1400E 400MM 56V SKIN ONLY 2021",
+      "key": "cashconverters:cc-184694924",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-184694924",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/184694924/Ego-Chainsaw-CS1400E-400MM-56V-SKIN-ONLY-2021",
+      "priority": "high",
+      "matchedRules": [
+        "rule-a-high-chainsaw",
+        "rule-a-normal-ego-56v"
+      ],
+      "searchIds": [
+        "src-a-power-tools"
+      ],
+      "firstSeenAt": "2026-10-15T04:40:27.841Z",
+      "lastSeenAt": "2026-10-15T04:40:27.841Z",
+      "firstSeen": "2026-10-15T04:40:27.841Z",
+      "lastSeen": "2026-10-15T04:40:27.841Z",
+      "aiContext": "Cordless Power Equipment (Chainsaw Equipment, Any EGO 56V item)",
+      "ai": {
+        "isTruePositive": true,
+        "score": 8,
+        "verdict": "Great Deal",
+        "reason": "Authentic EGO 56V 400mm chainsaw skin priced well below typical retail of ~$380+."
       }
     }
   }
