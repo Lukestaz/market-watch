@@ -2,7 +2,7 @@ name: Sync backend tests and lockfile
 
 on:
   push:
-    branches: [feature/synced-watch-hide]
+    branches: [main, feature/synced-watch-hide]
     paths:
       - 'sync-backend/**'
       - '.github/workflows/sync-backend-tests.yml'
