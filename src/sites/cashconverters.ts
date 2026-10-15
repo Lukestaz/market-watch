@@ -46,7 +46,7 @@ export class CashConvertersAdapter implements SiteAdapter {
         sections.each((_, sec) => {
           const $sec = $(sec);
           const listingId = $sec.attr("data-listingid") || "";
-          const titleLink = $sec.find("h2.title a, .title a, a[href*='Listing/Details/']").first();
+          const titleLink = $sec.find("h2.title a, .title a").first();
           const title = titleLink.text().trim();
           if (!title) return;
 
@@ -85,7 +85,8 @@ export class CashConvertersAdapter implements SiteAdapter {
           const id = idMatch ? `cc-${idMatch[1]}` : `cc-${Buffer.from(href).toString("base64url").slice(0, 16)}`;
           const canonicalUrl = href.startsWith("http") ? href : `${BASE_URL}${href}`;
 
-          const $container = $el.closest("div, li, tr, section");
+          const $listing = $el.closest("section[data-listingid], .listing, .galleryUnit");
+          const $container = $listing.length > 0 ? $listing : $el.closest("div, li, tr, section");
           const priceText = $container.find("[class*='price'], .NumberPart, :contains('$')").first().text().trim();
 
           listings.push({
