@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "failedSteps": [],
+  "steps": {
+    "setup": "success",
+    "install": "success",
+    "typecheck": "success",
+    "pipeline": "success"
+  },
+  "commit": "8d37a48955bf80800e67cb1d8c7b59f2a7e911c8",
+  "runUrl": "https://github.com/Lukestaz/market-watch/actions/runs/39073449266",
+  "finishedAt": "2026-10-17T22:03:22.942Z",
+  "summary": "Executing search: Source B - Bluetti Power Stations (dollardealers)\n[DollarDealers] Fetching: https://dollardealers.co.nz/?s=bluetti&post_type=product\n[DollarDealers] Found 16 listings for /?s=bluetti&post_type=product\nExecuting search: Source A - EcoFlow Power Stations (cashconverters)\n[CashConverters] Fetching: https://shop.cashconverters.co.nz/Browse?FullTextQuery=EcoFlow&StatusFilter=active_only\n[CashConverters] HTTP 403 for https://shop.cashconverters.co.nz/Browse?FullTextQuery=EcoFlow&StatusFilter=active_only\n[src-a-ecoflow] Scrape error: HTTP 403\nExecuting search: Source B - EcoFlow Power Stations (dollardealers)\n[DollarDealers] Fetching: https://dollardealers.co.nz/?s=ecoflow&post_type=product\n[DollarDealers] Found 0 listings for /?s=ecoflow&post_type=product\nTotal raw listings collected: 31\n[Details] Enriching high item: ANKER POWER BANK 10000MAH 22.5W – New in Box\nCandidate listings passing keyword rules: 2\n[AI] \"PANASONIC 65″ 4K SMART TV TH-65LX800Z\" -> Fair Price (score: 6/10, valid: true)\n[AI] \"ANKER POWER BANK 10000MAH 22.5W – New in Box\" -> Great Deal (score: 8/10, valid: true)\nListings verified after AI assessment: 2\nListing events detected: 2\n[UI] Generated index.html and feed.json in ./dist\nMarket Watch run complete.\n"
+}
