@@ -5,24 +5,19 @@
 Starting Market Watch run...
 Executing search: Source A - Displays 65" / OLED (cashconverters)
 [CashConverters] Fetching: https://shop.cashconverters.co.nz/Browse?FullTextQuery=LG%20tv
-[CashConverters] HTTP 403 for https://shop.cashconverters.co.nz/Browse?FullTextQuery=LG%20tv
-[src-a-display-65] Scrape error: HTTP 403
+[CashConverters] Found 28 listings for /Browse?FullTextQuery=LG%20tv
 Executing search: Source A - Cordless Power Equipment (cashconverters)
 [CashConverters] Fetching: https://shop.cashconverters.co.nz/Browse?FullTextQuery=EGO%2056V
-[CashConverters] HTTP 403 for https://shop.cashconverters.co.nz/Browse?FullTextQuery=EGO%2056V
-[src-a-power-tools] Scrape error: HTTP 403
+[CashConverters] Found 4 listings for /Browse?FullTextQuery=EGO%2056V
 Executing search: Source A - Tough Cameras (TG-6 / TG-7) (cashconverters)
 [CashConverters] Fetching: https://shop.cashconverters.co.nz/Browse?FullTextQuery=Olympus%20Tough
-[CashConverters] HTTP 403 for https://shop.cashconverters.co.nz/Browse?FullTextQuery=Olympus%20Tough
-[src-a-tough-cameras] Scrape error: HTTP 403
+[CashConverters] Found 0 listings for /Browse?FullTextQuery=Olympus%20Tough
 Executing search: Source A - Anker Power (chargers / power banks) (cashconverters)
 [CashConverters] Fetching: https://shop.cashconverters.co.nz/Browse?FullTextQuery=Anker&StatusFilter=active_only
-[CashConverters] HTTP 403 for https://shop.cashconverters.co.nz/Browse?FullTextQuery=Anker&StatusFilter=active_only
-[src-a-anker-nano] Scrape error: HTTP 403
+[CashConverters] Found 3 listings for /Browse?FullTextQuery=Anker&StatusFilter=active_only
 Executing search: Source A - Baseus Power (chargers / power banks) (cashconverters)
 [CashConverters] Fetching: https://shop.cashconverters.co.nz/Browse?FullTextQuery=Baseus&StatusFilter=active_only
-[CashConverters] HTTP 403 for https://shop.cashconverters.co.nz/Browse?FullTextQuery=Baseus&StatusFilter=active_only
-[src-a-baseus-blade] Scrape error: HTTP 403
+[CashConverters] Found 2 listings for /Browse?FullTextQuery=Baseus&StatusFilter=active_only
 Executing search: Source B - Displays 65" / OLED (dollardealers)
 [DollarDealers] Fetching: https://dollardealers.co.nz/?s=lg+tv&post_type=product
 [DollarDealers] Found 26 listings for /?s=lg+tv&post_type=product
@@ -40,24 +35,55 @@ Executing search: Source B - Baseus Power (chargers / power banks) (dollardealer
 [DollarDealers] Found 16 listings for /?s=baseus&post_type=product
 Executing search: Source A - Bluetti Power Stations (cashconverters)
 [CashConverters] Fetching: https://shop.cashconverters.co.nz/Browse?FullTextQuery=Bluetti&StatusFilter=active_only
-[CashConverters] HTTP 403 for https://shop.cashconverters.co.nz/Browse?FullTextQuery=Bluetti&StatusFilter=active_only
-[src-a-bluetti] Scrape error: HTTP 403
+[CashConverters] Found 1 listings for /Browse?FullTextQuery=Bluetti&StatusFilter=active_only
 Executing search: Source B - Bluetti Power Stations (dollardealers)
 [DollarDealers] Fetching: https://dollardealers.co.nz/?s=bluetti&post_type=product
 [DollarDealers] Found 16 listings for /?s=bluetti&post_type=product
 Executing search: Source A - EcoFlow Power Stations (cashconverters)
 [CashConverters] Fetching: https://shop.cashconverters.co.nz/Browse?FullTextQuery=EcoFlow&StatusFilter=active_only
-[CashConverters] HTTP 403 for https://shop.cashconverters.co.nz/Browse?FullTextQuery=EcoFlow&StatusFilter=active_only
-[src-a-ecoflow] Scrape error: HTTP 403
+[CashConverters] Found 1 listings for /Browse?FullTextQuery=EcoFlow&StatusFilter=active_only
 Executing search: Source B - EcoFlow Power Stations (dollardealers)
 [DollarDealers] Fetching: https://dollardealers.co.nz/?s=ecoflow&post_type=product
 [DollarDealers] Found 0 listings for /?s=ecoflow&post_type=product
-Total raw listings collected: 31
+Total raw listings collected: 70
+[Auction] Detail HTTP 403
+[Auction] Detail HTTP 403
+[Auction] Detail HTTP 403
+[Details] Enriching high item: Lg Smart Tv **65Inch/Loose Base** OLED65C56LA
+[Auction] Detail HTTP 403
+[Details] Enriching high item: Ego Battery 56V 2.5Ah BA1400
+[Auction] Detail HTTP 403
+[Details] Enriching high item: Ego Charger Power+ Standard Charger CH2100E
+[Auction] Detail HTTP 403
+[Details] Enriching high item: Ego Chainsaw CS1400E 400MM 56V SKIN ONLY 2021
+[Auction] Detail HTTP 403
+[Details] Enriching high item: Ego 56V Cordless Line Trimmer ST1400E- ST
+[Auction] Detail HTTP 403
+[Details] Enriching high item: Anker Powerbank 20100Mah A1271
+[Auction] Detail HTTP 403
 [Details] Enriching high item: ANKER POWER BANK 10000MAH 22.5W – New in Box
-Candidate listings passing keyword rules: 2
+[Auction] Detail HTTP 403
+[Details] Enriching high item: Bluetti Portable Power Station AC2P
+[Auction] Detail HTTP 403
+Candidate listings passing keyword rules: 13
+[AI] "Lg Tv (Smart) 65 INCH LED LCD 65UA8450PSA" -> Overpriced (score: 3/10, valid: true)
+[AI Evaluator] Available flash models: gemini-flash-latest, gemini-2.5-flash, gemini-flash-lite-latest, gemini-3.8-flash
+[AI] "Lg Tv - 65 Inch 4K Uhd Smart Led 65UP7550PVG" -> Great Deal (score: 7.5/10, valid: true)
+[AI] "Lg Smart Tv **65Inch/Loose Base** OLED65C56LA" -> Great Deal (score: 7/10, valid: true)
+[AI] "Ego Battery 56V 2.5Ah BA1400" -> Steal (score: 9/10, valid: true)
+[AI] "Ego Charger Power+ Standard Charger CH2100E" -> Not Relevant (score: 1/10, valid: false)
+[AI] Dropping false positive: Ego Charger Power+ Standard Charger CH2100E (This is only a battery charger, not a power equipment tool, and it is priced significantly higher than its brand-new retail value.)
+[AI] "Ego Chainsaw CS1400E 400MM 56V SKIN ONLY 2021" -> Great Deal (score: 8/10, valid: true)
+[AI] "Ego 56V Cordless Line Trimmer ST1400E- ST" -> Steal (score: 10/10, valid: true)
+[AI] "Anker Powerbank 20100Mah A1271" -> Steal (score: 9/10, valid: true)
+[AI] "Baseus Wireless Charger 5000 MAH" -> Fair Price (score: 5/10, valid: true)
 [AI] "PANASONIC 65″ 4K SMART TV TH-65LX800Z" -> Fair Price (score: 6/10, valid: true)
 [AI] "ANKER POWER BANK 10000MAH 22.5W – New in Box" -> Great Deal (score: 8/10, valid: true)
-Listings verified after AI assessment: 2
-Listing events detected: 2
+[AI] "Bluetti Portable Power Station AC2P" -> Fair Price (score: 6/10, valid: true)
+[AI] "Ecoflow Inverter 245WH EFR705" -> Fair Price (score: 5/10, valid: true)
+Listings verified after AI assessment: 12
+Listing events detected: 12
+Sending email alert for 3 event(s) to [REDACTED_EMAIL]...
+Email alert sent successfully.
 [UI] Generated index.html and feed.json in ./dist
 Market Watch run complete.
