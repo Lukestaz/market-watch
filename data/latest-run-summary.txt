@@ -5,7 +5,7 @@
 Starting Market Watch run...
 Executing search: Source A - Displays 65" / OLED (cashconverters)
 [CashConverters] Fetching: https://shop.cashconverters.co.nz/Browse?FullTextQuery=LG%20tv
-[CashConverters] Found 27 listings for /Browse?FullTextQuery=LG%20tv
+[CashConverters] Found 26 listings for /Browse?FullTextQuery=LG%20tv
 Executing search: Source A - Cordless Power Equipment (cashconverters)
 [CashConverters] Fetching: https://shop.cashconverters.co.nz/Browse?FullTextQuery=EGO%2056V
 [CashConverters] Found 4 listings for /Browse?FullTextQuery=EGO%2056V
@@ -45,7 +45,7 @@ Executing search: Source A - EcoFlow Power Stations (cashconverters)
 Executing search: Source B - EcoFlow Power Stations (dollardealers)
 [DollarDealers] Fetching: https://dollardealers.co.nz/?s=ecoflow&post_type=product
 [DollarDealers] Found 0 listings for /?s=ecoflow&post_type=product
-Total raw listings collected: 71
+Total raw listings collected: 70
 [Auction] Detail HTTP 403
 [Auction] Detail HTTP 403
 [Auction] Detail HTTP 403
@@ -69,12 +69,16 @@ Total raw listings collected: 71
 [Auction] Detail HTTP 403
 Candidate listings passing keyword rules: 14
 [AI] "Lg Tv (Smart) 65 INCH LED LCD 65UA8450PSA" -> Overpriced (score: 3/10, valid: true)
-[AI] "Lg Tv - 65 Inch 4K Uhd Smart Led 65UP7550PVG" -> Great Deal (score: 7.5/10, valid: true)
+[AI Evaluator] Available flash models: gemini-flash-latest, gemini-2.5-flash, gemini-flash-lite-latest, gemini-3.8-flash
+[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a
+[AI] "Lg Tv - 65 Inch 4K Uhd Smart Led 65UP7550PVG" -> Great Deal (score: 8/10, valid: true)
 [AI] "Lg Smart Tv **65Inch/Loose Base** OLED65C56LA" -> Great Deal (score: 7/10, valid: true)
 [AI] "Ego Battery 56V 2.5Ah BA1400" -> Steal (score: 9/10, valid: true)
-[AI Evaluator] Available flash models: gemini-flash-latest, gemini-2.5-flash, gemini-flash-lite-latest, gemini-3.8-flash
 [AI] "Ego Charger Power+ Standard Charger CH2100E" -> Not Relevant (score: 1/10, valid: false)
-[AI] Dropping false positive: Ego Charger Power+ Standard Charger CH2100E (This is a standalone standard battery charger, not a bare tool or piece of cordless power equipment, and it is massively overpriced.)
+[AI] Dropping false positive: Ego Charger Power+ Standard Charger CH2100E (This is a battery charger rather than a cordless bare tool, and at $299 it is dramatically overpriced well above brand-new retail price.)
 [AI] "Ego Chainsaw CS1400E 400MM 56V SKIN ONLY 2021" -> Great Deal (score: 8/10, valid: true)
 [AI] "Ego 56V Cordless Line Trimmer ST1400E- ST" -> Steal (score: 10/10, valid: true)
 [AI] "Anker Powerbank 20100Mah A1271" -> Steal (score: 9/10, valid: true)
