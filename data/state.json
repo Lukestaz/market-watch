@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T23:04:53.377Z",
+  "updatedAt": "2026-10-23T12:53:55.750Z",
   "listings": {
     "dollardealers:dd-samsung-43-smart-tv-2": {
       "key": "dollardealers:dd-samsung-43-smart-tv-2",
@@ -609,9 +609,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-10-22T23:04:53.377Z",
-      "firstSeen": "2026-10-22T23:04:53.377Z",
-      "lastSeen": "2026-10-22T23:04:53.377Z",
+      "lastSeenAt": "2026-10-23T12:53:55.750Z",
+      "firstSeen": "2026-10-23T12:53:55.750Z",
+      "lastSeen": "2026-10-23T12:53:55.750Z",
       "ai": {
         "isTruePositive": true,
         "score": 7,
@@ -1306,10 +1306,10 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-10-22T23:04:53.377Z",
+      "lastSeenAt": "2026-10-23T12:53:55.750Z",
       "status": "active",
-      "firstSeen": "2026-10-22T23:04:53.377Z",
-      "lastSeen": "2026-10-22T23:04:53.377Z",
+      "firstSeen": "2026-10-23T12:53:55.750Z",
+      "lastSeen": "2026-10-23T12:53:55.750Z",
       "id": "dd-3431391",
       "url": "https://dollardealers.co.nz/product/panasonic-65-4k-smart-tv-th-65lx800z/",
       "priceText": "$899.00 incl. GST",
@@ -1342,9 +1342,9 @@
         "src-a-anker-nano"
       ],
       "firstSeenAt": "2026-09-29T10:25:23.530Z",
-      "lastSeenAt": "2026-10-22T23:04:53.377Z",
-      "firstSeen": "2026-10-22T23:04:53.377Z",
-      "lastSeen": "2026-10-22T23:04:53.377Z",
+      "lastSeenAt": "2026-10-23T12:53:55.750Z",
+      "firstSeen": "2026-10-23T12:53:55.750Z",
+      "lastSeen": "2026-10-23T12:53:55.750Z",
       "aiContext": "Anker Power (chargers / power banks) (Anker power bank, Anker battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1469,9 +1469,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-30T14:17:31.640Z",
-      "lastSeenAt": "2026-10-22T23:04:53.377Z",
-      "firstSeen": "2026-10-22T23:04:53.377Z",
-      "lastSeen": "2026-10-22T23:04:53.377Z",
+      "lastSeenAt": "2026-10-23T12:53:55.750Z",
+      "firstSeen": "2026-10-23T12:53:55.750Z",
+      "lastSeen": "2026-10-23T12:53:55.750Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -1502,9 +1502,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-09-30T23:50:12.583Z",
-      "lastSeenAt": "2026-10-22T23:04:53.377Z",
-      "firstSeen": "2026-10-22T23:04:53.377Z",
-      "lastSeen": "2026-10-22T23:04:53.377Z",
+      "lastSeenAt": "2026-10-23T12:53:55.750Z",
+      "firstSeen": "2026-10-23T12:53:55.750Z",
+      "lastSeen": "2026-10-23T12:53:55.750Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -1595,9 +1595,9 @@
         "src-a-baseus-blade"
       ],
       "firstSeenAt": "2026-10-06T01:13:27.461Z",
-      "lastSeenAt": "2026-10-22T23:04:53.377Z",
-      "firstSeen": "2026-10-22T23:04:53.377Z",
-      "lastSeen": "2026-10-22T23:04:53.377Z",
+      "lastSeenAt": "2026-10-23T12:53:55.750Z",
+      "firstSeen": "2026-10-23T12:53:55.750Z",
+      "lastSeen": "2026-10-23T12:53:55.750Z",
       "aiContext": "Baseus Power (chargers / power banks) (Baseus charger (GaN / USB-C), Baseus battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1631,9 +1631,9 @@
         "src-b-anker-nano"
       ],
       "firstSeenAt": "2026-10-08T00:04:48.100Z",
-      "lastSeenAt": "2026-10-22T23:04:53.377Z",
-      "firstSeen": "2026-10-22T23:04:53.377Z",
-      "lastSeen": "2026-10-22T23:04:53.377Z",
+      "lastSeenAt": "2026-10-23T12:53:55.750Z",
+      "firstSeen": "2026-10-23T12:53:55.750Z",
+      "lastSeen": "2026-10-23T12:53:55.750Z",
       "aiContext": "Anker Power (chargers / power banks) (Anker power bank, Anker battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1662,9 +1662,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-10-08T14:59:20.791Z",
-      "lastSeenAt": "2026-10-22T23:04:53.377Z",
-      "firstSeen": "2026-10-22T23:04:53.377Z",
-      "lastSeen": "2026-10-22T23:04:53.377Z",
+      "lastSeenAt": "2026-10-23T12:53:55.750Z",
+      "firstSeen": "2026-10-23T12:53:55.750Z",
+      "lastSeen": "2026-10-23T12:53:55.750Z",
       "aiContext": "Cordless Power Equipment (Line Trimmer / Brushcutter, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -1724,9 +1724,9 @@
         "src-a-ecoflow"
       ],
       "firstSeenAt": "2026-10-13T01:54:51.010Z",
-      "lastSeenAt": "2026-10-22T23:04:53.377Z",
-      "firstSeen": "2026-10-22T23:04:53.377Z",
-      "lastSeen": "2026-10-22T23:04:53.377Z",
+      "lastSeenAt": "2026-10-23T12:53:55.750Z",
+      "firstSeen": "2026-10-23T12:53:55.750Z",
+      "lastSeen": "2026-10-23T12:53:55.750Z",
       "aiContext": "EcoFlow Power Stations (Any Ecoflow item (solar panel, battery, accessory))",
       "ai": {
         "isTruePositive": true,
@@ -1791,9 +1791,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-10-18T12:13:22.172Z",
-      "lastSeenAt": "2026-10-22T23:04:53.377Z",
-      "firstSeen": "2026-10-22T23:04:53.377Z",
-      "lastSeen": "2026-10-22T23:04:53.377Z",
+      "lastSeenAt": "2026-10-23T12:53:55.750Z",
+      "firstSeen": "2026-10-23T12:53:55.750Z",
+      "lastSeen": "2026-10-23T12:53:55.750Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -1824,9 +1824,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-10-18T12:13:22.172Z",
-      "lastSeenAt": "2026-10-22T23:04:53.377Z",
-      "firstSeen": "2026-10-22T23:04:53.377Z",
-      "lastSeen": "2026-10-22T23:04:53.377Z",
+      "lastSeenAt": "2026-10-23T12:53:55.750Z",
+      "firstSeen": "2026-10-23T12:53:55.750Z",
+      "lastSeen": "2026-10-23T12:53:55.750Z",
       "aiContext": "Cordless Power Equipment (Chainsaw Equipment, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -1858,9 +1858,9 @@
         "src-a-bluetti"
       ],
       "firstSeenAt": "2026-10-18T12:13:22.172Z",
-      "lastSeenAt": "2026-10-22T23:04:53.377Z",
-      "firstSeen": "2026-10-22T23:04:53.377Z",
-      "lastSeen": "2026-10-22T23:04:53.377Z",
+      "lastSeenAt": "2026-10-23T12:53:55.750Z",
+      "firstSeen": "2026-10-23T12:53:55.750Z",
+      "lastSeen": "2026-10-23T12:53:55.750Z",
       "aiContext": "Bluetti Power Stations (Bluetti AC power station, Bluetti Power Station power station, Any Bluetti item (solar panel, battery, accessory))",
       "ai": {
         "isTruePositive": true,
@@ -1891,9 +1891,9 @@
         "src-a-baseus-blade"
       ],
       "firstSeenAt": "2026-10-19T15:02:45.254Z",
-      "lastSeenAt": "2026-10-22T23:04:53.377Z",
-      "firstSeen": "2026-10-22T23:04:53.377Z",
-      "lastSeen": "2026-10-22T23:04:53.377Z",
+      "lastSeenAt": "2026-10-23T12:53:55.750Z",
+      "firstSeen": "2026-10-23T12:53:55.750Z",
+      "lastSeen": "2026-10-23T12:53:55.750Z",
       "aiContext": "Baseus Power (chargers / power banks) (Baseus power bank, Baseus battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1924,15 +1924,117 @@
         "src-a-anker-nano"
       ],
       "firstSeenAt": "2026-10-20T23:02:47.993Z",
-      "lastSeenAt": "2026-10-22T23:04:53.377Z",
-      "firstSeen": "2026-10-22T23:04:53.377Z",
-      "lastSeen": "2026-10-22T23:04:53.377Z",
+      "lastSeenAt": "2026-10-23T12:53:55.750Z",
+      "firstSeen": "2026-10-23T12:53:55.750Z",
+      "lastSeen": "2026-10-23T12:53:55.750Z",
       "aiContext": "Anker Power (chargers / power banks) (Anker power bank, Anker battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
         "score": 10,
         "verdict": "Steal",
         "reason": "An authentic Anker 20100mAh power bank for only $10.50 at CCOtahuhu is an incredible bargain well below market value."
+      }
+    },
+    "dollardealers:dd-3561408": {
+      "id": "dd-3561408",
+      "title": "BATTERY 56V EGO POWER",
+      "url": "https://dollardealers.co.nz/product/battery-56v-ego-power/",
+      "priceText": "$179.00 incl. GST",
+      "price": 179,
+      "imageUrl": "https://i1.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/290737a2-2e44-49f7-9c3e-5f981e3eb0ba.jpeg?resize=247&w=247",
+      "rawText": "Power Tools and Outdoor equipment BATTERY 56V EGO POWER $179.00 incl. GST EGO POWER + BATTERY BA1400T New $289 at Mitre10. https://www.mitre10.co.nz/shop/ego-lithium-battery-56-volt-2-5ah/p/342237?srsltid=AU7gw4VsDnIWNGtlq0GtTPi8RXs_IEID4NN2iLXhFrOMkP9avHn5xwNq Product details The EGO POWER+ 56-Volt 2.5Ah battery with upgraded fuel gauge uses industry-leading ARC-Lithium technology to deliver Power Beyond Belief and is compatible with all EGO outdoor power equipment. Keep-Cool battery technology keeps each cell cool for long life and to work in the most extreme conditions. Charges in 50 minutes with EGO Power+ Standard Charger. Long-lasting power, rapid charging and durability in all weather conditions Upgraded integrated fuel gauge to let you know how much power is left in your battery Charges in 30 minutes with EGO Power+ Rapid Charger Compatible with all EGO Power+ Equipment and chargers This Item comes with No Warranty. A 120-day Purchase Protection Plans can be purchased at an additional cost for extra cover and peace of mind. ITEM ID: 375559",
+      "modelNumber": "375559",
+      "key": "dollardealers:dd-3561408",
+      "status": "active",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-3561408",
+      "canonicalUrl": "https://dollardealers.co.nz/product/battery-56v-ego-power/",
+      "priority": "high",
+      "matchedRules": [
+        "rule-b-high-battery",
+        "rule-b-high-bare",
+        "rule-b-normal-ego-56v"
+      ],
+      "searchIds": [
+        "src-b-power-tools"
+      ],
+      "firstSeenAt": "2026-10-23T12:53:55.750Z",
+      "lastSeenAt": "2026-10-23T12:53:55.750Z",
+      "firstSeen": "2026-10-23T12:53:55.750Z",
+      "lastSeen": "2026-10-23T12:53:55.750Z",
+      "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Power Equipment Bare Tool, Any EGO 56V item)",
+      "ai": {
+        "isTruePositive": true,
+        "score": 7,
+        "verdict": "Great Deal",
+        "reason": "This is a genuine EGO 56V battery pack at a competitive second-hand price compared to retail."
+      }
+    },
+    "dollardealers:dd-3567479": {
+      "id": "dd-3567479",
+      "title": "EGO Cordless Line Trimmer",
+      "url": "https://dollardealers.co.nz/product/ego-cordless-line-trimmer/",
+      "priceText": "$249.00 incl. GST",
+      "price": 249,
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/6d717b42-d808-4ad8-b9f4-b00ac24a9990.jpeg?resize=247&w=247",
+      "rawText": "Garden equipment EGO Cordless Line Trimmer $249.00 incl. GST The EGO ST1400E-ST cordless line trimmer delivers reliable cutting performance with a powerful brushless motor and 35cm cutting width. Featuring Powerload technology for effortless line replacement, variable speed control, and an adjustable telescopic shaft for added comfort. Ideal for trimming grass, edges, and overgrown areas. Compatible with EGO 56V lithium batteries. Supplied as Skin Only, without battery or charger. We offer a 30 Day warranty on this item. And A Purchase Protection Plan with 120 days of warranty can be purchased for an additional 10% for extra coverage and peace of mind.",
+      "modelNumber": "373548",
+      "key": "dollardealers:dd-3567479",
+      "status": "active",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-3567479",
+      "canonicalUrl": "https://dollardealers.co.nz/product/ego-cordless-line-trimmer/",
+      "priority": "high",
+      "matchedRules": [
+        "rule-b-high-trimmer"
+      ],
+      "searchIds": [
+        "src-b-power-tools"
+      ],
+      "firstSeenAt": "2026-10-23T12:53:55.750Z",
+      "lastSeenAt": "2026-10-23T12:53:55.750Z",
+      "firstSeen": "2026-10-23T12:53:55.750Z",
+      "lastSeen": "2026-10-23T12:53:55.750Z",
+      "aiContext": "Cordless Power Equipment (Line Trimmer / Brushcutter)",
+      "ai": {
+        "isTruePositive": true,
+        "score": 5,
+        "verdict": "Fair Price",
+        "reason": "Authentic EGO cordless line trimmer, but NZD $249 is typical second-hand market value unless it includes a 56V battery and charger."
+      }
+    },
+    "cashconverters:cc-185137106": {
+      "id": "cc-185137106",
+      "title": "Ecoflow Delta 2 Power Station ***Crack Screen*** EFD330",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/185137106/Ecoflow-Delta-2-Power-Station-Crack-Screen-EFD330",
+      "price": 399.5,
+      "priceText": "399.50",
+      "seller": "Seller: CCPapakura",
+      "rawText": "Ended Auction Ecoflow Delta 2 Power Station ***Crack Screen*** EFD330 Seller: CCPapakura Ecoflow Delta 2 Power Station ***Crack Screen*** EFD330 (185137106) $399.50 Quick Bid $399.50 remaining Sold $399.50 $399.50 0 Bid(s) View Details Ecoflow Delta 2 Power Station ***Crack Screen*** Model: EFD330 ********************************************************************************************************Goods are available for viewing at our store during our trading hours 7 days per week -Goods are offered for sale under the following conditions:-Goods must be paid for within 5 working days of the auction finishing-Goods have a 90 days warranty or longer as required by the Consumer Guarantees Act-ID Required upon pick up.-Online payments only - Credit and debit cards (MasterCard and Visa) and direct deposit.-In-store payments accepted. ***Stock Wanted***We are looking for more stock for our shop floor!Bring your good quality second hand goods for cash on the spot! All you need is your item and a valid ID Come and have a chat with one of our friendly staff at: Cash converters Papakura6-10 Railway Street West09 973 4266",
+      "key": "cashconverters:cc-185137106",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-185137106",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/185137106/Ecoflow-Delta-2-Power-Station-Crack-Screen-EFD330",
+      "priority": "high",
+      "matchedRules": [
+        "rule-a-high-ecoflow-delta",
+        "rule-a-high-ecoflow-power-station",
+        "rule-a-normal-ecoflow-any"
+      ],
+      "searchIds": [
+        "src-a-ecoflow"
+      ],
+      "firstSeenAt": "2026-10-23T12:53:55.750Z",
+      "lastSeenAt": "2026-10-23T12:53:55.750Z",
+      "firstSeen": "2026-10-23T12:53:55.750Z",
+      "lastSeen": "2026-10-23T12:53:55.750Z",
+      "aiContext": "EcoFlow Power Stations (Ecoflow Delta power station, Ecoflow Power Station power station, Any Ecoflow item (solar panel, battery, accessory))",
+      "ai": {
+        "isTruePositive": true,
+        "score": 8,
+        "verdict": "Great Deal",
+        "reason": "This is a genuine EcoFlow Delta 2 power station at a low entry price of $399.50, highly discounted due to the cracked screen."
       }
     }
   }
