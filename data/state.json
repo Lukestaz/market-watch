@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T12:16:44.038Z",
+  "updatedAt": "2026-10-24T22:18:53.441Z",
   "listings": {
     "dollardealers:dd-samsung-43-smart-tv-2": {
       "key": "dollardealers:dd-samsung-43-smart-tv-2",
@@ -609,9 +609,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-10-24T12:16:44.038Z",
-      "firstSeen": "2026-10-24T12:16:44.038Z",
-      "lastSeen": "2026-10-24T12:16:44.038Z",
+      "lastSeenAt": "2026-10-24T22:18:53.441Z",
+      "firstSeen": "2026-10-24T22:18:53.441Z",
+      "lastSeen": "2026-10-24T22:18:53.441Z",
       "ai": {
         "isTruePositive": true,
         "score": 7,
@@ -1306,10 +1306,10 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-10-24T12:16:44.038Z",
+      "lastSeenAt": "2026-10-24T22:18:53.441Z",
       "status": "active",
-      "firstSeen": "2026-10-24T12:16:44.038Z",
-      "lastSeen": "2026-10-24T12:16:44.038Z",
+      "firstSeen": "2026-10-24T22:18:53.441Z",
+      "lastSeen": "2026-10-24T22:18:53.441Z",
       "id": "dd-3431391",
       "url": "https://dollardealers.co.nz/product/panasonic-65-4k-smart-tv-th-65lx800z/",
       "priceText": "$899.00 incl. GST",
@@ -1342,9 +1342,9 @@
         "src-a-anker-nano"
       ],
       "firstSeenAt": "2026-09-29T10:25:23.530Z",
-      "lastSeenAt": "2026-10-24T12:16:44.038Z",
-      "firstSeen": "2026-10-24T12:16:44.038Z",
-      "lastSeen": "2026-10-24T12:16:44.038Z",
+      "lastSeenAt": "2026-10-24T22:18:53.441Z",
+      "firstSeen": "2026-10-24T22:18:53.441Z",
+      "lastSeen": "2026-10-24T22:18:53.441Z",
       "aiContext": "Anker Power (chargers / power banks) (Anker power bank, Anker battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1469,9 +1469,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-30T14:17:31.640Z",
-      "lastSeenAt": "2026-10-24T12:16:44.038Z",
-      "firstSeen": "2026-10-24T12:16:44.038Z",
-      "lastSeen": "2026-10-24T12:16:44.038Z",
+      "lastSeenAt": "2026-10-24T22:18:53.441Z",
+      "firstSeen": "2026-10-24T22:18:53.441Z",
+      "lastSeen": "2026-10-24T22:18:53.441Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -1502,9 +1502,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-09-30T23:50:12.583Z",
-      "lastSeenAt": "2026-10-24T12:16:44.038Z",
-      "firstSeen": "2026-10-24T12:16:44.038Z",
-      "lastSeen": "2026-10-24T12:16:44.038Z",
+      "lastSeenAt": "2026-10-24T22:18:53.441Z",
+      "firstSeen": "2026-10-24T22:18:53.441Z",
+      "lastSeen": "2026-10-24T22:18:53.441Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -1595,9 +1595,9 @@
         "src-a-baseus-blade"
       ],
       "firstSeenAt": "2026-10-06T01:13:27.461Z",
-      "lastSeenAt": "2026-10-24T12:16:44.038Z",
-      "firstSeen": "2026-10-24T12:16:44.038Z",
-      "lastSeen": "2026-10-24T12:16:44.038Z",
+      "lastSeenAt": "2026-10-24T22:18:53.441Z",
+      "firstSeen": "2026-10-24T22:18:53.441Z",
+      "lastSeen": "2026-10-24T22:18:53.441Z",
       "aiContext": "Baseus Power (chargers / power banks) (Baseus charger (GaN / USB-C), Baseus battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1631,9 +1631,9 @@
         "src-b-anker-nano"
       ],
       "firstSeenAt": "2026-10-08T00:04:48.100Z",
-      "lastSeenAt": "2026-10-24T12:16:44.038Z",
-      "firstSeen": "2026-10-24T12:16:44.038Z",
-      "lastSeen": "2026-10-24T12:16:44.038Z",
+      "lastSeenAt": "2026-10-24T22:18:53.441Z",
+      "firstSeen": "2026-10-24T22:18:53.441Z",
+      "lastSeen": "2026-10-24T22:18:53.441Z",
       "aiContext": "Anker Power (chargers / power banks) (Anker power bank, Anker battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1662,9 +1662,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-10-08T14:59:20.791Z",
-      "lastSeenAt": "2026-10-24T12:16:44.038Z",
-      "firstSeen": "2026-10-24T12:16:44.038Z",
-      "lastSeen": "2026-10-24T12:16:44.038Z",
+      "lastSeenAt": "2026-10-24T22:18:53.441Z",
+      "firstSeen": "2026-10-24T22:18:53.441Z",
+      "lastSeen": "2026-10-24T22:18:53.441Z",
       "aiContext": "Cordless Power Equipment (Line Trimmer / Brushcutter, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -1724,9 +1724,9 @@
         "src-a-ecoflow"
       ],
       "firstSeenAt": "2026-10-13T01:54:51.010Z",
-      "lastSeenAt": "2026-10-24T12:16:44.038Z",
-      "firstSeen": "2026-10-24T12:16:44.038Z",
-      "lastSeen": "2026-10-24T12:16:44.038Z",
+      "lastSeenAt": "2026-10-24T22:18:53.441Z",
+      "firstSeen": "2026-10-24T22:18:53.441Z",
+      "lastSeen": "2026-10-24T22:18:53.441Z",
       "aiContext": "EcoFlow Power Stations (Any Ecoflow item (solar panel, battery, accessory))",
       "ai": {
         "isTruePositive": true,
@@ -1791,9 +1791,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-10-18T12:13:22.172Z",
-      "lastSeenAt": "2026-10-24T12:16:44.038Z",
-      "firstSeen": "2026-10-24T12:16:44.038Z",
-      "lastSeen": "2026-10-24T12:16:44.038Z",
+      "lastSeenAt": "2026-10-24T22:18:53.441Z",
+      "firstSeen": "2026-10-24T22:18:53.441Z",
+      "lastSeen": "2026-10-24T22:18:53.441Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -1811,7 +1811,7 @@
       "seller": "Seller: CCLowerHutt",
       "rawText": "Ended Auction Ego Chainsaw CS1400E 400MM 56V SKIN ONLY 2021 Seller: CCLowerHutt Ego Chainsaw CS1400E 400MM 56V SKIN ONLY 2021 (184820952) $149.00 Quick Bid $149.00 remaining Sold $149.00 $149.00 0 Bid(s) View Details Ego Chainsaw CS1400E 400MM 56V SKIN ONLY 2021",
       "key": "cashconverters:cc-184820952",
-      "status": "active",
+      "status": "removed",
       "siteId": "cashconverters",
       "sourceListingId": "cc-184820952",
       "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/184820952/Ego-Chainsaw-CS1400E-400MM-56V-SKIN-ONLY-2021",
@@ -1858,9 +1858,9 @@
         "src-a-bluetti"
       ],
       "firstSeenAt": "2026-10-18T12:13:22.172Z",
-      "lastSeenAt": "2026-10-24T12:16:44.038Z",
-      "firstSeen": "2026-10-24T12:16:44.038Z",
-      "lastSeen": "2026-10-24T12:16:44.038Z",
+      "lastSeenAt": "2026-10-24T22:18:53.441Z",
+      "firstSeen": "2026-10-24T22:18:53.441Z",
+      "lastSeen": "2026-10-24T22:18:53.441Z",
       "aiContext": "Bluetti Power Stations (Bluetti AC power station, Bluetti Power Station power station, Any Bluetti item (solar panel, battery, accessory))",
       "ai": {
         "isTruePositive": true,
@@ -1891,9 +1891,9 @@
         "src-a-baseus-blade"
       ],
       "firstSeenAt": "2026-10-19T15:02:45.254Z",
-      "lastSeenAt": "2026-10-24T12:16:44.038Z",
-      "firstSeen": "2026-10-24T12:16:44.038Z",
-      "lastSeen": "2026-10-24T12:16:44.038Z",
+      "lastSeenAt": "2026-10-24T22:18:53.441Z",
+      "firstSeen": "2026-10-24T22:18:53.441Z",
+      "lastSeen": "2026-10-24T22:18:53.441Z",
       "aiContext": "Baseus Power (chargers / power banks) (Baseus power bank, Baseus battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1924,9 +1924,9 @@
         "src-a-anker-nano"
       ],
       "firstSeenAt": "2026-10-20T23:02:47.993Z",
-      "lastSeenAt": "2026-10-24T12:16:44.038Z",
-      "firstSeen": "2026-10-24T12:16:44.038Z",
-      "lastSeen": "2026-10-24T12:16:44.038Z",
+      "lastSeenAt": "2026-10-24T22:18:53.441Z",
+      "firstSeen": "2026-10-24T22:18:53.441Z",
+      "lastSeen": "2026-10-24T22:18:53.441Z",
       "aiContext": "Anker Power (chargers / power banks) (Anker power bank, Anker battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1959,9 +1959,9 @@
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-10-23T12:53:55.750Z",
-      "lastSeenAt": "2026-10-24T12:16:44.038Z",
-      "firstSeen": "2026-10-24T12:16:44.038Z",
-      "lastSeen": "2026-10-24T12:16:44.038Z",
+      "lastSeenAt": "2026-10-24T22:18:53.441Z",
+      "firstSeen": "2026-10-24T22:18:53.441Z",
+      "lastSeen": "2026-10-24T22:18:53.441Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Power Equipment Bare Tool, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -1992,9 +1992,9 @@
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-10-23T12:53:55.750Z",
-      "lastSeenAt": "2026-10-24T12:16:44.038Z",
-      "firstSeen": "2026-10-24T12:16:44.038Z",
-      "lastSeen": "2026-10-24T12:16:44.038Z",
+      "lastSeenAt": "2026-10-24T22:18:53.441Z",
+      "firstSeen": "2026-10-24T22:18:53.441Z",
+      "lastSeen": "2026-10-24T22:18:53.441Z",
       "aiContext": "Cordless Power Equipment (Line Trimmer / Brushcutter)",
       "ai": {
         "isTruePositive": true,
@@ -2026,9 +2026,9 @@
         "src-a-ecoflow"
       ],
       "firstSeenAt": "2026-10-23T12:53:55.750Z",
-      "lastSeenAt": "2026-10-24T12:16:44.038Z",
-      "firstSeen": "2026-10-24T12:16:44.038Z",
-      "lastSeen": "2026-10-24T12:16:44.038Z",
+      "lastSeenAt": "2026-10-24T22:18:53.441Z",
+      "firstSeen": "2026-10-24T22:18:53.441Z",
+      "lastSeen": "2026-10-24T22:18:53.441Z",
       "aiContext": "EcoFlow Power Stations (Ecoflow Delta power station, Ecoflow Power Station power station, Any Ecoflow item (solar panel, battery, accessory))",
       "ai": {
         "isTruePositive": true,
