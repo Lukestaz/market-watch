@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T22:18:53.441Z",
+  "updatedAt": "2026-10-25T12:48:26.265Z",
   "listings": {
     "dollardealers:dd-samsung-43-smart-tv-2": {
       "key": "dollardealers:dd-samsung-43-smart-tv-2",
@@ -609,9 +609,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-29T09:51:51.037Z",
-      "lastSeenAt": "2026-10-24T22:18:53.441Z",
-      "firstSeen": "2026-10-24T22:18:53.441Z",
-      "lastSeen": "2026-10-24T22:18:53.441Z",
+      "lastSeenAt": "2026-10-25T12:48:26.265Z",
+      "firstSeen": "2026-10-25T12:48:26.265Z",
+      "lastSeen": "2026-10-25T12:48:26.265Z",
       "ai": {
         "isTruePositive": true,
         "score": 7,
@@ -1306,10 +1306,10 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-10-24T22:18:53.441Z",
+      "lastSeenAt": "2026-10-25T12:48:26.265Z",
       "status": "active",
-      "firstSeen": "2026-10-24T22:18:53.441Z",
-      "lastSeen": "2026-10-24T22:18:53.441Z",
+      "firstSeen": "2026-10-25T12:48:26.265Z",
+      "lastSeen": "2026-10-25T12:48:26.265Z",
       "id": "dd-3431391",
       "url": "https://dollardealers.co.nz/product/panasonic-65-4k-smart-tv-th-65lx800z/",
       "priceText": "$899.00 incl. GST",
@@ -1342,9 +1342,9 @@
         "src-a-anker-nano"
       ],
       "firstSeenAt": "2026-09-29T10:25:23.530Z",
-      "lastSeenAt": "2026-10-24T22:18:53.441Z",
-      "firstSeen": "2026-10-24T22:18:53.441Z",
-      "lastSeen": "2026-10-24T22:18:53.441Z",
+      "lastSeenAt": "2026-10-25T12:48:26.265Z",
+      "firstSeen": "2026-10-25T12:48:26.265Z",
+      "lastSeen": "2026-10-25T12:48:26.265Z",
       "aiContext": "Anker Power (chargers / power banks) (Anker power bank, Anker battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1454,8 +1454,8 @@
       "id": "cc-183968879",
       "title": "Lg Tv (Smart) 65 INCH LED LCD 65UA8450PSA",
       "url": "https://shop.cashconverters.co.nz/Listing/Details/183968879/Lg-Tv-Smart-65-INCH-LED-LCD-65UA8450PSA",
-      "priceText": "800.00",
-      "rawText": "Ended Auction Lg Tv (Smart) 65 INCH LED LCD 65UA8450PSA Seller: CCWanganui Lg Tv (Smart) 65 INCH LED LCD 65UA8450PSA (183968879) $800.00 Quick Bid $800.00 remaining Sold $800.00 $800.00 0 Bid(s) View Details",
+      "priceText": "400.00",
+      "rawText": "Ended Auction Lg Tv (Smart) 65 INCH LED LCD 65UA8450PSA Seller: CCWanganui Lg Tv (Smart) 65 INCH LED LCD 65UA8450PSA (183968879) $400.00 Quick Bid $400.00 remaining Sold $400.00 $400.00 0 Bid(s) View Details",
       "key": "cashconverters:cc-183968879",
       "status": "active",
       "siteId": "cashconverters",
@@ -1469,17 +1469,17 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-30T14:17:31.640Z",
-      "lastSeenAt": "2026-10-24T22:18:53.441Z",
-      "firstSeen": "2026-10-24T22:18:53.441Z",
-      "lastSeen": "2026-10-24T22:18:53.441Z",
+      "lastSeenAt": "2026-10-25T12:48:26.265Z",
+      "firstSeen": "2026-10-25T12:48:26.265Z",
+      "lastSeen": "2026-10-25T12:48:26.265Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
-        "score": 3,
-        "verdict": "Overpriced",
-        "reason": "This is a standard 65-inch LED LCD TV rather than an OLED, and NZD $800 is overpriced for an older second-hand LED TV when brand new 65-inch 4K sets start around $800-$900."
+        "score": 7,
+        "verdict": "Great Deal",
+        "reason": "At $400 NZD, a functioning 65-inch LG Smart TV is comfortably below the typical second-hand market price of $500-$650."
       },
-      "price": 800,
+      "price": 400,
       "seller": "Seller: CCWanganui"
     },
     "cashconverters:cc-184002413": {
@@ -1502,9 +1502,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-09-30T23:50:12.583Z",
-      "lastSeenAt": "2026-10-24T22:18:53.441Z",
-      "firstSeen": "2026-10-24T22:18:53.441Z",
-      "lastSeen": "2026-10-24T22:18:53.441Z",
+      "lastSeenAt": "2026-10-25T12:48:26.265Z",
+      "firstSeen": "2026-10-25T12:48:26.265Z",
+      "lastSeen": "2026-10-25T12:48:26.265Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -1595,9 +1595,9 @@
         "src-a-baseus-blade"
       ],
       "firstSeenAt": "2026-10-06T01:13:27.461Z",
-      "lastSeenAt": "2026-10-24T22:18:53.441Z",
-      "firstSeen": "2026-10-24T22:18:53.441Z",
-      "lastSeen": "2026-10-24T22:18:53.441Z",
+      "lastSeenAt": "2026-10-25T12:48:26.265Z",
+      "firstSeen": "2026-10-25T12:48:26.265Z",
+      "lastSeen": "2026-10-25T12:48:26.265Z",
       "aiContext": "Baseus Power (chargers / power banks) (Baseus charger (GaN / USB-C), Baseus battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1631,9 +1631,9 @@
         "src-b-anker-nano"
       ],
       "firstSeenAt": "2026-10-08T00:04:48.100Z",
-      "lastSeenAt": "2026-10-24T22:18:53.441Z",
-      "firstSeen": "2026-10-24T22:18:53.441Z",
-      "lastSeen": "2026-10-24T22:18:53.441Z",
+      "lastSeenAt": "2026-10-25T12:48:26.265Z",
+      "firstSeen": "2026-10-25T12:48:26.265Z",
+      "lastSeen": "2026-10-25T12:48:26.265Z",
       "aiContext": "Anker Power (chargers / power banks) (Anker power bank, Anker battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1662,9 +1662,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-10-08T14:59:20.791Z",
-      "lastSeenAt": "2026-10-24T22:18:53.441Z",
-      "firstSeen": "2026-10-24T22:18:53.441Z",
-      "lastSeen": "2026-10-24T22:18:53.441Z",
+      "lastSeenAt": "2026-10-25T12:48:26.265Z",
+      "firstSeen": "2026-10-25T12:48:26.265Z",
+      "lastSeen": "2026-10-25T12:48:26.265Z",
       "aiContext": "Cordless Power Equipment (Line Trimmer / Brushcutter, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -1724,9 +1724,9 @@
         "src-a-ecoflow"
       ],
       "firstSeenAt": "2026-10-13T01:54:51.010Z",
-      "lastSeenAt": "2026-10-24T22:18:53.441Z",
-      "firstSeen": "2026-10-24T22:18:53.441Z",
-      "lastSeen": "2026-10-24T22:18:53.441Z",
+      "lastSeenAt": "2026-10-25T12:48:26.265Z",
+      "firstSeen": "2026-10-25T12:48:26.265Z",
+      "lastSeen": "2026-10-25T12:48:26.265Z",
       "aiContext": "EcoFlow Power Stations (Any Ecoflow item (solar panel, battery, accessory))",
       "ai": {
         "isTruePositive": true,
@@ -1774,10 +1774,10 @@
       "id": "cc-184809613",
       "title": "Lg Tv - 65 Inch 4K Uhd Smart Led 65UP7550PVG",
       "url": "https://shop.cashconverters.co.nz/Listing/Details/184809613/Lg-Tv-65-Inch-4K-Uhd-Smart-Led-65UP7550PVG",
-      "price": 404.5,
-      "priceText": "404.50",
+      "price": 399.5,
+      "priceText": "399.50",
       "seller": "Seller: CCMountRoskill",
-      "rawText": "Ended Auction Lg Tv - 65 Inch 4K Uhd Smart Led 65UP7550PVG Seller: CCMountRoskill Lg Tv - 65 Inch 4K Uhd Smart Led 65UP7550PVG (184809613) $404.50 Quick Bid $404.50 remaining Sold $399.50 $399.50 1 Bid(s) View Details",
+      "rawText": "Ended Auction Lg Tv - 65 Inch 4K Uhd Smart Led 65UP7550PVG Seller: CCMountRoskill Lg Tv - 65 Inch 4K Uhd Smart Led 65UP7550PVG (184809613) $399.50 Quick Bid $399.50 remaining Sold $399.50 $399.50 0 Bid(s) View Details",
       "key": "cashconverters:cc-184809613",
       "status": "active",
       "siteId": "cashconverters",
@@ -1791,15 +1791,15 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-10-18T12:13:22.172Z",
-      "lastSeenAt": "2026-10-24T22:18:53.441Z",
-      "firstSeen": "2026-10-24T22:18:53.441Z",
-      "lastSeen": "2026-10-24T22:18:53.441Z",
+      "lastSeenAt": "2026-10-25T12:48:26.265Z",
+      "firstSeen": "2026-10-25T12:48:26.265Z",
+      "lastSeen": "2026-10-25T12:48:26.265Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
         "score": 8,
         "verdict": "Great Deal",
-        "reason": "A 65-inch 4K UHD smart TV from LG for just over $400 is well below typical second-hand market rates."
+        "reason": "At under $400, this 65-inch 4K LG Smart TV is priced well below typical second-hand market rates for this size and brand."
       }
     },
     "cashconverters:cc-184820952": {
@@ -1858,9 +1858,9 @@
         "src-a-bluetti"
       ],
       "firstSeenAt": "2026-10-18T12:13:22.172Z",
-      "lastSeenAt": "2026-10-24T22:18:53.441Z",
-      "firstSeen": "2026-10-24T22:18:53.441Z",
-      "lastSeen": "2026-10-24T22:18:53.441Z",
+      "lastSeenAt": "2026-10-25T12:48:26.265Z",
+      "firstSeen": "2026-10-25T12:48:26.265Z",
+      "lastSeen": "2026-10-25T12:48:26.265Z",
       "aiContext": "Bluetti Power Stations (Bluetti AC power station, Bluetti Power Station power station, Any Bluetti item (solar panel, battery, accessory))",
       "ai": {
         "isTruePositive": true,
@@ -1891,9 +1891,9 @@
         "src-a-baseus-blade"
       ],
       "firstSeenAt": "2026-10-19T15:02:45.254Z",
-      "lastSeenAt": "2026-10-24T22:18:53.441Z",
-      "firstSeen": "2026-10-24T22:18:53.441Z",
-      "lastSeen": "2026-10-24T22:18:53.441Z",
+      "lastSeenAt": "2026-10-25T12:48:26.265Z",
+      "firstSeen": "2026-10-25T12:48:26.265Z",
+      "lastSeen": "2026-10-25T12:48:26.265Z",
       "aiContext": "Baseus Power (chargers / power banks) (Baseus power bank, Baseus battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1924,9 +1924,9 @@
         "src-a-anker-nano"
       ],
       "firstSeenAt": "2026-10-20T23:02:47.993Z",
-      "lastSeenAt": "2026-10-24T22:18:53.441Z",
-      "firstSeen": "2026-10-24T22:18:53.441Z",
-      "lastSeen": "2026-10-24T22:18:53.441Z",
+      "lastSeenAt": "2026-10-25T12:48:26.265Z",
+      "firstSeen": "2026-10-25T12:48:26.265Z",
+      "lastSeen": "2026-10-25T12:48:26.265Z",
       "aiContext": "Anker Power (chargers / power banks) (Anker power bank, Anker battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1959,9 +1959,9 @@
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-10-23T12:53:55.750Z",
-      "lastSeenAt": "2026-10-24T22:18:53.441Z",
-      "firstSeen": "2026-10-24T22:18:53.441Z",
-      "lastSeen": "2026-10-24T22:18:53.441Z",
+      "lastSeenAt": "2026-10-25T12:48:26.265Z",
+      "firstSeen": "2026-10-25T12:48:26.265Z",
+      "lastSeen": "2026-10-25T12:48:26.265Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Power Equipment Bare Tool, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -1992,9 +1992,9 @@
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-10-23T12:53:55.750Z",
-      "lastSeenAt": "2026-10-24T22:18:53.441Z",
-      "firstSeen": "2026-10-24T22:18:53.441Z",
-      "lastSeen": "2026-10-24T22:18:53.441Z",
+      "lastSeenAt": "2026-10-25T12:48:26.265Z",
+      "firstSeen": "2026-10-25T12:48:26.265Z",
+      "lastSeen": "2026-10-25T12:48:26.265Z",
       "aiContext": "Cordless Power Equipment (Line Trimmer / Brushcutter)",
       "ai": {
         "isTruePositive": true,
@@ -2026,9 +2026,9 @@
         "src-a-ecoflow"
       ],
       "firstSeenAt": "2026-10-23T12:53:55.750Z",
-      "lastSeenAt": "2026-10-24T22:18:53.441Z",
-      "firstSeen": "2026-10-24T22:18:53.441Z",
-      "lastSeen": "2026-10-24T22:18:53.441Z",
+      "lastSeenAt": "2026-10-25T12:48:26.265Z",
+      "firstSeen": "2026-10-25T12:48:26.265Z",
+      "lastSeen": "2026-10-25T12:48:26.265Z",
       "aiContext": "EcoFlow Power Stations (Ecoflow Delta power station, Ecoflow Power Station power station, Any Ecoflow item (solar panel, battery, accessory))",
       "ai": {
         "isTruePositive": true,
