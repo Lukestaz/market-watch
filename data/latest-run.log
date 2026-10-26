@@ -78,32 +78,8 @@ Candidate listings passing keyword rules: 17
 [AI] "Ego 56V Cordless Line Trimmer ST1400E- ST" -> Steal (score: 10/10, valid: true)
 [AI] "Ego Battery 56V 2.5Ah BA1400" -> Steal (score: 9/10, valid: true)
 [AI Evaluator] Available flash models: gemini-flash-latest, gemini-2.5-flash, gemini-flash-lite-latest, gemini-3.8-flash
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a
-[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a
-[AI Evaluator] Error evaluating "Ego Charger Power+ Standard Charger CH2100E" with gemini-flash-latest: TypeError: fetch failed
-    at node:internal/deps/undici/undici:14976:13
-    at async evaluateListingWithGemini (/home/runner/work/market-watch/market-watch/src/ai.ts:65:19)
-    at async main (/home/runner/work/market-watch/market-watch/src/index.ts:75:32) {
-  [cause]: HeadersTimeoutError: Headers Timeout Error
-      at FastTimer.onParserTimeout [as _onTimeout] (/home/runner/work/market-watch/market-watch/node_modules/undici/lib/dispatcher/client-h1.js:811:28)
-      at Timeout.onTick [as _onTimeout] (/home/runner/work/market-watch/market-watch/node_modules/undici/lib/util/timers.js:162:13)
-      at listOnTimeout (node:internal/timers:581:17)
-      at process.processTimers (node:internal/timers:519:7) {
-    code: 'UND_ERR_HEADERS_TIMEOUT'
-  }
-}
-[AI Evaluator] Gemini (gemini-2.5-flash) HTTP 404: {
-  "error": {
-    "code": 404,
-    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use
 [AI] "Ego Charger Power+ Standard Charger CH2100E" -> Not Relevant (score: 1/10, valid: false)
-[AI] Dropping false positive: Ego Charger Power+ Standard Charger CH2100E (The listing is for a battery charger, not a bare tool power equipment item, and is severely overpriced compared to new retail value.)
+[AI] Dropping false positive: Ego Charger Power+ Standard Charger CH2100E (This is a battery charger accessory rather than a bare power tool, and it is significantly overpriced compared to its retail price.)
 [AI] "Anker Powerbank 20100Mah A1271" -> Steal (score: 9/10, valid: true)
 [AI] "Anker Powerbank 20100Mah Nintendo Switch Edition" -> Steal (score: 10/10, valid: true)
 [AI] "Baseus Wireless Charger 5000 MAH" -> Fair Price (score: 5/10, valid: true)
