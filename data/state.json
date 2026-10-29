@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T14:42:02.083Z",
+  "updatedAt": "2026-10-29T23:51:22.831Z",
   "listings": {
     "dollardealers:dd-samsung-43-smart-tv-2": {
       "key": "dollardealers:dd-samsung-43-smart-tv-2",
@@ -1306,10 +1306,10 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-10-29T14:42:02.083Z",
+      "lastSeenAt": "2026-10-29T23:51:22.831Z",
       "status": "active",
-      "firstSeen": "2026-10-29T14:42:02.083Z",
-      "lastSeen": "2026-10-29T14:42:02.083Z",
+      "firstSeen": "2026-10-29T23:51:22.831Z",
+      "lastSeen": "2026-10-29T23:51:22.831Z",
       "id": "dd-3431391",
       "url": "https://dollardealers.co.nz/product/panasonic-65-4k-smart-tv-th-65lx800z/",
       "priceText": "$899.00 incl. GST",
@@ -1342,9 +1342,9 @@
         "src-a-anker-nano"
       ],
       "firstSeenAt": "2026-09-29T10:25:23.530Z",
-      "lastSeenAt": "2026-10-29T14:42:02.083Z",
-      "firstSeen": "2026-10-29T14:42:02.083Z",
-      "lastSeen": "2026-10-29T14:42:02.083Z",
+      "lastSeenAt": "2026-10-29T23:51:22.831Z",
+      "firstSeen": "2026-10-29T23:51:22.831Z",
+      "lastSeen": "2026-10-29T23:51:22.831Z",
       "aiContext": "Anker Power (chargers / power banks) (Anker power bank, Anker battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1469,9 +1469,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-30T14:17:31.640Z",
-      "lastSeenAt": "2026-10-29T14:42:02.083Z",
-      "firstSeen": "2026-10-29T14:42:02.083Z",
-      "lastSeen": "2026-10-29T14:42:02.083Z",
+      "lastSeenAt": "2026-10-29T23:51:22.831Z",
+      "firstSeen": "2026-10-29T23:51:22.831Z",
+      "lastSeen": "2026-10-29T23:51:22.831Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -1502,9 +1502,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-09-30T23:50:12.583Z",
-      "lastSeenAt": "2026-10-29T14:42:02.083Z",
-      "firstSeen": "2026-10-29T14:42:02.083Z",
-      "lastSeen": "2026-10-29T14:42:02.083Z",
+      "lastSeenAt": "2026-10-29T23:51:22.831Z",
+      "firstSeen": "2026-10-29T23:51:22.831Z",
+      "lastSeen": "2026-10-29T23:51:22.831Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -1595,9 +1595,9 @@
         "src-a-baseus-blade"
       ],
       "firstSeenAt": "2026-10-06T01:13:27.461Z",
-      "lastSeenAt": "2026-10-29T14:42:02.083Z",
-      "firstSeen": "2026-10-29T14:42:02.083Z",
-      "lastSeen": "2026-10-29T14:42:02.083Z",
+      "lastSeenAt": "2026-10-29T23:51:22.831Z",
+      "firstSeen": "2026-10-29T23:51:22.831Z",
+      "lastSeen": "2026-10-29T23:51:22.831Z",
       "aiContext": "Baseus Power (chargers / power banks) (Baseus charger (GaN / USB-C), Baseus battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1662,9 +1662,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-10-08T14:59:20.791Z",
-      "lastSeenAt": "2026-10-29T14:42:02.083Z",
-      "firstSeen": "2026-10-29T14:42:02.083Z",
-      "lastSeen": "2026-10-29T14:42:02.083Z",
+      "lastSeenAt": "2026-10-29T23:51:22.831Z",
+      "firstSeen": "2026-10-29T23:51:22.831Z",
+      "lastSeen": "2026-10-29T23:51:22.831Z",
       "aiContext": "Cordless Power Equipment (Line Trimmer / Brushcutter, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -1724,9 +1724,9 @@
         "src-a-ecoflow"
       ],
       "firstSeenAt": "2026-10-13T01:54:51.010Z",
-      "lastSeenAt": "2026-10-29T14:42:02.083Z",
-      "firstSeen": "2026-10-29T14:42:02.083Z",
-      "lastSeen": "2026-10-29T14:42:02.083Z",
+      "lastSeenAt": "2026-10-29T23:51:22.831Z",
+      "firstSeen": "2026-10-29T23:51:22.831Z",
+      "lastSeen": "2026-10-29T23:51:22.831Z",
       "aiContext": "EcoFlow Power Stations (Any Ecoflow item (solar panel, battery, accessory))",
       "ai": {
         "isTruePositive": true,
@@ -1791,9 +1791,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-10-18T12:13:22.172Z",
-      "lastSeenAt": "2026-10-29T14:42:02.083Z",
-      "firstSeen": "2026-10-29T14:42:02.083Z",
-      "lastSeen": "2026-10-29T14:42:02.083Z",
+      "lastSeenAt": "2026-10-29T23:51:22.831Z",
+      "firstSeen": "2026-10-29T23:51:22.831Z",
+      "lastSeen": "2026-10-29T23:51:22.831Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -1858,9 +1858,9 @@
         "src-a-bluetti"
       ],
       "firstSeenAt": "2026-10-18T12:13:22.172Z",
-      "lastSeenAt": "2026-10-29T14:42:02.083Z",
-      "firstSeen": "2026-10-29T14:42:02.083Z",
-      "lastSeen": "2026-10-29T14:42:02.083Z",
+      "lastSeenAt": "2026-10-29T23:51:22.831Z",
+      "firstSeen": "2026-10-29T23:51:22.831Z",
+      "lastSeen": "2026-10-29T23:51:22.831Z",
       "aiContext": "Bluetti Power Stations (Bluetti AC power station, Bluetti Power Station power station, Any Bluetti item (solar panel, battery, accessory))",
       "ai": {
         "isTruePositive": true,
@@ -1891,9 +1891,9 @@
         "src-a-baseus-blade"
       ],
       "firstSeenAt": "2026-10-19T15:02:45.254Z",
-      "lastSeenAt": "2026-10-29T14:42:02.083Z",
-      "firstSeen": "2026-10-29T14:42:02.083Z",
-      "lastSeen": "2026-10-29T14:42:02.083Z",
+      "lastSeenAt": "2026-10-29T23:51:22.831Z",
+      "firstSeen": "2026-10-29T23:51:22.831Z",
+      "lastSeen": "2026-10-29T23:51:22.831Z",
       "aiContext": "Baseus Power (chargers / power banks) (Baseus power bank, Baseus battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1924,9 +1924,9 @@
         "src-a-anker-nano"
       ],
       "firstSeenAt": "2026-10-20T23:02:47.993Z",
-      "lastSeenAt": "2026-10-29T14:42:02.083Z",
-      "firstSeen": "2026-10-29T14:42:02.083Z",
-      "lastSeen": "2026-10-29T14:42:02.083Z",
+      "lastSeenAt": "2026-10-29T23:51:22.831Z",
+      "firstSeen": "2026-10-29T23:51:22.831Z",
+      "lastSeen": "2026-10-29T23:51:22.831Z",
       "aiContext": "Anker Power (chargers / power banks) (Anker power bank, Anker battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1959,9 +1959,9 @@
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-10-23T12:53:55.750Z",
-      "lastSeenAt": "2026-10-29T14:42:02.083Z",
-      "firstSeen": "2026-10-29T14:42:02.083Z",
-      "lastSeen": "2026-10-29T14:42:02.083Z",
+      "lastSeenAt": "2026-10-29T23:51:22.831Z",
+      "firstSeen": "2026-10-29T23:51:22.831Z",
+      "lastSeen": "2026-10-29T23:51:22.831Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Power Equipment Bare Tool, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -1992,9 +1992,9 @@
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-10-23T12:53:55.750Z",
-      "lastSeenAt": "2026-10-29T14:42:02.083Z",
-      "firstSeen": "2026-10-29T14:42:02.083Z",
-      "lastSeen": "2026-10-29T14:42:02.083Z",
+      "lastSeenAt": "2026-10-29T23:51:22.831Z",
+      "firstSeen": "2026-10-29T23:51:22.831Z",
+      "lastSeen": "2026-10-29T23:51:22.831Z",
       "aiContext": "Cordless Power Equipment (Line Trimmer / Brushcutter)",
       "ai": {
         "isTruePositive": true,
@@ -2026,9 +2026,9 @@
         "src-a-ecoflow"
       ],
       "firstSeenAt": "2026-10-23T12:53:55.750Z",
-      "lastSeenAt": "2026-10-29T14:42:02.083Z",
-      "firstSeen": "2026-10-29T14:42:02.083Z",
-      "lastSeen": "2026-10-29T14:42:02.083Z",
+      "lastSeenAt": "2026-10-29T23:51:22.831Z",
+      "firstSeen": "2026-10-29T23:51:22.831Z",
+      "lastSeen": "2026-10-29T23:51:22.831Z",
       "aiContext": "EcoFlow Power Stations (Ecoflow Delta power station, Ecoflow Power Station power station, Any Ecoflow item (solar panel, battery, accessory))",
       "ai": {
         "isTruePositive": true,
@@ -2058,15 +2058,49 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-10-28T14:34:34.629Z",
-      "lastSeenAt": "2026-10-29T14:42:02.083Z",
-      "firstSeen": "2026-10-29T14:42:02.083Z",
-      "lastSeen": "2026-10-29T14:42:02.083Z",
+      "lastSeenAt": "2026-10-29T23:51:22.831Z",
+      "firstSeen": "2026-10-29T23:51:22.831Z",
+      "lastSeen": "2026-10-29T23:51:22.831Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
         "score": 6,
         "verdict": "Fair Price",
         "reason": "It is a genuine 65-inch LG Smart TV matching the size category, priced reasonably for a second-hand retail store like Cash Converters."
+      }
+    },
+    "dollardealers:dd-3584638": {
+      "id": "dd-3584638",
+      "title": "BASEUS 25000MAH 145W POWER BANK",
+      "url": "https://dollardealers.co.nz/product/baseus-25000mah-145w-power-bank/",
+      "priceText": "$99.00 incl. GST",
+      "price": 99,
+      "imageUrl": "https://i3.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/6312f4fd-de6a-4ddf-9b28-51cfc5cb9003.jpeg?resize=247&w=247",
+      "rawText": "Electronics and gaming BASEUS 25000MAH 145W POWER BANK $99.00 incl. GST The Baseus 25,000mAh 145W Power Bank is a high-capacity portable charger designed to provide fast and reliable charging for compatible devices. Ideal for charging smartphones, tablets, laptops and other USB-powered devices while travelling or on the go. No 30-day Warranty on this item. 120-day purchase protection plans are available to purchase for this item. This item can be viewed in our Birkenhead branch.We are open 9AM-5PM Monday-Sunday. Stock Number: 377889",
+      "modelNumber": "377889",
+      "key": "dollardealers:dd-3584638",
+      "status": "active",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-3584638",
+      "canonicalUrl": "https://dollardealers.co.nz/product/baseus-25000mah-145w-power-bank/",
+      "priority": "high",
+      "matchedRules": [
+        "rule-b-high-baseus-power-bank",
+        "rule-b-normal-baseus-mah"
+      ],
+      "searchIds": [
+        "src-b-baseus-blade"
+      ],
+      "firstSeenAt": "2026-10-29T23:51:22.831Z",
+      "lastSeenAt": "2026-10-29T23:51:22.831Z",
+      "firstSeen": "2026-10-29T23:51:22.831Z",
+      "lastSeen": "2026-10-29T23:51:22.831Z",
+      "aiContext": "Baseus Power (chargers / power banks) (Baseus power bank, Baseus battery pack (mAh))",
+      "ai": {
+        "isTruePositive": true,
+        "score": 7,
+        "verdict": "Great Deal",
+        "reason": "Authentic high-capacity Baseus 145W laptop power bank priced well below its typical NZD $150+ retail price."
       }
     }
   }
