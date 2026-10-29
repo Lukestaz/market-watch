@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T23:56:55.263Z",
+  "updatedAt": "2026-10-29T14:42:02.083Z",
   "listings": {
     "dollardealers:dd-samsung-43-smart-tv-2": {
       "key": "dollardealers:dd-samsung-43-smart-tv-2",
@@ -596,7 +596,7 @@
       "priceText": "1,249.50",
       "rawText": "Ended Auction Lg Smart Tv **65Inch/Loose Base** OLED65C56LA Seller: CCHenderson Lg Smart Tv **65Inch/Loose Base** OLED65C56LA (177596871) $1,249.50 Quick Bid $1,249.50 remaining Sold $1,249.50 $1,249.50 0 Bid(s) View Details Lg Smart Tv **65Inch/Loose Base** OLED65C56LA No remote Goods are available for viewing at our store during our trading hours 7 days per week Goods are offered for sale under the following conditions: Goods must be paid for within 5 working days of the auction finishing Goods have a 90 days warranty or longer as required by the Consumer Guarantees Act ID Required upon pick up. Online payments only - Credit and debit cards (MasterCard and Visa) and direct deposit. No instore payments accepted. WE PAWN CARS, MOTOR BIKES & BOATS!! ***Stock Wanted*** We are looking for more stock for our shop floor! Bring your good quality second hand goods for cash on the spot! All you need is your item and a valid ID",
       "key": "cashconverters:cc-177596871",
-      "status": "active",
+      "status": "removed",
       "siteId": "cashconverters",
       "sourceListingId": "cc-177596871",
       "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/177596871/Lg-Smart-Tv-65InchLoose-Base-OLED65C56LA",
@@ -1306,10 +1306,10 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-10-28T23:56:55.263Z",
+      "lastSeenAt": "2026-10-29T14:42:02.083Z",
       "status": "active",
-      "firstSeen": "2026-10-28T23:56:55.263Z",
-      "lastSeen": "2026-10-28T23:56:55.263Z",
+      "firstSeen": "2026-10-29T14:42:02.083Z",
+      "lastSeen": "2026-10-29T14:42:02.083Z",
       "id": "dd-3431391",
       "url": "https://dollardealers.co.nz/product/panasonic-65-4k-smart-tv-th-65lx800z/",
       "priceText": "$899.00 incl. GST",
@@ -1342,9 +1342,9 @@
         "src-a-anker-nano"
       ],
       "firstSeenAt": "2026-09-29T10:25:23.530Z",
-      "lastSeenAt": "2026-10-28T23:56:55.263Z",
-      "firstSeen": "2026-10-28T23:56:55.263Z",
-      "lastSeen": "2026-10-28T23:56:55.263Z",
+      "lastSeenAt": "2026-10-29T14:42:02.083Z",
+      "firstSeen": "2026-10-29T14:42:02.083Z",
+      "lastSeen": "2026-10-29T14:42:02.083Z",
       "aiContext": "Anker Power (chargers / power banks) (Anker power bank, Anker battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1469,9 +1469,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-30T14:17:31.640Z",
-      "lastSeenAt": "2026-10-28T23:56:55.263Z",
-      "firstSeen": "2026-10-28T23:56:55.263Z",
-      "lastSeen": "2026-10-28T23:56:55.263Z",
+      "lastSeenAt": "2026-10-29T14:42:02.083Z",
+      "firstSeen": "2026-10-29T14:42:02.083Z",
+      "lastSeen": "2026-10-29T14:42:02.083Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -1502,9 +1502,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-09-30T23:50:12.583Z",
-      "lastSeenAt": "2026-10-28T23:56:55.263Z",
-      "firstSeen": "2026-10-28T23:56:55.263Z",
-      "lastSeen": "2026-10-28T23:56:55.263Z",
+      "lastSeenAt": "2026-10-29T14:42:02.083Z",
+      "firstSeen": "2026-10-29T14:42:02.083Z",
+      "lastSeen": "2026-10-29T14:42:02.083Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -1595,9 +1595,9 @@
         "src-a-baseus-blade"
       ],
       "firstSeenAt": "2026-10-06T01:13:27.461Z",
-      "lastSeenAt": "2026-10-28T23:56:55.263Z",
-      "firstSeen": "2026-10-28T23:56:55.263Z",
-      "lastSeen": "2026-10-28T23:56:55.263Z",
+      "lastSeenAt": "2026-10-29T14:42:02.083Z",
+      "firstSeen": "2026-10-29T14:42:02.083Z",
+      "lastSeen": "2026-10-29T14:42:02.083Z",
       "aiContext": "Baseus Power (chargers / power banks) (Baseus charger (GaN / USB-C), Baseus battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1662,9 +1662,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-10-08T14:59:20.791Z",
-      "lastSeenAt": "2026-10-28T23:56:55.263Z",
-      "firstSeen": "2026-10-28T23:56:55.263Z",
-      "lastSeen": "2026-10-28T23:56:55.263Z",
+      "lastSeenAt": "2026-10-29T14:42:02.083Z",
+      "firstSeen": "2026-10-29T14:42:02.083Z",
+      "lastSeen": "2026-10-29T14:42:02.083Z",
       "aiContext": "Cordless Power Equipment (Line Trimmer / Brushcutter, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -1724,9 +1724,9 @@
         "src-a-ecoflow"
       ],
       "firstSeenAt": "2026-10-13T01:54:51.010Z",
-      "lastSeenAt": "2026-10-28T23:56:55.263Z",
-      "firstSeen": "2026-10-28T23:56:55.263Z",
-      "lastSeen": "2026-10-28T23:56:55.263Z",
+      "lastSeenAt": "2026-10-29T14:42:02.083Z",
+      "firstSeen": "2026-10-29T14:42:02.083Z",
+      "lastSeen": "2026-10-29T14:42:02.083Z",
       "aiContext": "EcoFlow Power Stations (Any Ecoflow item (solar panel, battery, accessory))",
       "ai": {
         "isTruePositive": true,
@@ -1791,9 +1791,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-10-18T12:13:22.172Z",
-      "lastSeenAt": "2026-10-28T23:56:55.263Z",
-      "firstSeen": "2026-10-28T23:56:55.263Z",
-      "lastSeen": "2026-10-28T23:56:55.263Z",
+      "lastSeenAt": "2026-10-29T14:42:02.083Z",
+      "firstSeen": "2026-10-29T14:42:02.083Z",
+      "lastSeen": "2026-10-29T14:42:02.083Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -1858,9 +1858,9 @@
         "src-a-bluetti"
       ],
       "firstSeenAt": "2026-10-18T12:13:22.172Z",
-      "lastSeenAt": "2026-10-28T23:56:55.263Z",
-      "firstSeen": "2026-10-28T23:56:55.263Z",
-      "lastSeen": "2026-10-28T23:56:55.263Z",
+      "lastSeenAt": "2026-10-29T14:42:02.083Z",
+      "firstSeen": "2026-10-29T14:42:02.083Z",
+      "lastSeen": "2026-10-29T14:42:02.083Z",
       "aiContext": "Bluetti Power Stations (Bluetti AC power station, Bluetti Power Station power station, Any Bluetti item (solar panel, battery, accessory))",
       "ai": {
         "isTruePositive": true,
@@ -1891,9 +1891,9 @@
         "src-a-baseus-blade"
       ],
       "firstSeenAt": "2026-10-19T15:02:45.254Z",
-      "lastSeenAt": "2026-10-28T23:56:55.263Z",
-      "firstSeen": "2026-10-28T23:56:55.263Z",
-      "lastSeen": "2026-10-28T23:56:55.263Z",
+      "lastSeenAt": "2026-10-29T14:42:02.083Z",
+      "firstSeen": "2026-10-29T14:42:02.083Z",
+      "lastSeen": "2026-10-29T14:42:02.083Z",
       "aiContext": "Baseus Power (chargers / power banks) (Baseus power bank, Baseus battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1924,9 +1924,9 @@
         "src-a-anker-nano"
       ],
       "firstSeenAt": "2026-10-20T23:02:47.993Z",
-      "lastSeenAt": "2026-10-28T23:56:55.263Z",
-      "firstSeen": "2026-10-28T23:56:55.263Z",
-      "lastSeen": "2026-10-28T23:56:55.263Z",
+      "lastSeenAt": "2026-10-29T14:42:02.083Z",
+      "firstSeen": "2026-10-29T14:42:02.083Z",
+      "lastSeen": "2026-10-29T14:42:02.083Z",
       "aiContext": "Anker Power (chargers / power banks) (Anker power bank, Anker battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1959,9 +1959,9 @@
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-10-23T12:53:55.750Z",
-      "lastSeenAt": "2026-10-28T23:56:55.263Z",
-      "firstSeen": "2026-10-28T23:56:55.263Z",
-      "lastSeen": "2026-10-28T23:56:55.263Z",
+      "lastSeenAt": "2026-10-29T14:42:02.083Z",
+      "firstSeen": "2026-10-29T14:42:02.083Z",
+      "lastSeen": "2026-10-29T14:42:02.083Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Power Equipment Bare Tool, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -1992,9 +1992,9 @@
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-10-23T12:53:55.750Z",
-      "lastSeenAt": "2026-10-28T23:56:55.263Z",
-      "firstSeen": "2026-10-28T23:56:55.263Z",
-      "lastSeen": "2026-10-28T23:56:55.263Z",
+      "lastSeenAt": "2026-10-29T14:42:02.083Z",
+      "firstSeen": "2026-10-29T14:42:02.083Z",
+      "lastSeen": "2026-10-29T14:42:02.083Z",
       "aiContext": "Cordless Power Equipment (Line Trimmer / Brushcutter)",
       "ai": {
         "isTruePositive": true,
@@ -2026,9 +2026,9 @@
         "src-a-ecoflow"
       ],
       "firstSeenAt": "2026-10-23T12:53:55.750Z",
-      "lastSeenAt": "2026-10-28T23:56:55.263Z",
-      "firstSeen": "2026-10-28T23:56:55.263Z",
-      "lastSeen": "2026-10-28T23:56:55.263Z",
+      "lastSeenAt": "2026-10-29T14:42:02.083Z",
+      "firstSeen": "2026-10-29T14:42:02.083Z",
+      "lastSeen": "2026-10-29T14:42:02.083Z",
       "aiContext": "EcoFlow Power Stations (Ecoflow Delta power station, Ecoflow Power Station power station, Any Ecoflow item (solar panel, battery, accessory))",
       "ai": {
         "isTruePositive": true,
@@ -2058,9 +2058,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-10-28T14:34:34.629Z",
-      "lastSeenAt": "2026-10-28T23:56:55.263Z",
-      "firstSeen": "2026-10-28T23:56:55.263Z",
-      "lastSeen": "2026-10-28T23:56:55.263Z",
+      "lastSeenAt": "2026-10-29T14:42:02.083Z",
+      "firstSeen": "2026-10-29T14:42:02.083Z",
+      "lastSeen": "2026-10-29T14:42:02.083Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
