@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T00:29:55.358Z",
+  "updatedAt": "2026-11-04T15:49:27.801Z",
   "listings": {
     "dollardealers:dd-samsung-43-smart-tv-2": {
       "key": "dollardealers:dd-samsung-43-smart-tv-2",
@@ -1306,10 +1306,10 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-11-04T00:29:55.358Z",
+      "lastSeenAt": "2026-11-04T15:49:27.801Z",
       "status": "active",
-      "firstSeen": "2026-11-04T00:29:55.358Z",
-      "lastSeen": "2026-11-04T00:29:55.358Z",
+      "firstSeen": "2026-11-04T15:49:27.801Z",
+      "lastSeen": "2026-11-04T15:49:27.801Z",
       "id": "dd-3431391",
       "url": "https://dollardealers.co.nz/product/panasonic-65-4k-smart-tv-th-65lx800z/",
       "priceText": "$899.00 incl. GST",
@@ -1342,9 +1342,9 @@
         "src-a-anker-nano"
       ],
       "firstSeenAt": "2026-09-29T10:25:23.530Z",
-      "lastSeenAt": "2026-11-04T00:29:55.358Z",
-      "firstSeen": "2026-11-04T00:29:55.358Z",
-      "lastSeen": "2026-11-04T00:29:55.358Z",
+      "lastSeenAt": "2026-11-04T15:49:27.801Z",
+      "firstSeen": "2026-11-04T15:49:27.801Z",
+      "lastSeen": "2026-11-04T15:49:27.801Z",
       "aiContext": "Anker Power (chargers / power banks) (Anker power bank, Anker battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1469,9 +1469,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-30T14:17:31.640Z",
-      "lastSeenAt": "2026-11-04T00:29:55.358Z",
-      "firstSeen": "2026-11-04T00:29:55.358Z",
-      "lastSeen": "2026-11-04T00:29:55.358Z",
+      "lastSeenAt": "2026-11-04T15:49:27.801Z",
+      "firstSeen": "2026-11-04T15:49:27.801Z",
+      "lastSeen": "2026-11-04T15:49:27.801Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -1502,9 +1502,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-09-30T23:50:12.583Z",
-      "lastSeenAt": "2026-11-04T00:29:55.358Z",
-      "firstSeen": "2026-11-04T00:29:55.358Z",
-      "lastSeen": "2026-11-04T00:29:55.358Z",
+      "lastSeenAt": "2026-11-04T15:49:27.801Z",
+      "firstSeen": "2026-11-04T15:49:27.801Z",
+      "lastSeen": "2026-11-04T15:49:27.801Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -1595,9 +1595,9 @@
         "src-a-baseus-blade"
       ],
       "firstSeenAt": "2026-10-06T01:13:27.461Z",
-      "lastSeenAt": "2026-11-04T00:29:55.358Z",
-      "firstSeen": "2026-11-04T00:29:55.358Z",
-      "lastSeen": "2026-11-04T00:29:55.358Z",
+      "lastSeenAt": "2026-11-04T15:49:27.801Z",
+      "firstSeen": "2026-11-04T15:49:27.801Z",
+      "lastSeen": "2026-11-04T15:49:27.801Z",
       "aiContext": "Baseus Power (chargers / power banks) (Baseus charger (GaN / USB-C), Baseus battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1662,9 +1662,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-10-08T14:59:20.791Z",
-      "lastSeenAt": "2026-11-04T00:29:55.358Z",
-      "firstSeen": "2026-11-04T00:29:55.358Z",
-      "lastSeen": "2026-11-04T00:29:55.358Z",
+      "lastSeenAt": "2026-11-04T15:49:27.801Z",
+      "firstSeen": "2026-11-04T15:49:27.801Z",
+      "lastSeen": "2026-11-04T15:49:27.801Z",
       "aiContext": "Cordless Power Equipment (Line Trimmer / Brushcutter, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -1724,9 +1724,9 @@
         "src-a-ecoflow"
       ],
       "firstSeenAt": "2026-10-13T01:54:51.010Z",
-      "lastSeenAt": "2026-11-04T00:29:55.358Z",
-      "firstSeen": "2026-11-04T00:29:55.358Z",
-      "lastSeen": "2026-11-04T00:29:55.358Z",
+      "lastSeenAt": "2026-11-04T15:49:27.801Z",
+      "firstSeen": "2026-11-04T15:49:27.801Z",
+      "lastSeen": "2026-11-04T15:49:27.801Z",
       "aiContext": "EcoFlow Power Stations (Any Ecoflow item (solar panel, battery, accessory))",
       "ai": {
         "isTruePositive": true,
@@ -1791,9 +1791,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-10-18T12:13:22.172Z",
-      "lastSeenAt": "2026-11-04T00:29:55.358Z",
-      "firstSeen": "2026-11-04T00:29:55.358Z",
-      "lastSeen": "2026-11-04T00:29:55.358Z",
+      "lastSeenAt": "2026-11-04T15:49:27.801Z",
+      "firstSeen": "2026-11-04T15:49:27.801Z",
+      "lastSeen": "2026-11-04T15:49:27.801Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -1891,9 +1891,9 @@
         "src-a-baseus-blade"
       ],
       "firstSeenAt": "2026-10-19T15:02:45.254Z",
-      "lastSeenAt": "2026-11-04T00:29:55.358Z",
-      "firstSeen": "2026-11-04T00:29:55.358Z",
-      "lastSeen": "2026-11-04T00:29:55.358Z",
+      "lastSeenAt": "2026-11-04T15:49:27.801Z",
+      "firstSeen": "2026-11-04T15:49:27.801Z",
+      "lastSeen": "2026-11-04T15:49:27.801Z",
       "aiContext": "Baseus Power (chargers / power banks) (Baseus power bank, Baseus battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1959,9 +1959,9 @@
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-10-23T12:53:55.750Z",
-      "lastSeenAt": "2026-11-04T00:29:55.358Z",
-      "firstSeen": "2026-11-04T00:29:55.358Z",
-      "lastSeen": "2026-11-04T00:29:55.358Z",
+      "lastSeenAt": "2026-11-04T15:49:27.801Z",
+      "firstSeen": "2026-11-04T15:49:27.801Z",
+      "lastSeen": "2026-11-04T15:49:27.801Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Power Equipment Bare Tool, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -1992,9 +1992,9 @@
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-10-23T12:53:55.750Z",
-      "lastSeenAt": "2026-11-04T00:29:55.358Z",
-      "firstSeen": "2026-11-04T00:29:55.358Z",
-      "lastSeen": "2026-11-04T00:29:55.358Z",
+      "lastSeenAt": "2026-11-04T15:49:27.801Z",
+      "firstSeen": "2026-11-04T15:49:27.801Z",
+      "lastSeen": "2026-11-04T15:49:27.801Z",
       "aiContext": "Cordless Power Equipment (Line Trimmer / Brushcutter)",
       "ai": {
         "isTruePositive": true,
@@ -2026,9 +2026,9 @@
         "src-a-ecoflow"
       ],
       "firstSeenAt": "2026-10-23T12:53:55.750Z",
-      "lastSeenAt": "2026-11-04T00:29:55.358Z",
-      "firstSeen": "2026-11-04T00:29:55.358Z",
-      "lastSeen": "2026-11-04T00:29:55.358Z",
+      "lastSeenAt": "2026-11-04T15:49:27.801Z",
+      "firstSeen": "2026-11-04T15:49:27.801Z",
+      "lastSeen": "2026-11-04T15:49:27.801Z",
       "aiContext": "EcoFlow Power Stations (Ecoflow Delta power station, Ecoflow Power Station power station, Any Ecoflow item (solar panel, battery, accessory))",
       "ai": {
         "isTruePositive": true,
@@ -2058,9 +2058,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-10-28T14:34:34.629Z",
-      "lastSeenAt": "2026-11-04T00:29:55.358Z",
-      "firstSeen": "2026-11-04T00:29:55.358Z",
-      "lastSeen": "2026-11-04T00:29:55.358Z",
+      "lastSeenAt": "2026-11-04T15:49:27.801Z",
+      "firstSeen": "2026-11-04T15:49:27.801Z",
+      "lastSeen": "2026-11-04T15:49:27.801Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -2092,9 +2092,9 @@
         "src-b-baseus-blade"
       ],
       "firstSeenAt": "2026-10-29T23:51:22.831Z",
-      "lastSeenAt": "2026-11-04T00:29:55.358Z",
-      "firstSeen": "2026-11-04T00:29:55.358Z",
-      "lastSeen": "2026-11-04T00:29:55.358Z",
+      "lastSeenAt": "2026-11-04T15:49:27.801Z",
+      "firstSeen": "2026-11-04T15:49:27.801Z",
+      "lastSeen": "2026-11-04T15:49:27.801Z",
       "aiContext": "Baseus Power (chargers / power banks) (Baseus power bank, Baseus battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -2125,9 +2125,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-10-30T14:38:00.503Z",
-      "lastSeenAt": "2026-11-04T00:29:55.358Z",
-      "firstSeen": "2026-11-04T00:29:55.358Z",
-      "lastSeen": "2026-11-04T00:29:55.358Z",
+      "lastSeenAt": "2026-11-04T15:49:27.801Z",
+      "firstSeen": "2026-11-04T15:49:27.801Z",
+      "lastSeen": "2026-11-04T15:49:27.801Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" OLED Panel, Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -2158,9 +2158,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-10-30T14:38:00.503Z",
-      "lastSeenAt": "2026-11-04T00:29:55.358Z",
-      "firstSeen": "2026-11-04T00:29:55.358Z",
-      "lastSeen": "2026-11-04T00:29:55.358Z",
+      "lastSeenAt": "2026-11-04T15:49:27.801Z",
+      "firstSeen": "2026-11-04T15:49:27.801Z",
+      "lastSeen": "2026-11-04T15:49:27.801Z",
       "aiContext": "Cordless Power Equipment (High-CFM Blower, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -2191,15 +2191,49 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-10-30T14:38:00.503Z",
-      "lastSeenAt": "2026-11-04T00:29:55.358Z",
-      "firstSeen": "2026-11-04T00:29:55.358Z",
-      "lastSeen": "2026-11-04T00:29:55.358Z",
+      "lastSeenAt": "2026-11-04T15:49:27.801Z",
+      "firstSeen": "2026-11-04T15:49:27.801Z",
+      "lastSeen": "2026-11-04T15:49:27.801Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
         "score": 9,
         "verdict": "Steal",
         "reason": "Genuine EGO 56V 5.0Ah Arc Lithium battery retailing around $400+ new, making $124.50 an outstanding bargain."
+      }
+    },
+    "cashconverters:cc-185763467": {
+      "id": "cc-185763467",
+      "title": "Bluetti Portable Power Station AC180P",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/185763467/Bluetti-Portable-Power-Station-AC180P",
+      "price": 574.5,
+      "priceText": "574.50",
+      "seller": "Seller: CCManukau",
+      "rawText": "Ended Auction Bluetti Portable Power Station AC180P Seller: CCManukau Bluetti Portable Power Station AC180P (185763467) $574.50 Quick Bid $574.50 remaining Sold $574.50 $574.50 0 Bid(s) View Details Bluetti Portable Power Station Model: AC180P comes with powercord Stock Needed! Bring your unwanted quality items for instant cash !!Valid ID is required WE ALSO PAWN ON CARS, BIKES, AND BOATS!For more information contact our stores and get in touch with one of our friendly staffStore ContactPhone: (09) 262 0783Address : 615 Great South Road Manukau 2104 Products must be paid within five days when auction is closedOnline payments only - if you buy an item online then you will need to pay it online onlyID is required upon collecting goods in-store P : 09 262 0783 | 615 Great South Road, Manukau 2104",
+      "key": "cashconverters:cc-185763467",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-185763467",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/185763467/Bluetti-Portable-Power-Station-AC180P",
+      "priority": "high",
+      "matchedRules": [
+        "rule-a-high-bluetti-ac",
+        "rule-a-high-bluetti-power-station",
+        "rule-a-normal-bluetti-any"
+      ],
+      "searchIds": [
+        "src-a-bluetti"
+      ],
+      "firstSeenAt": "2026-11-04T15:49:27.801Z",
+      "lastSeenAt": "2026-11-04T15:49:27.801Z",
+      "firstSeen": "2026-11-04T15:49:27.801Z",
+      "lastSeen": "2026-11-04T15:49:27.801Z",
+      "aiContext": "Bluetti Power Stations (Bluetti AC power station, Bluetti Power Station power station, Any Bluetti item (solar panel, battery, accessory))",
+      "ai": {
+        "isTruePositive": true,
+        "score": 9,
+        "verdict": "Steal",
+        "reason": "At NZD $574.5, this Bluetti AC180P portable power station is priced significantly below its typical retail and second-hand market value, making it an exceptional deal from Cash Converters Manukau."
       }
     }
   }
