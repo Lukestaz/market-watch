@@ -1,0 +1,14 @@
+{
+  "status": "success",
+  "failedSteps": [],
+  "steps": {
+    "setup": "success",
+    "install": "success",
+    "typecheck": "success",
+    "pipeline": "success"
+  },
+  "commit": "1c1ddee26c4c8c86f80796aa4be2eba83167235f",
+  "runUrl": "https://github.com/Lukestaz/market-watch/actions/runs/42381552145",
+  "finishedAt": "2026-11-07T14:33:00.944Z",
+  "summary": "[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a\n[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a\n[AI Evaluator] Gemini (gemini-2.5-flash) HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use\n[AI] \"Ecoflow Inverter 245WH EFR705\" -> Great Deal (score: 8/10, valid: true)\nListings verified after AI assessment: 19\nListing events detected: 19\nSending email alert for 1 event(s) to [REDACTED_EMAIL]...\nEmail alert sent successfully.\n[UI] Generated index.html and feed.json in ./dist\nMarket Watch run complete.\n"
+}
