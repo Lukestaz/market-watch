@@ -20,7 +20,7 @@ Executing search: Source A - Baseus Power (chargers / power banks) (cashconverte
 [CashConverters] Found 4 listings for /Browse?FullTextQuery=Baseus&StatusFilter=active_only
 Executing search: Source B - Displays 65" / OLED (dollardealers)
 [DollarDealers] Fetching: https://dollardealers.co.nz/?s=lg+tv&post_type=product
-[DollarDealers] Found 28 listings for /?s=lg+tv&post_type=product
+[DollarDealers] Found 26 listings for /?s=lg+tv&post_type=product
 Executing search: Source B - Cordless Power Equipment (dollardealers)
 [DollarDealers] Fetching: https://dollardealers.co.nz/?s=ego+56v&post_type=product
 [DollarDealers] Found 4 listings for /?s=ego+56v&post_type=product
@@ -45,7 +45,7 @@ Executing search: Source A - EcoFlow Power Stations (cashconverters)
 Executing search: Source B - EcoFlow Power Stations (dollardealers)
 [DollarDealers] Fetching: https://dollardealers.co.nz/?s=ecoflow&post_type=product
 [DollarDealers] Found 0 listings for /?s=ecoflow&post_type=product
-Total raw listings collected: 77
+Total raw listings collected: 76
 [Auction] Detail HTTP 403
 [Details] Enriching high item: Lg Smart Tv 4K Oled Evo Ai Tv (2026) With Webos 65 Inch 65G4 ACCBAY
 [Auction] Detail HTTP 403
@@ -75,8 +75,8 @@ Total raw listings collected: 77
 [Auction] Detail HTTP 403
 [Details] Enriching high item: Bluetti Portable Power Station AC180P
 [Auction] Detail HTTP 403
-[Auction] Detail HTTP 403
 [Details] Enriching high item: Ecoflow Delta 2 Power Station ***Crack Screen*** EFD330
+[Auction] Detail HTTP 403
 Candidate listings passing keyword rules: 20
 [AI] "Lg Smart Tv 4K Oled Evo Ai Tv (2026) With Webos 65 Inch 65G4 ACCBAY" -> Steal (score: 10/10, valid: true)
 [AI] "Lg Tv (Smart) 65 INCH LED LCD 65UA8450PSA" -> Fair Price (score: 6/10, valid: true)
@@ -89,7 +89,7 @@ Candidate listings passing keyword rules: 20
 [AI] "Ego 5Ah Rechargeable Battery 56V BA2800T" -> Great Deal (score: 8/10, valid: true)
 [AI Evaluator] Available flash models: gemini-flash-latest, gemini-2.5-flash, gemini-flash-lite-latest, gemini-3.8-flash
 [AI] "Ego Charger Power+ Standard Charger CH2100E" -> Not Relevant (score: 1/10, valid: false)
-[AI] Dropping false positive: Ego Charger Power+ Standard Charger CH2100E (This is a battery charger rather than a cordless power equipment bare tool.)
+[AI] Dropping false positive: Ego Charger Power+ Standard Charger CH2100E (This is a battery charger rather than a cordless bare tool, and at $134.50 it is priced above brand new retail price.)
 [AI] "Anker Powerbank 20100Mah A1271" -> Steal (score: 9/10, valid: true)
 [AI] "Baseus Power Bank 10000MAH 22.5W" -> Great Deal (score: 8/10, valid: true)
 [AI] "Baseus Wireless Charger 5000 MAH" -> Fair Price (score: 5/10, valid: true)
@@ -98,9 +98,27 @@ Candidate listings passing keyword rules: 20
 [AI] "BATTERY 56V EGO POWER" -> Great Deal (score: 7/10, valid: true)
 [AI] "EGO Cordless Line Trimmer" -> Fair Price (score: 5/10, valid: true)
 [AI] "Bluetti Portable Power Station AC180P" -> Steal (score: 9/10, valid: true)
-[AI] "Ecoflow Inverter 245WH EFR705" -> Fair Price (score: 5/10, valid: true)
 [AI] "Ecoflow Delta 2 Power Station ***Crack Screen*** EFD330" -> Great Deal (score: 8/10, valid: true)
+[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a
+[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a
+[AI Evaluator] Gemini (gemini-flash-latest) HTTP 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try a
+[AI Evaluator] Gemini (gemini-2.5-flash) HTTP 404: {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use
+[AI] "Ecoflow Inverter 245WH EFR705" -> Great Deal (score: 8/10, valid: true)
 Listings verified after AI assessment: 19
 Listing events detected: 19
+Sending email alert for 1 event(s) to [REDACTED_EMAIL]...
+Email alert sent successfully.
 [UI] Generated index.html and feed.json in ./dist
 Market Watch run complete.
