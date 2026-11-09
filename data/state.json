@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T23:30:45.102Z",
+  "updatedAt": "2026-11-09T17:51:55.341Z",
   "listings": {
     "dollardealers:dd-samsung-43-smart-tv-2": {
       "key": "dollardealers:dd-samsung-43-smart-tv-2",
@@ -1306,10 +1306,10 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-09-29T08:57:07.874Z",
-      "lastSeenAt": "2026-11-08T23:30:45.102Z",
+      "lastSeenAt": "2026-11-09T17:51:55.341Z",
       "status": "active",
-      "firstSeen": "2026-11-08T23:30:45.102Z",
-      "lastSeen": "2026-11-08T23:30:45.102Z",
+      "firstSeen": "2026-11-09T17:51:55.341Z",
+      "lastSeen": "2026-11-09T17:51:55.341Z",
       "id": "dd-3431391",
       "url": "https://dollardealers.co.nz/product/panasonic-65-4k-smart-tv-th-65lx800z/",
       "priceText": "$899.00 incl. GST",
@@ -1329,7 +1329,7 @@
       "priceText": "14.50",
       "rawText": "Ended Auction Anker Powerbank 20100Mah A1271 Seller: CCPapakura Anker Powerbank 20100Mah A1271 (177302410) $14.50 Quick Bid $14.50 remaining Sold $14.50 $14.50 0 Bid(s) View Details Anker Powerbank 20100Mah Model: A1271 ********************************************************************************************************Goods are available for viewing at our store during our trading hours 7 days per week -Goods are offered for sale under the following conditions:-Goods must be paid for within 5 working days of the auction finishing-Goods have a 90 days warranty or longer as required by the Consumer Guarantees Act-ID Required upon pick up.-Online payments only - Credit and debit cards (MasterCard and Visa) and direct deposit.-In-store payments accepted. ***Stock Wanted***We are looking for more stock for our shop floor!Bring your good quality second hand goods for cash on the spot! All you need is your item and a valid ID Come and have a chat with one of our friendly staff at: Cash converters Papakura6-10 Railway Street West09 973 4266",
       "key": "cashconverters:cc-177302410",
-      "status": "active",
+      "status": "removed",
       "siteId": "cashconverters",
       "sourceListingId": "cc-177302410",
       "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/177302410/Anker-Powerbank-20100Mah-A1271",
@@ -1469,9 +1469,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-30T14:17:31.640Z",
-      "lastSeenAt": "2026-11-08T23:30:45.102Z",
-      "firstSeen": "2026-11-08T23:30:45.102Z",
-      "lastSeen": "2026-11-08T23:30:45.102Z",
+      "lastSeenAt": "2026-11-09T17:51:55.341Z",
+      "firstSeen": "2026-11-09T17:51:55.341Z",
+      "lastSeen": "2026-11-09T17:51:55.341Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -1502,9 +1502,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-09-30T23:50:12.583Z",
-      "lastSeenAt": "2026-11-08T23:30:45.102Z",
-      "firstSeen": "2026-11-08T23:30:45.102Z",
-      "lastSeen": "2026-11-08T23:30:45.102Z",
+      "lastSeenAt": "2026-11-09T17:51:55.341Z",
+      "firstSeen": "2026-11-09T17:51:55.341Z",
+      "lastSeen": "2026-11-09T17:51:55.341Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -1595,9 +1595,9 @@
         "src-a-baseus-blade"
       ],
       "firstSeenAt": "2026-10-06T01:13:27.461Z",
-      "lastSeenAt": "2026-11-08T23:30:45.102Z",
-      "firstSeen": "2026-11-08T23:30:45.102Z",
-      "lastSeen": "2026-11-08T23:30:45.102Z",
+      "lastSeenAt": "2026-11-09T17:51:55.341Z",
+      "firstSeen": "2026-11-09T17:51:55.341Z",
+      "lastSeen": "2026-11-09T17:51:55.341Z",
       "aiContext": "Baseus Power (chargers / power banks) (Baseus charger (GaN / USB-C), Baseus battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1649,7 +1649,7 @@
       "priceText": "90.10",
       "rawText": "Ended Auction Ego 56V Cordless Line Trimmer ST1400E- ST Seller: CCLinwood Ego 56V Cordless Line Trimmer ST1400E- ST (184373267) $90.10 Quick Bid $90.10 remaining Sold $89.10 $89.10 1 Bid(s) View Details Ego 56V Cordless Line Trimmer ST1400E- ST Shipping: Not AvailablePlease Contact Store To Arrange Shipping",
       "key": "cashconverters:cc-184373267",
-      "status": "active",
+      "status": "removed",
       "siteId": "cashconverters",
       "sourceListingId": "cc-184373267",
       "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/184373267/Ego-56V-Cordless-Line-Trimmer-ST1400E-ST",
@@ -1724,9 +1724,9 @@
         "src-a-ecoflow"
       ],
       "firstSeenAt": "2026-10-13T01:54:51.010Z",
-      "lastSeenAt": "2026-11-08T23:30:45.102Z",
-      "firstSeen": "2026-11-08T23:30:45.102Z",
-      "lastSeen": "2026-11-08T23:30:45.102Z",
+      "lastSeenAt": "2026-11-09T17:51:55.341Z",
+      "firstSeen": "2026-11-09T17:51:55.341Z",
+      "lastSeen": "2026-11-09T17:51:55.341Z",
       "aiContext": "EcoFlow Power Stations (Any Ecoflow item (solar panel, battery, accessory))",
       "ai": {
         "isTruePositive": true,
@@ -1791,9 +1791,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-10-18T12:13:22.172Z",
-      "lastSeenAt": "2026-11-08T23:30:45.102Z",
-      "firstSeen": "2026-11-08T23:30:45.102Z",
-      "lastSeen": "2026-11-08T23:30:45.102Z",
+      "lastSeenAt": "2026-11-09T17:51:55.341Z",
+      "firstSeen": "2026-11-09T17:51:55.341Z",
+      "lastSeen": "2026-11-09T17:51:55.341Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -1891,9 +1891,9 @@
         "src-a-baseus-blade"
       ],
       "firstSeenAt": "2026-10-19T15:02:45.254Z",
-      "lastSeenAt": "2026-11-08T23:30:45.102Z",
-      "firstSeen": "2026-11-08T23:30:45.102Z",
-      "lastSeen": "2026-11-08T23:30:45.102Z",
+      "lastSeenAt": "2026-11-09T17:51:55.341Z",
+      "firstSeen": "2026-11-09T17:51:55.341Z",
+      "lastSeen": "2026-11-09T17:51:55.341Z",
       "aiContext": "Baseus Power (chargers / power banks) (Baseus power bank, Baseus battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1959,9 +1959,9 @@
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-10-23T12:53:55.750Z",
-      "lastSeenAt": "2026-11-08T23:30:45.102Z",
-      "firstSeen": "2026-11-08T23:30:45.102Z",
-      "lastSeen": "2026-11-08T23:30:45.102Z",
+      "lastSeenAt": "2026-11-09T17:51:55.341Z",
+      "firstSeen": "2026-11-09T17:51:55.341Z",
+      "lastSeen": "2026-11-09T17:51:55.341Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Power Equipment Bare Tool, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -1992,9 +1992,9 @@
         "src-b-power-tools"
       ],
       "firstSeenAt": "2026-10-23T12:53:55.750Z",
-      "lastSeenAt": "2026-11-08T23:30:45.102Z",
-      "firstSeen": "2026-11-08T23:30:45.102Z",
-      "lastSeen": "2026-11-08T23:30:45.102Z",
+      "lastSeenAt": "2026-11-09T17:51:55.341Z",
+      "firstSeen": "2026-11-09T17:51:55.341Z",
+      "lastSeen": "2026-11-09T17:51:55.341Z",
       "aiContext": "Cordless Power Equipment (Line Trimmer / Brushcutter)",
       "ai": {
         "isTruePositive": true,
@@ -2026,9 +2026,9 @@
         "src-a-ecoflow"
       ],
       "firstSeenAt": "2026-10-23T12:53:55.750Z",
-      "lastSeenAt": "2026-11-08T23:30:45.102Z",
-      "firstSeen": "2026-11-08T23:30:45.102Z",
-      "lastSeen": "2026-11-08T23:30:45.102Z",
+      "lastSeenAt": "2026-11-09T17:51:55.341Z",
+      "firstSeen": "2026-11-09T17:51:55.341Z",
+      "lastSeen": "2026-11-09T17:51:55.341Z",
       "aiContext": "EcoFlow Power Stations (Ecoflow Delta power station, Ecoflow Power Station power station, Any Ecoflow item (solar panel, battery, accessory))",
       "ai": {
         "isTruePositive": true,
@@ -2058,9 +2058,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-10-28T14:34:34.629Z",
-      "lastSeenAt": "2026-11-08T23:30:45.102Z",
-      "firstSeen": "2026-11-08T23:30:45.102Z",
-      "lastSeen": "2026-11-08T23:30:45.102Z",
+      "lastSeenAt": "2026-11-09T17:51:55.341Z",
+      "firstSeen": "2026-11-09T17:51:55.341Z",
+      "lastSeen": "2026-11-09T17:51:55.341Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -2125,9 +2125,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-10-30T14:38:00.503Z",
-      "lastSeenAt": "2026-11-08T23:30:45.102Z",
-      "firstSeen": "2026-11-08T23:30:45.102Z",
-      "lastSeen": "2026-11-08T23:30:45.102Z",
+      "lastSeenAt": "2026-11-09T17:51:55.341Z",
+      "firstSeen": "2026-11-09T17:51:55.341Z",
+      "lastSeen": "2026-11-09T17:51:55.341Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" OLED Panel, Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -2158,9 +2158,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-10-30T14:38:00.503Z",
-      "lastSeenAt": "2026-11-08T23:30:45.102Z",
-      "firstSeen": "2026-11-08T23:30:45.102Z",
-      "lastSeen": "2026-11-08T23:30:45.102Z",
+      "lastSeenAt": "2026-11-09T17:51:55.341Z",
+      "firstSeen": "2026-11-09T17:51:55.341Z",
+      "lastSeen": "2026-11-09T17:51:55.341Z",
       "aiContext": "Cordless Power Equipment (High-CFM Blower, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -2191,9 +2191,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-10-30T14:38:00.503Z",
-      "lastSeenAt": "2026-11-08T23:30:45.102Z",
-      "firstSeen": "2026-11-08T23:30:45.102Z",
-      "lastSeen": "2026-11-08T23:30:45.102Z",
+      "lastSeenAt": "2026-11-09T17:51:55.341Z",
+      "firstSeen": "2026-11-09T17:51:55.341Z",
+      "lastSeen": "2026-11-09T17:51:55.341Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -2225,9 +2225,9 @@
         "src-a-bluetti"
       ],
       "firstSeenAt": "2026-11-04T15:49:27.801Z",
-      "lastSeenAt": "2026-11-08T23:30:45.102Z",
-      "firstSeen": "2026-11-08T23:30:45.102Z",
-      "lastSeen": "2026-11-08T23:30:45.102Z",
+      "lastSeenAt": "2026-11-09T17:51:55.341Z",
+      "firstSeen": "2026-11-09T17:51:55.341Z",
+      "lastSeen": "2026-11-09T17:51:55.341Z",
       "aiContext": "Bluetti Power Stations (Bluetti AC power station, Bluetti Power Station power station, Any Bluetti item (solar panel, battery, accessory))",
       "ai": {
         "isTruePositive": true,
@@ -2258,9 +2258,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-11-06T00:54:20.303Z",
-      "lastSeenAt": "2026-11-08T23:30:45.102Z",
-      "firstSeen": "2026-11-08T23:30:45.102Z",
-      "lastSeen": "2026-11-08T23:30:45.102Z",
+      "lastSeenAt": "2026-11-09T17:51:55.341Z",
+      "firstSeen": "2026-11-09T17:51:55.341Z",
+      "lastSeen": "2026-11-09T17:51:55.341Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -2290,9 +2290,9 @@
         "src-a-baseus-blade"
       ],
       "firstSeenAt": "2026-11-06T00:54:20.303Z",
-      "lastSeenAt": "2026-11-08T23:30:45.102Z",
-      "firstSeen": "2026-11-08T23:30:45.102Z",
-      "lastSeen": "2026-11-08T23:30:45.102Z",
+      "lastSeenAt": "2026-11-09T17:51:55.341Z",
+      "firstSeen": "2026-11-09T17:51:55.341Z",
+      "lastSeen": "2026-11-09T17:51:55.341Z",
       "aiContext": "Baseus Power (chargers / power banks) (Baseus power bank)",
       "ai": {
         "isTruePositive": true,
@@ -2323,9 +2323,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-11-07T23:30:54.667Z",
-      "lastSeenAt": "2026-11-08T23:30:45.102Z",
-      "firstSeen": "2026-11-08T23:30:45.102Z",
-      "lastSeen": "2026-11-08T23:30:45.102Z",
+      "lastSeenAt": "2026-11-09T17:51:55.341Z",
+      "firstSeen": "2026-11-09T17:51:55.341Z",
+      "lastSeen": "2026-11-09T17:51:55.341Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -2356,9 +2356,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-11-07T23:30:54.667Z",
-      "lastSeenAt": "2026-11-08T23:30:45.102Z",
-      "firstSeen": "2026-11-08T23:30:45.102Z",
-      "lastSeen": "2026-11-08T23:30:45.102Z",
+      "lastSeenAt": "2026-11-09T17:51:55.341Z",
+      "firstSeen": "2026-11-09T17:51:55.341Z",
+      "lastSeen": "2026-11-09T17:51:55.341Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -2389,15 +2389,48 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-11-07T23:30:54.667Z",
-      "lastSeenAt": "2026-11-08T23:30:45.102Z",
-      "firstSeen": "2026-11-08T23:30:45.102Z",
-      "lastSeen": "2026-11-08T23:30:45.102Z",
+      "lastSeenAt": "2026-11-09T17:51:55.341Z",
+      "firstSeen": "2026-11-09T17:51:55.341Z",
+      "lastSeen": "2026-11-09T17:51:55.341Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
         "score": 5,
         "verdict": "Fair Price",
         "reason": "This is a genuine EGO 56V 2.5Ah battery, but at NZD $179.1 it is priced close to standard second-hand market value rather than being a bargain."
+      }
+    },
+    "cashconverters:cc-186015380": {
+      "id": "cc-186015380",
+      "title": "Anker Powerbank 20100Mah A1271",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/186015380/Anker-Powerbank-20100Mah-A1271",
+      "price": 12.5,
+      "priceText": "12.50",
+      "seller": "Seller: CCPapakura",
+      "rawText": "Ended Auction Anker Powerbank 20100Mah A1271 Seller: CCPapakura Anker Powerbank 20100Mah A1271 (186015380) $12.50 Quick Bid $12.50 remaining Sold $12.50 $12.50 0 Bid(s) View Details Anker Powerbank 20100Mah Model: A1271 ********************************************************************************************************Goods are available for viewing at our store during our trading hours 7 days per week -Goods are offered for sale under the following conditions:-Goods must be paid for within 5 working days of the auction finishing-Goods have a 90 days warranty or longer as required by the Consumer Guarantees Act-ID Required upon pick up.-Online payments only - Credit and debit cards (MasterCard and Visa) and direct deposit.-In-store payments accepted. ***Stock Wanted***We are looking for more stock for our shop floor!Bring your good quality second hand goods for cash on the spot! All you need is your item and a valid ID Come and have a chat with one of our friendly staff at: Cash converters Papakura6-10 Railway Street West09 973 4266",
+      "key": "cashconverters:cc-186015380",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-186015380",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/186015380/Anker-Powerbank-20100Mah-A1271",
+      "priority": "high",
+      "matchedRules": [
+        "rule-a-high-anker-powerbank",
+        "rule-a-normal-anker-mah"
+      ],
+      "searchIds": [
+        "src-a-anker-nano"
+      ],
+      "firstSeenAt": "2026-11-09T17:51:55.341Z",
+      "lastSeenAt": "2026-11-09T17:51:55.341Z",
+      "firstSeen": "2026-11-09T17:51:55.341Z",
+      "lastSeen": "2026-11-09T17:51:55.341Z",
+      "aiContext": "Anker Power (chargers / power banks) (Anker power bank, Anker battery pack (mAh))",
+      "ai": {
+        "isTruePositive": true,
+        "score": 9,
+        "verdict": "Steal",
+        "reason": "An authentic Anker PowerCore 20100mAh power bank at NZD $12.50 from Cash Converters Papakura is an incredible bargain well below normal market value."
       }
     }
   }
