@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T02:50:23.945Z",
+  "updatedAt": "2026-11-17T17:08:20.893Z",
   "listings": {
     "dollardealers:dd-samsung-43-smart-tv-2": {
       "key": "dollardealers:dd-samsung-43-smart-tv-2",
@@ -1469,9 +1469,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-30T14:17:31.640Z",
-      "lastSeenAt": "2026-11-17T02:50:23.945Z",
-      "firstSeen": "2026-11-17T02:50:23.945Z",
-      "lastSeen": "2026-11-17T02:50:23.945Z",
+      "lastSeenAt": "2026-11-17T17:08:20.893Z",
+      "firstSeen": "2026-11-17T17:08:20.893Z",
+      "lastSeen": "2026-11-17T17:08:20.893Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -1502,9 +1502,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-09-30T23:50:12.583Z",
-      "lastSeenAt": "2026-11-17T02:50:23.945Z",
-      "firstSeen": "2026-11-17T02:50:23.945Z",
-      "lastSeen": "2026-11-17T02:50:23.945Z",
+      "lastSeenAt": "2026-11-17T17:08:20.893Z",
+      "firstSeen": "2026-11-17T17:08:20.893Z",
+      "lastSeen": "2026-11-17T17:08:20.893Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -1595,9 +1595,9 @@
         "src-a-baseus-blade"
       ],
       "firstSeenAt": "2026-10-06T01:13:27.461Z",
-      "lastSeenAt": "2026-11-17T02:50:23.945Z",
-      "firstSeen": "2026-11-17T02:50:23.945Z",
-      "lastSeen": "2026-11-17T02:50:23.945Z",
+      "lastSeenAt": "2026-11-17T17:08:20.893Z",
+      "firstSeen": "2026-11-17T17:08:20.893Z",
+      "lastSeen": "2026-11-17T17:08:20.893Z",
       "aiContext": "Baseus Power (chargers / power banks) (Baseus charger (GaN / USB-C), Baseus battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1724,9 +1724,9 @@
         "src-a-ecoflow"
       ],
       "firstSeenAt": "2026-10-13T01:54:51.010Z",
-      "lastSeenAt": "2026-11-17T02:50:23.945Z",
-      "firstSeen": "2026-11-17T02:50:23.945Z",
-      "lastSeen": "2026-11-17T02:50:23.945Z",
+      "lastSeenAt": "2026-11-17T17:08:20.893Z",
+      "firstSeen": "2026-11-17T17:08:20.893Z",
+      "lastSeen": "2026-11-17T17:08:20.893Z",
       "aiContext": "EcoFlow Power Stations (Any Ecoflow item (solar panel, battery, accessory))",
       "ai": {
         "isTruePositive": true,
@@ -1791,9 +1791,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-10-18T12:13:22.172Z",
-      "lastSeenAt": "2026-11-17T02:50:23.945Z",
-      "firstSeen": "2026-11-17T02:50:23.945Z",
-      "lastSeen": "2026-11-17T02:50:23.945Z",
+      "lastSeenAt": "2026-11-17T17:08:20.893Z",
+      "firstSeen": "2026-11-17T17:08:20.893Z",
+      "lastSeen": "2026-11-17T17:08:20.893Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -1891,9 +1891,9 @@
         "src-a-baseus-blade"
       ],
       "firstSeenAt": "2026-10-19T15:02:45.254Z",
-      "lastSeenAt": "2026-11-17T02:50:23.945Z",
-      "firstSeen": "2026-11-17T02:50:23.945Z",
-      "lastSeen": "2026-11-17T02:50:23.945Z",
+      "lastSeenAt": "2026-11-17T17:08:20.893Z",
+      "firstSeen": "2026-11-17T17:08:20.893Z",
+      "lastSeen": "2026-11-17T17:08:20.893Z",
       "aiContext": "Baseus Power (chargers / power banks) (Baseus power bank, Baseus battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -2058,9 +2058,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-10-28T14:34:34.629Z",
-      "lastSeenAt": "2026-11-17T02:50:23.945Z",
-      "firstSeen": "2026-11-17T02:50:23.945Z",
-      "lastSeen": "2026-11-17T02:50:23.945Z",
+      "lastSeenAt": "2026-11-17T17:08:20.893Z",
+      "firstSeen": "2026-11-17T17:08:20.893Z",
+      "lastSeen": "2026-11-17T17:08:20.893Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -2125,9 +2125,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-10-30T14:38:00.503Z",
-      "lastSeenAt": "2026-11-17T02:50:23.945Z",
-      "firstSeen": "2026-11-17T02:50:23.945Z",
-      "lastSeen": "2026-11-17T02:50:23.945Z",
+      "lastSeenAt": "2026-11-17T17:08:20.893Z",
+      "firstSeen": "2026-11-17T17:08:20.893Z",
+      "lastSeen": "2026-11-17T17:08:20.893Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" OLED Panel, Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -2158,9 +2158,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-10-30T14:38:00.503Z",
-      "lastSeenAt": "2026-11-17T02:50:23.945Z",
-      "firstSeen": "2026-11-17T02:50:23.945Z",
-      "lastSeen": "2026-11-17T02:50:23.945Z",
+      "lastSeenAt": "2026-11-17T17:08:20.893Z",
+      "firstSeen": "2026-11-17T17:08:20.893Z",
+      "lastSeen": "2026-11-17T17:08:20.893Z",
       "aiContext": "Cordless Power Equipment (High-CFM Blower, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -2191,9 +2191,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-10-30T14:38:00.503Z",
-      "lastSeenAt": "2026-11-17T02:50:23.945Z",
-      "firstSeen": "2026-11-17T02:50:23.945Z",
-      "lastSeen": "2026-11-17T02:50:23.945Z",
+      "lastSeenAt": "2026-11-17T17:08:20.893Z",
+      "firstSeen": "2026-11-17T17:08:20.893Z",
+      "lastSeen": "2026-11-17T17:08:20.893Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -2225,9 +2225,9 @@
         "src-a-bluetti"
       ],
       "firstSeenAt": "2026-11-04T15:49:27.801Z",
-      "lastSeenAt": "2026-11-17T02:50:23.945Z",
-      "firstSeen": "2026-11-17T02:50:23.945Z",
-      "lastSeen": "2026-11-17T02:50:23.945Z",
+      "lastSeenAt": "2026-11-17T17:08:20.893Z",
+      "firstSeen": "2026-11-17T17:08:20.893Z",
+      "lastSeen": "2026-11-17T17:08:20.893Z",
       "aiContext": "Bluetti Power Stations (Bluetti AC power station, Bluetti Power Station power station, Any Bluetti item (solar panel, battery, accessory))",
       "ai": {
         "isTruePositive": true,
@@ -2258,9 +2258,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-11-06T00:54:20.303Z",
-      "lastSeenAt": "2026-11-17T02:50:23.945Z",
-      "firstSeen": "2026-11-17T02:50:23.945Z",
-      "lastSeen": "2026-11-17T02:50:23.945Z",
+      "lastSeenAt": "2026-11-17T17:08:20.893Z",
+      "firstSeen": "2026-11-17T17:08:20.893Z",
+      "lastSeen": "2026-11-17T17:08:20.893Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -2290,9 +2290,9 @@
         "src-a-baseus-blade"
       ],
       "firstSeenAt": "2026-11-06T00:54:20.303Z",
-      "lastSeenAt": "2026-11-17T02:50:23.945Z",
-      "firstSeen": "2026-11-17T02:50:23.945Z",
-      "lastSeen": "2026-11-17T02:50:23.945Z",
+      "lastSeenAt": "2026-11-17T17:08:20.893Z",
+      "firstSeen": "2026-11-17T17:08:20.893Z",
+      "lastSeen": "2026-11-17T17:08:20.893Z",
       "aiContext": "Baseus Power (chargers / power banks) (Baseus power bank)",
       "ai": {
         "isTruePositive": true,
@@ -2356,9 +2356,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-11-07T23:30:54.667Z",
-      "lastSeenAt": "2026-11-17T02:50:23.945Z",
-      "firstSeen": "2026-11-17T02:50:23.945Z",
-      "lastSeen": "2026-11-17T02:50:23.945Z",
+      "lastSeenAt": "2026-11-17T17:08:20.893Z",
+      "firstSeen": "2026-11-17T17:08:20.893Z",
+      "lastSeen": "2026-11-17T17:08:20.893Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -2389,9 +2389,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-11-07T23:30:54.667Z",
-      "lastSeenAt": "2026-11-17T02:50:23.945Z",
-      "firstSeen": "2026-11-17T02:50:23.945Z",
-      "lastSeen": "2026-11-17T02:50:23.945Z",
+      "lastSeenAt": "2026-11-17T17:08:20.893Z",
+      "firstSeen": "2026-11-17T17:08:20.893Z",
+      "lastSeen": "2026-11-17T17:08:20.893Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -2422,9 +2422,9 @@
         "src-a-anker-nano"
       ],
       "firstSeenAt": "2026-11-09T17:51:55.341Z",
-      "lastSeenAt": "2026-11-17T02:50:23.945Z",
-      "firstSeen": "2026-11-17T02:50:23.945Z",
-      "lastSeen": "2026-11-17T02:50:23.945Z",
+      "lastSeenAt": "2026-11-17T17:08:20.893Z",
+      "firstSeen": "2026-11-17T17:08:20.893Z",
+      "lastSeen": "2026-11-17T17:08:20.893Z",
       "aiContext": "Anker Power (chargers / power banks) (Anker power bank, Anker battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -2442,7 +2442,7 @@
       "seller": "Seller: CCOtara",
       "rawText": "Ended Auction Ego Lithium Ion Battery**56V BA2240E Seller: CCOtara Ego Lithium Ion Battery**56V BA2240E (186086732) $99.50 Quick Bid $99.50 remaining Sold $99.50 $99.50 0 Bid(s) View Details Ego Lithium Ion Battery**56V BA2240E No acc Stock needed! Bring your unwanted quality items for instant cash !! Valid id is required Store contact! Phone: (09-320 3821) Address : 15 fair mall, otara auckland 2023 Products must be paid within five days when auction is closed Online payments only - we are not accepting in-store payments ID is required upon collecting goods in-store We Also Pawn Cars, Boats And Bikes For More Info Contact Our Store!!",
       "key": "cashconverters:cc-186086732",
-      "status": "active",
+      "status": "removed",
       "siteId": "cashconverters",
       "sourceListingId": "cc-186086732",
       "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/186086732/Ego-Lithium-Ion-Battery56V-BA2240E",
@@ -2489,9 +2489,9 @@
         "src-b-baseus-blade"
       ],
       "firstSeenAt": "2026-11-11T00:29:01.801Z",
-      "lastSeenAt": "2026-11-17T02:50:23.945Z",
-      "firstSeen": "2026-11-17T02:50:23.945Z",
-      "lastSeen": "2026-11-17T02:50:23.945Z",
+      "lastSeenAt": "2026-11-17T17:08:20.893Z",
+      "firstSeen": "2026-11-17T17:08:20.893Z",
+      "lastSeen": "2026-11-17T17:08:20.893Z",
       "aiContext": "Baseus Power (chargers / power banks) (Baseus power bank, Baseus battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -2521,9 +2521,9 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-11-12T01:50:55.901Z",
-      "lastSeenAt": "2026-11-17T02:50:23.945Z",
-      "firstSeen": "2026-11-17T02:50:23.945Z",
-      "lastSeen": "2026-11-17T02:50:23.945Z",
+      "lastSeenAt": "2026-11-17T17:08:20.893Z",
+      "firstSeen": "2026-11-17T17:08:20.893Z",
+      "lastSeen": "2026-11-17T17:08:20.893Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -2531,6 +2531,32 @@
         "verdict": "Great Deal",
         "reason": "It is a 65-inch LG TV priced at $699 NZD, which is quite affordable for a large-screen television of this size in the second-hand market."
       }
+    },
+    "cashconverters:cc-185855106": {
+      "id": "cc-185855106",
+      "title": "Ego Charger Power+ Standard Charger CH2100E",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/185855106/Ego-Charger-Power-Standard-Charger-CH2100E",
+      "price": 134.5,
+      "priceText": "134.50",
+      "seller": "Seller: CCHamiltonCentral",
+      "rawText": "Ended Auction Ego Charger Power+ Standard Charger CH2100E Seller: CCHamiltonCentral Ego Charger Power+ Standard Charger CH2100E (185855106) $134.50 Quick Bid $134.50 remaining Sold $134.50 $134.50 0 Bid(s) View Details Ego Charger Power+ Standard Charger CH2100E 56v battery",
+      "key": "cashconverters:cc-185855106",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-185855106",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/185855106/Ego-Charger-Power-Standard-Charger-CH2100E",
+      "priority": "high",
+      "matchedRules": [
+        "rule-a-high-bare"
+      ],
+      "searchIds": [
+        "src-a-power-tools"
+      ],
+      "firstSeenAt": "2026-11-17T17:08:20.893Z",
+      "lastSeenAt": "2026-11-17T17:08:20.893Z",
+      "firstSeen": "2026-11-17T17:08:20.893Z",
+      "lastSeen": "2026-11-17T17:08:20.893Z",
+      "aiContext": "Cordless Power Equipment (Power Equipment Bare Tool)"
     }
   }
 }
