@@ -20,7 +20,7 @@ Executing search: Source A - Baseus Power (chargers / power banks) (cashconverte
 [CashConverters] Found 5 listings for /Browse?FullTextQuery=Baseus&StatusFilter=active_only
 Executing search: Source B - Displays 65" / OLED (dollardealers)
 [DollarDealers] Fetching: https://dollardealers.co.nz/?s=lg+tv&post_type=product
-[DollarDealers] Found 26 listings for /?s=lg+tv&post_type=product
+[DollarDealers] Found 24 listings for /?s=lg+tv&post_type=product
 Executing search: Source B - Cordless Power Equipment (dollardealers)
 [DollarDealers] Fetching: https://dollardealers.co.nz/?s=ego+56v&post_type=product
 [DollarDealers] Found 16 listings for /?s=ego+56v&post_type=product
@@ -45,12 +45,12 @@ Executing search: Source A - EcoFlow Power Stations (cashconverters)
 Executing search: Source B - EcoFlow Power Stations (dollardealers)
 [DollarDealers] Fetching: https://dollardealers.co.nz/?s=ecoflow&post_type=product
 [DollarDealers] Found 0 listings for /?s=ecoflow&post_type=product
-Total raw listings collected: 70
-[Auction] Detail HTTP 403
-[Auction] Detail HTTP 403
+Total raw listings collected: 69
 [Auction] Detail HTTP 403
 [Auction] Detail HTTP 403
 [Details] Enriching high item: Lg Smart Tv 4K Oled Evo Ai Tv (2026) With Webos 65 Inch 65G4 ACCBAY
+[Auction] Detail HTTP 403
+[Auction] Detail HTTP 403
 [Auction] Detail HTTP 403
 [Details] Enriching high item: Ego 5Ah Rechargeable Battery 56V BA2800T
 [Auction] Detail HTTP 403
@@ -75,10 +75,10 @@ Total raw listings collected: 70
 [Details] Enriching high item: Bluetti Portable Power Station AC180P
 [Auction] Detail HTTP 403
 Candidate listings passing keyword rules: 18
-[AI] "Lg Tv (Smart) 65 INCH LED LCD 65UA8450PSA" -> Fair Price (score: 6/10, valid: true)
-[AI] "Lg Tv - 65 Inch 4K Uhd Smart Led 65UP7550PVG" -> Great Deal (score: 8/10, valid: true)
 [AI] "Lg Tv 65 INCH SMART 65UA7350PSB" -> Fair Price (score: 6/10, valid: true)
 [AI] "Lg Smart Tv 4K Oled Evo Ai Tv (2026) With Webos 65 Inch 65G4 ACCBAY" -> Steal (score: 10/10, valid: true)
+[AI] "Lg Tv (Smart) 65 INCH LED LCD 65UA8450PSA" -> Fair Price (score: 6/10, valid: true)
+[AI] "Lg Tv - 65 Inch 4K Uhd Smart Led 65UP7550PVG" -> Great Deal (score: 8/10, valid: true)
 [AI] "Ego 5Ah Rechargeable Battery 56V BA2800T" -> Great Deal (score: 8/10, valid: true)
 [AI] "Ego Tool Battery - 56V 2.5Ah BA1400T" -> Fair Price (score: 4/10, valid: true)
 [AI] "Ego Tool Battery - 56V 2.5Ah BA1400" -> Fair Price (score: 5/10, valid: true)
