@@ -1,0 +1,44 @@
+[
+  {
+    "id": "src-a-fimi-drones", "site": "cashconverters", "label": "Source A - FIMI Drones (all models)",
+    "path": "/Browse?FullTextQuery=FIMI&StatusFilter=active_only", "enabled": true,
+    "rules": [{"id": "rule-a-high-fimi-drone", "label": "FIMI drone - any model, not standalone accessories", "priority": "high", "includeKeywords": ["fimi"], "excludeKeywords": ["battery only", "charger only", "controller only", "remote only", "case only", "bag only", "propellers only", "gimbal only", "camera only"]}]
+  },
+  {
+    "id": "src-b-fimi-drones", "site": "dollardealers", "label": "Source B - FIMI Drones (all models)",
+    "path": "/?s=fimi&post_type=product", "enabled": true,
+    "rules": [{"id": "rule-b-high-fimi-drone", "label": "FIMI drone - any model, not standalone accessories", "priority": "high", "includeKeywords": ["fimi"], "excludeKeywords": ["battery only", "charger only", "controller only", "remote only", "case only", "bag only", "propellers only", "gimbal only", "camera only"]}]
+  },
+  {
+    "id": "src-a-xmrc-drones", "site": "cashconverters", "label": "Source A - XMRC Drones (M9 and other models)",
+    "path": "/Browse?FullTextQuery=XMRC&StatusFilter=active_only", "enabled": true,
+    "rules": [
+      {"id": "rule-a-high-xmrc-drone", "label": "XMRC drone - M9 or any other model", "priority": "high", "includeKeywords": ["xmrc"], "excludeKeywords": ["battery only", "charger only", "controller only", "remote only", "case only", "bag only", "propellers only"]},
+      {"id": "rule-a-high-xmrc-slash-alias", "label": "XMR/C drone - M9 or any other model", "priority": "high", "includeKeywords": ["xmr/c"], "excludeKeywords": ["battery only", "charger only", "controller only", "remote only", "case only", "bag only", "propellers only"]}
+    ]
+  },
+  {
+    "id": "src-b-xmrc-drones", "site": "dollardealers", "label": "Source B - XMRC Drones (M9 and other models)",
+    "path": "/?s=xmrc&post_type=product", "enabled": true,
+    "rules": [
+      {"id": "rule-b-high-xmrc-drone", "label": "XMRC drone - M9 or any other model", "priority": "high", "includeKeywords": ["xmrc"], "excludeKeywords": ["battery only", "charger only", "controller only", "remote only", "case only", "bag only", "propellers only"]},
+      {"id": "rule-b-high-xmrc-slash-alias", "label": "XMR/C drone - M9 or any other model", "priority": "high", "includeKeywords": ["xmr/c"], "excludeKeywords": ["battery only", "charger only", "controller only", "remote only", "case only", "bag only", "propellers only"]}
+    ]
+  },
+  {
+    "id": "src-a-xmr-c-drones", "site": "cashconverters", "label": "Source A - XMR/C Drones (alternate spelling)",
+    "path": "/Browse?FullTextQuery=XMR%2FC&StatusFilter=active_only", "enabled": true,
+    "rules": [
+      {"id": "rule-a-high-xmr-c-drone", "label": "XMR/C drone - M9 or any other model", "priority": "high", "includeKeywords": ["xmr/c"], "excludeKeywords": ["battery only", "charger only", "controller only", "remote only", "case only", "bag only", "propellers only"]},
+      {"id": "rule-a-high-xmr-c-xmrc-alias", "label": "XMRC drone - M9 or any other model", "priority": "high", "includeKeywords": ["xmrc"], "excludeKeywords": ["battery only", "charger only", "controller only", "remote only", "case only", "bag only", "propellers only"]}
+    ]
+  },
+  {
+    "id": "src-b-xmr-c-drones", "site": "dollardealers", "label": "Source B - XMR/C Drones (alternate spelling)",
+    "path": "/?s=xmr%2Fc&post_type=product", "enabled": true,
+    "rules": [
+      {"id": "rule-b-high-xmr-c-drone", "label": "XMR/C drone - M9 or any other model", "priority": "high", "includeKeywords": ["xmr/c"], "excludeKeywords": ["battery only", "charger only", "controller only", "remote only", "case only", "bag only", "propellers only"]},
+      {"id": "rule-b-high-xmr-c-xmrc-alias", "label": "XMRC drone - M9 or any other model", "priority": "high", "includeKeywords": ["xmrc"], "excludeKeywords": ["battery only", "charger only", "controller only", "remote only", "case only", "bag only", "propellers only"]}
+    ]
+  }
+]
