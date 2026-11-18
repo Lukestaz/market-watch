@@ -1,20 +1,3 @@
-
-> market-watch@0.1.0 watch
-> NODE_EXTRA_CA_CERTS=certs/geotrust-tls-rsa-ca-g1.pem tsx src/index.ts
-
-Starting Market Watch run...
-Executing search: Source A - Displays 65" / OLED (cashconverters)
-[CashConverters] Fetching: https://shop.cashconverters.co.nz/Browse?FullTextQuery=LG%20tv
-[CashConverters] Found 29 listings for /Browse?FullTextQuery=LG%20tv
-Executing search: Source A - Cordless Power Equipment (cashconverters)
-[CashConverters] Fetching: https://shop.cashconverters.co.nz/Browse?FullTextQuery=EGO%2056V
-[CashConverters] Found 6 listings for /Browse?FullTextQuery=EGO%2056V
-Executing search: Source A - Tough Cameras (TG-6 / TG-7) (cashconverters)
-[CashConverters] Fetching: https://shop.cashconverters.co.nz/Browse?FullTextQuery=Olympus%20Tough
-[CashConverters] Found 0 listings for /Browse?FullTextQuery=Olympus%20Tough
-Executing search: Source A - Anker Power (chargers / power banks) (cashconverters)
-[CashConverters] Fetching: https://shop.cashconverters.co.nz/Browse?FullTextQuery=Anker&StatusFilter=active_only
-[CashConverters] Found 3 listings for /Browse?FullTextQuery=Anker&StatusFilter=active_only
 Executing search: Source A - Baseus Power (chargers / power banks) (cashconverters)
 [CashConverters] Fetching: https://shop.cashconverters.co.nz/Browse?FullTextQuery=Baseus&StatusFilter=active_only
 [CashConverters] Found 5 listings for /Browse?FullTextQuery=Baseus&StatusFilter=active_only
@@ -45,6 +28,24 @@ Executing search: Source A - EcoFlow Power Stations (cashconverters)
 Executing search: Source B - EcoFlow Power Stations (dollardealers)
 [DollarDealers] Fetching: https://dollardealers.co.nz/?s=ecoflow&post_type=product
 [DollarDealers] Found 0 listings for /?s=ecoflow&post_type=product
+Executing search: Source A - FIMI Drones (all models) (cashconverters)
+[CashConverters] Fetching: https://shop.cashconverters.co.nz/Browse?FullTextQuery=FIMI&StatusFilter=active_only
+[CashConverters] Found 0 listings for /Browse?FullTextQuery=FIMI&StatusFilter=active_only
+Executing search: Source B - FIMI Drones (all models) (dollardealers)
+[DollarDealers] Fetching: https://dollardealers.co.nz/?s=fimi&post_type=product
+[DollarDealers] Found 0 listings for /?s=fimi&post_type=product
+Executing search: Source A - XMRC Drones (M9 and other models) (cashconverters)
+[CashConverters] Fetching: https://shop.cashconverters.co.nz/Browse?FullTextQuery=XMRC&StatusFilter=active_only
+[CashConverters] Found 0 listings for /Browse?FullTextQuery=XMRC&StatusFilter=active_only
+Executing search: Source B - XMRC Drones (M9 and other models) (dollardealers)
+[DollarDealers] Fetching: https://dollardealers.co.nz/?s=xmrc&post_type=product
+[DollarDealers] Found 0 listings for /?s=xmrc&post_type=product
+Executing search: Source A - XMR/C Drones (alternate spelling) (cashconverters)
+[CashConverters] Fetching: https://shop.cashconverters.co.nz/Browse?FullTextQuery=XMR%2FC&StatusFilter=active_only
+[CashConverters] Found 0 listings for /Browse?FullTextQuery=XMR%2FC&StatusFilter=active_only
+Executing search: Source B - XMR/C Drones (alternate spelling) (dollardealers)
+[DollarDealers] Fetching: https://dollardealers.co.nz/?s=xmr%2Fc&post_type=product
+[DollarDealers] Found 0 listings for /?s=xmr%2Fc&post_type=product
 Total raw listings collected: 69
 [Auction] Detail HTTP 403
 [Auction] Detail HTTP 403

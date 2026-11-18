@@ -45,6 +45,24 @@ Executing search: Source A - EcoFlow Power Stations (cashconverters)
 Executing search: Source B - EcoFlow Power Stations (dollardealers)
 [DollarDealers] Fetching: https://dollardealers.co.nz/?s=ecoflow&post_type=product
 [DollarDealers] Found 0 listings for /?s=ecoflow&post_type=product
+Executing search: Source A - FIMI Drones (all models) (cashconverters)
+[CashConverters] Fetching: https://shop.cashconverters.co.nz/Browse?FullTextQuery=FIMI&StatusFilter=active_only
+[CashConverters] Found 0 listings for /Browse?FullTextQuery=FIMI&StatusFilter=active_only
+Executing search: Source B - FIMI Drones (all models) (dollardealers)
+[DollarDealers] Fetching: https://dollardealers.co.nz/?s=fimi&post_type=product
+[DollarDealers] Found 0 listings for /?s=fimi&post_type=product
+Executing search: Source A - XMRC Drones (M9 and other models) (cashconverters)
+[CashConverters] Fetching: https://shop.cashconverters.co.nz/Browse?FullTextQuery=XMRC&StatusFilter=active_only
+[CashConverters] Found 0 listings for /Browse?FullTextQuery=XMRC&StatusFilter=active_only
+Executing search: Source B - XMRC Drones (M9 and other models) (dollardealers)
+[DollarDealers] Fetching: https://dollardealers.co.nz/?s=xmrc&post_type=product
+[DollarDealers] Found 0 listings for /?s=xmrc&post_type=product
+Executing search: Source A - XMR/C Drones (alternate spelling) (cashconverters)
+[CashConverters] Fetching: https://shop.cashconverters.co.nz/Browse?FullTextQuery=XMR%2FC&StatusFilter=active_only
+[CashConverters] Found 0 listings for /Browse?FullTextQuery=XMR%2FC&StatusFilter=active_only
+Executing search: Source B - XMR/C Drones (alternate spelling) (dollardealers)
+[DollarDealers] Fetching: https://dollardealers.co.nz/?s=xmr%2Fc&post_type=product
+[DollarDealers] Found 0 listings for /?s=xmr%2Fc&post_type=product
 Total raw listings collected: 69
 [Auction] Detail HTTP 403
 [Auction] Detail HTTP 403
