@@ -3,7 +3,7 @@ Executing search: Source A - Baseus Power (chargers / power banks) (cashconverte
 [CashConverters] Found 5 listings for /Browse?FullTextQuery=Baseus&StatusFilter=active_only
 Executing search: Source B - Displays 65" / OLED (dollardealers)
 [DollarDealers] Fetching: https://dollardealers.co.nz/?s=lg+tv&post_type=product
-[DollarDealers] Found 24 listings for /?s=lg+tv&post_type=product
+[DollarDealers] Found 22 listings for /?s=lg+tv&post_type=product
 Executing search: Source B - Cordless Power Equipment (dollardealers)
 [DollarDealers] Fetching: https://dollardealers.co.nz/?s=ego+56v&post_type=product
 [DollarDealers] Found 16 listings for /?s=ego+56v&post_type=product
@@ -46,7 +46,7 @@ Executing search: Source A - XMR/C Drones (alternate spelling) (cashconverters)
 Executing search: Source B - XMR/C Drones (alternate spelling) (dollardealers)
 [DollarDealers] Fetching: https://dollardealers.co.nz/?s=xmr%2Fc&post_type=product
 [DollarDealers] Found 0 listings for /?s=xmr%2Fc&post_type=product
-Total raw listings collected: 69
+Total raw listings collected: 68
 [Auction] Detail HTTP 403
 [Auction] Detail HTTP 403
 [Details] Enriching high item: Lg Smart Tv 4K Oled Evo Ai Tv (2026) With Webos 65 Inch 65G4 ACCBAY
