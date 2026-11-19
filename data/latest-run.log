@@ -5,7 +5,7 @@
 Starting Market Watch run...
 Executing search: Source A - Displays 65" / OLED (cashconverters)
 [CashConverters] Fetching: https://shop.cashconverters.co.nz/Browse?FullTextQuery=LG%20tv
-[CashConverters] Found 29 listings for /Browse?FullTextQuery=LG%20tv
+[CashConverters] Found 28 listings for /Browse?FullTextQuery=LG%20tv
 Executing search: Source A - Cordless Power Equipment (cashconverters)
 [CashConverters] Fetching: https://shop.cashconverters.co.nz/Browse?FullTextQuery=EGO%2056V
 [CashConverters] Found 6 listings for /Browse?FullTextQuery=EGO%2056V
@@ -32,7 +32,7 @@ Executing search: Source B - Anker Power (chargers / power banks) (dollardealers
 [DollarDealers] Found 4 listings for /?s=anker&post_type=product
 Executing search: Source B - Baseus Power (chargers / power banks) (dollardealers)
 [DollarDealers] Fetching: https://dollardealers.co.nz/?s=baseus&post_type=product
-[DollarDealers] Found 4 listings for /?s=baseus&post_type=product
+[DollarDealers] Found 6 listings for /?s=baseus&post_type=product
 Executing search: Source A - Bluetti Power Stations (cashconverters)
 [CashConverters] Fetching: https://shop.cashconverters.co.nz/Browse?FullTextQuery=Bluetti&StatusFilter=active_only
 [CashConverters] Found 1 listings for /Browse?FullTextQuery=Bluetti&StatusFilter=active_only
