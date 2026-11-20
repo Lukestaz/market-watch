@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T01:42:55.713Z",
+  "updatedAt": "2026-11-20T16:27:36.908Z",
   "listings": {
     "dollardealers:dd-samsung-43-smart-tv-2": {
       "key": "dollardealers:dd-samsung-43-smart-tv-2",
@@ -1469,9 +1469,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-30T14:17:31.640Z",
-      "lastSeenAt": "2026-11-20T01:42:55.713Z",
-      "firstSeen": "2026-11-20T01:42:55.713Z",
-      "lastSeen": "2026-11-20T01:42:55.713Z",
+      "lastSeenAt": "2026-11-20T16:27:36.908Z",
+      "firstSeen": "2026-11-20T16:27:36.908Z",
+      "lastSeen": "2026-11-20T16:27:36.908Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -1502,9 +1502,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-09-30T23:50:12.583Z",
-      "lastSeenAt": "2026-11-20T01:42:55.713Z",
-      "firstSeen": "2026-11-20T01:42:55.713Z",
-      "lastSeen": "2026-11-20T01:42:55.713Z",
+      "lastSeenAt": "2026-11-20T16:27:36.908Z",
+      "firstSeen": "2026-11-20T16:27:36.908Z",
+      "lastSeen": "2026-11-20T16:27:36.908Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -1595,9 +1595,9 @@
         "src-a-baseus-blade"
       ],
       "firstSeenAt": "2026-10-06T01:13:27.461Z",
-      "lastSeenAt": "2026-11-20T01:42:55.713Z",
-      "firstSeen": "2026-11-20T01:42:55.713Z",
-      "lastSeen": "2026-11-20T01:42:55.713Z",
+      "lastSeenAt": "2026-11-20T16:27:36.908Z",
+      "firstSeen": "2026-11-20T16:27:36.908Z",
+      "lastSeen": "2026-11-20T16:27:36.908Z",
       "aiContext": "Baseus Power (chargers / power banks) (Baseus charger (GaN / USB-C), Baseus battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1724,9 +1724,9 @@
         "src-a-ecoflow"
       ],
       "firstSeenAt": "2026-10-13T01:54:51.010Z",
-      "lastSeenAt": "2026-11-20T01:42:55.713Z",
-      "firstSeen": "2026-11-20T01:42:55.713Z",
-      "lastSeen": "2026-11-20T01:42:55.713Z",
+      "lastSeenAt": "2026-11-20T16:27:36.908Z",
+      "firstSeen": "2026-11-20T16:27:36.908Z",
+      "lastSeen": "2026-11-20T16:27:36.908Z",
       "aiContext": "EcoFlow Power Stations (Any Ecoflow item (solar panel, battery, accessory))",
       "ai": {
         "isTruePositive": true,
@@ -1791,9 +1791,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-10-18T12:13:22.172Z",
-      "lastSeenAt": "2026-11-20T01:42:55.713Z",
-      "firstSeen": "2026-11-20T01:42:55.713Z",
-      "lastSeen": "2026-11-20T01:42:55.713Z",
+      "lastSeenAt": "2026-11-20T16:27:36.908Z",
+      "firstSeen": "2026-11-20T16:27:36.908Z",
+      "lastSeen": "2026-11-20T16:27:36.908Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -1891,9 +1891,9 @@
         "src-a-baseus-blade"
       ],
       "firstSeenAt": "2026-10-19T15:02:45.254Z",
-      "lastSeenAt": "2026-11-20T01:42:55.713Z",
-      "firstSeen": "2026-11-20T01:42:55.713Z",
-      "lastSeen": "2026-11-20T01:42:55.713Z",
+      "lastSeenAt": "2026-11-20T16:27:36.908Z",
+      "firstSeen": "2026-11-20T16:27:36.908Z",
+      "lastSeen": "2026-11-20T16:27:36.908Z",
       "aiContext": "Baseus Power (chargers / power banks) (Baseus power bank, Baseus battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -2058,9 +2058,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-10-28T14:34:34.629Z",
-      "lastSeenAt": "2026-11-20T01:42:55.713Z",
-      "firstSeen": "2026-11-20T01:42:55.713Z",
-      "lastSeen": "2026-11-20T01:42:55.713Z",
+      "lastSeenAt": "2026-11-20T16:27:36.908Z",
+      "firstSeen": "2026-11-20T16:27:36.908Z",
+      "lastSeen": "2026-11-20T16:27:36.908Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -2107,10 +2107,10 @@
       "id": "cc-185513635",
       "title": "Lg Smart Tv 4K Oled Evo Ai Tv (2026) With Webos 65 Inch 65G4 ACCBAY",
       "url": "https://shop.cashconverters.co.nz/Listing/Details/185513635/Lg-Smart-Tv-4K-Oled-Evo-Ai-Tv-2026-With-Webos-65-Inch-65G4-ACCBAY",
-      "price": 1509.5,
-      "priceText": "1,509.50",
+      "price": 1499.5,
+      "priceText": "1,499.50",
       "seller": "Seller: CCPapakura",
-      "rawText": "Ended Auction Lg Smart Tv 4K Oled Evo Ai Tv (2026) With Webos 65 Inch 65G4 ACCBAY Seller: CCPapakura Lg Smart Tv 4K Oled Evo Ai Tv (2026) With Webos 65 Inch 65G4 ACCBAY (185513635) $1,509.50 Quick Bid $1,509.50 remaining Sold $1,499.50 $1,499.50 1 Bid(s) View Details LG Smart Tv 4K Oled Evo Ai Tv (2026) With Webos 65 Inch 65G4 New in the box, with remote and with wall brackets, stand Goods are available for viewing at our store during our trading hours 7 days per week -Goods are offered for sale under the following conditions:-Goods must be paid for within 5 working days of the auction finishing-Goods have a 90 days warranty or longer as required by the Consumer Guarantees Act-ID Required upon pick up.-Online payments only - Credit and debit cards (MasterCard and Visa) and direct deposit.-In-store payments accepted. ***Stock Wanted***We are looking for more stock for our shop floor!Bring your good quality second hand goods for cash on the spot! All you need is your item and a valid ID Come and have a chat with one of our friendly staff at: Cash converters Papakura6-10 Railway Street West09 973 4266",
+      "rawText": "Ended Auction Lg Smart Tv 4K Oled Evo Ai Tv (2026) With Webos 65 Inch 65G4 ACCBAY Seller: CCPapakura Lg Smart Tv 4K Oled Evo Ai Tv (2026) With Webos 65 Inch 65G4 ACCBAY (185513635) $1,499.50 Quick Bid $1,499.50 remaining Sold $1,499.50 $1,499.50 0 Bid(s) View Details LG Smart Tv 4K Oled Evo Ai Tv (2026) With Webos 65 Inch 65G4 New in the box, with remote and with wall brackets, stand Goods are available for viewing at our store during our trading hours 7 days per week -Goods are offered for sale under the following conditions:-Goods must be paid for within 5 working days of the auction finishing-Goods have a 90 days warranty or longer as required by the Consumer Guarantees Act-ID Required upon pick up.-Online payments only - Credit and debit cards (MasterCard and Visa) and direct deposit.-In-store payments accepted. ***Stock Wanted***We are looking for more stock for our shop floor!Bring your good quality second hand goods for cash on the spot! All you need is your item and a valid ID Come and have a chat with one of our friendly staff at: Cash converters Papakura6-10 Railway Street West09 973 4266",
       "key": "cashconverters:cc-185513635",
       "status": "active",
       "siteId": "cashconverters",
@@ -2125,15 +2125,15 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-10-30T14:38:00.503Z",
-      "lastSeenAt": "2026-11-20T01:42:55.713Z",
-      "firstSeen": "2026-11-20T01:42:55.713Z",
-      "lastSeen": "2026-11-20T01:42:55.713Z",
+      "lastSeenAt": "2026-11-20T16:27:36.908Z",
+      "firstSeen": "2026-11-20T16:27:36.908Z",
+      "lastSeen": "2026-11-20T16:27:36.908Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" OLED Panel, Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
-        "score": 10,
+        "score": 9,
         "verdict": "Steal",
-        "reason": "An LG G4 65-inch flagship OLED TV for ~NZD $1,510 is an incredible steal compared to typical market prices of over $3,500+."
+        "reason": "This is a true positive for a high-end 65-inch LG G4 OLED TV priced exceptionally well below typical market value for a recent model."
       }
     },
     "cashconverters:cc-185500596": {
@@ -2158,9 +2158,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-10-30T14:38:00.503Z",
-      "lastSeenAt": "2026-11-20T01:42:55.713Z",
-      "firstSeen": "2026-11-20T01:42:55.713Z",
-      "lastSeen": "2026-11-20T01:42:55.713Z",
+      "lastSeenAt": "2026-11-20T16:27:36.908Z",
+      "firstSeen": "2026-11-20T16:27:36.908Z",
+      "lastSeen": "2026-11-20T16:27:36.908Z",
       "aiContext": "Cordless Power Equipment (High-CFM Blower, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -2191,9 +2191,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-10-30T14:38:00.503Z",
-      "lastSeenAt": "2026-11-20T01:42:55.713Z",
-      "firstSeen": "2026-11-20T01:42:55.713Z",
-      "lastSeen": "2026-11-20T01:42:55.713Z",
+      "lastSeenAt": "2026-11-20T16:27:36.908Z",
+      "firstSeen": "2026-11-20T16:27:36.908Z",
+      "lastSeen": "2026-11-20T16:27:36.908Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -2225,9 +2225,9 @@
         "src-a-bluetti"
       ],
       "firstSeenAt": "2026-11-04T15:49:27.801Z",
-      "lastSeenAt": "2026-11-20T01:42:55.713Z",
-      "firstSeen": "2026-11-20T01:42:55.713Z",
-      "lastSeen": "2026-11-20T01:42:55.713Z",
+      "lastSeenAt": "2026-11-20T16:27:36.908Z",
+      "firstSeen": "2026-11-20T16:27:36.908Z",
+      "lastSeen": "2026-11-20T16:27:36.908Z",
       "aiContext": "Bluetti Power Stations (Bluetti AC power station, Bluetti Power Station power station, Any Bluetti item (solar panel, battery, accessory))",
       "ai": {
         "isTruePositive": true,
@@ -2258,9 +2258,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-11-06T00:54:20.303Z",
-      "lastSeenAt": "2026-11-20T01:42:55.713Z",
-      "firstSeen": "2026-11-20T01:42:55.713Z",
-      "lastSeen": "2026-11-20T01:42:55.713Z",
+      "lastSeenAt": "2026-11-20T16:27:36.908Z",
+      "firstSeen": "2026-11-20T16:27:36.908Z",
+      "lastSeen": "2026-11-20T16:27:36.908Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -2290,9 +2290,9 @@
         "src-a-baseus-blade"
       ],
       "firstSeenAt": "2026-11-06T00:54:20.303Z",
-      "lastSeenAt": "2026-11-20T01:42:55.713Z",
-      "firstSeen": "2026-11-20T01:42:55.713Z",
-      "lastSeen": "2026-11-20T01:42:55.713Z",
+      "lastSeenAt": "2026-11-20T16:27:36.908Z",
+      "firstSeen": "2026-11-20T16:27:36.908Z",
+      "lastSeen": "2026-11-20T16:27:36.908Z",
       "aiContext": "Baseus Power (chargers / power banks) (Baseus power bank)",
       "ai": {
         "isTruePositive": true,
@@ -2356,9 +2356,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-11-07T23:30:54.667Z",
-      "lastSeenAt": "2026-11-20T01:42:55.713Z",
-      "firstSeen": "2026-11-20T01:42:55.713Z",
-      "lastSeen": "2026-11-20T01:42:55.713Z",
+      "lastSeenAt": "2026-11-20T16:27:36.908Z",
+      "firstSeen": "2026-11-20T16:27:36.908Z",
+      "lastSeen": "2026-11-20T16:27:36.908Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -2389,9 +2389,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-11-07T23:30:54.667Z",
-      "lastSeenAt": "2026-11-20T01:42:55.713Z",
-      "firstSeen": "2026-11-20T01:42:55.713Z",
-      "lastSeen": "2026-11-20T01:42:55.713Z",
+      "lastSeenAt": "2026-11-20T16:27:36.908Z",
+      "firstSeen": "2026-11-20T16:27:36.908Z",
+      "lastSeen": "2026-11-20T16:27:36.908Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -2422,9 +2422,9 @@
         "src-a-anker-nano"
       ],
       "firstSeenAt": "2026-11-09T17:51:55.341Z",
-      "lastSeenAt": "2026-11-20T01:42:55.713Z",
-      "firstSeen": "2026-11-20T01:42:55.713Z",
-      "lastSeen": "2026-11-20T01:42:55.713Z",
+      "lastSeenAt": "2026-11-20T16:27:36.908Z",
+      "firstSeen": "2026-11-20T16:27:36.908Z",
+      "lastSeen": "2026-11-20T16:27:36.908Z",
       "aiContext": "Anker Power (chargers / power banks) (Anker power bank, Anker battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -2489,9 +2489,9 @@
         "src-b-baseus-blade"
       ],
       "firstSeenAt": "2026-11-11T00:29:01.801Z",
-      "lastSeenAt": "2026-11-20T01:42:55.713Z",
-      "firstSeen": "2026-11-20T01:42:55.713Z",
-      "lastSeen": "2026-11-20T01:42:55.713Z",
+      "lastSeenAt": "2026-11-20T16:27:36.908Z",
+      "firstSeen": "2026-11-20T16:27:36.908Z",
+      "lastSeen": "2026-11-20T16:27:36.908Z",
       "aiContext": "Baseus Power (chargers / power banks) (Baseus power bank, Baseus battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -2521,9 +2521,9 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-11-12T01:50:55.901Z",
-      "lastSeenAt": "2026-11-20T01:42:55.713Z",
-      "firstSeen": "2026-11-20T01:42:55.713Z",
-      "lastSeen": "2026-11-20T01:42:55.713Z",
+      "lastSeenAt": "2026-11-20T16:27:36.908Z",
+      "firstSeen": "2026-11-20T16:27:36.908Z",
+      "lastSeen": "2026-11-20T16:27:36.908Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -2557,6 +2557,39 @@
       "firstSeen": "2026-11-17T17:08:20.893Z",
       "lastSeen": "2026-11-17T17:08:20.893Z",
       "aiContext": "Cordless Power Equipment (Power Equipment Bare Tool)"
+    },
+    "dollardealers:dd-3633780": {
+      "id": "dd-3633780",
+      "title": "ANKER POWERBANK",
+      "url": "https://dollardealers.co.nz/product/anker-powerbank/",
+      "priceText": "$59.00 incl. GST",
+      "price": 59,
+      "imageUrl": "https://i0.wp.com/pawnitstockimages.s3-ap-southeast-2.amazonaws.com/dollarprod/e1fc684a-caae-4ae2-9189-c90806919d98.jpeg?resize=247&w=247",
+      "rawText": "Electronics and gaming ANKER POWERBANK $59.00 incl. GST Keep your devices powered wherever you go with the Anker Nano Power Bank A1259! Featuring a 5,000mAh high-capacity battery and 30W fast charging, this compact and portable power bank comes with a convenient built-in USB-C cable for effortless charging on the go. THIS ITEM HAS A 30 DAY WARRANTY EXCLUDING BATTERY. 120 DAY PURCHASE PROTECTION PLAN CAN BE PURCHASED AT AN ADDITIONAL COST FOR EXTRA COVER AND PEACE OF MIND. THIS ITEM CAN BE VIEWED AT NEW LYNN DOLLAR DEALERS, OPEN FROM 9AM-5PM. STOCK NUMBER: 382463",
+      "modelNumber": "382463",
+      "key": "dollardealers:dd-3633780",
+      "status": "active",
+      "siteId": "dollardealers",
+      "sourceListingId": "dd-3633780",
+      "canonicalUrl": "https://dollardealers.co.nz/product/anker-powerbank/",
+      "priority": "high",
+      "matchedRules": [
+        "rule-b-high-anker-powerbank"
+      ],
+      "searchIds": [
+        "src-b-anker-nano"
+      ],
+      "firstSeenAt": "2026-11-20T16:27:36.908Z",
+      "lastSeenAt": "2026-11-20T16:27:36.908Z",
+      "firstSeen": "2026-11-20T16:27:36.908Z",
+      "lastSeen": "2026-11-20T16:27:36.908Z",
+      "aiContext": "Anker Power (chargers / power banks) (Anker power bank)",
+      "ai": {
+        "isTruePositive": true,
+        "score": 6,
+        "verdict": "Fair Price",
+        "reason": "The item is a genuine Anker power bank priced reasonably for the New Zealand second-hand market."
+      }
     }
   }
 }
