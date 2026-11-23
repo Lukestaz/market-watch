@@ -1,3 +1,6 @@
+[DollarDealers] Found 0 listings for /?s=olympus+tough&post_type=product
+Executing search: Source B - Anker Power (chargers / power banks) (dollardealers)
+[DollarDealers] Fetching: https://dollardealers.co.nz/?s=anker&post_type=product
 [DollarDealers] Found 6 listings for /?s=anker&post_type=product
 Executing search: Source B - Baseus Power (chargers / power banks) (dollardealers)
 [DollarDealers] Fetching: https://dollardealers.co.nz/?s=baseus&post_type=product
@@ -32,7 +35,7 @@ Executing search: Source A - XMR/C Drones (alternate spelling) (cashconverters)
 Executing search: Source B - XMR/C Drones (alternate spelling) (dollardealers)
 [DollarDealers] Fetching: https://dollardealers.co.nz/?s=xmr%2Fc&post_type=product
 [DollarDealers] Found 0 listings for /?s=xmr%2Fc&post_type=product
-Total raw listings collected: 73
+Total raw listings collected: 72
 [Auction] Detail HTTP 403
 [Auction] Detail HTTP 403
 [Auction] Detail HTTP 403
@@ -70,7 +73,6 @@ Total raw listings collected: 73
 [Auction] Detail HTTP 403
 Candidate listings passing keyword rules: 22
 [AI] "Lg Tv (Smart) 65 INCH LED LCD 65UA8450PSA" -> Fair Price (score: 6/10, valid: true)
-[AI Evaluator] Available flash models: gemini-flash-latest, gemini-2.5-flash, gemini-flash-lite-latest, gemini-3.8-flash
 [AI] "Lg Tv - 65 Inch 4K Uhd Smart Led 65UP7550PVG" -> Great Deal (score: 8/10, valid: true)
 [AI] "Lg Tv 65 INCH SMART 65UA7350PSB" -> Great Deal (score: 8/10, valid: true)
 [AI] "Lg Smart Tv 4K Oled Evo Ai Tv (2026) With Webos 65 Inch 65G4 ACCBAY" -> Steal (score: 9/10, valid: true)
@@ -94,7 +96,5 @@ Candidate listings passing keyword rules: 22
 [AI] "Ecoflow Inverter 245WH EFR705" -> Great Deal (score: 8/10, valid: true)
 Listings verified after AI assessment: 22
 Listing events detected: 22
-Sending email alert for 2 event(s) to [REDACTED_EMAIL]...
-Email alert sent successfully.
 [UI] Generated index.html and feed.json in ./dist
 Market Watch run complete.
