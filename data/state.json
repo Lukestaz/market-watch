@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T19:32:43.827Z",
+  "updatedAt": "2026-11-24T04:40:31.091Z",
   "listings": {
     "dollardealers:dd-samsung-43-smart-tv-2": {
       "key": "dollardealers:dd-samsung-43-smart-tv-2",
@@ -1469,9 +1469,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-09-30T14:17:31.640Z",
-      "lastSeenAt": "2026-11-23T19:32:43.827Z",
-      "firstSeen": "2026-11-23T19:32:43.827Z",
-      "lastSeen": "2026-11-23T19:32:43.827Z",
+      "lastSeenAt": "2026-11-24T04:40:31.091Z",
+      "firstSeen": "2026-11-24T04:40:31.091Z",
+      "lastSeen": "2026-11-24T04:40:31.091Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -1489,7 +1489,7 @@
       "priceText": "49.50",
       "rawText": "Ended Auction Ego Battery 56V 2.5Ah BA1400 Seller: CCPapakura Ego Battery 56V 2.5Ah BA1400 (184002413) $49.50 Quick Bid $49.50 remaining Sold $49.50 $49.50 0 Bid(s) View Details Ego Battery 56V 2.5Ah Model: BA1400 ********************************************************************************************************Goods are available for viewing at our store during our trading hours 7 days per week -Goods are offered for sale under the following conditions:-Goods must be paid for within 5 working days of the auction finishing-Goods have a 90 days warranty or longer as required by the Consumer Guarantees Act-ID Required upon pick up.-Online payments only - Credit and debit cards (MasterCard and Visa) and direct deposit.-In-store payments accepted. WE PAWN CARS, MOTOR BIKES & BOATS!! ***Stock Wanted***We are looking for more stock for our shop floor!Bring your good quality second hand goods for cash on the spot! All you need is your item and a valid ID Come and have a chat with one of our friendly staff at: Cash converters Papakura6-10 Railway Street West09 973 4266",
       "key": "cashconverters:cc-184002413",
-      "status": "active",
+      "status": "removed",
       "siteId": "cashconverters",
       "sourceListingId": "cc-184002413",
       "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/184002413/Ego-Battery-56V-25Ah-BA1400",
@@ -1595,9 +1595,9 @@
         "src-a-baseus-blade"
       ],
       "firstSeenAt": "2026-10-06T01:13:27.461Z",
-      "lastSeenAt": "2026-11-23T19:32:43.827Z",
-      "firstSeen": "2026-11-23T19:32:43.827Z",
-      "lastSeen": "2026-11-23T19:32:43.827Z",
+      "lastSeenAt": "2026-11-24T04:40:31.091Z",
+      "firstSeen": "2026-11-24T04:40:31.091Z",
+      "lastSeen": "2026-11-24T04:40:31.091Z",
       "aiContext": "Baseus Power (chargers / power banks) (Baseus charger (GaN / USB-C), Baseus battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -1712,7 +1712,7 @@
       "priceText": "150.00",
       "rawText": "Ended Auction Ecoflow Inverter 245WH EFR705 Seller: CCPalmerstonNorth Ecoflow Inverter 245WH EFR705 (184579774) $150.00 Quick Bid $150.00 remaining Sold $150.00 $150.00 0 Bid(s) View Details",
       "key": "cashconverters:cc-184579774",
-      "status": "active",
+      "status": "removed",
       "siteId": "cashconverters",
       "sourceListingId": "cc-184579774",
       "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/184579774/Ecoflow-Inverter-245WH-EFR705",
@@ -1891,9 +1891,9 @@
         "src-a-baseus-blade"
       ],
       "firstSeenAt": "2026-10-19T15:02:45.254Z",
-      "lastSeenAt": "2026-11-23T19:32:43.827Z",
-      "firstSeen": "2026-11-23T19:32:43.827Z",
-      "lastSeen": "2026-11-23T19:32:43.827Z",
+      "lastSeenAt": "2026-11-24T04:40:31.091Z",
+      "firstSeen": "2026-11-24T04:40:31.091Z",
+      "lastSeen": "2026-11-24T04:40:31.091Z",
       "aiContext": "Baseus Power (chargers / power banks) (Baseus power bank, Baseus battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -2058,9 +2058,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-10-28T14:34:34.629Z",
-      "lastSeenAt": "2026-11-23T19:32:43.827Z",
-      "firstSeen": "2026-11-23T19:32:43.827Z",
-      "lastSeen": "2026-11-23T19:32:43.827Z",
+      "lastSeenAt": "2026-11-24T04:40:31.091Z",
+      "firstSeen": "2026-11-24T04:40:31.091Z",
+      "lastSeen": "2026-11-24T04:40:31.091Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -2125,9 +2125,9 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-10-30T14:38:00.503Z",
-      "lastSeenAt": "2026-11-23T19:32:43.827Z",
-      "firstSeen": "2026-11-23T19:32:43.827Z",
-      "lastSeen": "2026-11-23T19:32:43.827Z",
+      "lastSeenAt": "2026-11-24T04:40:31.091Z",
+      "firstSeen": "2026-11-24T04:40:31.091Z",
+      "lastSeen": "2026-11-24T04:40:31.091Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" OLED Panel, Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -2158,9 +2158,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-10-30T14:38:00.503Z",
-      "lastSeenAt": "2026-11-23T19:32:43.827Z",
-      "firstSeen": "2026-11-23T19:32:43.827Z",
-      "lastSeen": "2026-11-23T19:32:43.827Z",
+      "lastSeenAt": "2026-11-24T04:40:31.091Z",
+      "firstSeen": "2026-11-24T04:40:31.091Z",
+      "lastSeen": "2026-11-24T04:40:31.091Z",
       "aiContext": "Cordless Power Equipment (High-CFM Blower, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -2191,9 +2191,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-10-30T14:38:00.503Z",
-      "lastSeenAt": "2026-11-23T19:32:43.827Z",
-      "firstSeen": "2026-11-23T19:32:43.827Z",
-      "lastSeen": "2026-11-23T19:32:43.827Z",
+      "lastSeenAt": "2026-11-24T04:40:31.091Z",
+      "firstSeen": "2026-11-24T04:40:31.091Z",
+      "lastSeen": "2026-11-24T04:40:31.091Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -2225,9 +2225,9 @@
         "src-a-bluetti"
       ],
       "firstSeenAt": "2026-11-04T15:49:27.801Z",
-      "lastSeenAt": "2026-11-23T19:32:43.827Z",
-      "firstSeen": "2026-11-23T19:32:43.827Z",
-      "lastSeen": "2026-11-23T19:32:43.827Z",
+      "lastSeenAt": "2026-11-24T04:40:31.091Z",
+      "firstSeen": "2026-11-24T04:40:31.091Z",
+      "lastSeen": "2026-11-24T04:40:31.091Z",
       "aiContext": "Bluetti Power Stations (Bluetti AC power station, Bluetti Power Station power station, Any Bluetti item (solar panel, battery, accessory))",
       "ai": {
         "isTruePositive": true,
@@ -2258,9 +2258,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-11-06T00:54:20.303Z",
-      "lastSeenAt": "2026-11-23T19:32:43.827Z",
-      "firstSeen": "2026-11-23T19:32:43.827Z",
-      "lastSeen": "2026-11-23T19:32:43.827Z",
+      "lastSeenAt": "2026-11-24T04:40:31.091Z",
+      "firstSeen": "2026-11-24T04:40:31.091Z",
+      "lastSeen": "2026-11-24T04:40:31.091Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -2290,9 +2290,9 @@
         "src-a-baseus-blade"
       ],
       "firstSeenAt": "2026-11-06T00:54:20.303Z",
-      "lastSeenAt": "2026-11-23T19:32:43.827Z",
-      "firstSeen": "2026-11-23T19:32:43.827Z",
-      "lastSeen": "2026-11-23T19:32:43.827Z",
+      "lastSeenAt": "2026-11-24T04:40:31.091Z",
+      "firstSeen": "2026-11-24T04:40:31.091Z",
+      "lastSeen": "2026-11-24T04:40:31.091Z",
       "aiContext": "Baseus Power (chargers / power banks) (Baseus power bank)",
       "ai": {
         "isTruePositive": true,
@@ -2343,7 +2343,7 @@
       "seller": "Seller: CCMountRoskill",
       "rawText": "Ended Auction Ego Tool Battery - 56V 2.5Ah BA1400T Seller: CCMountRoskill Ego Tool Battery - 56V 2.5Ah BA1400T (185954444) $179.10 Quick Bid $179.10 remaining Sold $179.10 $179.10 0 Bid(s) View Details Ego Tool Battery - 56V 2.5Ah Model - BA1400T",
       "key": "cashconverters:cc-185954444",
-      "status": "active",
+      "status": "removed",
       "siteId": "cashconverters",
       "sourceListingId": "cc-185954444",
       "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/185954444/Ego-Tool-Battery-56V-25Ah-BA1400T",
@@ -2389,9 +2389,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-11-07T23:30:54.667Z",
-      "lastSeenAt": "2026-11-23T19:32:43.827Z",
-      "firstSeen": "2026-11-23T19:32:43.827Z",
-      "lastSeen": "2026-11-23T19:32:43.827Z",
+      "lastSeenAt": "2026-11-24T04:40:31.091Z",
+      "firstSeen": "2026-11-24T04:40:31.091Z",
+      "lastSeen": "2026-11-24T04:40:31.091Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -2422,9 +2422,9 @@
         "src-a-anker-nano"
       ],
       "firstSeenAt": "2026-11-09T17:51:55.341Z",
-      "lastSeenAt": "2026-11-23T19:32:43.827Z",
-      "firstSeen": "2026-11-23T19:32:43.827Z",
-      "lastSeen": "2026-11-23T19:32:43.827Z",
+      "lastSeenAt": "2026-11-24T04:40:31.091Z",
+      "firstSeen": "2026-11-24T04:40:31.091Z",
+      "lastSeen": "2026-11-24T04:40:31.091Z",
       "aiContext": "Anker Power (chargers / power banks) (Anker power bank, Anker battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -2489,9 +2489,9 @@
         "src-b-baseus-blade"
       ],
       "firstSeenAt": "2026-11-11T00:29:01.801Z",
-      "lastSeenAt": "2026-11-23T19:32:43.827Z",
-      "firstSeen": "2026-11-23T19:32:43.827Z",
-      "lastSeen": "2026-11-23T19:32:43.827Z",
+      "lastSeenAt": "2026-11-24T04:40:31.091Z",
+      "firstSeen": "2026-11-24T04:40:31.091Z",
+      "lastSeen": "2026-11-24T04:40:31.091Z",
       "aiContext": "Baseus Power (chargers / power banks) (Baseus power bank, Baseus battery pack (mAh))",
       "ai": {
         "isTruePositive": true,
@@ -2521,9 +2521,9 @@
         "src-b-display-65"
       ],
       "firstSeenAt": "2026-11-12T01:50:55.901Z",
-      "lastSeenAt": "2026-11-23T19:32:43.827Z",
-      "firstSeen": "2026-11-23T19:32:43.827Z",
-      "lastSeen": "2026-11-23T19:32:43.827Z",
+      "lastSeenAt": "2026-11-24T04:40:31.091Z",
+      "firstSeen": "2026-11-24T04:40:31.091Z",
+      "lastSeen": "2026-11-24T04:40:31.091Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
@@ -2580,9 +2580,9 @@
         "src-b-anker-nano"
       ],
       "firstSeenAt": "2026-11-20T16:27:36.908Z",
-      "lastSeenAt": "2026-11-23T19:32:43.827Z",
-      "firstSeen": "2026-11-23T19:32:43.827Z",
-      "lastSeen": "2026-11-23T19:32:43.827Z",
+      "lastSeenAt": "2026-11-24T04:40:31.091Z",
+      "firstSeen": "2026-11-24T04:40:31.091Z",
+      "lastSeen": "2026-11-24T04:40:31.091Z",
       "aiContext": "Anker Power (chargers / power banks) (Anker power bank)",
       "ai": {
         "isTruePositive": true,
@@ -2600,7 +2600,7 @@
       "seller": "Seller: CCLinwood",
       "rawText": "Ended Auction Ego 56V Cordless Line Trimmer ST1400E- ST Seller: CCLinwood Ego 56V Cordless Line Trimmer ST1400E- ST (186715910) $49.50 Quick Bid $49.50 remaining Sold $49.50 $49.50 0 Bid(s) View Details Ego 56V Cordless Line Trimmer ST1400E- ST Shipping: Not AvailablePlease Contact Store To Arrange Shipping",
       "key": "cashconverters:cc-186715910",
-      "status": "active",
+      "status": "removed",
       "siteId": "cashconverters",
       "sourceListingId": "cc-186715910",
       "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/186715910/Ego-56V-Cordless-Line-Trimmer-ST1400E-ST",
@@ -2645,9 +2645,9 @@
         "src-a-baseus-blade"
       ],
       "firstSeenAt": "2026-11-21T01:12:43.075Z",
-      "lastSeenAt": "2026-11-23T19:32:43.827Z",
-      "firstSeen": "2026-11-23T19:32:43.827Z",
-      "lastSeen": "2026-11-23T19:32:43.827Z",
+      "lastSeenAt": "2026-11-24T04:40:31.091Z",
+      "firstSeen": "2026-11-24T04:40:31.091Z",
+      "lastSeen": "2026-11-24T04:40:31.091Z",
       "aiContext": "Baseus Power (chargers / power banks) (Baseus power bank)",
       "ai": {
         "isTruePositive": true,
@@ -2678,9 +2678,9 @@
         "src-a-power-tools"
       ],
       "firstSeenAt": "2026-11-22T00:10:52.113Z",
-      "lastSeenAt": "2026-11-23T19:32:43.827Z",
-      "firstSeen": "2026-11-23T19:32:43.827Z",
-      "lastSeen": "2026-11-23T19:32:43.827Z",
+      "lastSeenAt": "2026-11-24T04:40:31.091Z",
+      "firstSeen": "2026-11-24T04:40:31.091Z",
+      "lastSeen": "2026-11-24T04:40:31.091Z",
       "aiContext": "Cordless Power Equipment (Arc Lithium Battery Pack, Any EGO 56V item)",
       "ai": {
         "isTruePositive": true,
@@ -2710,15 +2710,80 @@
         "src-a-display-65"
       ],
       "firstSeenAt": "2026-11-22T15:44:20.813Z",
-      "lastSeenAt": "2026-11-23T19:32:43.827Z",
-      "firstSeen": "2026-11-23T19:32:43.827Z",
-      "lastSeen": "2026-11-23T19:32:43.827Z",
+      "lastSeenAt": "2026-11-24T04:40:31.091Z",
+      "firstSeen": "2026-11-24T04:40:31.091Z",
+      "lastSeen": "2026-11-24T04:40:31.091Z",
       "aiContext": "Displays 65\" / OLED (Ref 65\" Display Generic)",
       "ai": {
         "isTruePositive": true,
         "score": 8,
         "verdict": "Great Deal",
         "reason": "At NZD $324.50, a 65-inch 4K smart TV from a reputable brand like LG is an excellent deal well below typical second-hand rates."
+      }
+    },
+    "cashconverters:cc-186878975": {
+      "id": "cc-186878975",
+      "title": "Ego 56V Cordless Line Trimmer ST1400E- ST",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/186878975/Ego-56V-Cordless-Line-Trimmer-ST1400E-ST",
+      "price": 29.5,
+      "priceText": "29.50",
+      "seller": "Seller: CCLinwood",
+      "rawText": "Ended Auction Ego 56V Cordless Line Trimmer ST1400E- ST Seller: CCLinwood Ego 56V Cordless Line Trimmer ST1400E- ST (186878975) $29.50 Quick Bid $29.50 remaining Sold $29.50 $29.50 0 Bid(s) View Details Ego 56V Cordless Line Trimmer ST1400E- ST Shipping: Not AvailablePlease Contact Store To Arrange Shipping",
+      "key": "cashconverters:cc-186878975",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-186878975",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/186878975/Ego-56V-Cordless-Line-Trimmer-ST1400E-ST",
+      "priority": "high",
+      "matchedRules": [
+        "rule-a-high-trimmer",
+        "rule-a-normal-ego-56v"
+      ],
+      "searchIds": [
+        "src-a-power-tools"
+      ],
+      "firstSeenAt": "2026-11-24T04:40:31.091Z",
+      "lastSeenAt": "2026-11-24T04:40:31.091Z",
+      "firstSeen": "2026-11-24T04:40:31.091Z",
+      "lastSeen": "2026-11-24T04:40:31.091Z",
+      "aiContext": "Cordless Power Equipment (Line Trimmer / Brushcutter, Any EGO 56V item)",
+      "ai": {
+        "isTruePositive": true,
+        "score": 10,
+        "verdict": "Steal",
+        "reason": "An EGO 56V line trimmer for under $30 is an unbelievable pricing error or massive steal for a high-end cordless tool."
+      }
+    },
+    "cashconverters:cc-186852109": {
+      "id": "cc-186852109",
+      "title": "Ecoflow Inverter 245WH EFR705",
+      "url": "https://shop.cashconverters.co.nz/Listing/Details/186852109/Ecoflow-Inverter-245WH-EFR705",
+      "price": 130,
+      "priceText": "130.00",
+      "seller": "Seller: CCPalmerstonNorth",
+      "rawText": "Ended Auction Ecoflow Inverter 245WH EFR705 Seller: CCPalmerstonNorth Ecoflow Inverter 245WH EFR705 (186852109) $130.00 Quick Bid $130.00 remaining Sold $130.00 $130.00 0 Bid(s) View Details",
+      "key": "cashconverters:cc-186852109",
+      "status": "active",
+      "siteId": "cashconverters",
+      "sourceListingId": "cc-186852109",
+      "canonicalUrl": "https://shop.cashconverters.co.nz/Listing/Details/186852109/Ecoflow-Inverter-245WH-EFR705",
+      "priority": "normal",
+      "matchedRules": [
+        "rule-a-normal-ecoflow-any"
+      ],
+      "searchIds": [
+        "src-a-ecoflow"
+      ],
+      "firstSeenAt": "2026-11-24T04:40:31.091Z",
+      "lastSeenAt": "2026-11-24T04:40:31.091Z",
+      "firstSeen": "2026-11-24T04:40:31.091Z",
+      "lastSeen": "2026-11-24T04:40:31.091Z",
+      "aiContext": "EcoFlow Power Stations (Any Ecoflow item (solar panel, battery, accessory))",
+      "ai": {
+        "isTruePositive": true,
+        "score": 8,
+        "verdict": "Great Deal",
+        "reason": "Genuine EcoFlow portable power station (River Mini / ~245Wh) priced well below typical secondary market value of $200-$250+ NZD."
       }
     }
   }
