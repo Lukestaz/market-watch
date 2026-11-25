@@ -19,7 +19,7 @@ Executing search: Source B - Bluetti Power Stations (dollardealers)
 [DollarDealers] Found 0 listings for /?s=bluetti&post_type=product
 Executing search: Source A - EcoFlow Power Stations (cashconverters)
 [CashConverters] Fetching: https://shop.cashconverters.co.nz/Browse?FullTextQuery=EcoFlow&StatusFilter=active_only
-[CashConverters] Found 1 listings for /Browse?FullTextQuery=EcoFlow&StatusFilter=active_only
+[CashConverters] Found 2 listings for /Browse?FullTextQuery=EcoFlow&StatusFilter=active_only
 Executing search: Source B - EcoFlow Power Stations (dollardealers)
 [DollarDealers] Fetching: https://dollardealers.co.nz/?s=ecoflow&post_type=product
 [DollarDealers] Found 0 listings for /?s=ecoflow&post_type=product
@@ -41,7 +41,7 @@ Executing search: Source A - XMR/C Drones (alternate spelling) (cashconverters)
 Executing search: Source B - XMR/C Drones (alternate spelling) (dollardealers)
 [DollarDealers] Fetching: https://dollardealers.co.nz/?s=xmr%2Fc&post_type=product
 [DollarDealers] Found 0 listings for /?s=xmr%2Fc&post_type=product
-Total raw listings collected: 68
+Total raw listings collected: 69
 [Auction] Detail HTTP 403
 [Auction] Detail HTTP 403
 [Auction] Detail HTTP 403
