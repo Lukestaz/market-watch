@@ -45,8 +45,8 @@ Total raw listings collected: 68
 [Auction] Detail HTTP 403
 [Auction] Detail HTTP 403
 [Auction] Detail HTTP 403
-[Auction] Detail HTTP 403
 [Details] Enriching high item: Lg Smart Tv 4K Oled Evo Ai Tv (2026) With Webos 65 Inch 65G4 ACCBAY
+[Auction] Detail HTTP 403
 [Auction] Detail HTTP 403
 [Details] Enriching high item: Ego 5Ah Rechargeable Battery 56V BA2800T
 [Auction] Detail HTTP 403
@@ -74,10 +74,10 @@ Total raw listings collected: 68
 [Details] Enriching high item: Bluetti Portable Power Station AC180P
 [Auction] Detail HTTP 403
 Candidate listings passing keyword rules: 20
-[AI] "Lg Tv (Smart) 65 INCH LED LCD 65UA8450PSA" -> Fair Price (score: 6/10, valid: true)
 [AI] "Lg Tv - 65 Inch 4K Uhd Smart Led 65UP7550PVG" -> Great Deal (score: 8/10, valid: true)
 [AI] "Lg Tv 65 INCH SMART 65UA7350PSB" -> Great Deal (score: 8/10, valid: true)
 [AI] "Lg Smart Tv 4K Oled Evo Ai Tv (2026) With Webos 65 Inch 65G4 ACCBAY" -> Steal (score: 9/10, valid: true)
+[AI] "Lg Tv (Smart) 65 INCH LED LCD 65UA8450PSA" -> Fair Price (score: 6/10, valid: true)
 [AI] "Ego 5Ah Rechargeable Battery 56V BA2800T" -> Great Deal (score: 8/10, valid: true)
 [AI] "Ego Tool Battery - 56V 4.0Ah BA2240E**Faulty - Parts Only**" -> Overpriced (score: 2/10, valid: true)
 [AI] "Ego Tool Battery - 56V 2.5Ah BA1400" -> Fair Price (score: 5/10, valid: true)
