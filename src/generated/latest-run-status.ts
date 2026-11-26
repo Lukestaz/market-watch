@@ -8,8 +8,8 @@ export const latestRun = {
     "typecheck": "success",
     "pipeline": "success"
   },
-  "commit": "bb66e5a2f2f560f6f1318ad1e0151f552f080527",
-  "runUrl": "https://github.com/Lukestaz/market-watch/actions/runs/45672843247",
-  "finishedAt": "2026-11-25T18:15:23.818Z",
+  "commit": "85f04fc61ee94ea05ad76a9444ea691d450b4ced",
+  "runUrl": "https://github.com/Lukestaz/market-watch/actions/runs/45744124743",
+  "finishedAt": "2026-11-26T02:44:09.783Z",
   "summary": "[AI] \"Ego Tool Battery - 56V 4.0Ah BA2240E**Faulty - Parts Only**\" -> Overpriced (score: 2/10, valid: true)\n[AI] \"Ego Tool Battery - 56V 2.5Ah BA1400\" -> Fair Price (score: 5/10, valid: true)\n[AI] \"Ego Blower LB5300E 56V SKIN ONLY 2021\" -> Great Deal (score: 8/10, valid: true)\n[AI] \"Ego Battery BA2800T 5.0AH 56V\" -> Steal (score: 9/10, valid: true)\n[AI] \"Ego 56V Cordless Line Trimmer ST1400E- ST\" -> Steal (score: 10/10, valid: true)\n[AI] \"Anker Powerbank 20100Mah A1271\" -> Steal (score: 9/10, valid: true)\n[AI] \"Baseus Power Bank 10K\" -> Fair Price (score: 4/10, valid: true)\n[AI] \"Baseus Wireless Charger 5000 MAH\" -> Fair Price (score: 5/10, valid: true)\n[AI] \"Baseus Power Bank 10000MAH 22.5W\" -> Great Deal (score: 8/10, valid: true)\n[AI] \"Baseus Powerbank **10K**\" -> Fair Price (score: 6.5/10, valid: true)\n[AI] \"LG TV 65\" -> Great Deal (score: 7/10, valid: true)\n[AI] \"ANKER POWERBANK\" -> Fair Price (score: 6/10, valid: true)\n[AI] \"Baseus 20,800mAh Portable Power Bank\" -> Fair Price (score: 6/10, valid: true)\n[AI] \"Bluetti Portable Power Station AC180P\" -> Steal (score: 9/10, valid: true)\n[AI] \"Ecoflow Inverter 245WH EFR705\" -> Great Deal (score: 8/10, valid: true)\nListings verified after AI assessment: 20\nListing events detected: 20\n[UI] Generated index.html and feed.json in ./dist\nMarket Watch run complete.\n"
 } as const;

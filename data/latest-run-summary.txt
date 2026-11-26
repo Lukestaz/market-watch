@@ -41,7 +41,7 @@ Executing search: Source A - XMR/C Drones (alternate spelling) (cashconverters)
 Executing search: Source B - XMR/C Drones (alternate spelling) (dollardealers)
 [DollarDealers] Fetching: https://dollardealers.co.nz/?s=xmr%2Fc&post_type=product
 [DollarDealers] Found 0 listings for /?s=xmr%2Fc&post_type=product
-Total raw listings collected: 69
+Total raw listings collected: 68
 [Auction] Detail HTTP 403
 [Auction] Detail HTTP 403
 [Auction] Detail HTTP 403
